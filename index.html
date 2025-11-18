@@ -83,7 +83,7 @@ h1 {
 }
 .counters {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* kutuların minimum genişliği 150px */
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* kutuların minimum genişliği 150px */
   gap: 15px;
   justify-items: center;
   margin-top: 10px;
@@ -118,20 +118,40 @@ h1 {
   margin: 0;
 }
 
-/* Mobil ekran için iyileştirme */
+/* Mobil ekranlar için iyileştirme */
 @media screen and (max-width:480px){
+  /* Accordion ayarları */
   .accordion-item {
-    font-size: 0.9em;
-    padding: 12px 15px;
+    font-size: 0.9em; /* Başlık boyutu */
+    padding: 12px 15px; /* Dokunmatik için boşluk */
   }
-  
+
+  /* Counter grid ayarları */
   .counters {
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); /* mobilde alt satıra geçer */
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); /* Mobilde kutular alt satıra geçer */
     gap: 12px;
   }
 
+  /* Counter kutu ayarları */
   .counter-box {
     padding: 12px;
+  }
+  .counter-box h3 {
+    font-size: 0.8em; /* Başlıkları biraz küçült */
+  }
+  .counter-box p {
+    font-size: 1em; /* Sayıları biraz küçült */
+  }
+
+  /* Footer linkleri */
+  footer div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  footer a {
+    font-size: 0.85em;
   }
 }
 
@@ -490,3 +510,4 @@ updateCounters();
 </body>
 
 </html>
+

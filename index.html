@@ -243,9 +243,9 @@ footer a:hover {
 
 <h3>Petroleum Consumed (Barrels)</h3>
 <div class="counters">
-  <div class="counter-box"><h3>Today</h3><p id="dailyOil">Loading...</p></div>
-  <div class="counter-box"><h3>This Month</h3><p id="monthlyOil">Loading...</p></div>
-  <div class="counter-box"><h3>This Year</h3><p id="yearlyOil">Loading...</p></div>
+  <div class="counter-box"><h3>Today</h3><p id="dailyPetroleum">Loading...</p></div>
+  <div class="counter-box"><h3>This Month</h3><p id="monthlyPetroleum">Loading...</p></div>
+  <div class="counter-box"><h3>This Year</h3><p id="yearlyPetroleum">Loading...</p></div>
 </div>
 </div>
 
@@ -433,8 +433,8 @@ const yearlyWater = 500000000000;   // litres
 const yearlyElectricity = 300000000000; // MWh
 const yearlypetroleum = 30000000000;      // Barrels
 
-const economyIds = ['Money','Water','Electricity','Oil'];
-const economyYearly = [yearlyMoney, yearlyWater, yearlyElectricity, yearlyOil];
+const economyIds = ['Money','Water','Electricity','Petroleum'];
+const economyYearly = [yearlyMoney, yearlyWater, yearlyElectricity, yearlyPetroleum];
 
 for (let i=0; i<economyIds.length; i++){
   const perSecYear = economyYearly[i]/secInYear;
@@ -510,6 +510,7 @@ updateCounters();
 </body>
 
 </html>
+
 
 
 

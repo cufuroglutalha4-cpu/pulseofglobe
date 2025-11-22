@@ -433,8 +433,8 @@ const yearlyWater = 500000000000;   // litres
 const yearlyElectricity = 300000000000; // MWh
 const yearlypetroleum = 30000000000;      // Barrels
 
-const economyIds = ['Money','Water','Electricity','petroleum'];
-const economyYearly = [yearlyMoney, yearlyWater, yearlyElectricity, yearlypetroleum];
+const economyIds = ['Money','Water','Electricity','Oil'];
+const economyYearly = [yearlyMoney, yearlyWater, yearlyElectricity, yearlyOil];
 
 for (let i=0; i<economyIds.length; i++){
   const perSecYear = economyYearly[i]/secInYear;
@@ -510,5 +510,6 @@ updateCounters();
 </body>
 
 </html>
+
 
 

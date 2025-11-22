@@ -220,28 +220,28 @@ footer a:hover {
 
   <!-- Diğer Ana Başlıklar (Örnek) -->
   <div class="accordion-item">Economy & Consumption <span class="arrow">▼</span></div>
-  <div class="accordion-content"><h3>Money Spent</h3>
+  <div class="accordion-content"><h3>Money Spent (USD)</h3>
 <div class="counters">
   <div class="counter-box"><h3>Today</h3><p id="dailyMoney">Loading...</p></div>
   <div class="counter-box"><h3>This Month</h3><p id="monthlyMoney">Loading...</p></div>
   <div class="counter-box"><h3>This Year</h3><p id="yearlyMoney">Loading...</p></div>
 </div>
 
-<h3>Water Consumed</h3>
+<h3>Water Consumed (Litres)</h3>
 <div class="counters">
   <div class="counter-box"><h3>Today</h3><p id="dailyWater">Loading...</p></div>
   <div class="counter-box"><h3>This Month</h3><p id="monthlyWater">Loading...</p></div>
   <div class="counter-box"><h3>This Year</h3><p id="yearlyWater">Loading...</p></div>
 </div>
 
-<h3>Electricity Consumed</h3>
+<h3>Electricity Consumed (MWh)</h3>
 <div class="counters">
   <div class="counter-box"><h3>Today</h3><p id="dailyElectricity">Loading...</p></div>
   <div class="counter-box"><h3>This Month</h3><p id="monthlyElectricity">Loading...</p></div>
   <div class="counter-box"><h3>This Year</h3><p id="yearlyElectricity">Loading...</p></div>
 </div>
 
-<h3>Oil Consumed </h3>
+<h3>Petroleum Consumed (Barrels)</h3>
 <div class="counters">
   <div class="counter-box"><h3>Today</h3><p id="dailyOil">Loading...</p></div>
   <div class="counter-box"><h3>This Month</h3><p id="monthlyOil">Loading...</p></div>
@@ -257,14 +257,14 @@ footer a:hover {
   <div class="counter-box"><h3>This Year</h3><p id="yearlyTrees">Loading...</p></div>
 </div>
 
-<h3>CO₂ Emitted</h3>
+<h3>CO₂ Emitted (Tonnes)</h3>
 <div class="counters">
   <div class="counter-box"><h3>Today</h3><p id="dailyCO2">Loading...</p></div>
   <div class="counter-box"><h3>This Month</h3><p id="monthlyCO2">Loading...</p></div>
   <div class="counter-box"><h3>This Year</h3><p id="yearlyCO2">Loading...</p></div>
 </div>
 
-<h3>Plastic Dumped in Oceans</h3>
+<h3>Plastic Dumped in Oceans (Tonnes)</h3>
 <div class="counters">
   <div class="counter-box"><h3>Today</h3><p id="dailyPlastic">Loading...</p></div>
   <div class="counter-box"><h3>This Month</h3><p id="monthlyPlastic">Loading...</p></div>
@@ -278,7 +278,7 @@ footer a:hover {
   <div class="counter-box"><h3>This Year</h3><p id="yearlyAnimals">Loading...</p></div>
 </div>
 
-<h3>Renewable Energy Produced</h3>
+<h3>Renewable Energy Produced (KWh)</h3>
 <div class="counters">
   <div class="counter-box"><h3>Today</h3><p id="dailyRenewable">Loading...</p></div>
   <div class="counter-box"><h3>This Month</h3><p id="monthlyRenewable">Loading...</p></div>
@@ -380,9 +380,9 @@ const secInYear=365*24*60*60;
 const startDate=new Date('2025-01-01T00:00:00Z');
 const basePopulation=8150000000;
 const yearlyBirths=140000000;
-const yearlyDeaths=60000000;
-const yearlyMarriages=100000000;
-const yearlyWarDeaths=8000000;
+const yearlyDeaths=67000000;
+const yearlyMarriages=65000000;
+const yearlyWarDeaths=200000;
 
 function daysInMonth(year,month){return new Date(year,month+1,0).getDate();}
 function getElapsedSeconds(){return (new Date()-startDate)/1000;}
@@ -431,10 +431,10 @@ function updateCounters(){
 const yearlyMoney = 20000000000000; // USD
 const yearlyWater = 500000000000;   // litres
 const yearlyElectricity = 300000000000; // MWh
-const yearlyOil = 30000000000;      // Barrels
+const yearlypetroleum = 30000000000;      // Barrels
 
-const economyIds = ['Money','Water','Electricity','Oil'];
-const economyYearly = [yearlyMoney, yearlyWater, yearlyElectricity, yearlyOil];
+const economyIds = ['Money','Water','Electricity','petroleum'];
+const economyYearly = [yearlyMoney, yearlyWater, yearlyElectricity, yearlypetroleum];
 
 for (let i=0; i<economyIds.length; i++){
   const perSecYear = economyYearly[i]/secInYear;
@@ -510,4 +510,5 @@ updateCounters();
 </body>
 
 </html>
+
 

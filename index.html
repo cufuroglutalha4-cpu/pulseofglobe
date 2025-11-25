@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live World Counters</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Site İkonu (Favicon) -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- SEO & Sosyal Medya Meta Etiketleri -->
+  <meta name="description" content="Real-time world counters for population, environment, economy and technology.">
+  <meta name="keywords" content="world live counters, population, births, deaths, CO2, energy consumption, live statistics">
+
+  <meta property="og:title" content="World Live Counters">
+  <meta property="og:description" content="Real-time global counters for population, environment, economy and technology.">
+  <meta property="og:image" content="https://pulseofglobe.com/images/earth-network.jpg">
+  <meta property="og:url" content="https://pulseofglobe.com/">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://pulseofglobe.com/">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0D58BVYWTK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0D58BVYWTK');
+  </script>
+
+  <style>
+    :root {
+      --bg: #f0f2f5;
+      --card: #ffffff;
+      --accent: #0077aa;
+      --accent-soft: #e0f3fb;
+      --text-main: #222;
+      --text-muted: #666;
+      --border-soft: #dde3eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px 16px 40px;
+    }
+
+    /* HEADER */
+    .site-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .brand {
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      font-size: 0.95rem;
+      color: var(--accent);
+      text-transform: uppercase;
+    }
+
+    .site-nav a {
+      margin-left: 10px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+
+    .site-nav a:hover {
+      color: var(--accent);
+    }
+
+    /* HERO */
+    .hero {
+      background: radial-gradient(circle at top left, var(--accent-soft), #ffffff);
+      border-radius: 18px;
+      padding: 22px 18px 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+    }
+
+    @media (min-width: 768px) {
+      .hero {
+        padding: 26px 28px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+      }
+    }
+
+    .hero-text h1 {
+      font-size: 1.9rem;
+      margin: 0 0 8px;
+      color: #004b71;
+    }
+
+    .hero-text p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      max-width: 480px;
+    }
+
+    .hero-stat {
+      margin-top: 16px;
+    }
+
+    .hero-label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .hero-value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent);
+      word-spacing: 2px;
+    }
+
+    .hero-note {
+      margin-top: 10px;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* HIGHLIGHTS (kategori kartları) */
+    .highlights {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      margin: 8px 0 24px;
+    }
+
+    .highlight-card {
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 14px 14px 16px;
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+
+    .highlight-card:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 16px rgba(15, 23, 42, 0.10);
+    }
+
+    .highlight-icon {
+      font-size: 1.2rem;
+    }
+
+    .highlight-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #111827;
+    }
+
+    .highlight-text {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    /* ACCORDION */
+    .accordion-section-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin: 0 0 8px;
+    }
+
+    .accordion {
+      max-width: 100%;
+      margin: 0 auto 20px auto;
+    }
+
+    .accordion-item {
+      background: var(--card);
+      border-radius: 12px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+      cursor: pointer;
+      transition: all 0.25s;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 18px;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .accordion-item:hover {
+      box-shadow: 0 6px 18px rgba(0,0,0,0.14);
+      transform: translateY(-1px);
+    }
+
+    .accordion-item .title {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .accordion-item .subtitle {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    .accordion-item .arrow {
+      transition: transform 0.3s ease;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .accordion-item.open .arrow {
+      transform: rotate(180deg);
+    }
+
+    .accordion-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.45s ease;
+      background: #f9f9f9;
+      border-radius: 0 0 12px 12px;
+      padding: 0 18px;
+    }
+
+    .accordion-content.open {
+      padding: 14px 18px 16px;
+    }
+
+    .accordion-content h3 {
+      margin: 18px 0 8px;
+      font-size: 0.95rem;
+      color: #111827;
+    }
+
+    /* COUNTERS GRID */
+    .counters {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 14px;
+      justify-items: stretch;
+      margin-top: 8px;
+    }
+
+    .counters.counters-single {
+      max-width: 260px;
+    }
+
+    .counter-box {
+      background: linear-gradient(135deg, #ffffff, #f2f5f8);
+      border-radius: 10px;
+      padding: 12px 10px 14px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .counter-box:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.18);
+    }
+
+    .counter-box h3 {
+      margin-bottom: 6px;
+      color: #111;
+      font-weight: 600;
+      font-size: 0.85em;
+    }
+
+    .counter-box p {
+      font-size: 1.1em;
+      font-weight: 700;
+      color: var(--accent);
+      margin: 0;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      font-size: 0.8em;
+      color: var(--text-muted);
+      margin-top: 40px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border-soft);
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* MOBİL */
+    @media screen and (max-width: 600px) {
+      .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .site-nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 4px;
+      }
+
+      .hero-text h1 {
+        font-size: 1.5rem;
+      }
+
+      .hero-value {
+        font-size: 1.6rem;
+      }
+
+      .accordion-item {
+        font-size: 0.9rem;
+        padding: 12px 14px;
+      }
+
+      .counter-box {
+        padding: 10px 8px 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="brand notranslate" translate="no">PULSE OF GLOBE</div>
+      <nav class="site-nav">
+        <a href="about.html">About</a>
+        <a href="sources.html">Data Sources</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>World Live Counters</h1>
+        <p>
+          Real-time estimates for population, environment, economy and technology,
+          based on publicly available global statistics.
+        </p>
+        <div class="hero-stat">
+          <span class="hero-label">Current World Population</span>
+          <span class="hero-value" id="populationHero">Loading...</span>
+        </div>
+        <p class="hero-note">
+          Counters are computed from yearly data and updated continuously using UTC time.
+        </p>
+      </div>
+    </section>
+
+    <!-- Öne çıkan kategoriler (özet kartlar) -->
+    <section class="highlights">
+      <div class="highlight-card" data-open-section="population">
+        <div class="highlight-icon">👶</div>
+        <div class="highlight-title">Population</div>
+        <div class="highlight-text">
+          Births, deaths, marriages and war deaths updated second by second.
+        </div>
+      </div>
+
+      <div class="highlight-card" data-open-section="environment">
+        <div class="highlight-icon">🌍</div>
+        <div class="highlight-title">Environment &amp; Nature</div>
+        <div class="highlight-text">
+          Trees cut, CO₂ emissions, plastic in oceans and renewable energy.
+        </div>
+      </div>
+
+      <div class="highlight-card" data-open-section="economy">
+        <div class="highlight-icon">💸</div>
+        <div class="highlight-title">Economy &amp; Consumption</div>
+        <div class="highlight-text">
+          Global spending, water use, electricity and petroleum consumption.
+        </div>
+      </div>
+
+      <div class="highlight-card" data-open-section="ai">
+        <div class="highlight-icon">🤖</div>
+        <div class="highlight-title">Artificial Intelligence</div>
+        <div class="highlight-text">
+          AI-generated text, images, code and music across the world.
+        </div>
+      </div>
+    </section>
+
+    <p class="accordion-section-title">Explore live counters by category:</p>
+
+    <div class="accordion">
+
+      <!-- WORLD POPULATION -->
+      <div class="accordion-item" data-section="population">
+        <div class="title">
+          <span>World Population</span>
+          <span class="subtitle">Births, deaths, marriages &amp; war deaths</span>
+        </div>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="accordion-content">
+        <div class="counters counters-single">
+          <div class="counter-box">
+            <h3>World Population</h3>
+            <p id="population">Loading...</p>
+          </div>
+        </div>
+
+        <h3>Births</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyBirths">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyBirths">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyBirths">Loading...</p></div>
+        </div>
+
+        <h3>Deaths</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyDeaths">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyDeaths">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyDeaths">Loading...</p></div>
+        </div>
+
+        <h3>Marriages</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyMarriages">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyMarriages">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyMarriages">Loading...</p></div>
+        </div>
+
+        <h3>War Deaths</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyWarDeaths">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyWarDeaths">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyWarDeaths">Loading...</p></div>
+        </div>
+      </div>
+
+      <!-- ECONOMY & CONSUMPTION -->
+      <div class="accordion-item" data-section="economy">
+        <div class="title">
+          <span>Economy &amp; Consumption</span>
+          <span class="subtitle">Spending, water, electricity &amp; petroleum</span>
+        </div>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="accordion-content">
+        <h3>Money Spent (USD)</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyMoney">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyMoney">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyMoney">Loading...</p></div>
+        </div>
+
+        <h3>Water Consumed (Litres)</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyWater">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyWater">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyWater">Loading...</p></div>
+        </div>
+
+        <h3>Electricity Consumed (MWh)</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyElectricity">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyElectricity">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyElectricity">Loading...</p></div>
+        </div>
+
+        <h3>Petroleum Consumed (Barrels)</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyPetroleum">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyPetroleum">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyPetroleum">Loading...</p></div>
+        </div>
+      </div>
+
+      <!-- ENVIRONMENT & NATURE -->
+      <div class="accordion-item" data-section="environment">
+        <div class="title">
+          <span>Environment &amp; Nature</span>
+          <span class="subtitle">Trees, CO₂, plastic, extinction &amp; renewables</span>
+        </div>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="accordion-content">
+        <h3>Trees Cut</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyTrees">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyTrees">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyTrees">Loading...</p></div>
+        </div>
+
+        <h3>CO₂ Emitted (Tonnes)</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyCO2">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyCO2">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyCO2">Loading...</p></div>
+        </div>
+
+        <h3>Plastic Dumped in Oceans (Tonnes)</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyPlastic">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyPlastic">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyPlastic">Loading...</p></div>
+        </div>
+
+        <h3>Extinct Species</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyAnimals">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyAnimals">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyAnimals">Loading...</p></div>
+        </div>
+
+        <h3>Renewable Energy Produced (kWh)</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyRenewable">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyRenewable">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyRenewable">Loading...</p></div>
+        </div>
+      </div>
+
+      <!-- HUMAN BEHAVIOR & TECHNOLOGY -->
+      <div class="accordion-item" data-section="human">
+        <div class="title">
+          <span>Human Behavior &amp; Technology</span>
+          <span class="subtitle">Emails, searches, social posts &amp; games</span>
+        </div>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="accordion-content">
+        <h3>Emails Sent</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyEmails">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyEmails">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyEmails">Loading...</p></div>
+        </div>
+
+        <h3>Google Searches</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailySearches">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlySearches">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlySearches">Loading...</p></div>
+        </div>
+
+        <h3>Social Media Posts</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyPosts">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyPosts">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyPosts">Loading...</p></div>
+        </div>
+
+        <h3>Video Games Sold</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyGames">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyGames">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyGames">Loading...</p></div>
+        </div>
+      </div>
+
+      <!-- ARTIFICIAL INTELLIGENCE -->
+      <div class="accordion-item" data-section="ai">
+        <div class="title">
+          <span>Artificial Intelligence</span>
+          <span class="subtitle">Text, images, code &amp; music generated by AI</span>
+        </div>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="accordion-content">
+        <h3>AI-Generated Text</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyAIText">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyAIText">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyAIText">Loading...</p></div>
+        </div>
+
+        <h3>AI-Created Images</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyAIImages">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyAIImages">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyAIImages">Loading...</p></div>
+        </div>
+
+        <h3>AI-Generated Code</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyAICode">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyAICode">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyAICode">Loading...</p></div>
+        </div>
+
+        <h3>AI-Generated Music</h3>
+        <div class="counters">
+          <div class="counter-box"><h3>Today</h3><p id="dailyAIMusic">Loading...</p></div>
+          <div class="counter-box"><h3>This Month</h3><p id="monthlyAIMusic">Loading...</p></div>
+          <div class="counter-box"><h3>This Year</h3><p id="yearlyAIMusic">Loading...</p></div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <div>
+        <a href="about.html">About Us</a> |
+        <a href="sources.html">Data Sources</a> |
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="terms.html">Terms of Use</a> |
+        <a href="contact.html">Contact</a>
+      </div>
+      <p style="margin-top: 10px;">
+        © 2025 PulseOfGlobe. All rights reserved. Real-time counters are based on publicly available statistical data.
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    // ACCORDION
+    const accordionItems = document.querySelectorAll('.accordion-item');
+
+    function openAccordionItem(targetItem, doScroll = false) {
+      const contents = document.querySelectorAll('.accordion-content');
+      const isOpen = targetItem.classList.contains('open');
+
+      // Hepsini kapat
+      accordionItems.forEach(i => i.classList.remove('open'));
+      contents.forEach(c => {
+        c.classList.remove('open');
+        c.style.maxHeight = null;
+      });
+
+      // Eğer zaten açıksa ve karttan değilse kapalı kalsın
+      if (!isOpen) {
+        const content = targetItem.nextElementSibling;
+        if (content && content.classList.contains('accordion-content')) {
+          targetItem.classList.add('open');
+          content.classList.add('open');
+          content.style.maxHeight = content.scrollHeight + 'px';
+
+          if (doScroll) {
+            targetItem.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      }
+    }
+
+    accordionItems.forEach((item) => {
+      item.addEventListener('click', () => {
+        openAccordionItem(item, false);
+      });
+    });
+
+    // İlk bölümü varsayılan olarak açık yap
+    const firstItem = document.querySelector('.accordion-item');
+    if (firstItem) {
+      openAccordionItem(firstItem, false);
+    }
+
+    // HIGHLIGHT kartlarına tıklayınca ilgili accordion'u aç
+    const highlightCards = document.querySelectorAll('.highlight-card[data-open-section]');
+    highlightCards.forEach(card => {
+      card.addEventListener('click', () => {
+        const sectionKey = card.dataset.openSection;
+        const targetItem = document.querySelector('.accordion-item[data-section="' + sectionKey + '"]');
+        if (targetItem) {
+          openAccordionItem(targetItem, true);
+        }
+      });
+    });
+
+    // ----------------- COUNTERS -----------------
+    const SEC_IN_YEAR = 365 * 24 * 60 * 60;
+    const startDate = new Date('2025-01-01T00:00:00Z');
+    const basePopulation = 8150000000;
+    const yearlyBirths = 140000000;
+    const yearlyDeaths = 67000000;
+    const yearlyMarriages = 65000000;
+    const yearlyWarDeaths = 200000;
+
+    function daysInMonth(year, month) {
+      return new Date(year, month + 1, 0).getDate();
+    }
+
+    function getElapsedSeconds() {
+      return (new Date() - startDate) / 1000;
+    }
+
+    function updateCounters() {
+      const now = new Date();
+      const utcNow = new Date(now.getTime() + now.getTimezoneOffset() * 60000);
+
+      const yearStart = new Date(Date.UTC(utcNow.getUTCFullYear(), 0, 1));
+      const diffSecYear = (utcNow - yearStart) / 1000;
+
+      const monthStart = new Date(Date.UTC(utcNow.getUTCFullYear(), utcNow.getUTCMonth(), 1));
+      const secThisMonth = (utcNow - monthStart) / 1000;
+      const daysThisMonth = daysInMonth(utcNow.getUTCFullYear(), utcNow.getUTCMonth());
+
+      const dayStart = new Date(Date.UTC(utcNow.getUTCFullYear(), utcNow.getUTCMonth(), utcNow.getUTCDate()));
+      const secToday = (utcNow - dayStart) / 1000;
+
+      // Population
+      const elapsed = getElapsedSeconds();
+      const populationNow = basePopulation + ((yearlyBirths - yearlyDeaths) / SEC_IN_YEAR) * elapsed;
+      const populationText = Math.floor(populationNow).toLocaleString();
+
+      const popMain = document.getElementById('population');
+      if (popMain) popMain.innerText = populationText;
+
+      const popHero = document.getElementById('populationHero');
+      if (popHero) popHero.innerText = populationText;
+
+      // Helper
+      function updateGroup(ids, yearlyValues) {
+        for (let i = 0; i < ids.length; i++) {
+          const key = ids[i];
+          const yearly = yearlyValues[i];
+
+          const perSecYear = yearly / SEC_IN_YEAR;
+          const perSecMonth = yearly / 12 / (daysThisMonth * 24 * 60 * 60);
+          const perSecDay = yearly / 365 / (24 * 60 * 60);
+
+          const dailyEl = document.getElementById('daily' + key);
+          const monthlyEl = document.getElementById('monthly' + key);
+          const yearlyEl = document.getElementById('yearly' + key);
+
+          const dailyVal = Math.floor(perSecDay * secToday).toLocaleString();
+          const monthlyVal = Math.floor(perSecMonth * secThisMonth).toLocaleString();
+          const yearlyValText = Math.floor(perSecYear * diffSecYear).toLocaleString();
+
+          if (dailyEl) dailyEl.innerText = dailyVal;
+          if (monthlyEl) monthlyEl.innerText = monthlyVal;
+          if (yearlyEl) yearlyEl.innerText = yearlyValText;
+        }
+      }
+
+      // Population-related flows
+      updateGroup(
+        ['Births', 'Deaths', 'Marriages', 'WarDeaths'],
+        [yearlyBirths, yearlyDeaths, yearlyMarriages, yearlyWarDeaths]
+      );
+
+      // Economy & Consumption
+      const yearlyMoney = 20000000000000;   // USD
+      const yearlyWater = 500000000000;     // litres
+      const yearlyElectricity = 300000000000; // MWh
+      const yearlyPetroleum = 30000000000;  // barrels
+
+      updateGroup(
+        ['Money', 'Water', 'Electricity', 'Petroleum'],
+        [yearlyMoney, yearlyWater, yearlyElectricity, yearlyPetroleum]
+      );
+
+      // Environment & Nature
+      const yearlyTrees = 150000000;        // trees
+      const yearlyCO2 = 36000000000;        // tonnes
+      const yearlyPlastic = 900000000;      // tonnes
+      const yearlyAnimals = 1500;           // species
+      const yearlyRenewable = 5000000000;   // kWh
+
+      updateGroup(
+        ['Trees', 'CO2', 'Plastic', 'Animals', 'Renewable'],
+        [yearlyTrees, yearlyCO2, yearlyPlastic, yearlyAnimals, yearlyRenewable]
+      );
+
+      // Human Behavior & Technology
+      const yearlyEmails = 3000000000000;
+      const yearlySearches = 10000000000000;
+      const yearlyPosts = 400000000000;
+      const yearlyGames = 200000000;
+
+      updateGroup(
+        ['Emails', 'Searches', 'Posts', 'Games'],
+        [yearlyEmails, yearlySearches, yearlyPosts, yearlyGames]
+      );
+
+      // Artificial Intelligence
+      const yearlyAIText = 100000000;
+      const yearlyAIImages = 50000000;
+      const yearlyAICode = 20000000;
+      const yearlyAIMusic = 10000000;
+
+      updateGroup(
+        ['AIText', 'AIImages', 'AICode', 'AIMusic'],
+        [yearlyAIText, yearlyAIImages, yearlyAICode, yearlyAIMusic]
+      );
+    }
+
+    setInterval(updateCounters, 1000);
+    updateCounters();
+  </script>
+</body>
+</html>

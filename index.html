@@ -5,9 +5,10 @@
   <title>Live World Counters</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Site İkonu (Favicon) -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+  <!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48.png">
+<link rel="shortcut icon" href="/favicon.ico">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -102,7 +103,7 @@
       .hero {
         padding: 26px 28px 30px;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
         gap: 24px;
       }
@@ -144,6 +145,96 @@
     .hero-note {
       margin-top: 10px;
       font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .hero-actions {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .hero-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border: 1px solid rgba(0, 119, 170, 0.2);
+      background: #ffffff;
+      color: #004b71;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.15s, box-shadow 0.15s, transform 0.1s;
+    }
+
+    .hero-btn:hover {
+      background: var(--accent-soft);
+      box-shadow: 0 4px 10px rgba(15, 23, 42, 0.12);
+      transform: translateY(-1px);
+    }
+
+    .hero-btn.secondary {
+      background: transparent;
+    }
+
+    .hero-side {
+      margin-top: 18px;
+    }
+
+    @media (min-width: 768px) {
+      .hero-text {
+        flex: 1;
+      }
+      .hero-side {
+        flex: 0 0 260px;
+        margin-top: 0;
+      }
+    }
+
+    .hero-summary {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 14px;
+      padding: 14px 14px 12px;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.10);
+      border: 1px solid rgba(0, 0, 0, 0.03);
+    }
+
+    .hero-summary-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    .hero-summary-items {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px 12px;
+      margin-bottom: 6px;
+    }
+
+    .hero-summary-item span {
+      display: block;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-bottom: 2px;
+    }
+
+    .hero-summary-item strong {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+
+    .hero-summary-note {
+      margin: 4px 0 0;
+      font-size: 0.7rem;
       color: var(--text-muted);
     }
 
@@ -303,14 +394,67 @@
       margin: 0;
     }
 
+    /* TRUSTED SOURCES SECTION */
+    .trusted {
+      margin-top: 32px;
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 18px 18px 16px;
+      box-shadow: 0 6px 16px rgba(15, 23, 42, 0.06);
+      border: 1px solid rgba(0, 0, 0, 0.03);
+    }
+
+    .trusted h2 {
+      margin: 0 0 6px;
+      font-size: 1.05rem;
+      color: #111827;
+    }
+
+    .trusted p {
+      margin: 4px 0;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .trusted-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 10px 0 6px;
+    }
+
+    .trusted-list span {
+      font-size: 0.8rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #f3f4f6;
+      border: 1px solid #e5e7eb;
+    }
+
+    .trusted-note {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
     /* FOOTER */
     footer {
       text-align: center;
       font-size: 0.8em;
       color: var(--text-muted);
-      margin-top: 40px;
+      margin-top: 30px;
       padding-top: 16px;
       border-top: 1px solid var(--border-soft);
+    }
+
+    .footer-share {
+      margin-bottom: 8px;
+      font-size: 0.8em;
+    }
+
+    .footer-share a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 6px;
     }
 
     footer a {
@@ -319,7 +463,8 @@
       margin: 0 8px;
     }
 
-    footer a:hover {
+    footer a:hover,
+    .footer-share a:hover {
       text-decoration: underline;
     }
 
@@ -343,6 +488,10 @@
 
       .hero-value {
         font-size: 1.6rem;
+      }
+
+      .hero-summary-items {
+        grid-template-columns: 1fr;
       }
 
       .accordion-item {
@@ -383,6 +532,37 @@
         <p class="hero-note">
           Counters are computed from yearly data and updated continuously using UTC time.
         </p>
+        <div class="hero-actions">
+          <a href="#categories" class="hero-btn">Explore live counters ↓</a>
+          <a href="sources.html" class="hero-btn secondary">View data sources</a>
+        </div>
+      </div>
+
+      <div class="hero-side">
+        <div class="hero-summary">
+          <div class="hero-summary-label">Today so far (UTC)</div>
+          <div class="hero-summary-items">
+            <div class="hero-summary-item">
+              <span>Births</span>
+              <strong id="summaryBirths">—</strong>
+            </div>
+            <div class="hero-summary-item">
+              <span>Deaths</span>
+              <strong id="summaryDeaths">—</strong>
+            </div>
+            <div class="hero-summary-item">
+              <span>CO₂ emitted (tonnes)</span>
+              <strong id="summaryCO2">—</strong>
+            </div>
+            <div class="hero-summary-item">
+              <span>AI-generated text</span>
+              <strong id="summaryAIText">—</strong>
+            </div>
+          </div>
+          <p class="hero-summary-note">
+            These values update in real time as the detailed counters below run.
+          </p>
+        </div>
       </div>
     </section>
 
@@ -421,7 +601,7 @@
       </div>
     </section>
 
-    <p class="accordion-section-title">Explore live counters by category:</p>
+    <p class="accordion-section-title" id="categories">Explore live counters by category:</p>
 
     <div class="accordion">
 
@@ -631,7 +811,31 @@
 
     </div>
 
+    <!-- TRUSTED SOURCES INFO -->
+    <section class="trusted">
+      <h2>Trusted data sources</h2>
+      <p>
+        PulseOfGlobe uses publicly available yearly statistics from well-known organizations and official datasets.
+      </p>
+      <div class="trusted-list">
+        <span>United Nations</span>
+        <span>World Bank</span>
+        <span>IEA</span>
+        <span>IPCC</span>
+        <span>Other official datasets</span>
+      </div>
+      <p class="trusted-note">
+        Numbers on this page are real-time estimates derived from these annual data sources and updated using UTC time.
+      </p>
+    </section>
+
     <footer>
+      <div class="footer-share">
+        Share this page:
+        <a href="https://twitter.com/intent/tweet?text=Check%20these%20live%20world%20counters&url=https%3A%2F%2Fpulseofglobe.com" target="_blank" rel="noopener noreferrer">X</a> ·
+        <a href="https://api.whatsapp.com/send?text=Check%20these%20live%20world%20counters%20https%3A%2F%2Fpulseofglobe.com" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+
       <div>
         <a href="about.html">About Us</a> |
         <a href="sources.html">Data Sources</a> |
@@ -815,6 +1019,22 @@
         ['AIText', 'AIImages', 'AICode', 'AIMusic'],
         [yearlyAIText, yearlyAIImages, yearlyAICode, yearlyAIMusic]
       );
+
+      // Hero summary (Today so far) -> mevcut günlük değerlerden kopyala
+      const sb = document.getElementById('summaryBirths');
+      const sd = document.getElementById('summaryDeaths');
+      const sc = document.getElementById('summaryCO2');
+      const sa = document.getElementById('summaryAIText');
+
+      const dBirths = document.getElementById('dailyBirths');
+      const dDeaths = document.getElementById('dailyDeaths');
+      const dCO2 = document.getElementById('dailyCO2');
+      const dAIText = document.getElementById('dailyAIText');
+
+      if (sb && dBirths) sb.innerText = dBirths.innerText;
+      if (sd && dDeaths) sd.innerText = dDeaths.innerText;
+      if (sc && dCO2) sc.innerText = dCO2.innerText;
+      if (sa && dAIText) sa.innerText = dAIText.innerText;
     }
 
     setInterval(updateCounters, 1000);

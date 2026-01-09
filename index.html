@@ -502,7 +502,28 @@
       .counter-box {
         padding: 10px 8px 12px;
       }
-    }
+    }.site-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.brand {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+.brand:hover {
+  opacity: 1;
+}
+
   </style>
 </head>
 <body>
@@ -512,9 +533,9 @@
     PULSE OF GLOBE
   </a>
 
-  <nav class="site-nav">
-    <a href="global-risk.html" class="brand notranslate" >GLOBAL RİSK</a>
-  </nav>
+  <a href="global-risk.html" class="brand brand-link">
+    GLOBAL RISK
+  </a>
 </header>
     <section class="hero">
       <div class="hero-text">
@@ -1023,6 +1044,7 @@
   </script>
 </body>
 </html>
+
 
 
 

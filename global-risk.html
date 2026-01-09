@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Global Risk Index | Pulse of Globe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #f0f2f5;
+      --card: #ffffff;
+      --accent: #0077aa;
+      --accent-soft: #e0f3fb;
+      --text-main: #222;
+      --text-muted: #666;
+      --border-soft: #dde3eb;
+      --low: #22c55e;
+      --medium: #eab308;
+      --high: #ef4444;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px 16px 40px;
+    }
+
+    /* HEADER */
+    .site-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+
+    .brand {
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      font-size: 0.95rem;
+      color: var(--accent);
+      text-transform: uppercase;
+    }
+
+    .site-nav a {
+      margin-left: 10px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+
+    /* HERO */
+    .hero {
+      background: radial-gradient(circle at top left, var(--accent-soft), #ffffff);
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+      margin-bottom: 28px;
+    }
+
+    .hero h1 {
+      margin: 0 0 8px;
+      font-size: 1.9rem;
+      color: #004b71;
+    }
+
+    .hero p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      max-width: 650px;
+    }
+
+    /* RISK GRID */
+    .risk-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+      margin-bottom: 28px;
+    }
+
+    .risk-card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08);
+    }
+
+    .risk-title {
+      font-weight: 600;
+      font-size: 1rem;
+      margin-bottom: 6px;
+    }
+
+    .risk-score {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    .risk-bar {
+      height: 10px;
+      background: #e5e7eb;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 8px;
+    }
+
+    .risk-fill {
+      height: 100%;
+    }
+
+    .low { background: var(--low); }
+    .medium { background: var(--medium); }
+    .high { background: var(--high); }
+
+    .risk-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    /* INFO BOX */
+    .info-box {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: 0 6px 16px rgba(15, 23, 42, 0.06);
+      border: 1px solid rgba(0,0,0,0.03);
+    }
+
+    .info-box h2 {
+      font-size: 1.05rem;
+      margin: 0 0 6px;
+    }
+
+    .info-box p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin: 6px 0;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 30px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border-soft);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="brand">PULSE OF GLOBE</div>
+      <nav class="site-nav">
+        <a href="/">Home</a>
+        <a href="about.html">About</a>
+        <a href="sources.html">Sources</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Global Risk Index</h1>
+      <p>
+        An AI-based global risk assessment summarizing the current state of
+        world conflicts, economy, public health, and climate change.
+        Scores range from 0 (no risk) to 100 (extreme risk).
+      </p>
+    </section>
+
+    <section class="risk-grid">
+
+      <div class="risk-card">
+        <div class="risk-title">🌍 Global Conflict Risk</div>
+        <div class="risk-score">72 / 100</div>
+        <div class="risk-bar">
+          <div class="risk-fill high" style="width:72%"></div>
+        </div>
+        <div class="risk-desc">
+          Active armed conflicts, geopolitical tensions, and military escalation
+          increase global instability.
+        </div>
+      </div>
+
+      <div class="risk-card">
+        <div class="risk-title">💰 Global Economic Risk</div>
+        <div class="risk-score">58 / 100</div>
+        <div class="risk-bar">
+          <div class="risk-fill medium" style="width:58%"></div>
+        </div>
+        <div class="risk-desc">
+          Inflation, sovereign debt levels, and slowing economic growth
+          create moderate global financial risk.
+        </div>
+      </div>
+
+      <div class="risk-card">
+        <div class="risk-title">🏥 Global Health Risk</div>
+        <div class="risk-score">41 / 100</div>
+        <div class="risk-bar">
+          <div class="risk-fill medium" style="width:41%"></div>
+        </div>
+        <div class="risk-desc">
+          Pandemic preparedness has improved, but regional healthcare
+          inequalities remain a concern.
+        </div>
+      </div>
+
+      <div class="risk-card">
+        <div class="risk-title">🌡️ Climate & Global Warming Risk</div>
+        <div class="risk-score">76 / 100</div>
+        <div class="risk-bar">
+          <div class="risk-fill high" style="width:76%"></div>
+        </div>
+        <div class="risk-desc">
+          Rising temperatures, extreme weather events, and emissions trends
+          pose a high long-term global risk.
+        </div>
+      </div>
+
+    </section>
+
+    <section class="info-box">
+      <h2>How this index is generated</h2>
+      <p>
+        The Global Risk Index is generated using AI-based estimations derived from
+        publicly available indicators, historical trends, and expert-weighted models.
+      </p>
+      <p>
+        <strong>Disclaimer:</strong> This index does not represent official
+        governmental or institutional assessments and should be interpreted
+        for informational purposes only.
+      </p>
+    </section>
+
+    <footer>
+      © 2025 PulseOfGlobe — AI-based global risk visualization
+    </footer>
+  </div>
+</body>
+</html>

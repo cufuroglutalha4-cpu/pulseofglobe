@@ -872,13 +872,6 @@
         openAccordionItem(item, false);
       });
     });
-
-    // İlk bölümü varsayılan olarak açık yap
-    const firstItem = document.querySelector('.accordion-item');
-    if (firstItem) {
-      openAccordionItem(firstItem, false);
-    }
-
     // HIGHLIGHT kartlarına tıklayınca ilgili accordion'u aç
     const highlightCards = document.querySelectorAll('.highlight-card[data-open-section]');
     highlightCards.forEach(card => {
@@ -1030,6 +1023,7 @@
   </script>
 </body>
 </html>
+
 
 
 

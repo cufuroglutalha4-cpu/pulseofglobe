@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
- <title>Global Risk Index – US‑Iran Conflict, Israel‑Gaza War & Global Risk Levels</title>
-<meta name="description" content="Comprehensive assessment of global conflict risk including the US‑Iran conflict and the Israel‑Gaza war, plus economic, health, and climate risk scores.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Fonts -->
+  <title>Global Risk Index | Daily AI World Risk Report | Pulse Of Globe</title>
+  <meta name="description" content="Track daily AI-generated global risk analysis across conflict, economy, health, and climate with regularly updated risk scores and reports.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
-   <!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0D58BVYWTK"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -31,6 +34,10 @@
       --high: #ef4444;
     }
 
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
@@ -44,76 +51,60 @@
       padding: 20px 16px 40px;
     }
 
-    /* HEADER */
-   .site-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 24px;
-}
+    .site-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
 
-/* LOGO */
-.brand {
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  font-size: 0.95rem;
-  color: var(--accent);
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-/* NAV */
-.site-nav {
-  display: flex;
-  gap: 18px;
-}
-
-.nav-link {
-  position: relative;
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--text-muted);
-  text-decoration: none;
-  padding-bottom: 4px;
-  transition: color 0.2s ease;
-}
-
-.nav-link:hover {
-  color: var(--accent);
-}
-
-/* ACTIVE PAGE */
-.nav-link.active {
-  color: var(--accent);
-  font-weight: 600;
-}
-
-.nav-link.active::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-  background: var(--accent);
-  border-radius: 2px;
-}
     .brand {
       font-weight: 700;
       letter-spacing: 0.08em;
       font-size: 0.95rem;
       color: var(--accent);
       text-transform: uppercase;
-    }
-
-    .site-nav a {
-      margin-left: 10px;
-      font-size: 0.85rem;
-      color: var(--text-muted);
       text-decoration: none;
     }
 
-    /* HERO */
+    .site-nav {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .nav-link {
+      position: relative;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-decoration: none;
+      padding-bottom: 4px;
+      transition: color 0.2s ease;
+    }
+
+    .nav-link:hover {
+      color: var(--accent);
+    }
+
+    .nav-link.active {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .nav-link.active::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 2px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+
     .hero {
       background: radial-gradient(circle at top left, var(--accent-soft), #ffffff);
       border-radius: 18px;
@@ -132,10 +123,46 @@
       margin: 0;
       font-size: 0.95rem;
       color: var(--text-muted);
-      max-width: 650px;
+      max-width: 760px;
+      line-height: 1.6;
     }
 
-    /* RISK GRID */
+    .report-date {
+      display: inline-block;
+      margin-top: 14px;
+      font-size: 0.82rem;
+      color: var(--accent);
+      font-weight: 600;
+      background: rgba(0, 119, 170, 0.08);
+      padding: 8px 12px;
+      border-radius: 999px;
+    }
+
+    .trend-box {
+      margin-top: 12px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #334155;
+    }
+
+    .trend-up {
+      color: #ef4444;
+      font-weight: 700;
+      margin-left: 6px;
+    }
+
+    .trend-down {
+      color: #22c55e;
+      font-weight: 700;
+      margin-left: 6px;
+    }
+
+    .trend-stable {
+      color: #64748b;
+      font-weight: 700;
+      margin-left: 6px;
+    }
+
     .risk-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -173,40 +200,49 @@
 
     .risk-fill {
       height: 100%;
+      border-radius: 10px;
     }
 
-    .low { background: var(--low); }
-    .medium { background: var(--medium); }
-    .high { background: var(--high); }
+    .low {
+      background: var(--low);
+    }
+
+    .medium {
+      background: var(--medium);
+    }
+
+    .high {
+      background: var(--high);
+    }
 
     .risk-desc {
       font-size: 0.85rem;
       color: var(--text-muted);
-      line-height: 1.45;
+      line-height: 1.5;
     }
 
-    /* INFO BOX */
     .info-box {
       background: #ffffff;
       border-radius: 16px;
       padding: 18px;
       box-shadow: 0 6px 16px rgba(15, 23, 42, 0.06);
       border: 1px solid rgba(0,0,0,0.03);
+      margin-bottom: 18px;
     }
 
     .info-box h2 {
       font-size: 1.05rem;
-      margin: 0 0 6px;
+      margin: 0 0 8px;
+      color: #0f172a;
     }
 
     .info-box p {
-      font-size: 0.85rem;
+      font-size: 0.88rem;
       color: var(--text-muted);
       margin: 6px 0;
-      line-height: 1.5;
+      line-height: 1.65;
     }
 
-   /* FOOTER */
     footer {
       text-align: center;
       font-size: 0.8em;
@@ -221,153 +257,182 @@
       font-size: 0.8em;
     }
 
-    .footer-share a {
+    .footer-share a,
+    footer a {
       color: var(--accent);
       text-decoration: none;
       margin: 0 6px;
     }
 
-    footer a {
-      color: var(--accent);
-      text-decoration: none;
-      margin: 0 8px;
-    }
-
-    footer a:hover,
-    .footer-share a:hover {
+    .footer-share a:hover,
+    footer a:hover {
       text-decoration: underline;
     }
-.risk-reasons {
-  margin-top: 10px;
-  font-size: 0.78rem;
-  color: #4b5563;
-  background: #f8fafc;
-  border-left: 3px solid var(--accent);
-  padding: 8px 10px;
-  border-radius: 6px;
-}
 
-.risk-reasons strong {
-  color: #1f2937;
-  font-weight: 600;
-}
+    @media (max-width: 640px) {
+      .hero h1 {
+        font-size: 1.55rem;
+      }
+
+      .risk-score {
+        font-size: 1.75rem;
+      }
+    }
   </style>
 </head>
 
 <body>
   <div class="page">
- <header class="site-header">
-  <a href="/" class="brand notranslate" translate="no">
-    PULSE OF GLOBE
-  </a>
 
-  <nav class="site-nav">
-    <a href="/" class="nav-link">Home</a>
-    <a href="global-risk.html" class="nav-link active">Global Risk</a>
-    <a href="sources.html" class="nav-link">Sources</a>
-  </nav>
-</header>
+    <header class="site-header">
+      <a href="/" class="brand notranslate" translate="no">PULSE OF GLOBE</a>
+
+      <nav class="site-nav">
+        <a href="/" class="nav-link">Home</a>
+        <a href="global-risk.html" class="nav-link active">Global Risk</a>
+        <a href="sources.html" class="nav-link">Sources</a>
+      </nav>
+    </header>
 
     <section class="hero">
       <h1>Global Risk Index</h1>
       <p>
-        A comprehensive global risk assessment reflecting current conditions in world conflicts, economic stability, public health, and climate change. Scores range from 0 (no risk) to 100 (extreme risk).
+        A daily AI-generated overview of global risk conditions across conflict,
+        economy, public health, and climate. Scores range from 0 (low risk) to 100
+        (extreme risk) and are updated regularly based on current global developments.
       </p>
+
+      <div class="report-date">Daily report update: March 6, 2026</div>
+
+      <div class="trend-box">
+        Global Risk Trend:
+        <span class="trend-up">↑ Rising</span>
+      </div>
     </section>
 
     <section class="risk-grid">
-
       <div class="risk-card">
         <div class="risk-title">🌍 Global Conflict Risk</div>
-        <div class="risk-score">75 / 100</div>
+        <div class="risk-score">78 / 100</div>
         <div class="risk-bar">
-          <div class="risk-fill high" style="width:72%"></div>
+          <div class="risk-fill high" style="width: 78%;"></div>
         </div>
         <div class="risk-desc">
-          Active armed conflicts, geopolitical tensions, and military escalation
-          increase global instability.
+          Ongoing wars, regional escalation risks, and great-power tensions continue
+          to keep the global conflict outlook elevated.
         </div>
-<div class="risk-reasons">
-  <strong>Main risk drivers:</strong><br>
-  • Ongoing armed conflicts in Eastern Europe and the Middle East, including the US‑Iran conflict and the Israel‑Gaza war (+18)<br>
-  • Rising military spending and regional power rivalry (+14)<br>
-  • Increased risk of escalation involving major powers (+11)
-</div>
       </div>
 
       <div class="risk-card">
         <div class="risk-title">💰 Global Economic Risk</div>
-        <div class="risk-score">67 / 100</div>
+        <div class="risk-score">61 / 100</div>
         <div class="risk-bar">
-          <div class="risk-fill medium" style="width:58%"></div>
+          <div class="risk-fill medium" style="width: 61%;"></div>
         </div>
         <div class="risk-desc">
-          Inflation, sovereign debt levels, and slowing economic growth
-          create moderate global financial risk.
+          Global growth remains resilient, but debt pressures, trade uncertainty,
+          and uneven recovery still create moderate economic risk.
         </div>
-<div class="risk-reasons">
-    <strong>Main risk drivers:</strong><br>
-    • High global interest rates and tight monetary policy (+15)<br>
-    • Rising public debt in major economies (+13)<br>
-    • Slowing growth in China, EU, and emerging markets (+9)
-  </div>
       </div>
 
       <div class="risk-card">
         <div class="risk-title">🏥 Global Health Risk</div>
-        <div class="risk-score">50 / 100</div>
+        <div class="risk-score">46 / 100</div>
         <div class="risk-bar">
-          <div class="risk-fill medium" style="width:41%"></div>
+          <div class="risk-fill medium" style="width: 46%;"></div>
         </div>
         <div class="risk-desc">
-          Pandemic preparedness has improved, but regional healthcare
-          inequalities remain a concern.
+          Health systems are more prepared than in previous years, but outbreaks,
+          unequal access, and cross-border disease risks remain important.
         </div>
- <div class="risk-reasons">
-    <strong>Main risk drivers:</strong><br>
-    • Unequal access to healthcare systems in developing regions (+17)<br>
-    • Increased frequency of zoonotic disease outbreaks (+11)<br>
-    • Improved global monitoring and response capacity (−8)
-  </div>
       </div>
 
       <div class="risk-card">
-        <div class="risk-title">🌡️ Climate & Global Warming Risk</div>
-        <div class="risk-score">77 / 100</div>
+        <div class="risk-title">🌡️ Climate Risk</div>
+        <div class="risk-score">82 / 100</div>
         <div class="risk-bar">
-          <div class="risk-fill high" style="width:76%"></div>
+          <div class="risk-fill high" style="width: 82%;"></div>
         </div>
         <div class="risk-desc">
-          Rising temperatures, extreme weather events, and emissions trends
-          pose a high long-term global risk.
+          Persistent heat, record temperatures, and growing climate-related losses
+          keep long-term global climate risk at a very high level.
         </div>
-<div class="risk-reasons">
-    <strong>Main risk drivers:</strong><br>
-    • Record-breaking global temperatures and heatwaves (+21)<br>
-    • Increase in extreme weather-related economic losses (+18)<br>
-    • Insufficient progress on global emission reduction targets (+14)
-  </div>
       </div>
+    </section>
 
+    <section class="info-box">
+      <h2>🌍 Global Conflict Report</h2>
+      <p>
+        Global conflict risk remains elevated as several geopolitical flashpoints continue to shape the international security environment. The war in Ukraine remains one of the most significant drivers of geopolitical tension in Europe. Fighting along the front lines continues, and although the pace of territorial change has slowed, the conflict still carries the risk of escalation through expanded military support, long-range strikes, or broader strategic developments.
+
+In the Middle East, instability remains another major factor influencing global risk. The ongoing Israel-Gaza war continues to affect regional security dynamics, with periodic military operations, humanitarian concerns, and diplomatic tensions shaping the broader geopolitical environment. The situation also carries the potential for wider regional implications if additional actors become more directly involved in the conflict.
+
+Beyond active war zones, geopolitical rivalry between major powers continues to influence the global security landscape. Strategic competition between the United States and China remains one of the defining geopolitical trends of the decade, particularly in areas such as technological leadership, economic influence, and military presence in the Indo-Pacific region. While direct military confrontation remains unlikely, the growing rivalry contributes to a more fragmented and uncertain international order.
+
+Taken together, these overlapping tensions create a global environment in which regional conflicts can have wider geopolitical consequences. As a result, the global conflict risk level remains high, and future developments will depend heavily on diplomatic negotiations, military developments, and shifting alliances.
+      </p>
+    </section>
+
+    <section class="info-box">
+      <h2>💰 Global Economic Report</h2>
+      <p>
+        The global economic outlook remains moderately stable, but several structural challenges continue to create uncertainty in the international financial system. Inflation has gradually declined in many advanced economies compared to previous years, yet interest rates remain relatively high as central banks continue to prioritize price stability.
+
+High borrowing costs are affecting investment, housing markets, and consumer spending in many regions. Governments are also facing increasing fiscal pressure as public debt levels remain elevated following years of economic stimulus and pandemic-related spending. These debt dynamics are particularly visible in several large economies where fiscal sustainability has become an ongoing policy challenge.
+
+Global trade patterns are also undergoing structural changes. Geopolitical tensions, supply chain diversification, and strategic industrial policies are gradually reshaping international trade flows. Many countries are attempting to reduce dependence on critical imports by strengthening domestic manufacturing capacity, especially in sectors such as semiconductors, energy technology, and strategic minerals.
+
+Despite these challenges, global economic growth continues at a moderate pace. Emerging economies remain an important driver of global expansion, and technological innovation—particularly in artificial intelligence and digital infrastructure—continues to support productivity growth in many sectors. Overall, while recession risks appear lower than in previous years, economic uncertainty remains a key global risk factor.
+      </p>
+    </section>
+
+    <section class="info-box">
+      <h2>🏥 Global Health Report</h2>
+      <p>
+        Global public health conditions remain relatively stable compared to the acute phase of the COVID-19 pandemic, but several structural vulnerabilities continue to influence long-term health risk. Many countries have strengthened disease monitoring systems, expanded vaccination programs, and improved emergency response capacity, which has significantly enhanced global preparedness for future health crises.
+
+However, major inequalities in healthcare access remain a persistent global challenge. In many developing regions, limited healthcare infrastructure, shortages of trained medical professionals, and insufficient access to essential medicines continue to affect population health outcomes.
+
+Another important factor shaping global health risk is the increasing frequency of zoonotic disease outbreaks. As human populations expand and environmental pressures intensify, the probability of diseases transferring from animals to humans remains a concern for global health authorities. Monitoring systems and international cooperation play a crucial role in detecting and containing such outbreaks early.
+
+At the same time, demographic changes—particularly aging populations in many developed countries—are increasing pressure on healthcare systems. Chronic diseases, healthcare costs, and long-term care needs are becoming central challenges for health policy in many regions. Overall, global health risk remains moderate but requires continued monitoring and international cooperation.
+      </p>
+    </section>
+
+    <section class="info-box">
+      <h2>🌡️ Climate Risk Report</h2>
+      <p>
+        Climate change continues to represent one of the most significant long-term global risks. Global average temperatures have continued to rise in recent years, contributing to an increasing frequency of extreme weather events such as heatwaves, droughts, floods, and severe storms. These events are having growing economic and social impacts across many regions.
+
+In addition to direct environmental effects, climate change is also influencing economic stability, food security, and migration patterns. Agricultural productivity in some regions is becoming more volatile due to changing weather patterns, while water scarcity is emerging as a major challenge in several parts of the world.
+
+Governments and international organizations are increasingly investing in renewable energy technologies and climate mitigation strategies. The transition toward cleaner energy sources, including solar, wind, and advanced battery systems, is accelerating in many countries. However, the pace of global emissions reduction remains slower than many climate scientists consider necessary to meet long-term climate targets.
+
+Because climate change operates on long time horizons but produces increasingly visible impacts, it remains one of the most persistent drivers of global risk. Continued technological innovation, policy coordination, and international cooperation will play a critical role in determining the trajectory of climate risk in the coming decades.
+      </p>
     </section>
 
     <section class="info-box">
       <h2>How this index is generated</h2>
       <p>
-        The Global Risk Index is generated using publicly available indicators, historical trend analysis, and weighted assessment models designed to reflect current global conditions.
+        The Global Risk Index combines public data, recent global developments, and
+        AI-assisted interpretation to produce a simple daily overview of worldwide risk conditions.
       </p>
       <p>
-        <strong>Disclaimer:</strong> This index does not represent official
-        governmental or institutional assessments and should be interpreted
-        for informational purposes only.
+        <strong>AI disclosure:</strong> Parts of the written analysis on this page are generated
+        with the help of artificial intelligence and may be updated daily.
+      </p>
+      <p>
+        <strong>Disclaimer:</strong> This page does not provide official institutional forecasts
+        or policy guidance. It is intended for informational and educational use only.
       </p>
     </section>
 
-   <footer>
+    <footer>
       <div class="footer-share">
         Share this page:
-        <a href="https://twitter.com/intent/tweet?text=Check%20these%20live%20world%20counters&url=https%3A%2F%2Fpulseofglobe.com/global-risk.html" target="_blank" rel="noopener noreferrer">X</a> ·
-        <a href="https://api.whatsapp.com/send?text=Check%20these%20live%20world%20counters%20https%3A%2F%2Fpulseofglobe.com/global-risk.html" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a href="https://twitter.com/intent/tweet?text=Check%20the%20daily%20AI-generated%20global%20risk%20report&url=https%3A%2F%2Fpulseofglobe.com/global-risk.html" target="_blank" rel="noopener noreferrer">X</a> ·
+        <a href="https://api.whatsapp.com/send?text=Check%20the%20daily%20AI-generated%20global%20risk%20report%20https%3A%2F%2Fpulseofglobe.com/global-risk.html" target="_blank" rel="noopener noreferrer">WhatsApp</a>
       </div>
 
       <div>
@@ -377,15 +442,12 @@
         <a href="terms.html">Terms of Use</a> |
         <a href="contact.html">Contact</a>
       </div>
+
       <p style="margin-top: 10px;">
-        © 2025 PulseOfGlobe. All rights reserved. Real-time counters are based on publicly available statistical data.
+        © 2025 PulseOfGlobe. All rights reserved. Real-time counters and risk summaries are based on public data and AI-assisted interpretation.
       </p>
     </footer>
+
   </div>
 </body>
 </html>
-
-
-
-
-

@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Live World Counters</title>
+  <title>Live World Counters | Pulse Of Globe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Favicon -->
-<link rel="icon" href="/favicon.ico"
-<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
-<link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48.png">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
-  <!-- SEO & Sosyal Medya Meta Etiketleri -->
-  <meta name="description" content="Real-time world counters for population, environment, economy and technology.">
-  <meta name="keywords" content="world live counters, population, births, deaths, CO2, energy consumption, live statistics">
+  <!-- SEO & Social -->
+  <meta name="description" content="Real-time world counters for population, environment, economy, technology, and daily AI-generated global risk insights.">
+  <meta name="keywords" content="world live counters, population, births, deaths, CO2, energy consumption, live statistics, global risk index">
 
-  <meta property="og:title" content="World Live Counters">
-  <meta property="og:description" content="Real-time global counters for population, environment, economy and technology.">
+  <meta property="og:title" content="World Live Counters | Pulse Of Globe">
+  <meta property="og:description" content="Real-time global counters for population, environment, economy, technology, and global risk.">
   <meta property="og:image" content="https://pulseofglobe.com/images/earth-network.jpg">
   <meta property="og:url" content="https://pulseofglobe.com/">
 
@@ -43,6 +43,9 @@
       --text-main: #222;
       --text-muted: #666;
       --border-soft: #dde3eb;
+      --risk-high: #ef4444;
+      --risk-medium: #eab308;
+      --risk-low: #22c55e;
     }
 
     * {
@@ -62,62 +65,57 @@
       padding: 20px 16px 40px;
     }
 
-   /* HEADER */
-.site-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 24px;
-}
+    .site-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+    }
 
-/* LOGO */
-.brand {
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  font-size: 0.95rem;
-  color: var(--accent);
-  text-transform: uppercase;
-  text-decoration: none;
-}
+    .brand {
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      font-size: 0.95rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      text-decoration: none;
+    }
 
-/* NAV */
-.site-nav {
-  display: flex;
-  gap: 18px;
-}
+    .site-nav {
+      display: flex;
+      gap: 18px;
+    }
 
-.nav-link {
-  position: relative;
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--text-muted);
-  text-decoration: none;
-  padding-bottom: 4px;
-  transition: color 0.2s ease;
-}
+    .nav-link {
+      position: relative;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-decoration: none;
+      padding-bottom: 4px;
+      transition: color 0.2s ease;
+    }
 
-.nav-link:hover {
-  color: var(--accent);
-}
+    .nav-link:hover {
+      color: var(--accent);
+    }
 
-/* ACTIVE PAGE */
-.nav-link.active {
-  color: var(--accent);
-  font-weight: 600;
-}
+    .nav-link.active {
+      color: var(--accent);
+      font-weight: 600;
+    }
 
-.nav-link.active::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-  background: var(--accent);
-  border-radius: 2px;
-}
+    .nav-link.active::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 2px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
 
-    /* HERO */
     .hero {
       background: radial-gradient(circle at top left, var(--accent-soft), #ffffff);
       border-radius: 18px;
@@ -146,7 +144,8 @@
       margin: 0;
       font-size: 0.95rem;
       color: var(--text-muted);
-      max-width: 480px;
+      max-width: 520px;
+      line-height: 1.6;
     }
 
     .hero-stat {
@@ -217,20 +216,26 @@
         flex: 1;
       }
       .hero-side {
-        flex: 0 0 260px;
+        flex: 0 0 320px;
         margin-top: 0;
       }
     }
 
-    .hero-summary {
-      background: rgba(255, 255, 255, 0.9);
+    .hero-summary,
+    .risk-widget {
+      background: rgba(255, 255, 255, 0.92);
       border-radius: 14px;
       padding: 14px 14px 12px;
       box-shadow: 0 8px 20px rgba(15, 23, 42, 0.10);
       border: 1px solid rgba(0, 0, 0, 0.03);
     }
 
-    .hero-summary-label {
+    .hero-summary {
+      margin-bottom: 14px;
+    }
+
+    .hero-summary-label,
+    .risk-widget-label {
       font-size: 0.75rem;
       text-transform: uppercase;
       letter-spacing: 0.08em;
@@ -265,7 +270,142 @@
       color: var(--text-muted);
     }
 
-    /* HIGHLIGHTS (kategori kartları) */
+    .risk-widget-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .risk-score-wrap strong {
+      display: block;
+      font-size: 1.9rem;
+      line-height: 1;
+      color: #004b71;
+      margin-bottom: 4px;
+    }
+
+    .risk-score-wrap span {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .risk-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content: flex-end;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 10px;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      border: 1px solid transparent;
+      white-space: nowrap;
+    }
+
+    .badge-high {
+      color: #991b1b;
+      background: #fee2e2;
+      border-color: #fecaca;
+    }
+
+    .badge-medium {
+      color: #854d0e;
+      background: #fef3c7;
+      border-color: #fde68a;
+    }
+
+    .badge-low {
+      color: #166534;
+      background: #dcfce7;
+      border-color: #bbf7d0;
+    }
+
+    .badge-ai {
+      color: #075985;
+      background: #e0f2fe;
+      border-color: #bae6fd;
+    }
+
+    .risk-trend {
+      margin: 8px 0 10px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #334155;
+    }
+
+    .trend-up {
+      color: var(--risk-high);
+      font-weight: 700;
+      margin-left: 4px;
+    }
+
+    .trend-down {
+      color: var(--risk-low);
+      font-weight: 700;
+      margin-left: 4px;
+    }
+
+    .trend-stable {
+      color: #64748b;
+      font-weight: 700;
+      margin-left: 4px;
+    }
+
+    .risk-bar {
+      height: 10px;
+      background: #e5e7eb;
+      border-radius: 999px;
+      overflow: hidden;
+      margin: 8px 0 10px;
+    }
+
+    .risk-fill {
+      height: 100%;
+      width: 68%;
+      background: linear-gradient(90deg, #f59e0b, #ef4444);
+      border-radius: 999px;
+    }
+
+    .risk-widget p {
+      margin: 0 0 12px;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    .risk-widget-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .risk-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-decoration: none;
+      border: 1px solid rgba(0, 119, 170, 0.18);
+      color: #004b71;
+      background: #fff;
+      transition: all 0.15s ease;
+    }
+
+    .risk-link:hover {
+      background: var(--accent-soft);
+      transform: translateY(-1px);
+    }
+
     .highlights {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -306,7 +446,6 @@
       line-height: 1.4;
     }
 
-    /* ACCORDION */
     .accordion-section-title {
       font-size: 0.9rem;
       font-weight: 600;
@@ -380,7 +519,6 @@
       color: #111827;
     }
 
-    /* COUNTERS GRID */
     .counters {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
@@ -421,7 +559,6 @@
       margin: 0;
     }
 
-    /* TRUSTED SOURCES SECTION */
     .trusted {
       margin-top: 32px;
       background: #ffffff;
@@ -463,7 +600,6 @@
       color: var(--text-muted);
     }
 
-    /* FOOTER */
     footer {
       text-align: center;
       font-size: 0.8em;
@@ -495,7 +631,6 @@
       text-decoration: underline;
     }
 
-    /* MOBİL */
     @media screen and (max-width: 600px) {
       .site-header {
         flex-direction: column;
@@ -529,34 +664,47 @@
       .counter-box {
         padding: 10px 8px 12px;
       }
-    }
 
+      .risk-widget-top {
+        flex-direction: column;
+      }
+
+      .risk-badges {
+        justify-content: flex-start;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="page">
- <header class="site-header">
-  <a href="/" class="brand notranslate" translate="no">
-    PULSE OF GLOBE
-  </a>
+    <header class="site-header">
+      <a href="/" class="brand notranslate" translate="no">
+        PULSE OF GLOBE
+      </a>
 
-  <nav class="site-nav">
-    <a href="/" class="nav-link active">Home</a>
-    <a href="global-risk.html" class="nav-link">Global Risk</a>
-    <a href="sources.html" class="nav-link">Sources</a>
-  </nav>
-</header>
+      <nav class="site-nav">
+        <a href="/" class="nav-link active">Home</a>
+        <a href="global-risk.html" class="nav-link">Global Risk</a>
+        <a href="sources.html" class="nav-link">Sources</a>
+      </nav>
+    </header>
 
     <section class="hero">
       <div class="hero-text">
         <h1>World Live Counters</h1>
+        <p>
+          Explore live global estimates across population, environment, economy,
+          technology, and daily AI-powered risk analysis.
+        </p>
+
         <div class="hero-stat">
           <span class="hero-label">Current World Population</span>
           <span class="hero-value" id="populationHero">Loading...</span>
         </div>
+
         <div class="hero-actions">
           <a href="#categories" class="hero-btn">Explore live counters ↓</a>
-          <a href="sources.html" class="hero-btn secondary">View data sources</a>
+          <a href="global-risk.html" class="hero-btn secondary">See global risk →</a>
         </div>
       </div>
 
@@ -581,11 +729,47 @@
               <strong id="summaryAIText">—</strong>
             </div>
           </div>
+          <p class="hero-summary-note">
+            Live estimates update continuously using UTC time.
+          </p>
+        </div>
+
+        <div class="risk-widget">
+          <div class="risk-widget-label">Today’s Global Risk</div>
+
+          <div class="risk-widget-top">
+            <div class="risk-score-wrap">
+              <strong>67 / 100</strong>
+              <span>Overall global risk score</span>
+            </div>
+
+            <div class="risk-badges">
+              <span class="badge badge-high">High Risk</span>
+              <span class="badge badge-ai">AI Updated</span>
+            </div>
+          </div>
+
+          <div class="risk-trend">
+            Trend:
+            <span class="trend-up">↑ Rising</span>
+          </div>
+
+          <div class="risk-bar">
+            <div class="risk-fill"></div>
+          </div>
+
+          <p>
+            Conflict pressure, climate stress, and economic uncertainty continue
+            to shape the daily global outlook.
+          </p>
+
+          <div class="risk-widget-actions">
+            <a href="global-risk.html" class="risk-link">Open Global Risk Report</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Öne çıkan kategoriler (özet kartlar) -->
     <section class="highlights">
       <div class="highlight-card" data-open-section="population">
         <div class="highlight-icon">👶</div>
@@ -623,8 +807,6 @@
     <p class="accordion-section-title" id="categories">Explore live counters by category:</p>
 
     <div class="accordion">
-
-      <!-- WORLD POPULATION -->
       <div class="accordion-item" data-section="population">
         <div class="title">
           <span>World Population</span>
@@ -669,7 +851,6 @@
         </div>
       </div>
 
-      <!-- ECONOMY & CONSUMPTION -->
       <div class="accordion-item" data-section="economy">
         <div class="title">
           <span>Economy &amp; Consumption</span>
@@ -707,7 +888,6 @@
         </div>
       </div>
 
-      <!-- ENVIRONMENT & NATURE -->
       <div class="accordion-item" data-section="environment">
         <div class="title">
           <span>Environment &amp; Nature</span>
@@ -752,7 +932,6 @@
         </div>
       </div>
 
-      <!-- HUMAN BEHAVIOR & TECHNOLOGY -->
       <div class="accordion-item" data-section="human">
         <div class="title">
           <span>Human Behavior &amp; Technology</span>
@@ -790,7 +969,6 @@
         </div>
       </div>
 
-      <!-- ARTIFICIAL INTELLIGENCE -->
       <div class="accordion-item" data-section="ai">
         <div class="title">
           <span>Artificial Intelligence</span>
@@ -827,10 +1005,8 @@
           <div class="counter-box"><h3>This Year</h3><p id="yearlyAIMusic">Loading...</p></div>
         </div>
       </div>
-
     </div>
 
-    <!-- TRUSTED SOURCES INFO -->
     <section class="trusted">
       <h2>Trusted data sources</h2>
       <p>
@@ -863,27 +1039,24 @@
         <a href="contact.html">Contact</a>
       </div>
       <p style="margin-top: 10px;">
-        © 2025 PulseOfGlobe. All rights reserved. Real-time counters are based on publicly available statistical data.
+        © 2025 PulseOfGlobe. All rights reserved. Real-time counters and risk summaries are based on publicly available statistical data.
       </p>
     </footer>
   </div>
 
   <script>
-    // ACCORDION
     const accordionItems = document.querySelectorAll('.accordion-item');
 
     function openAccordionItem(targetItem, doScroll = false) {
       const contents = document.querySelectorAll('.accordion-content');
       const isOpen = targetItem.classList.contains('open');
 
-      // Hepsini kapat
       accordionItems.forEach(i => i.classList.remove('open'));
       contents.forEach(c => {
         c.classList.remove('open');
         c.style.maxHeight = null;
       });
 
-      // Eğer zaten açıksa ve karttan değilse kapalı kalsın
       if (!isOpen) {
         const content = targetItem.nextElementSibling;
         if (content && content.classList.contains('accordion-content')) {
@@ -903,7 +1076,7 @@
         openAccordionItem(item, false);
       });
     });
-    // HIGHLIGHT kartlarına tıklayınca ilgili accordion'u aç
+
     const highlightCards = document.querySelectorAll('.highlight-card[data-open-section]');
     highlightCards.forEach(card => {
       card.addEventListener('click', () => {
@@ -915,7 +1088,6 @@
       });
     });
 
-    // ----------------- COUNTERS -----------------
     const SEC_IN_YEAR = 365 * 24 * 60 * 60;
     const startDate = new Date('2025-01-01T00:00:00Z');
     const basePopulation = 8150000000;
@@ -946,7 +1118,6 @@
       const dayStart = new Date(Date.UTC(utcNow.getUTCFullYear(), utcNow.getUTCMonth(), utcNow.getUTCDate()));
       const secToday = (utcNow - dayStart) / 1000;
 
-      // Population
       const elapsed = getElapsedSeconds();
       const populationNow = basePopulation + ((yearlyBirths - yearlyDeaths) / SEC_IN_YEAR) * elapsed;
       const populationText = Math.floor(populationNow).toLocaleString();
@@ -957,7 +1128,6 @@
       const popHero = document.getElementById('populationHero');
       if (popHero) popHero.innerText = populationText;
 
-      // Helper
       function updateGroup(ids, yearlyValues) {
         for (let i = 0; i < ids.length; i++) {
           const key = ids[i];
@@ -981,36 +1151,32 @@
         }
       }
 
-      // Population-related flows
       updateGroup(
         ['Births', 'Deaths', 'Marriages', 'WarDeaths'],
         [yearlyBirths, yearlyDeaths, yearlyMarriages, yearlyWarDeaths]
       );
 
-      // Economy & Consumption
-      const yearlyMoney = 20000000000000;   // USD
-      const yearlyWater = 500000000000;     // litres
-      const yearlyElectricity = 300000000000; // MWh
-      const yearlyPetroleum = 30000000000;  // barrels
+      const yearlyMoney = 20000000000000;
+      const yearlyWater = 500000000000;
+      const yearlyElectricity = 300000000000;
+      const yearlyPetroleum = 30000000000;
 
       updateGroup(
         ['Money', 'Water', 'Electricity', 'Petroleum'],
         [yearlyMoney, yearlyWater, yearlyElectricity, yearlyPetroleum]
       );
 
-      // Environment & Nature
-      const yearlyTrees = 150000000;        // trees
-      const yearlyCO2 = 36000000000;        // tonnes
-      const yearlyPlastic = 900000000;      // tonnes
-      const yearlyAnimals = 1500;           // species
-      const yearlyRenewable = 5000000000;   // kWh
+      const yearlyTrees = 150000000;
+      const yearlyCO2 = 36000000000;
+      const yearlyPlastic = 900000000;
+      const yearlyAnimals = 1500;
+      const yearlyRenewable = 5000000000;
 
       updateGroup(
         ['Trees', 'CO2', 'Plastic', 'Animals', 'Renewable'],
         [yearlyTrees, yearlyCO2, yearlyPlastic, yearlyAnimals, yearlyRenewable]
       );
 
-      // Human Behavior & Technology
       const yearlyEmails = 3000000000000;
       const yearlySearches = 10000000000000;
       const yearlyPosts = 400000000000;
@@ -1021,7 +1187,6 @@
         [yearlyEmails, yearlySearches, yearlyPosts, yearlyGames]
       );
 
-      // Artificial Intelligence
       const yearlyAIText = 100000000;
       const yearlyAIImages = 50000000;
       const yearlyAICode = 20000000;
@@ -1032,7 +1197,6 @@
         [yearlyAIText, yearlyAIImages, yearlyAICode, yearlyAIMusic]
       );
 
-      // Hero summary (Today so far) -> mevcut günlük değerlerden kopyala
       const sb = document.getElementById('summaryBirths');
       const sd = document.getElementById('summaryDeaths');
       const sc = document.getElementById('summaryCO2');
@@ -1054,22 +1218,3 @@
   </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

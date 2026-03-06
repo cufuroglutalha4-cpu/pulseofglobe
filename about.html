@@ -1,54 +1,566 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About - Pulse of Globe</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Pulse Of Globe</title>
+
+  <meta
+    name="description"
+    content="Learn more about Pulse Of Globe, a live global dashboard for real-time counters, public data signals, and daily AI-assisted global risk insights."
+  />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48.png">
-  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48.png" />
+  <link rel="shortcut icon" href="/favicon.ico" />
 
-  <!-- Google Fonts: Inter (index.html ile aynı font) -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0D58BVYWTK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0D58BVYWTK');
+  </script>
 
   <style>
+    :root {
+      --bg: #f4f8fc;
+      --bg-deep: #edf4fb;
+      --surface: rgba(255, 255, 255, 0.82);
+      --surface-strong: #ffffff;
+      --surface-soft: #f8fbff;
+      --text: #0f172a;
+      --text-soft: #334155;
+      --text-muted: #64748b;
+      --line: rgba(15, 23, 42, 0.08);
+      --line-strong: rgba(15, 23, 42, 0.12);
+
+      --primary: #0f7db7;
+      --primary-2: #38bdf8;
+      --primary-soft: rgba(56, 189, 248, 0.12);
+
+      --danger: #ef4444;
+      --danger-soft: rgba(239, 68, 68, 0.12);
+
+      --warning: #f59e0b;
+      --warning-soft: rgba(245, 158, 11, 0.14);
+
+      --success: #16a34a;
+      --success-soft: rgba(22, 163, 74, 0.12);
+
+      --neutral-soft: rgba(100, 116, 139, 0.12);
+
+      --shadow-lg: 0 20px 60px rgba(15, 23, 42, 0.10);
+      --shadow-md: 0 14px 34px rgba(15, 23, 42, 0.08);
+      --shadow-sm: 0 10px 22px rgba(15, 23, 42, 0.05);
+
+      --radius-xl: 28px;
+      --radius-lg: 22px;
+      --radius-md: 18px;
+      --radius-sm: 14px;
+      --max: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
-      font-family: 'Inter', sans-serif;
-      background: #f9f9f9;
-      color: #333;
-      text-align: center;
-      padding: 50px 20px;
-      line-height: 1.6;
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 8% 10%, rgba(56, 189, 248, 0.15), transparent 24%),
+        radial-gradient(circle at 92% 8%, rgba(14, 165, 233, 0.12), transparent 22%),
+        radial-gradient(circle at 85% 85%, rgba(99, 102, 241, 0.08), transparent 18%),
+        linear-gradient(180deg, #f9fcff 0%, var(--bg) 35%, var(--bg-deep) 100%);
+      position: relative;
+      overflow-x: hidden;
     }
-    h1 {
-      color: #0077aa;
-      margin-bottom: 20px;
-      font-size: 2em;
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(15, 23, 42, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(15, 23, 42, 0.03) 1px, transparent 1px);
+      background-size: 38px 38px;
+      mask-image: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.05));
+      opacity: 0.32;
     }
-    p {
-      max-width: 700px;
-      margin: 20px auto;
-      font-size: 1.1em;
-    }
+
     a {
-      color: #0077aa;
+      color: inherit;
       text-decoration: none;
-      font-weight: 600;
     }
-    a:hover {
+
+    .page {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 20px 16px 56px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .top-shell {
+      position: sticky;
+      top: 14px;
+      z-index: 20;
+      margin-bottom: 22px;
+    }
+
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding: 14px 18px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.72);
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+    }
+
+    .brand {
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      font-size: 0.88rem;
+      color: var(--primary);
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .site-nav {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .nav-link {
+      position: relative;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      padding-bottom: 4px;
+      transition: color 0.2s ease;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+      color: var(--primary);
+    }
+
+    .nav-link.active::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      height: 2px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--primary), var(--primary-2));
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      border-radius: 34px;
+      padding: 34px;
+      background:
+        linear-gradient(135deg, rgba(56, 189, 248, 0.10), rgba(255,255,255,0.92)),
+        linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,255,255,0.84));
+      border: 1px solid rgba(255,255,255,0.82);
+      box-shadow: var(--shadow-lg);
+      margin-bottom: 22px;
+      isolation: isolate;
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      border-radius: 999px;
+      pointer-events: none;
+      filter: blur(2px);
+    }
+
+    .hero::before {
+      width: 320px;
+      height: 320px;
+      right: -100px;
+      top: -120px;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.18), transparent 70%);
+    }
+
+    .hero::after {
+      width: 220px;
+      height: 220px;
+      left: -70px;
+      bottom: -100px;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.12), transparent 72%);
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 760px;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.10);
+      color: var(--primary);
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2.2rem, 4.2vw, 4rem);
+      line-height: 0.98;
+      letter-spacing: -0.06em;
+      color: #08324a;
+    }
+
+    .hero p {
+      margin: 0;
+      color: var(--text-soft);
+      font-size: 1rem;
+      line-height: 1.76;
+      max-width: 720px;
+    }
+
+    .section {
+      margin-bottom: 22px;
+    }
+
+    .section-card {
+      background: rgba(255,255,255,0.82);
+      border: 1px solid rgba(255,255,255,0.78);
+      border-radius: 28px;
+      box-shadow: var(--shadow-md);
+      backdrop-filter: blur(10px);
+      padding: 24px;
+    }
+
+    .section-head {
+      margin-bottom: 18px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: 1.22rem;
+      letter-spacing: -0.03em;
+      color: var(--text);
+    }
+
+    .section-head p {
+      margin: 8px 0 0;
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      line-height: 1.6;
+      max-width: 760px;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 18px;
+    }
+
+    .content-card,
+    .mini-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.94), rgba(248,251,255,0.90));
+      border: 1px solid rgba(15,23,42,0.08);
+      border-radius: 22px;
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .content-card p,
+    .mini-card p {
+      margin: 0 0 14px;
+      color: var(--text-soft);
+      font-size: 0.95rem;
+      line-height: 1.75;
+    }
+
+    .content-card p:last-child,
+    .mini-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .mini-stack {
+      display: grid;
+      gap: 14px;
+    }
+
+    .mini-card h3 {
+      margin: 0 0 10px;
+      font-size: 1rem;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 0.79rem;
+      line-height: 1;
+      font-weight: 800;
+      white-space: nowrap;
+      letter-spacing: 0.02em;
+    }
+
+    .pill-blue {
+      background: var(--primary-soft);
+      color: #0369a1;
+    }
+
+    .pill-neutral {
+      background: var(--neutral-soft);
+      color: #475569;
+    }
+
+    .cta-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 16px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 26px rgba(15, 23, 42, 0.08);
+    }
+
+    .btn-primary {
+      color: white;
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+    }
+
+    .btn-secondary {
+      color: var(--text-soft);
+      background: rgba(255,255,255,0.76);
+      border: 1px solid rgba(15,23,42,0.08);
+    }
+
+    footer {
+      margin-top: 28px;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.84rem;
+      padding-top: 18px;
+      border-top: 1px solid rgba(15, 23, 42, 0.08);
+    }
+
+    .footer-share {
+      margin-bottom: 10px;
+    }
+
+    .footer-share a,
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+      margin: 0 6px;
+    }
+
+    .footer-share a:hover,
+    footer a:hover {
       text-decoration: underline;
+    }
+
+    @media (max-width: 900px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .page {
+        padding: 16px 14px 40px;
+      }
+
+      .top-shell {
+        position: static;
+      }
+
+      .site-header {
+        border-radius: 22px;
+      }
+
+      .hero {
+        padding: 22px;
+        border-radius: 28px;
+      }
     }
   </style>
 </head>
 
 <body>
-  <h1>About Pulse of Globe</h1>
-  <p>Pulse of Globe provides real-time global counters covering population, economy, environment, and technology.</p>
-  <p>All displayed data are derived from publicly available statistics provided by international organizations and reputable research reports, ensuring accuracy and reliability.</p>
-  <p>Our goal is to offer an informative and interactive platform for users to visualize global trends in real-time.</p>
-  <p><a href="index.html">← Back to Home</a></p>
+  <div class="page">
+
+    <div class="top-shell">
+      <header class="site-header">
+        <a href="/" class="brand notranslate" translate="no">PULSE OF GLOBE</a>
+
+        <nav class="site-nav">
+          <a href="/" class="nav-link">Home</a>
+          <a href="global-risk.html" class="nav-link">Global Risk</a>
+          <a href="sources.html" class="nav-link">Sources</a>
+        </nav>
+      </header>
+    </div>
+
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-eyebrow">About Pulse Of Globe</div>
+        <h1>A cleaner way to view global change</h1>
+        <p>
+          Pulse Of Globe is built to make large-scale global activity easier to read.
+          It combines live-style counters, public data signals, and structured daily
+          risk summaries into one lightweight and accessible experience.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-card">
+        <div class="section-head">
+          <h2>What Pulse Of Globe does</h2>
+          <p>
+            The platform is designed to present worldwide trends in a format that feels
+            fast, visual, and easy to understand without losing seriousness.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="content-card">
+            <p>
+              Pulse Of Globe provides live-style global counters covering population,
+              environment, economy, human activity, and artificial intelligence.
+              The goal is to turn large public datasets into a clearer daily reading
+              experience for a general audience.
+            </p>
+            <p>
+              Alongside the counters, the platform also includes a Global Risk page
+              that summarizes broad worldwide conditions across conflict, economy,
+              public health, and climate using structured written analysis and
+              directional scoring.
+            </p>
+            <p>
+              Rather than acting as an official forecasting tool, Pulse Of Globe is
+              intended as an informative and educational dashboard that helps users
+              visualize global movement in a simpler, more accessible way.
+            </p>
+
+            <div class="cta-row">
+              <a href="index.html" class="btn btn-primary">Back to Home</a>
+              <a href="global-risk.html" class="btn btn-secondary">View Global Risk</a>
+            </div>
+          </div>
+
+          <div class="mini-stack">
+            <div class="mini-card">
+              <h3>Core focus</h3>
+              <p>
+                Public data, readable interfaces, real-time style counters, and
+                AI-assisted daily summaries.
+              </p>
+              <div class="pill-row">
+                <span class="pill pill-blue">Live counters</span>
+                <span class="pill pill-blue">Global risk</span>
+                <span class="pill pill-neutral">Public data</span>
+              </div>
+            </div>
+
+            <div class="mini-card">
+              <h3>How the data is used</h3>
+              <p>
+                Displayed numbers are derived from publicly available statistics,
+                international organizations, and reputable research-based datasets.
+              </p>
+            </div>
+
+            <div class="mini-card">
+              <h3>Purpose</h3>
+              <p>
+                To offer a more informative and interactive way to explore global
+                trends without overwhelming the reader.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-share">
+        Share this page:
+        <a href="https://twitter.com/intent/tweet?text=Learn%20more%20about%20Pulse%20Of%20Globe&url=https%3A%2F%2Fpulseofglobe.com%2Fabout.html" target="_blank" rel="noopener noreferrer">X</a> ·
+        <a href="https://api.whatsapp.com/send?text=Learn%20more%20about%20Pulse%20Of%20Globe%20https%3A%2F%2Fpulseofglobe.com%2Fabout.html" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+
+      <div>
+        <a href="about.html">About Us</a> |
+        <a href="sources.html">Data Sources</a> |
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="terms.html">Terms of Use</a> |
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <p style="margin-top: 10px;">
+        © 2025 PulseOfGlobe. All rights reserved. Real-time counters and risk summaries are based on publicly available statistical data.
+      </p>
+    </footer>
+  </div>
 </body>
 </html>
-

@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Live World Counters | Pulse Of Globe</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Favicon -->
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48.png">
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48.png" />
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
 
   <!-- SEO & Social -->
-  <meta name="description" content="Real-time world counters for population, environment, economy, technology, and daily AI-generated global risk insights.">
-  <meta name="keywords" content="world live counters, population, births, deaths, CO2, energy consumption, live statistics, global risk index">
+  <meta
+    name="description"
+    content="Real-time world counters for population, environment, economy, technology, and daily AI-generated global risk insights."
+  />
+  <meta
+    name="keywords"
+    content="world live counters, population, births, deaths, CO2, energy consumption, live statistics, global risk index"
+  />
 
-  <meta property="og:title" content="World Live Counters | Pulse Of Globe">
-  <meta property="og:description" content="Real-time global counters for population, environment, economy, technology, and global risk.">
-  <meta property="og:image" content="https://pulseofglobe.com/images/earth-network.jpg">
-  <meta property="og:url" content="https://pulseofglobe.com/">
+  <meta property="og:title" content="World Live Counters | Pulse Of Globe" />
+  <meta
+    property="og:description"
+    content="Real-time global counters for population, environment, economy, technology, and global risk."
+  />
+  <meta property="og:image" content="https://pulseofglobe.com/images/earth-network.jpg" />
+  <meta property="og:url" content="https://pulseofglobe.com/" />
 
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="https://pulseofglobe.com/">
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://pulseofglobe.com/" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0D58BVYWTK"></script>
@@ -36,238 +50,369 @@
 
   <style>
     :root {
-      --bg: #f0f2f5;
-      --card: #ffffff;
-      --accent: #0077aa;
-      --accent-soft: #e0f3fb;
-      --text-main: #222;
-      --text-muted: #666;
-      --border-soft: #dde3eb;
-      --risk-high: #ef4444;
-      --risk-medium: #eab308;
-      --risk-low: #22c55e;
+      --bg: #f4f8fc;
+      --bg-deep: #edf4fb;
+      --surface: rgba(255, 255, 255, 0.82);
+      --surface-strong: #ffffff;
+      --surface-soft: #f8fbff;
+      --text: #0f172a;
+      --text-soft: #334155;
+      --text-muted: #64748b;
+      --line: rgba(15, 23, 42, 0.08);
+      --line-strong: rgba(15, 23, 42, 0.12);
+
+      --primary: #0f7db7;
+      --primary-2: #38bdf8;
+      --primary-soft: rgba(56, 189, 248, 0.12);
+
+      --danger: #ef4444;
+      --danger-soft: rgba(239, 68, 68, 0.12);
+
+      --warning: #f59e0b;
+      --warning-soft: rgba(245, 158, 11, 0.14);
+
+      --success: #16a34a;
+      --success-soft: rgba(22, 163, 74, 0.12);
+
+      --neutral-soft: rgba(100, 116, 139, 0.12);
+
+      --shadow-lg: 0 20px 60px rgba(15, 23, 42, 0.10);
+      --shadow-md: 0 14px 34px rgba(15, 23, 42, 0.08);
+      --shadow-sm: 0 10px 22px rgba(15, 23, 42, 0.05);
+
+      --radius-xl: 28px;
+      --radius-lg: 22px;
+      --radius-md: 18px;
+      --radius-sm: 14px;
+      --max: 1180px;
     }
 
     * {
       box-sizing: border-box;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: var(--bg);
-      color: var(--text-main);
+      font-family: "Inter", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 8% 10%, rgba(56, 189, 248, 0.15), transparent 24%),
+        radial-gradient(circle at 92% 8%, rgba(14, 165, 233, 0.12), transparent 22%),
+        radial-gradient(circle at 85% 85%, rgba(99, 102, 241, 0.08), transparent 18%),
+        linear-gradient(180deg, #f9fcff 0%, var(--bg) 35%, var(--bg-deep) 100%);
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(15, 23, 42, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(15, 23, 42, 0.03) 1px, transparent 1px);
+      background-size: 38px 38px;
+      mask-image: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.05));
+      opacity: 0.32;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
     }
 
     .page {
-      max-width: 1100px;
+      max-width: var(--max);
       margin: 0 auto;
-      padding: 20px 16px 40px;
+      padding: 20px 16px 56px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .top-shell {
+      position: sticky;
+      top: 14px;
+      z-index: 20;
+      margin-bottom: 22px;
     }
 
     .site-header {
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      margin-bottom: 24px;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding: 14px 18px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.72);
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
     }
 
     .brand {
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      font-size: 0.95rem;
-      color: var(--accent);
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      font-size: 0.88rem;
+      color: var(--primary);
       text-transform: uppercase;
-      text-decoration: none;
+      white-space: nowrap;
     }
 
     .site-nav {
       display: flex;
-      gap: 18px;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
     }
 
     .nav-link {
       position: relative;
-      font-size: 0.85rem;
-      font-weight: 500;
+      font-size: 0.9rem;
+      font-weight: 600;
       color: var(--text-muted);
-      text-decoration: none;
       padding-bottom: 4px;
       transition: color 0.2s ease;
     }
 
-    .nav-link:hover {
-      color: var(--accent);
-    }
-
+    .nav-link:hover,
     .nav-link.active {
-      color: var(--accent);
-      font-weight: 600;
+      color: var(--primary);
     }
 
     .nav-link.active::after {
       content: "";
       position: absolute;
       left: 0;
-      bottom: 0;
-      width: 100%;
+      right: 0;
+      bottom: -1px;
       height: 2px;
-      background: var(--accent);
-      border-radius: 2px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--primary), var(--primary-2));
     }
 
     .hero {
-      background: radial-gradient(circle at top left, var(--accent-soft), #ffffff);
-      border-radius: 18px;
-      padding: 22px 18px 24px;
-      margin-bottom: 24px;
-      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+      position: relative;
+      overflow: hidden;
+      border-radius: 34px;
+      padding: 34px;
+      background:
+        linear-gradient(135deg, rgba(56, 189, 248, 0.10), rgba(255,255,255,0.92)),
+        linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,255,255,0.84));
+      border: 1px solid rgba(255,255,255,0.82);
+      box-shadow: var(--shadow-lg);
+      margin-bottom: 22px;
+      isolation: isolate;
     }
 
-    @media (min-width: 768px) {
-      .hero {
-        padding: 26px 28px 30px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        gap: 24px;
-      }
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      border-radius: 999px;
+      pointer-events: none;
+      filter: blur(2px);
     }
 
-    .hero-text h1 {
-      font-size: 1.9rem;
-      margin: 0 0 8px;
-      color: #004b71;
+    .hero::before {
+      width: 320px;
+      height: 320px;
+      right: -100px;
+      top: -120px;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.18), transparent 70%);
     }
 
-    .hero-text p {
+    .hero::after {
+      width: 220px;
+      height: 220px;
+      left: -70px;
+      bottom: -100px;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.12), transparent 72%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 0.9fr;
+      gap: 22px;
+      align-items: stretch;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-left {
+      min-width: 0;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.10);
+      color: var(--primary);
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      margin-bottom: 16px;
+    }
+
+    .live-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--danger);
+      box-shadow: 0 0 0 rgba(239, 68, 68, 0.45);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.38); }
+      70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+    }
+
+    .hero h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2.2rem, 4.2vw, 4rem);
+      line-height: 0.98;
+      letter-spacing: -0.06em;
+      color: #08324a;
+      max-width: 720px;
+    }
+
+    .hero p {
       margin: 0;
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      max-width: 520px;
-      line-height: 1.6;
+      max-width: 720px;
+      color: var(--text-soft);
+      font-size: 1rem;
+      line-height: 1.76;
     }
 
     .hero-stat {
-      margin-top: 16px;
+      margin-top: 18px;
     }
 
     .hero-label {
-      font-size: 0.8rem;
+      display: block;
+      font-size: 0.76rem;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       color: var(--text-muted);
-      display: block;
-      margin-bottom: 4px;
+      font-weight: 800;
+      margin-bottom: 8px;
     }
 
     .hero-value {
-      font-size: 2rem;
-      font-weight: 700;
-      color: var(--accent);
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: -0.05em;
+      color: #082d45;
       word-spacing: 2px;
     }
 
     .hero-note {
       margin-top: 10px;
-      font-size: 0.75rem;
+      font-size: 0.8rem;
       color: var(--text-muted);
+      line-height: 1.5;
     }
 
     .hero-actions {
-      margin-top: 14px;
       display: flex;
+      gap: 12px;
       flex-wrap: wrap;
-      gap: 10px;
+      margin-top: 22px;
     }
 
-    .hero-btn {
+    .btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      padding: 8px 14px;
+      gap: 8px;
+      padding: 12px 16px;
       border-radius: 999px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      border: 1px solid rgba(0, 119, 170, 0.2);
-      background: #ffffff;
-      color: #004b71;
-      text-decoration: none;
-      cursor: pointer;
-      transition: background 0.15s, box-shadow 0.15s, transform 0.1s;
+      font-size: 0.9rem;
+      font-weight: 700;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
     }
 
-    .hero-btn:hover {
-      background: var(--accent-soft);
-      box-shadow: 0 4px 10px rgba(15, 23, 42, 0.12);
-      transform: translateY(-1px);
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 26px rgba(15, 23, 42, 0.08);
     }
 
-    .hero-btn.secondary {
-      background: transparent;
+    .btn-primary {
+      color: white;
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
     }
 
-    .hero-side {
-      margin-top: 18px;
+    .btn-secondary {
+      color: var(--text-soft);
+      background: rgba(255,255,255,0.76);
+      border: 1px solid rgba(15,23,42,0.08);
     }
 
-    @media (min-width: 768px) {
-      .hero-text {
-        flex: 1;
-      }
-      .hero-side {
-        flex: 0 0 320px;
-        margin-top: 0;
-      }
+    .hero-right {
+      display: grid;
+      gap: 14px;
+      align-content: start;
     }
 
     .hero-summary,
-    .risk-widget {
-      background: rgba(255, 255, 255, 0.92);
-      border-radius: 14px;
-      padding: 14px 14px 12px;
-      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.10);
-      border: 1px solid rgba(0, 0, 0, 0.03);
-    }
-
-    .hero-summary {
-      margin-bottom: 14px;
+    .risk-widget,
+    .mini-stat-card {
+      background: rgba(255,255,255,0.76);
+      border: 1px solid rgba(255,255,255,0.72);
+      border-radius: 22px;
+      padding: 18px;
+      box-shadow: var(--shadow-sm);
+      backdrop-filter: blur(10px);
     }
 
     .hero-summary-label,
     .risk-widget-label {
-      font-size: 0.75rem;
+      font-size: 0.76rem;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.09em;
       color: var(--text-muted);
-      margin-bottom: 6px;
+      font-weight: 800;
+      margin-bottom: 10px;
     }
 
     .hero-summary-items {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px 12px;
-      margin-bottom: 6px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
     }
 
     .hero-summary-item span {
       display: block;
-      font-size: 0.75rem;
+      font-size: 0.78rem;
       color: var(--text-muted);
-      margin-bottom: 2px;
+      margin-bottom: 4px;
+      line-height: 1.45;
     }
 
     .hero-summary-item strong {
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: var(--accent);
-      white-space: nowrap;
+      display: block;
+      font-size: 1rem;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: -0.02em;
     }
 
     .hero-summary-note {
-      margin: 4px 0 0;
-      font-size: 0.7rem;
+      margin: 12px 0 0;
+      font-size: 0.75rem;
       color: var(--text-muted);
+      line-height: 1.5;
     }
 
     .risk-widget-top {
@@ -275,19 +420,20 @@
       justify-content: space-between;
       align-items: flex-start;
       gap: 12px;
-      margin-bottom: 10px;
+      margin-bottom: 12px;
     }
 
     .risk-score-wrap strong {
       display: block;
-      font-size: 1.9rem;
+      font-size: 2rem;
       line-height: 1;
-      color: #004b71;
-      margin-bottom: 4px;
+      color: #08324a;
+      margin-bottom: 5px;
+      letter-spacing: -0.04em;
     }
 
     .risk-score-wrap span {
-      font-size: 0.8rem;
+      font-size: 0.82rem;
       color: var(--text-muted);
     }
 
@@ -301,60 +447,53 @@
     .badge {
       display: inline-flex;
       align-items: center;
-      padding: 5px 10px;
+      padding: 6px 10px;
       border-radius: 999px;
       font-size: 0.72rem;
-      font-weight: 700;
+      font-weight: 800;
       border: 1px solid transparent;
       white-space: nowrap;
     }
 
     .badge-high {
-      color: #991b1b;
-      background: #fee2e2;
-      border-color: #fecaca;
+      background: var(--danger-soft);
+      color: var(--danger);
     }
 
     .badge-medium {
-      color: #854d0e;
-      background: #fef3c7;
-      border-color: #fde68a;
+      background: var(--warning-soft);
+      color: #b45309;
     }
 
     .badge-low {
-      color: #166534;
-      background: #dcfce7;
-      border-color: #bbf7d0;
+      background: var(--success-soft);
+      color: var(--success);
     }
 
     .badge-ai {
-      color: #075985;
-      background: #e0f2fe;
-      border-color: #bae6fd;
+      background: var(--primary-soft);
+      color: #0369a1;
     }
 
     .risk-trend {
       margin: 8px 0 10px;
       font-size: 0.85rem;
-      font-weight: 600;
-      color: #334155;
+      font-weight: 700;
+      color: var(--text-soft);
     }
 
     .trend-up {
-      color: var(--risk-high);
-      font-weight: 700;
+      color: var(--danger);
       margin-left: 4px;
     }
 
     .trend-down {
-      color: var(--risk-low);
-      font-weight: 700;
+      color: var(--success);
       margin-left: 4px;
     }
 
     .trend-stable {
       color: #64748b;
-      font-weight: 700;
       margin-left: 4px;
     }
 
@@ -363,21 +502,21 @@
       background: #e5e7eb;
       border-radius: 999px;
       overflow: hidden;
-      margin: 8px 0 10px;
+      margin: 8px 0 12px;
     }
 
     .risk-fill {
       height: 100%;
-      width: 68%;
+      width: 67%;
       background: linear-gradient(90deg, #f59e0b, #ef4444);
       border-radius: 999px;
     }
 
     .risk-widget p {
       margin: 0 0 12px;
-      font-size: 0.82rem;
-      color: var(--text-muted);
-      line-height: 1.55;
+      font-size: 0.85rem;
+      color: var(--text-soft);
+      line-height: 1.6;
     }
 
     .risk-widget-actions {
@@ -390,44 +529,81 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      padding: 8px 12px;
+      padding: 9px 12px;
       border-radius: 999px;
-      font-size: 0.78rem;
-      font-weight: 600;
-      text-decoration: none;
-      border: 1px solid rgba(0, 119, 170, 0.18);
+      font-size: 0.8rem;
+      font-weight: 700;
+      border: 1px solid rgba(15,23,42,0.08);
       color: #004b71;
       background: #fff;
       transition: all 0.15s ease;
     }
 
     .risk-link:hover {
-      background: var(--accent-soft);
+      background: var(--primary-soft);
       transform: translateY(-1px);
+    }
+
+    .section {
+      margin-bottom: 22px;
+    }
+
+    .section-card {
+      background: rgba(255,255,255,0.82);
+      border: 1px solid rgba(255,255,255,0.78);
+      border-radius: 28px;
+      box-shadow: var(--shadow-md);
+      backdrop-filter: blur(10px);
+      padding: 24px;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 16px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: 1.22rem;
+      letter-spacing: -0.03em;
+      color: var(--text);
+    }
+
+    .section-head p {
+      margin: 6px 0 0;
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      line-height: 1.6;
+      max-width: 760px;
     }
 
     .highlights {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 14px;
-      margin: 8px 0 24px;
     }
 
     .highlight-card {
-      background: #ffffff;
-      border-radius: 14px;
-      padding: 14px 14px 16px;
-      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+      background: linear-gradient(180deg, rgba(255,255,255,0.94), rgba(248,251,255,0.90));
+      border: 1px solid rgba(15,23,42,0.08);
+      border-radius: 22px;
+      padding: 18px;
+      box-shadow: var(--shadow-sm);
       display: flex;
       flex-direction: column;
-      gap: 4px;
+      gap: 8px;
       cursor: pointer;
-      transition: transform 0.15s, box-shadow 0.15s;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
     }
 
     .highlight-card:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 6px 16px rgba(15, 23, 42, 0.10);
+      transform: translateY(-2px);
+      box-shadow: 0 14px 24px rgba(15, 23, 42, 0.08);
+      border-color: rgba(56, 189, 248, 0.22);
     }
 
     .highlight-icon {
@@ -435,65 +611,73 @@
     }
 
     .highlight-title {
-      font-size: 0.9rem;
-      font-weight: 600;
-      color: #111827;
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: -0.01em;
     }
 
     .highlight-text {
-      font-size: 0.8rem;
-      color: var(--text-muted);
-      line-height: 1.4;
+      font-size: 0.84rem;
+      color: var(--text-soft);
+      line-height: 1.55;
     }
 
     .accordion-section-title {
-      font-size: 0.9rem;
-      font-weight: 600;
+      font-size: 0.92rem;
+      font-weight: 700;
       color: var(--text-muted);
-      margin: 0 0 8px;
+      margin: 0 0 10px;
+      letter-spacing: 0.01em;
     }
 
     .accordion {
       max-width: 100%;
-      margin: 0 auto 20px auto;
+      margin: 0 auto;
     }
 
     .accordion-item {
-      background: var(--card);
-      border-radius: 12px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.94), rgba(248,251,255,0.90));
+      border: 1px solid rgba(15,23,42,0.08);
+      border-radius: 18px;
       margin-bottom: 12px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+      box-shadow: var(--shadow-sm);
       cursor: pointer;
-      transition: all 0.25s;
+      transition: all 0.25s ease;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 14px 18px;
-      font-weight: 600;
+      padding: 16px 18px;
+      font-weight: 700;
       font-size: 0.95rem;
     }
 
     .accordion-item:hover {
-      box-shadow: 0 6px 18px rgba(0,0,0,0.14);
+      box-shadow: 0 12px 24px rgba(15,23,42,0.08);
       transform: translateY(-1px);
+      border-color: rgba(56, 189, 248, 0.22);
     }
 
     .accordion-item .title {
       display: flex;
       flex-direction: column;
-      gap: 2px;
+      gap: 3px;
+      min-width: 0;
     }
 
     .accordion-item .subtitle {
-      font-size: 0.75rem;
+      font-size: 0.78rem;
       font-weight: 500;
       color: var(--text-muted);
+      line-height: 1.5;
     }
 
     .accordion-item .arrow {
       transition: transform 0.3s ease;
       font-size: 0.9rem;
       color: var(--text-muted);
+      flex: 0 0 auto;
+      margin-left: 10px;
     }
 
     .accordion-item.open .arrow {
@@ -504,165 +688,127 @@
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.45s ease;
-      background: #f9f9f9;
-      border-radius: 0 0 12px 12px;
+      background: rgba(255,255,255,0.72);
+      border: 1px solid rgba(15,23,42,0.06);
+      border-radius: 0 0 18px 18px;
+      margin: -8px 0 14px;
       padding: 0 18px;
     }
 
     .accordion-content.open {
-      padding: 14px 18px 16px;
+      padding: 14px 18px 18px;
     }
 
     .accordion-content h3 {
-      margin: 18px 0 8px;
-      font-size: 0.95rem;
-      color: #111827;
+      margin: 18px 0 10px;
+      font-size: 0.96rem;
+      color: var(--text);
+      letter-spacing: -0.01em;
     }
 
     .counters {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       gap: 14px;
       justify-items: stretch;
       margin-top: 8px;
     }
 
     .counters.counters-single {
-      max-width: 260px;
+      max-width: 280px;
     }
 
     .counter-box {
-      background: linear-gradient(135deg, #ffffff, #f2f5f8);
-      border-radius: 10px;
-      padding: 12px 10px 14px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(248,251,255,0.92));
+      border-radius: 18px;
+      padding: 14px 12px 16px;
       text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.06);
-      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid rgba(15,23,42,0.06);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
     }
 
     .counter-box:hover {
       transform: translateY(-2px);
-      box-shadow: 0 5px 15px rgba(0,0,0,0.18);
+      box-shadow: 0 14px 24px rgba(15,23,42,0.08);
+      border-color: rgba(56, 189, 248, 0.18);
     }
 
     .counter-box h3 {
-      margin-bottom: 6px;
-      color: #111;
-      font-weight: 600;
-      font-size: 0.85em;
+      margin: 0 0 8px;
+      color: var(--text);
+      font-weight: 700;
+      font-size: 0.84rem;
+      line-height: 1.45;
     }
 
     .counter-box p {
-      font-size: 1.1em;
-      font-weight: 700;
-      color: var(--accent);
+      font-size: 1.08rem;
+      font-weight: 800;
+      color: #0f7db7;
       margin: 0;
-    }
-
-    .trusted {
-      margin-top: 32px;
-      background: #ffffff;
-      border-radius: 16px;
-      padding: 18px 18px 16px;
-      box-shadow: 0 6px 16px rgba(15, 23, 42, 0.06);
-      border: 1px solid rgba(0, 0, 0, 0.03);
-    }
-
-    .trusted h2 {
-      margin: 0 0 6px;
-      font-size: 1.05rem;
-      color: #111827;
-    }
-
-    .trusted p {
-      margin: 4px 0;
-      font-size: 0.85rem;
-      color: var(--text-muted);
+      letter-spacing: -0.02em;
     }
 
     .trusted-list {
       display: flex;
       flex-wrap: wrap;
-      gap: 6px;
-      margin: 10px 0 6px;
+      gap: 8px;
+      margin: 12px 0 8px;
     }
 
     .trusted-list span {
       font-size: 0.8rem;
-      padding: 4px 10px;
+      padding: 6px 10px;
       border-radius: 999px;
-      background: #f3f4f6;
-      border: 1px solid #e5e7eb;
+      background: #f3f7fb;
+      border: 1px solid #e2e8f0;
+      color: var(--text-soft);
+      font-weight: 600;
     }
 
     .trusted-note {
-      font-size: 0.8rem;
+      font-size: 0.82rem;
       color: var(--text-muted);
+      line-height: 1.6;
     }
 
     footer {
+      margin-top: 28px;
       text-align: center;
-      font-size: 0.8em;
       color: var(--text-muted);
-      margin-top: 30px;
-      padding-top: 16px;
-      border-top: 1px solid var(--border-soft);
+      font-size: 0.84rem;
+      padding-top: 18px;
+      border-top: 1px solid rgba(15, 23, 42, 0.08);
     }
 
     .footer-share {
-      margin-bottom: 8px;
-      font-size: 0.8em;
+      margin-bottom: 10px;
     }
 
-    .footer-share a {
-      color: var(--accent);
+    .footer-share a,
+    footer a {
+      color: var(--primary);
       text-decoration: none;
       margin: 0 6px;
     }
 
-    footer a {
-      color: var(--accent);
-      text-decoration: none;
-      margin: 0 8px;
-    }
-
-    footer a:hover,
-    .footer-share a:hover {
+    .footer-share a:hover,
+    footer a:hover {
       text-decoration: underline;
     }
 
-    @media screen and (max-width: 600px) {
-      .site-header {
-        flex-direction: column;
-        align-items: flex-start;
+    @media (max-width: 1024px) {
+      .hero-grid,
+      .highlights {
+        grid-template-columns: 1fr 1fr;
       }
+    }
 
-      .site-nav {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        margin-top: 4px;
-      }
-
-      .hero-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .hero-value {
-        font-size: 1.6rem;
-      }
-
+    @media (max-width: 820px) {
+      .hero-grid,
       .hero-summary-items {
         grid-template-columns: 1fr;
-      }
-
-      .accordion-item {
-        font-size: 0.9rem;
-        padding: 12px 14px;
-      }
-
-      .counter-box {
-        padding: 10px 8px 12px;
       }
 
       .risk-widget-top {
@@ -673,355 +819,441 @@
         justify-content: flex-start;
       }
     }
+
+    @media (max-width: 720px) {
+      .page {
+        padding: 16px 14px 40px;
+      }
+
+      .top-shell {
+        position: static;
+      }
+
+      .site-header {
+        border-radius: 22px;
+      }
+
+      .hero {
+        padding: 22px;
+        border-radius: 28px;
+      }
+
+      .highlights,
+      .counters,
+      .hero-summary-items {
+        grid-template-columns: 1fr;
+      }
+
+      .accordion-item {
+        padding: 14px 14px;
+      }
+
+      .risk-score-wrap strong {
+        font-size: 1.75rem;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="page">
-    <header class="site-header">
-      <a href="/" class="brand notranslate" translate="no">
-        PULSE OF GLOBE
-      </a>
 
-      <nav class="site-nav">
-        <a href="/" class="nav-link active">Home</a>
-        <a href="global-risk.html" class="nav-link">Global Risk</a>
-        <a href="sources.html" class="nav-link">Sources</a>
-      </nav>
-    </header>
+    <div class="top-shell">
+      <header class="site-header">
+        <a href="/" class="brand notranslate" translate="no">
+          PULSE OF GLOBE
+        </a>
 
-    <section class="hero">
-      <div class="hero-text">
-        <h1>World Live Counters</h1>
-        <p>
-          Explore live global estimates across population, environment, economy,
-          technology, and daily AI-powered risk analysis.
-        </p>
-
-        <div class="hero-stat">
-          <span class="hero-label">Current World Population</span>
-          <span class="hero-value" id="populationHero">Loading...</span>
-        </div>
-
-        <div class="hero-actions">
-          <a href="#categories" class="hero-btn">Explore live counters ↓</a>
-          <a href="global-risk.html" class="hero-btn secondary">See global risk →</a>
-        </div>
-      </div>
-
-      <div class="hero-side">
-        <div class="hero-summary">
-          <div class="hero-summary-label">Today – Live</div>
-          <div class="hero-summary-items">
-            <div class="hero-summary-item">
-              <span>Births</span>
-              <strong id="summaryBirths">—</strong>
-            </div>
-            <div class="hero-summary-item">
-              <span>Deaths</span>
-              <strong id="summaryDeaths">—</strong>
-            </div>
-            <div class="hero-summary-item">
-              <span>CO₂ emitted (tonnes)</span>
-              <strong id="summaryCO2">—</strong>
-            </div>
-            <div class="hero-summary-item">
-              <span>AI-generated text</span>
-              <strong id="summaryAIText">—</strong>
-            </div>
-          </div>
-          <p class="hero-summary-note">
-            Live estimates update continuously using UTC time.
-          </p>
-        </div>
-
-        <div class="risk-widget">
-          <div class="risk-widget-label">Today’s Global Risk</div>
-
-          <div class="risk-widget-top">
-            <div class="risk-score-wrap">
-              <strong>67 / 100</strong>
-              <span>Overall global risk score</span>
-            </div>
-
-            <div class="risk-badges">
-              <span class="badge badge-high">High Risk</span>
-              <span class="badge badge-ai">AI Updated</span>
-            </div>
-          </div>
-
-          <div class="risk-trend">
-            Trend:
-            <span class="trend-up">↑ Rising</span>
-          </div>
-
-          <div class="risk-bar">
-            <div class="risk-fill"></div>
-          </div>
-
-          <p>
-            Conflict pressure, climate stress, and economic uncertainty continue
-            to shape the daily global outlook.
-          </p>
-
-          <div class="risk-widget-actions">
-            <a href="global-risk.html" class="risk-link">Open Global Risk Report</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="highlights">
-      <div class="highlight-card" data-open-section="population">
-        <div class="highlight-icon">👶</div>
-        <div class="highlight-title">Population</div>
-        <div class="highlight-text">
-          Births, deaths, marriages and war deaths updated second by second.
-        </div>
-      </div>
-
-      <div class="highlight-card" data-open-section="environment">
-        <div class="highlight-icon">🌍</div>
-        <div class="highlight-title">Environment &amp; Nature</div>
-        <div class="highlight-text">
-          Trees cut, CO₂ emissions, plastic in oceans and renewable energy.
-        </div>
-      </div>
-
-      <div class="highlight-card" data-open-section="economy">
-        <div class="highlight-icon">💸</div>
-        <div class="highlight-title">Economy &amp; Consumption</div>
-        <div class="highlight-text">
-          Global spending, water use, electricity and petroleum consumption.
-        </div>
-      </div>
-
-      <div class="highlight-card" data-open-section="ai">
-        <div class="highlight-icon">🤖</div>
-        <div class="highlight-title">Artificial Intelligence</div>
-        <div class="highlight-text">
-          AI-generated text, images, code and music across the world.
-        </div>
-      </div>
-    </section>
-
-    <p class="accordion-section-title" id="categories">Explore live counters by category:</p>
-
-    <div class="accordion">
-      <div class="accordion-item" data-section="population">
-        <div class="title">
-          <span>World Population</span>
-          <span class="subtitle">Births, deaths, marriages &amp; war deaths</span>
-        </div>
-        <span class="arrow">▼</span>
-      </div>
-      <div class="accordion-content">
-        <div class="counters counters-single">
-          <div class="counter-box">
-            <h3>World Population</h3>
-            <p id="population">Loading...</p>
-          </div>
-        </div>
-
-        <h3>Births</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyBirths">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyBirths">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyBirths">Loading...</p></div>
-        </div>
-
-        <h3>Deaths</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyDeaths">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyDeaths">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyDeaths">Loading...</p></div>
-        </div>
-
-        <h3>Marriages</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyMarriages">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyMarriages">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyMarriages">Loading...</p></div>
-        </div>
-
-        <h3>War Deaths</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyWarDeaths">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyWarDeaths">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyWarDeaths">Loading...</p></div>
-        </div>
-      </div>
-
-      <div class="accordion-item" data-section="economy">
-        <div class="title">
-          <span>Economy &amp; Consumption</span>
-          <span class="subtitle">Spending, water, electricity &amp; petroleum</span>
-        </div>
-        <span class="arrow">▼</span>
-      </div>
-      <div class="accordion-content">
-        <h3>Money Spent (USD)</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyMoney">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyMoney">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyMoney">Loading...</p></div>
-        </div>
-
-        <h3>Water Consumed (Litres)</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyWater">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyWater">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyWater">Loading...</p></div>
-        </div>
-
-        <h3>Electricity Consumed (MWh)</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyElectricity">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyElectricity">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyElectricity">Loading...</p></div>
-        </div>
-
-        <h3>Petroleum Consumed (Barrels)</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyPetroleum">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyPetroleum">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyPetroleum">Loading...</p></div>
-        </div>
-      </div>
-
-      <div class="accordion-item" data-section="environment">
-        <div class="title">
-          <span>Environment &amp; Nature</span>
-          <span class="subtitle">Trees, CO₂, plastic, extinction &amp; renewables</span>
-        </div>
-        <span class="arrow">▼</span>
-      </div>
-      <div class="accordion-content">
-        <h3>Trees Cut</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyTrees">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyTrees">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyTrees">Loading...</p></div>
-        </div>
-
-        <h3>CO₂ Emitted (Tonnes)</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyCO2">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyCO2">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyCO2">Loading...</p></div>
-        </div>
-
-        <h3>Plastic Dumped in Oceans (Tonnes)</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyPlastic">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyPlastic">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyPlastic">Loading...</p></div>
-        </div>
-
-        <h3>Extinct Species</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyAnimals">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyAnimals">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyAnimals">Loading...</p></div>
-        </div>
-
-        <h3>Renewable Energy Produced (kWh)</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyRenewable">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyRenewable">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyRenewable">Loading...</p></div>
-        </div>
-      </div>
-
-      <div class="accordion-item" data-section="human">
-        <div class="title">
-          <span>Human Behavior &amp; Technology</span>
-          <span class="subtitle">Emails, searches, social posts &amp; games</span>
-        </div>
-        <span class="arrow">▼</span>
-      </div>
-      <div class="accordion-content">
-        <h3>Emails Sent</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyEmails">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyEmails">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyEmails">Loading...</p></div>
-        </div>
-
-        <h3>Google Searches</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailySearches">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlySearches">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlySearches">Loading...</p></div>
-        </div>
-
-        <h3>Social Media Posts</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyPosts">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyPosts">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyPosts">Loading...</p></div>
-        </div>
-
-        <h3>Video Games Sold</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyGames">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyGames">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyGames">Loading...</p></div>
-        </div>
-      </div>
-
-      <div class="accordion-item" data-section="ai">
-        <div class="title">
-          <span>Artificial Intelligence</span>
-          <span class="subtitle">Text, images, code &amp; music generated by AI</span>
-        </div>
-        <span class="arrow">▼</span>
-      </div>
-      <div class="accordion-content">
-        <h3>AI-Generated Text</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyAIText">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyAIText">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyAIText">Loading...</p></div>
-        </div>
-
-        <h3>AI-Created Images</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyAIImages">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyAIImages">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyAIImages">Loading...</p></div>
-        </div>
-
-        <h3>AI-Generated Code</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyAICode">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyAICode">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyAICode">Loading...</p></div>
-        </div>
-
-        <h3>AI-Generated Music</h3>
-        <div class="counters">
-          <div class="counter-box"><h3>Today</h3><p id="dailyAIMusic">Loading...</p></div>
-          <div class="counter-box"><h3>This Month</h3><p id="monthlyAIMusic">Loading...</p></div>
-          <div class="counter-box"><h3>This Year</h3><p id="yearlyAIMusic">Loading...</p></div>
-        </div>
-      </div>
+        <nav class="site-nav">
+          <a href="/" class="nav-link active">Home</a>
+          <a href="global-risk.html" class="nav-link">Global Risk</a>
+          <a href="sources.html" class="nav-link">Sources</a>
+        </nav>
+      </header>
     </div>
 
-    <section class="trusted">
-      <h2>Trusted data sources</h2>
-      <p>
-        PulseOfGlobe uses publicly available yearly statistics from well-known organizations and official datasets.
-      </p>
-      <div class="trusted-list">
-        <span>United Nations</span>
-        <span>World Bank</span>
-        <span>IEA</span>
-        <span>IPCC</span>
-        <span>Other official datasets</span>
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <div class="hero-eyebrow">
+            <span class="live-dot"></span>
+            Live global counters
+          </div>
+
+          <h1>World Live Counters</h1>
+
+          <p>
+            Explore live global estimates across population, environment, economy,
+            technology, and daily AI-powered risk analysis in one cleaner, faster,
+            more structured dashboard.
+          </p>
+
+          <div class="hero-stat">
+            <span class="hero-label">Current World Population</span>
+            <span class="hero-value" id="populationHero">Loading...</span>
+            <div class="hero-note">
+              Continuously updated using UTC-based live estimates.
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#categories" class="btn btn-primary">Explore live counters</a>
+            <a href="global-risk.html" class="btn btn-secondary">See global risk</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-summary">
+            <div class="hero-summary-label">Today – Live snapshot</div>
+            <div class="hero-summary-items">
+              <div class="hero-summary-item">
+                <span>Births</span>
+                <strong id="summaryBirths">—</strong>
+              </div>
+              <div class="hero-summary-item">
+                <span>Deaths</span>
+                <strong id="summaryDeaths">—</strong>
+              </div>
+              <div class="hero-summary-item">
+                <span>CO₂ emitted (tonnes)</span>
+                <strong id="summaryCO2">—</strong>
+              </div>
+              <div class="hero-summary-item">
+                <span>AI-generated text</span>
+                <strong id="summaryAIText">—</strong>
+              </div>
+            </div>
+            <p class="hero-summary-note">
+              Live estimates update continuously based on UTC time progression.
+            </p>
+          </div>
+
+          <div class="risk-widget">
+            <div class="risk-widget-label">Today’s Global Risk</div>
+
+            <div class="risk-widget-top">
+              <div class="risk-score-wrap">
+                <strong>67 / 100</strong>
+                <span>Overall global risk score</span>
+              </div>
+
+              <div class="risk-badges">
+                <span class="badge badge-high">High Risk</span>
+                <span class="badge badge-ai">AI Updated</span>
+              </div>
+            </div>
+
+            <div class="risk-trend">
+              Trend:
+              <span class="trend-up">↑ Rising</span>
+            </div>
+
+            <div class="risk-bar">
+              <div class="risk-fill"></div>
+            </div>
+
+            <p>
+              Conflict pressure, climate stress, and economic uncertainty continue
+              to shape the daily global outlook.
+            </p>
+
+            <div class="risk-widget-actions">
+              <a href="global-risk.html" class="risk-link">Open Global Risk Report</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <p class="trusted-note">
-        Numbers on this page are real-time estimates derived from these annual data sources and updated using UTC time.
-      </p>
+    </section>
+
+    <section class="section">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>Browse by category</h2>
+            <p>
+              Jump quickly into the live counters you care about most, from population
+              and environment to AI and human behavior.
+            </p>
+          </div>
+        </div>
+
+        <section class="highlights">
+          <div class="highlight-card" data-open-section="population">
+            <div class="highlight-icon">👶</div>
+            <div class="highlight-title">Population</div>
+            <div class="highlight-text">
+              Births, deaths, marriages and war deaths updated second by second.
+            </div>
+          </div>
+
+          <div class="highlight-card" data-open-section="environment">
+            <div class="highlight-icon">🌍</div>
+            <div class="highlight-title">Environment &amp; Nature</div>
+            <div class="highlight-text">
+              Trees cut, CO₂ emissions, plastic in oceans and renewable energy.
+            </div>
+          </div>
+
+          <div class="highlight-card" data-open-section="economy">
+            <div class="highlight-icon">💸</div>
+            <div class="highlight-title">Economy &amp; Consumption</div>
+            <div class="highlight-text">
+              Global spending, water use, electricity and petroleum consumption.
+            </div>
+          </div>
+
+          <div class="highlight-card" data-open-section="ai">
+            <div class="highlight-icon">🤖</div>
+            <div class="highlight-title">Artificial Intelligence</div>
+            <div class="highlight-text">
+              AI-generated text, images, code and music across the world.
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>Explore live counters</h2>
+            <p>
+              Open each category to view continuously updating estimates across daily,
+              monthly and yearly timeframes.
+            </p>
+          </div>
+        </div>
+
+        <p class="accordion-section-title">Explore live counters by category:</p>
+
+        <div class="accordion">
+          <div class="accordion-item" data-section="population">
+            <div class="title">
+              <span>World Population</span>
+              <span class="subtitle">Births, deaths, marriages &amp; war deaths</span>
+            </div>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="accordion-content">
+            <div class="counters counters-single">
+              <div class="counter-box">
+                <h3>World Population</h3>
+                <p id="population">Loading...</p>
+              </div>
+            </div>
+
+            <h3>Births</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyBirths">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyBirths">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyBirths">Loading...</p></div>
+            </div>
+
+            <h3>Deaths</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyDeaths">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyDeaths">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyDeaths">Loading...</p></div>
+            </div>
+
+            <h3>Marriages</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyMarriages">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyMarriages">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyMarriages">Loading...</p></div>
+            </div>
+
+            <h3>War Deaths</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyWarDeaths">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyWarDeaths">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyWarDeaths">Loading...</p></div>
+            </div>
+          </div>
+
+          <div class="accordion-item" data-section="economy">
+            <div class="title">
+              <span>Economy &amp; Consumption</span>
+              <span class="subtitle">Spending, water, electricity &amp; petroleum</span>
+            </div>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="accordion-content">
+            <h3>Money Spent (USD)</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyMoney">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyMoney">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyMoney">Loading...</p></div>
+            </div>
+
+            <h3>Water Consumed (Litres)</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyWater">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyWater">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyWater">Loading...</p></div>
+            </div>
+
+            <h3>Electricity Consumed (MWh)</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyElectricity">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyElectricity">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyElectricity">Loading...</p></div>
+            </div>
+
+            <h3>Petroleum Consumed (Barrels)</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyPetroleum">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyPetroleum">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyPetroleum">Loading...</p></div>
+            </div>
+          </div>
+
+          <div class="accordion-item" data-section="environment">
+            <div class="title">
+              <span>Environment &amp; Nature</span>
+              <span class="subtitle">Trees, CO₂, plastic, extinction &amp; renewables</span>
+            </div>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="accordion-content">
+            <h3>Trees Cut</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyTrees">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyTrees">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyTrees">Loading...</p></div>
+            </div>
+
+            <h3>CO₂ Emitted (Tonnes)</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyCO2">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyCO2">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyCO2">Loading...</p></div>
+            </div>
+
+            <h3>Plastic Dumped in Oceans (Tonnes)</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyPlastic">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyPlastic">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyPlastic">Loading...</p></div>
+            </div>
+
+            <h3>Extinct Species</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyAnimals">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyAnimals">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyAnimals">Loading...</p></div>
+            </div>
+
+            <h3>Renewable Energy Produced (kWh)</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyRenewable">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyRenewable">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyRenewable">Loading...</p></div>
+            </div>
+          </div>
+
+          <div class="accordion-item" data-section="human">
+            <div class="title">
+              <span>Human Behavior &amp; Technology</span>
+              <span class="subtitle">Emails, searches, social posts &amp; games</span>
+            </div>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="accordion-content">
+            <h3>Emails Sent</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyEmails">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyEmails">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyEmails">Loading...</p></div>
+            </div>
+
+            <h3>Google Searches</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailySearches">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlySearches">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlySearches">Loading...</p></div>
+            </div>
+
+            <h3>Social Media Posts</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyPosts">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyPosts">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyPosts">Loading...</p></div>
+            </div>
+
+            <h3>Video Games Sold</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyGames">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyGames">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyGames">Loading...</p></div>
+            </div>
+          </div>
+
+          <div class="accordion-item" data-section="ai">
+            <div class="title">
+              <span>Artificial Intelligence</span>
+              <span class="subtitle">Text, images, code &amp; music generated by AI</span>
+            </div>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="accordion-content">
+            <h3>AI-Generated Text</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyAIText">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyAIText">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyAIText">Loading...</p></div>
+            </div>
+
+            <h3>AI-Created Images</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyAIImages">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyAIImages">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyAIImages">Loading...</p></div>
+            </div>
+
+            <h3>AI-Generated Code</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyAICode">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyAICode">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyAICode">Loading...</p></div>
+            </div>
+
+            <h3>AI-Generated Music</h3>
+            <div class="counters">
+              <div class="counter-box"><h3>Today</h3><p id="dailyAIMusic">Loading...</p></div>
+              <div class="counter-box"><h3>This Month</h3><p id="monthlyAIMusic">Loading...</p></div>
+              <div class="counter-box"><h3>This Year</h3><p id="yearlyAIMusic">Loading...</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>Trusted data sources</h2>
+            <p>
+              PulseOfGlobe uses publicly available yearly statistics from well-known
+              organizations and official datasets, then converts them into real-time estimates.
+            </p>
+          </div>
+        </div>
+
+        <div class="trusted-list">
+          <span>United Nations</span>
+          <span>World Bank</span>
+          <span>IEA</span>
+          <span>IPCC</span>
+          <span>Other official datasets</span>
+        </div>
+
+        <p class="trusted-note">
+          Numbers on this page are real-time estimates derived from annual public data
+          sources and updated using UTC time.
+        </p>
+      </div>
     </section>
 
     <footer>
@@ -1038,6 +1270,7 @@
         <a href="terms.html">Terms of Use</a> |
         <a href="contact.html">Contact</a>
       </div>
+
       <p style="margin-top: 10px;">
         © 2025 PulseOfGlobe. All rights reserved. Real-time counters and risk summaries are based on publicly available statistical data.
       </p>

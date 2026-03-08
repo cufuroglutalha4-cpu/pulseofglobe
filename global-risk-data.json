@@ -1,0 +1,184 @@
+{
+  "version": "2026-03-08",
+  "reportDate": "March 8, 2026",
+  "updateTime": "00:00 UTC",
+  "heroDescription": "A cleaner, faster daily view of worldwide risk conditions across conflict, economy, public health, and climate. The design stays fixed while the content is updated from one small daily data file.",
+  "overall": {
+    "score": 71,
+    "yesterdayScore": 69,
+    "trend": "Rising",
+    "trendDelta": 2,
+    "confidence": "Medium",
+    "summary": "Today’s composite score rises as the war involving the U.S., Israel, and Iran disrupts Hormuz shipping, lifts oil and freight stress, and keeps global conflict risk elevated while climate risk remains structurally high."
+  },
+  "overview": {
+    "topDriver": "Conflict Risk",
+    "whatChanged": "Conflict + Shipping",
+    "watchNext48h": "Hormuz + Retaliation"
+  },
+  "summary": {
+    "intro": "The overall index moved higher as Middle East conflict risk intensified and transmitted directly into shipping, energy, and inflation-sensitive channels. The baseline global economy still looks resilient, but downside risk rose. Climate remains structurally elevated, while health stays moderate rather than low.",
+    "bullets": [
+      "Conflict risk moved higher as the U.S.-Israeli war with Iran widened, Hormuz traffic collapsed, and Russia launched another large strike wave against Ukraine.",
+      "Economic risk rose as oil, shipping, and freight costs jumped, even though the IMF still describes the baseline global growth outlook as resilient.",
+      "Climate remains structurally high as January 2026 ranked among the warmest on record and the March–May outlook still points to widespread above-normal land temperatures.",
+      "Health risk remains moderate: cholera deaths increased in January 2026 and measles outbreak risk continues despite a clear drop in European and Central Asian cases during 2025."
+    ]
+  },
+  "categories": [
+    {
+      "title": "🌍 Global Conflict Risk",
+      "subtitle": "Iran war spillover, Hormuz disruption, Ukraine strikes, and wider strategic tension",
+      "score": 86,
+      "delta": 4,
+      "direction": "Sharply Higher",
+      "description": "Conflict risk is the clear top driver today as war involving the U.S., Israel, and Iran has spread beyond Iran itself, while shipping through the Strait of Hormuz remains severely disrupted and Ukraine continues to face major Russian strikes.",
+      "drivers": [
+        "Iran war spillover",
+        "Hormuz disruption",
+        "Ukraine strikes"
+      ],
+      "sources": [
+        "Reuters",
+        "Security reporting",
+        "Public monitoring"
+      ],
+      "trend": [
+        79,
+        80,
+        80,
+        81,
+        82,
+        83,
+        86
+      ]
+    },
+    {
+      "title": "💰 Global Economic Risk",
+      "subtitle": "Oil shock, freight stress, trade-route uncertainty, and inflation sensitivity",
+      "score": 72,
+      "delta": 4,
+      "direction": "Higher",
+      "description": "The growth backdrop is not a recession call, but near-term economic risk rose as Hormuz disruption, record tanker costs, and higher oil and gas prices raised pressure on trade, inflation, and financing conditions.",
+      "drivers": [
+        "Oil shock",
+        "Freight spike",
+        "Trade-route stress"
+      ],
+      "sources": [
+        "Reuters",
+        "IMF",
+        "LSEG data"
+      ],
+      "trend": [
+        66,
+        67,
+        67,
+        68,
+        69,
+        70,
+        72
+      ]
+    },
+    {
+      "title": "🏥 Global Health Risk",
+      "subtitle": "Persistent outbreak vulnerability despite better baseline preparedness",
+      "score": 45,
+      "delta": 0,
+      "direction": "Elevated but Stable",
+      "description": "Health risk remains moderate. Europe and Central Asia saw a large decline in measles cases in 2025, but outbreaks are still occurring in 2026, while WHO reports cholera deaths rose in January 2026 despite lower case totals.",
+      "drivers": [
+        "Cholera mortality",
+        "Measles outbreaks",
+        "Coverage gaps"
+      ],
+      "sources": [
+        "WHO",
+        "UNICEF/WHO Europe",
+        "Outbreak updates"
+      ],
+      "trend": [
+        45,
+        45,
+        44,
+        45,
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "title": "🌡️ Climate Risk",
+      "subtitle": "Extreme weather, heat exposure, wildfire losses, and broad seasonal warmth",
+      "score": 81,
+      "delta": 0,
+      "direction": "Persistently High",
+      "description": "Climate risk remains structurally very high. January 2026 was among the warmest Januaries on record, extreme fire and flood impacts were already visible, and the March–May outlook signals widespread above-normal land temperatures.",
+      "drivers": [
+        "Above-normal warmth",
+        "Wildfire/flood losses",
+        "Seasonal anomalies"
+      ],
+      "sources": [
+        "WMO",
+        "Copernicus",
+        "Seasonal outlook"
+      ],
+      "trend": [
+        80,
+        80,
+        81,
+        81,
+        81,
+        81,
+        81
+      ]
+    }
+  ],
+  "reports": [
+    {
+      "title": "🌍 Global Conflict Report",
+      "tag": "Very High Risk",
+      "tagClass": "pill-danger",
+      "score": "86 / 100",
+      "direction": "Sharply Higher",
+      "watch": "Hormuz escort decisions, retaliation, Lebanon spillover, further Ukraine infrastructure strikes",
+      "why": "Conflict risk rose decisively because the week-long war involving the U.S., Israel, and Iran has moved beyond a contained exchange and is now disrupting a core global chokepoint. The Strait of Hormuz is both an energy artery and a strategic signal. At the same time, Russia’s latest strike wave on Ukraine shows that Europe’s security environment remains under direct pressure.",
+      "moved": "The score moved higher because the short-term risk of escalation is no longer hypothetical. Shipping stoppages, attacks on vessels, retaliation risk across the Gulf, and follow-on military moves all increase the odds of fresh instability. This is a tactical deterioration on top of an already high structural conflict baseline.",
+      "matters": "Conflict shocks do not stay inside one region. They spill into energy prices, freight markets, alliance behavior, investor sentiment, and humanitarian pressure. That spillover is exactly why this category became today’s main driver."
+    },
+    {
+      "title": "💰 Global Economic Report",
+      "tag": "Elevated Risk",
+      "tagClass": "pill-warning",
+      "score": "72 / 100",
+      "direction": "Higher",
+      "watch": "Brent crude, tanker rates, insurance costs, inflation expectations, central-bank tone",
+      "why": "The IMF still characterizes the world economy as resilient overall, but the risk layer has worsened. Hormuz disruption is hitting one of the world’s most important trade and energy routes, tanker and LNG shipping costs have surged, and firms are again facing higher transport and input uncertainty.",
+      "moved": "The score rose because the system is absorbing a fresh supply-side stress rather than a demand collapse. Oil, gas, freight, and insurance channels are all moving in the wrong direction at once. That raises the probability of stickier inflation, tighter financial conditions, and weaker business confidence if the disruption lasts.",
+      "matters": "Economic risk matters because it translates geopolitics into everyday pressure: fuel costs, shipping delays, margin pressure, financing stress, and slower investment. It is now the main bridge between the conflict story and the wider global economy."
+    },
+    {
+      "title": "🏥 Global Health Report",
+      "tag": "Moderate Risk",
+      "tagClass": "pill-neutral",
+      "score": "45 / 100",
+      "direction": "Elevated but Stable",
+      "watch": "Cholera mortality, measles clusters, surveillance quality, immunization catch-up",
+      "why": "The health picture is materially more stable than during peak pandemic years, but it is not back to a genuine low-risk baseline. WHO’s latest cholera update still shows significant global deaths, and UNICEF/WHO say measles outbreak risk remains across Europe and Central Asia even after a major drop in 2025 cases.",
+      "moved": "The score is unchanged today because the key signal is persistence rather than sudden deterioration. The category is held above low-risk territory by outbreak vulnerability, uneven vaccination coverage, and weaker resilience in conflict-affected or climate-stressed settings.",
+      "matters": "Health risk matters because it amplifies humanitarian stress and can interact with both conflict and climate shocks. The category is quieter than conflict or economy today, but it remains a meaningful background vulnerability."
+    },
+    {
+      "title": "🌡️ Climate Risk Report",
+      "tag": "Very High Risk",
+      "tagClass": "pill-danger",
+      "score": "81 / 100",
+      "direction": "Persistently High",
+      "watch": "Heat anomalies, wildfire spread, flood losses, seasonal temperature outlooks",
+      "why": "Climate remains the highest structural background risk in the dashboard even on days dominated by conflict headlines. WMO says January 2026 was the fifth warmest January on record, and the March–May seasonal update still points to widespread above-normal land temperatures.",
+      "moved": "The score is unchanged because the main story is sustained pressure rather than one discrete new shock. Wildfire, flood, and heat exposure remain economically and socially important, and the seasonal outlook does not show a broad relief pattern.",
+      "matters": "Climate risk compounds the rest of the index over time. It worsens food, water, health, infrastructure, migration, and fiscal stress, which is why it stays very high even when another category is the immediate headline driver."
+    }
+  ]
+}

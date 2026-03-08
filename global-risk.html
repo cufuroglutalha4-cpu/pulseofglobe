@@ -257,6 +257,14 @@
       animation: pulse 2s infinite;
     }
 
+    .status-line {
+      margin-top: 12px;
+      font-size: 0.84rem;
+      color: var(--text-muted);
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+
     @keyframes pulse {
       0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.38); }
       70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
@@ -934,12 +942,11 @@
 
           <h1>Global Risk Index</h1>
 
-          <p>
-            A cleaner, faster daily view of worldwide risk conditions across conflict,
-            economy, public health, and climate. This page is designed to feel like the
-            same product family as Pulse Of Globe’s live counters: readable, calm, and
-            data-first.
+          <p id="hero-description">
+            Loading the latest daily global risk update...
           </p>
+
+          <div class="status-line" id="status-line">Report loading…</div>
 
           <div class="hero-actions">
             <a href="#risk-categories" class="btn btn-primary">Explore risk categories</a>
@@ -951,20 +958,15 @@
           <div>
             <div class="eyeline">Overall global risk</div>
             <div class="big-score">
-              <div class="value" data-count="69">69</div>
+              <div class="value" data-count id="overall-score">0</div>
               <div class="unit">/ 100</div>
             </div>
-            <p>
-              Today’s composite score moves higher as widening conflict in the Middle East
-              adds fresh energy and shipping stress, while climate risk remains structurally elevated.
+            <p id="hero-summary">
+              Loading summary...
             </p>
           </div>
 
-          <div class="hero-trend">
-            <span class="pill pill-danger">↑ Rising</span>
-            <span class="pill pill-warning">+2 vs yesterday</span>
-            <span class="pill pill-neutral">Confidence: Medium</span>
-          </div>
+          <div class="hero-trend" id="hero-trend"></div>
         </aside>
       </div>
     </section>
@@ -972,25 +974,25 @@
     <section class="overview-strip section">
       <div class="overview-card">
         <div class="label">Report Date</div>
-        <div class="value">March 7, 2026</div>
+        <div class="value" id="report-date">—</div>
         <div class="value-sub">Updated daily</div>
       </div>
 
       <div class="overview-card">
         <div class="label">Top Driver</div>
-        <div class="value">Climate Risk</div>
+        <div class="value" id="top-driver">—</div>
         <div class="value-sub">Highest category today</div>
       </div>
 
       <div class="overview-card">
         <div class="label">What Changed</div>
-        <div class="value">Conflict + Energy</div>
-        <div class="value-sub">Main reasons for the uptick</div>
+        <div class="value" id="what-changed">—</div>
+        <div class="value-sub">Main reasons for the move</div>
       </div>
 
       <div class="overview-card">
         <div class="label">Watch Next 48h</div>
-        <div class="value">Hormuz + Retaliation</div>
+        <div class="value" id="watch-48h">—</div>
         <div class="value-sub">Most likely short-term movers</div>
       </div>
     </section>
@@ -1001,9 +1003,8 @@
           <div>
             <h2>Today at a glance</h2>
             <p>
-              Instead of long uninterrupted text blocks, the page now leads with a compact
-              market-style summary so visitors can understand movement before reading the
-              detailed reports.
+              This page now runs on a fixed template and reads the day’s content from one small data file,
+              so you can publish the next report without rewriting the whole page.
             </p>
           </div>
         </div>
@@ -1011,18 +1012,9 @@
         <div class="summary-grid">
           <div class="sub-card">
             <h3>What changed today?</h3>
-            <p>
-              The overall index moved higher as conflict risk jumped on the widening Iran-Gulf crisis
-              and economic risk followed through energy, shipping, and inflation channels. Climate
-              remains the highest structural category, while health conditions edged only slightly higher.
-            </p>
+            <p id="summary-intro">Loading summary...</p>
 
-            <ul class="bullet-list">
-              <li>Conflict risk moved higher as the Middle East crisis spread across the Gulf while Ukraine-related strategic pressure persisted.</li>
-              <li>Economic risk rose with oil, shipping, and inflation sensitivity, even though the baseline global growth picture remains resilient.</li>
-              <li>Climate stays the highest-risk category as extreme-weather exposure remains severe and seasonal warmth signals stay broad-based.</li>
-              <li>Health remains moderate, with measles and cholera keeping systemic vulnerability above a low-risk baseline.</li>
-            </ul>
+            <ul class="bullet-list" id="summary-bullets"></ul>
           </div>
 
           <div class="sub-card">
@@ -1031,19 +1023,19 @@
             <div class="comparison-grid">
               <div class="mini-box">
                 <div class="mini-label">Yesterday</div>
-                <div class="mini-value">67 / 100</div>
+                <div class="mini-value" id="yesterday-score">—</div>
               </div>
               <div class="mini-box">
                 <div class="mini-label">Today</div>
-                <div class="mini-value">69 / 100</div>
+                <div class="mini-value" id="today-score">—</div>
               </div>
               <div class="mini-box">
                 <div class="mini-label">Trend</div>
-                <div class="mini-value">Rising</div>
+                <div class="mini-value" id="comparison-trend">—</div>
               </div>
               <div class="mini-box">
                 <div class="mini-label">Update Time</div>
-                <div class="mini-value">00:00 UTC</div>
+                <div class="mini-value" id="update-time">—</div>
               </div>
             </div>
           </div>
@@ -1057,8 +1049,8 @@
           <div>
             <h2>Risk categories</h2>
             <p>
-              Each card uses the same visual language as the homepage: strong number first,
-              soft supporting text second, and clear signals for trend, drivers, and source context.
+              Each card keeps the homepage language: number first, context second, then clear signals for
+              direction, drivers, and source context.
             </p>
           </div>
         </div>
@@ -1073,8 +1065,8 @@
           <div>
             <h2>Detailed daily reports</h2>
             <p>
-              The long-form sections are still here, but now framed like premium analysis blocks
-              with quick side stats so the page feels less flat and more editorial.
+              Long-form sections stay in place, but all narrative now comes from the daily data file so you only
+              edit the text that changed.
             </p>
           </div>
         </div>
@@ -1089,8 +1081,8 @@
           <div>
             <h2>How this index is generated</h2>
             <p>
-              The visual design is more premium now, but the transparency layer still matters:
-              visitors should understand what the score is, what it is not, and how AI is being used.
+              The visual design is fixed, but the transparency layer still matters: visitors should understand
+              what the score is, what it is not, and how AI is being used.
             </p>
           </div>
           <span class="pill pill-neutral">Transparency</span>
@@ -1100,24 +1092,24 @@
           <div class="method-card">
             <h3>1) Public inputs</h3>
             <p>
-              The dashboard combines public data, institutional signals, and widely reported
-              developments across conflict, economy, health, and climate.
+              The dashboard combines public data, institutional signals, and widely reported developments
+              across conflict, economy, health, and climate.
             </p>
           </div>
 
           <div class="method-card">
             <h3>2) AI-assisted synthesis</h3>
             <p>
-              AI is used to summarize, organize, and explain the daily picture in a readable
-              format. It does not replace official institutional forecasts or policy advice.
+              AI is used to summarize, organize, and explain the daily picture in a readable format.
+              It does not replace official institutional forecasts or policy advice.
             </p>
           </div>
 
           <div class="method-card">
             <h3>3) Directional scoring</h3>
             <p>
-              Scores are simplified directional indicators designed to show broad movement and
-              relative intensity, not exact probabilistic forecasts.
+              Scores are simplified directional indicators designed to show broad movement and relative
+              intensity, not exact probabilistic forecasts.
             </p>
           </div>
         </div>
@@ -1157,115 +1149,135 @@
   </div>
 
   <script>
-    const riskData = [
-      {
-        title: "🌍 Global Conflict Risk",
-        subtitle: "Regional war spillover, Ukraine pressure, and major-power rivalry",
-        score: 82,
-        delta: +4,
-        direction: "Rising",
-        description:
-          "The widening Iran-Gulf crisis, the ongoing war in Ukraine, and continued major-power rivalry push global conflict risk higher today.",
-        drivers: ["Iran-Gulf escalation", "Ukraine war", "Great-power rivalry"],
-        sources: ["Reuters", "NATO", "Public monitoring"],
-        trend: [76, 77, 77, 78, 78, 78, 82]
+    const fallbackData = {
+      "version": "2026-03-08",
+      "reportDate": "March 8, 2026",
+      "updateTime": "00:00 UTC",
+      "heroDescription": "A cleaner, faster daily view of worldwide risk conditions across conflict, economy, public health, and climate. The design stays fixed while the content is updated from one small daily data file.",
+      "overall": {
+        "score": 71,
+        "yesterdayScore": 69,
+        "trend": "Rising",
+        "trendDelta": 2,
+        "confidence": "Medium",
+        "summary": "Today’s composite score rises as the war involving the U.S., Israel, and Iran disrupts Hormuz shipping, lifts oil and freight stress, and keeps global conflict risk elevated while climate risk remains structurally high."
       },
-      {
-        title: "💰 Global Economic Risk",
-        subtitle: "Oil shock, debt overhang, and inflation sensitivity",
-        score: 64,
-        delta: +3,
-        direction: "Higher",
-        description:
-          "Growth is still holding up, but the oil shock, shipping disruption, debt overhang, and inflation sensitivity lift near-term economic risk.",
-        drivers: ["Oil shock", "Debt overhang", "Trade fragmentation"],
-        sources: ["IMF", "IIF", "Reuters"],
-        trend: [60, 60, 61, 61, 62, 61, 64]
+      "overview": {
+        "topDriver": "Conflict Risk",
+        "whatChanged": "Conflict + Shipping",
+        "watchNext48h": "Hormuz + Retaliation"
       },
-      {
-        title: "🏥 Global Health Risk",
-        subtitle: "Better preparedness, but outbreaks still pressure vulnerable systems",
-        score: 47,
-        delta: +1,
-        direction: "Slightly Higher",
-        description:
-          "Global health risk remains moderate, supported by stronger preparedness but pressured by continuing measles spread and cholera mortality in vulnerable regions.",
-        drivers: ["Measles outbreaks", "Cholera burden", "Preparedness gaps"],
-        sources: ["WHO", "WHO Europe", "Health monitoring"],
-        trend: [45, 45, 46, 46, 46, 46, 47]
+      "summary": {
+        "intro": "The overall index moved higher as Middle East conflict risk intensified and transmitted directly into shipping, energy, and inflation-sensitive channels. The baseline global economy still looks resilient, but downside risk rose. Climate remains structurally elevated, while health stays moderate rather than low.",
+        "bullets": [
+          "Conflict risk moved higher as the U.S.-Israeli war with Iran widened, Hormuz traffic collapsed, and Russia launched another large strike wave against Ukraine.",
+          "Economic risk rose as oil, shipping, and freight costs jumped, even though the IMF still describes the baseline global growth outlook as resilient.",
+          "Climate remains structurally high as January 2026 ranked among the warmest on record and the March–May outlook still points to widespread above-normal land temperatures.",
+          "Health risk remains moderate: cholera deaths increased in January 2026 and measles outbreak risk continues despite a clear drop in European and Central Asian cases during 2025."
+        ]
       },
-      {
-        title: "🌡️ Climate Risk",
-        subtitle: "Extreme weather, heat, wildfire, flood exposure, and systemic spillover",
-        score: 83,
-        delta: +1,
-        direction: "Persistently High",
-        description:
-          "Climate risk remains the most elevated structural category as extreme heat, wildfire, flood exposure, and warmer-than-normal seasonal outlooks persist.",
-        drivers: ["Extreme heat", "Flood / fire losses", "Seasonal warmth outlook"],
-        sources: ["WMO", "Copernicus", "Climate monitoring"],
-        trend: [81, 81, 82, 82, 82, 82, 83]
-      }
-    ];
+      "categories": [
+        {
+          "title": "🌍 Global Conflict Risk",
+          "subtitle": "Iran war spillover, Hormuz disruption, Ukraine strikes, and wider strategic tension",
+          "score": 86,
+          "delta": 4,
+          "direction": "Sharply Higher",
+          "description": "Conflict risk is the clear top driver today as war involving the U.S., Israel, and Iran has spread beyond Iran itself, while shipping through the Strait of Hormuz remains severely disrupted and Ukraine continues to face major Russian strikes.",
+          "drivers": ["Iran war spillover", "Hormuz disruption", "Ukraine strikes"],
+          "sources": ["Reuters", "Security reporting", "Public monitoring"],
+          "trend": [79, 80, 80, 81, 82, 83, 86]
+        },
+        {
+          "title": "💰 Global Economic Risk",
+          "subtitle": "Oil shock, freight stress, trade-route uncertainty, and inflation sensitivity",
+          "score": 72,
+          "delta": 4,
+          "direction": "Higher",
+          "description": "The growth backdrop is not a recession call, but near-term economic risk rose as Hormuz disruption, record tanker costs, and higher oil and gas prices raised pressure on trade, inflation, and financing conditions.",
+          "drivers": ["Oil shock", "Freight spike", "Trade-route stress"],
+          "sources": ["Reuters", "IMF", "LSEG data"],
+          "trend": [66, 67, 67, 68, 69, 70, 72]
+        },
+        {
+          "title": "🏥 Global Health Risk",
+          "subtitle": "Persistent outbreak vulnerability despite better baseline preparedness",
+          "score": 45,
+          "delta": 0,
+          "direction": "Elevated but Stable",
+          "description": "Health risk remains moderate. Europe and Central Asia saw a large decline in measles cases in 2025, but outbreaks are still occurring in 2026, while WHO reports cholera deaths rose in January 2026 despite lower case totals.",
+          "drivers": ["Cholera mortality", "Measles outbreaks", "Coverage gaps"],
+          "sources": ["WHO", "UNICEF/WHO Europe", "Outbreak updates"],
+          "trend": [45, 45, 44, 45, 45, 45, 45]
+        },
+        {
+          "title": "🌡️ Climate Risk",
+          "subtitle": "Extreme weather, heat exposure, wildfire losses, and broad seasonal warmth",
+          "score": 81,
+          "delta": 0,
+          "direction": "Persistently High",
+          "description": "Climate risk remains structurally very high. January 2026 was among the warmest Januaries on record, extreme fire and flood impacts were already visible, and the March–May outlook signals widespread above-normal land temperatures.",
+          "drivers": ["Above-normal warmth", "Wildfire/flood losses", "Seasonal anomalies"],
+          "sources": ["WMO", "Copernicus", "Seasonal outlook"],
+          "trend": [80, 80, 81, 81, 81, 81, 81]
+        }
+      ],
+      "reports": [
+        {
+          "title": "🌍 Global Conflict Report",
+          "tag": "Very High Risk",
+          "tagClass": "pill-danger",
+          "score": "86 / 100",
+          "direction": "Sharply Higher",
+          "watch": "Hormuz escort decisions, retaliation, Lebanon spillover, further Ukraine infrastructure strikes",
+          "why": "Conflict risk rose decisively because the week-long war involving the U.S., Israel, and Iran has moved beyond a contained exchange and is now disrupting a core global chokepoint. The Strait of Hormuz is both an energy artery and a strategic signal. At the same time, Russia’s latest strike wave on Ukraine shows that Europe’s security environment remains under direct pressure.",
+          "moved": "The score moved higher because the short-term risk of escalation is no longer hypothetical. Shipping stoppages, attacks on vessels, retaliation risk across the Gulf, and follow-on military moves all increase the odds of fresh instability. This is a tactical deterioration on top of an already high structural conflict baseline.",
+          "matters": "Conflict shocks do not stay inside one region. They spill into energy prices, freight markets, alliance behavior, investor sentiment, and humanitarian pressure. That spillover is exactly why this category became today’s main driver."
+        },
+        {
+          "title": "💰 Global Economic Report",
+          "tag": "Elevated Risk",
+          "tagClass": "pill-warning",
+          "score": "72 / 100",
+          "direction": "Higher",
+          "watch": "Brent crude, tanker rates, insurance costs, inflation expectations, central-bank tone",
+          "why": "The IMF still characterizes the world economy as resilient overall, but the risk layer has worsened. Hormuz disruption is hitting one of the world’s most important trade and energy routes, tanker and LNG shipping costs have surged, and firms are again facing higher transport and input uncertainty.",
+          "moved": "The score rose because the system is absorbing a fresh supply-side stress rather than a demand collapse. Oil, gas, freight, and insurance channels are all moving in the wrong direction at once. That raises the probability of stickier inflation, tighter financial conditions, and weaker business confidence if the disruption lasts.",
+          "matters": "Economic risk matters because it translates geopolitics into everyday pressure: fuel costs, shipping delays, margin pressure, financing stress, and slower investment. It is now the main bridge between the conflict story and the wider global economy."
+        },
+        {
+          "title": "🏥 Global Health Report",
+          "tag": "Moderate Risk",
+          "tagClass": "pill-neutral",
+          "score": "45 / 100",
+          "direction": "Elevated but Stable",
+          "watch": "Cholera mortality, measles clusters, surveillance quality, immunization catch-up",
+          "why": "The health picture is materially more stable than during peak pandemic years, but it is not back to a genuine low-risk baseline. WHO’s latest cholera update still shows significant global deaths, and UNICEF/WHO say measles outbreak risk remains across Europe and Central Asia even after a major drop in 2025 cases.",
+          "moved": "The score is unchanged today because the key signal is persistence rather than sudden deterioration. The category is held above low-risk territory by outbreak vulnerability, uneven vaccination coverage, and weaker resilience in conflict-affected or climate-stressed settings.",
+          "matters": "Health risk matters because it amplifies humanitarian stress and can interact with both conflict and climate shocks. The category is quieter than conflict or economy today, but it remains a meaningful background vulnerability."
+        },
+        {
+          "title": "🌡️ Climate Risk Report",
+          "tag": "Very High Risk",
+          "tagClass": "pill-danger",
+          "score": "81 / 100",
+          "direction": "Persistently High",
+          "watch": "Heat anomalies, wildfire spread, flood losses, seasonal temperature outlooks",
+          "why": "Climate remains the highest structural background risk in the dashboard even on days dominated by conflict headlines. WMO says January 2026 was the fifth warmest January on record, and the March–May seasonal update still points to widespread above-normal land temperatures.",
+          "moved": "The score is unchanged because the main story is sustained pressure rather than one discrete new shock. Wildfire, flood, and heat exposure remain economically and socially important, and the seasonal outlook does not show a broad relief pattern.",
+          "matters": "Climate risk compounds the rest of the index over time. It worsens food, water, health, infrastructure, migration, and fiscal stress, which is why it stays very high even when another category is the immediate headline driver."
+        }
+      ]
+    };
 
-    const reportData = [
-      {
-        title: "🌍 Global Conflict Report",
-        tag: "High Risk",
-        tagClass: "pill-danger",
-        score: "82 / 100",
-        direction: "Rising",
-        watch: "Retaliatory strikes, Hormuz security, broader regional spillover",
-        why:
-          "Global conflict risk moved higher as the Middle East crisis broadened from a contained confrontation into a wider regional security shock. Iran-related attacks and retaliation across the Gulf have added a new layer of instability to an already fragile global map, while the war in Ukraine continues to keep Europe’s security environment under pressure. Major-power rivalry still reinforces the background level of strategic tension.",
-        moved:
-          "The score increased because spillover risk is now more immediate. Shipping chokepoints, missile and drone attacks, pressure on regional infrastructure, and uncertainty around further retaliation all make the short-term conflict picture more unstable than it was yesterday. The category is therefore not only structurally high, but also tactically worse.",
-        matters:
-          "Conflict risk rarely stays isolated. It quickly feeds into energy markets, trade routes, alliance behavior, humanitarian pressure, and investor sentiment. That is why this category is now one of the main drivers of the daily uptick in the overall index."
-      },
-      {
-        title: "💰 Global Economic Report",
-        tag: "Moderate to Elevated Risk",
-        tagClass: "pill-warning",
-        score: "64 / 100",
-        direction: "Higher",
-        watch: "Oil prices, shipping insurance, inflation expectations",
-        why:
-          "The global economy is still showing resilience, and the baseline growth outlook is not a recession call. However, the near-term risk picture worsened as the widening Middle East conflict pushed energy prices higher, disrupted shipping expectations, and revived inflation concerns across major markets. This comes on top of an already fragile backdrop of high debt, refinancing needs, and trade fragmentation.",
-        moved:
-          "The score rose because the economic system is now absorbing a fresh energy shock. If oil and transport disruption persist, central banks may stay more cautious, financing conditions could tighten again, and energy-importing economies could face renewed stress. The risk is therefore less about collapse and more about pressure building through prices, confidence, and financing channels.",
-        matters:
-          "Economic risk shapes investment, employment, political stability, and the ability of governments to absorb other shocks. In the current environment, it also acts as the bridge between geopolitics and everyday financial conditions."
-      },
-      {
-        title: "🏥 Global Health Report",
-        tag: "Moderate Risk",
-        tagClass: "pill-neutral",
-        score: "47 / 100",
-        direction: "Slightly Higher",
-        watch: "Cholera mortality, measles spread, outbreak surveillance",
-        why:
-          "Global health conditions are still more stable than during the peak pandemic years, and preparedness capacity remains materially stronger than before. Even so, the category cannot be treated as low risk. Measles transmission continues in several settings, cholera remains active across multiple countries, and uneven system capacity still leaves vulnerable regions exposed to preventable outbreaks.",
-        moved:
-          "The score edged slightly higher because outbreak pressure has not fully normalized. The main issue is not one single dominant global emergency, but the accumulation of persistent vulnerabilities: uneven vaccination coverage, fragile surveillance, limited treatment access, and weaker resilience in conflict-affected or climate-stressed regions.",
-        matters:
-          "Health risk matters because it can accelerate humanitarian strain, worsen inequality, and interact with conflict and climate shocks. The current score reflects relative stability, but not a return to a true low-risk baseline."
-      },
-      {
-        title: "🌡️ Climate Risk Report",
-        tag: "Very High Risk",
-        tagClass: "pill-danger",
-        score: "83 / 100",
-        direction: "Persistently High",
-        watch: "Extreme heat, wildfire and flood impacts, seasonal anomalies",
-        why:
-          "Climate risk remains the highest structural category in today’s dashboard. The opening weeks of 2026 already showed damaging heat, fire, flood, and broader weather volatility across multiple regions, while seasonal outlooks still point to widespread above-normal land temperatures. That keeps climate risk elevated even on days when geopolitical headlines dominate attention.",
-        moved:
-          "The score moved slightly higher because the system-wide pressure has not eased. Climate impacts are no longer isolated environmental events; they feed directly into food systems, water stress, infrastructure damage, insurance losses, migration pressure, and public budgets. Even without a single new global climate shock today, the baseline remains exceptionally high.",
-        matters:
-          "Climate risk is slow-moving in buildup but fast-moving in consequence. It amplifies conflict, economic fragility, and public health vulnerability over time, which is why it remains the highest category in the index."
-      }
-    ];
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#39;");
+    }
 
     function getBarClass(score) {
       if (score < 35) return "fill-low";
@@ -1281,9 +1293,9 @@
 
     function directionPill(direction) {
       const d = direction.toLowerCase();
-      if (d.includes("rising") || d.includes("high")) return `<span class="pill pill-warning">${direction}</span>`;
-      if (d.includes("stable")) return `<span class="pill pill-neutral">${direction}</span>`;
-      return `<span class="pill pill-success">${direction}</span>`;
+      if (d.includes("sharp") || d.includes("rising") || d.includes("high")) return `<span class="pill pill-warning">${escapeHtml(direction)}</span>`;
+      if (d.includes("stable")) return `<span class="pill pill-neutral">${escapeHtml(direction)}</span>`;
+      return `<span class="pill pill-success">${escapeHtml(direction)}</span>`;
     }
 
     function createSparkline(values) {
@@ -1303,7 +1315,6 @@
 
       const line = points.map(p => `${p.x},${p.y}`).join(" ");
       const area = `${points.map(p => `${p.x},${p.y}`).join(" ")} ${points[points.length - 1].x},${height - padding} ${points[0].x},${height - padding}`;
-
       const lastPoint = points[points.length - 1];
 
       return `
@@ -1315,102 +1326,11 @@
       `;
     }
 
-    function renderRiskCards() {
-      const riskGrid = document.getElementById("risk-grid");
-
-      riskGrid.innerHTML = riskData.map(item => `
-        <article class="risk-card">
-          <div class="risk-top">
-            <div>
-              <div class="risk-title">${item.title}</div>
-              <div class="risk-subtitle">${item.subtitle}</div>
-            </div>
-
-            <div class="risk-score">
-              <div class="num" data-count="${item.score}">${item.score}</div>
-              <div class="small">/ 100</div>
-            </div>
-          </div>
-
-          <div class="bar">
-            <div class="bar-fill ${getBarClass(item.score)}" style="width:${item.score}%"></div>
-          </div>
-
-          <div class="risk-pills">
-            ${deltaPill(item.delta)}
-            ${directionPill(item.direction)}
-          </div>
-
-          <div class="chips-block">
-            <div class="chips-label">Key drivers</div>
-            <div class="chips-row">
-              ${item.drivers.map(driver => `<span class="chip driver">${driver}</span>`).join("")}
-            </div>
-          </div>
-
-          <div class="chips-block">
-            <div class="chips-label">Last 7 days</div>
-            <div class="sparkline-box">${createSparkline(item.trend)}</div>
-          </div>
-
-          <div class="chips-block">
-            <div class="chips-label">Signals used</div>
-            <div class="chips-row">
-              ${item.sources.map(source => `<span class="chip source">${source}</span>`).join("")}
-            </div>
-          </div>
-
-          <div class="risk-desc">${item.description}</div>
-        </article>
-      `).join("");
-    }
-
-    function renderReports() {
-      const reportStack = document.getElementById("report-stack");
-
-      reportStack.innerHTML = reportData.map(item => `
-        <article class="report-box">
-          <div class="report-head">
-            <h3>${item.title}</h3>
-            <span class="pill ${item.tagClass}">${item.tag}</span>
-          </div>
-
-          <div class="report-layout">
-            <div class="report-side">
-              <div class="report-stat">
-                <small>Score</small>
-                <strong>${item.score}</strong>
-              </div>
-              <div class="report-stat">
-                <small>Direction</small>
-                <strong>${item.direction}</strong>
-              </div>
-              <div class="report-stat">
-                <small>Watch Next 48h</small>
-                <strong>${item.watch}</strong>
-              </div>
-            </div>
-
-            <div class="report-body">
-              <h4>Why it remains here</h4>
-              <p>${item.why}</p>
-
-              <h4>What moved the score</h4>
-              <p>${item.moved}</p>
-
-              <h4>Why it matters</h4>
-              <p>${item.matters}</p>
-            </div>
-          </div>
-        </article>
-      `).join("");
-    }
-
     function animateCounters() {
       const counters = document.querySelectorAll("[data-count]");
 
       counters.forEach(counter => {
-        const target = Number(counter.dataset.count);
+        const target = Number(counter.dataset.count || 0);
         const duration = 900;
         const start = performance.now();
 
@@ -1431,9 +1351,199 @@
       });
     }
 
-    renderRiskCards();
-    renderReports();
-    animateCounters();
+    function renderRiskCards(categories) {
+      const riskGrid = document.getElementById("risk-grid");
+
+      riskGrid.innerHTML = categories.map(item => `
+        <article class="risk-card">
+          <div class="risk-top">
+            <div>
+              <div class="risk-title">${escapeHtml(item.title)}</div>
+              <div class="risk-subtitle">${escapeHtml(item.subtitle)}</div>
+            </div>
+
+            <div class="risk-score">
+              <div class="num" data-count="${Number(item.score)}">${Number(item.score)}</div>
+              <div class="small">/ 100</div>
+            </div>
+          </div>
+
+          <div class="bar">
+            <div class="bar-fill ${getBarClass(Number(item.score))}" style="width:${Number(item.score)}%"></div>
+          </div>
+
+          <div class="risk-pills">
+            ${deltaPill(Number(item.delta))}
+            ${directionPill(item.direction)}
+          </div>
+
+          <div class="chips-block">
+            <div class="chips-label">Key drivers</div>
+            <div class="chips-row">
+              ${item.drivers.map(driver => `<span class="chip driver">${escapeHtml(driver)}</span>`).join("")}
+            </div>
+          </div>
+
+          <div class="chips-block">
+            <div class="chips-label">Last 7 days</div>
+            <div class="sparkline-box">${createSparkline(item.trend)}</div>
+          </div>
+
+          <div class="chips-block">
+            <div class="chips-label">Signals used</div>
+            <div class="chips-row">
+              ${item.sources.map(source => `<span class="chip source">${escapeHtml(source)}</span>`).join("")}
+            </div>
+          </div>
+
+          <div class="risk-desc">${escapeHtml(item.description)}</div>
+        </article>
+      `).join("");
+    }
+
+    function renderReports(reports) {
+      const reportStack = document.getElementById("report-stack");
+
+      reportStack.innerHTML = reports.map(item => `
+        <article class="report-box">
+          <div class="report-head">
+            <h3>${escapeHtml(item.title)}</h3>
+            <span class="pill ${escapeHtml(item.tagClass)}">${escapeHtml(item.tag)}</span>
+          </div>
+
+          <div class="report-layout">
+            <div class="report-side">
+              <div class="report-stat">
+                <small>Score</small>
+                <strong>${escapeHtml(item.score)}</strong>
+              </div>
+              <div class="report-stat">
+                <small>Direction</small>
+                <strong>${escapeHtml(item.direction)}</strong>
+              </div>
+              <div class="report-stat">
+                <small>Watch Next 48h</small>
+                <strong>${escapeHtml(item.watch)}</strong>
+              </div>
+            </div>
+
+            <div class="report-body">
+              <h4>Why it remains here</h4>
+              <p>${escapeHtml(item.why)}</p>
+
+              <h4>What moved the score</h4>
+              <p>${escapeHtml(item.moved)}</p>
+
+              <h4>Why it matters</h4>
+              <p>${escapeHtml(item.matters)}</p>
+            </div>
+          </div>
+        </article>
+      `).join("");
+    }
+
+    function formatDisplayDate(value) {
+      if (!value) return "—";
+
+      if (/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+        const [year, month, day] = value.split("-").map(Number);
+        const utcDate = new Date(Date.UTC(year, month - 1, day));
+        return new Intl.DateTimeFormat("tr-TR", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+          timeZone: "UTC"
+        }).format(utcDate);
+      }
+
+      const parsed = new Date(value);
+      if (!Number.isNaN(parsed.getTime())) {
+        return new Intl.DateTimeFormat("tr-TR", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+          timeZone: "UTC"
+        }).format(parsed);
+      }
+
+      return String(value);
+    }
+
+    function applyData(data, options = {}) {
+      const displayDate = formatDisplayDate(data.reportDate || data.reportDateISO || data.version);
+      const errorMessage = options.errorMessage || "";
+
+      document.getElementById("hero-description").textContent = data.heroDescription;
+      document.getElementById("status-line").textContent = errorMessage
+        ? `Canlı veriler yüklenemedi: ${errorMessage}`
+        : `Baskı: ${displayDate} • Güncelleme saati: ${data.updateTime}`;
+      document.getElementById("overall-score").dataset.count = data.overall.score;
+      document.getElementById("overall-score").textContent = data.overall.score;
+      document.getElementById("hero-summary").textContent = data.overall.summary;
+
+      const deltaValue = Number(data.overall.trendDelta || 0);
+      const deltaLabel = deltaValue > 0 ? `+${deltaValue}` : `${deltaValue}`;
+
+      document.getElementById("hero-trend").innerHTML = `
+        <span class="pill pill-danger">↑ ${escapeHtml(data.overall.trend)}</span>
+        <span class="pill pill-warning">${escapeHtml(deltaLabel)} düne kıyasla</span>
+        <span class="pill pill-neutral">Güvenilirlik: ${escapeHtml(data.overall.confidence)}</span>
+      `;
+
+      document.getElementById("report-date").textContent = displayDate;
+      document.getElementById("top-driver").textContent = data.overview.topDriver;
+      document.getElementById("what-changed").textContent = data.overview.whatChanged;
+      document.getElementById("watch-48h").textContent = data.overview.watchNext48h;
+
+      document.getElementById("summary-intro").textContent = data.summary.intro;
+      document.getElementById("summary-bullets").innerHTML = data.summary.bullets
+        .map(item => `<li>${escapeHtml(item)}</li>`)
+        .join("");
+
+      document.getElementById("yesterday-score").textContent = `${data.overall.yesterdayScore} / 100`;
+      document.getElementById("today-score").textContent = `${data.overall.score} / 100`;
+      document.getElementById("comparison-trend").textContent = data.overall.trend;
+      document.getElementById("update-time").textContent = data.updateTime;
+
+      renderRiskCards(data.categories);
+      renderReports(data.reports);
+      animateCounters();
+    }
+
+    async function loadRiskData() {
+      try {
+        const url = `global-risk-data.json?v=${Date.now()}`;
+        const response = await fetch(url, {
+          cache: "no-store",
+          headers: {
+            "Cache-Control": "no-cache"
+          }
+        });
+
+        if (!response.ok) {
+          throw new Error(`JSON dosyası bulunamadı (HTTP ${response.status}). HTML ve JSON aynı klasörde mi?`);
+        }
+
+        const rawText = await response.text();
+        let data;
+
+        try {
+          data = JSON.parse(rawText);
+        } catch (parseError) {
+          throw new Error(`JSON sözdizimi hatası var. ${parseError.message}`);
+        }
+
+        applyData(data);
+        console.log("Global risk data loaded:", data.reportDate || data.reportDateISO || data.version, data.updateTime);
+      } catch (error) {
+        console.error("Using fallback risk data:", error);
+        applyData(fallbackData, {
+          errorMessage: error.message
+        });
+      }
+    }
+
+    loadRiskData();
   </script>
 </body>
 </html>

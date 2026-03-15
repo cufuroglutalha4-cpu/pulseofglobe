@@ -6,9 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Favicon -->
-  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48.png" />
+  <link rel="apple-touch-icon" href="/images/favicon-48.png" />
+  <meta name="theme-color" content="#0f7db7" />
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,12 +24,13 @@
   <!-- SEO & Social -->
   <meta
     name="description"
-    content="Real-time world counters for population, environment, economy, technology, and daily AI-generated global risk insights."
+    content="Real-time world counters for population, environment, economy, technology, and daily AI-assisted global risk insights."
   />
   <meta
     name="keywords"
-    content="world live counters, population, births, deaths, CO2, energy consumption, live statistics, global risk index"
+    content="world live counters, live population, births, deaths, CO2, world statistics, global risk index, Pulse Of Globe"
   />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
 
   <meta property="og:title" content="World Live Counters | Pulse Of Globe" />
   <meta
@@ -35,8 +39,17 @@
   />
   <meta property="og:image" content="https://pulseofglobe.com/images/earth-network.jpg" />
   <meta property="og:url" content="https://pulseofglobe.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Pulse Of Globe" />
 
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="World Live Counters | Pulse Of Globe" />
+  <meta
+    name="twitter:description"
+    content="Real-time global counters for population, environment, economy, technology, and global risk."
+  />
+  <meta name="twitter:image" content="https://pulseofglobe.com/images/earth-network.jpg" />
+
   <link rel="canonical" href="https://pulseofglobe.com/" />
 
   <!-- Google tag (gtag.js) -->
@@ -46,6 +59,20 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-0D58BVYWTK');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Pulse Of Globe",
+    "url": "https://pulseofglobe.com/",
+    "description": "Real-time world counters for population, environment, economy, technology, and daily AI-assisted global risk insights.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Pulse Of Globe"
+    }
+  }
   </script>
 
   <style>
@@ -366,8 +393,7 @@
     }
 
     .hero-summary,
-    .risk-widget,
-    .mini-stat-card {
+    .risk-widget {
       background: rgba(255,255,255,0.76);
       border: 1px solid rgba(255,255,255,0.72);
       border-radius: 22px;
@@ -507,9 +533,9 @@
 
     .risk-fill {
       height: 100%;
-      width: 75%;
       background: linear-gradient(90deg, #f59e0b, #ef4444);
       border-radius: 999px;
+      transition: width 0.4s ease;
     }
 
     .risk-widget p {
@@ -859,9 +885,7 @@
 
     <div class="top-shell">
       <header class="site-header">
-        <a href="/" class="brand notranslate" translate="no">
-          PULSE OF GLOBE
-        </a>
+        <a href="/" class="brand notranslate" translate="no">PULSE OF GLOBE</a>
 
         <nav class="site-nav">
           <a href="/" class="nav-link active">Home</a>
@@ -874,17 +898,17 @@
     <section class="hero">
       <div class="hero-grid">
         <div class="hero-left">
-          <div class="hero-eyebrow">
+          <div class="hero-eyebrow" id="heroEyebrow">
             <span class="live-dot"></span>
-            Live global counters
+            Live global counters · March 15, 2026
           </div>
 
           <h1>World Live Counters</h1>
 
           <p>
             Explore live global estimates across population, environment, economy,
-            technology, and daily AI-powered risk analysis in one cleaner, faster,
-            more structured dashboard.
+            technology, and a daily AI-assisted risk snapshot in one cleaner,
+            faster, more structured dashboard.
           </p>
 
           <div class="hero-stat">
@@ -928,15 +952,15 @@
           </div>
 
           <div class="risk-widget">
-            <div class="risk-widget-label">Today’s Global Risk</div>
+            <div class="risk-widget-label" id="riskWidgetLabel">Today’s Global Risk</div>
 
             <div class="risk-widget-top">
               <div class="risk-score-wrap">
-                <strong>75 / 100</strong>
-                <span>Overall global risk score</span>
+                <strong id="riskScoreValue">79 / 100</strong>
+                <span id="riskScoreSub">Overall global risk score</span>
               </div>
 
-              <div class="risk-badges">
+              <div class="risk-badges" id="riskBadges">
                 <span class="badge badge-high">High Risk</span>
                 <span class="badge badge-ai">AI Updated</span>
               </div>
@@ -944,17 +968,15 @@
 
             <div class="risk-trend">
               Trend:
-              <span class="trend-up">↑ Slightly Higher</span>
+              <span class="trend-up" id="riskTrend">↑ Higher</span>
             </div>
 
             <div class="risk-bar">
-              <div class="risk-fill"></div>
+              <div class="risk-fill" id="riskFill" style="width:79%"></div>
             </div>
 
-            <p>
-              Gulf-linked conflict and shipping pressure remain elevated, while
-              economic stress stays high through oil, insurance, and market-confidence
-              channels despite stabilization efforts.
+            <p id="riskDescription">
+              Gulf-linked conflict, shipping insecurity, and energy infrastructure pressure keep the global risk picture elevated, while emergency reserve releases only partly cushion the economic shock.
             </p>
 
             <div class="risk-widget-actions">
@@ -1246,13 +1268,15 @@
           <span>United Nations</span>
           <span>World Bank</span>
           <span>IEA</span>
-          <span>IPCC</span>
-          <span>Other official datasets</span>
+          <span>WHO</span>
+          <span>WMO</span>
+          <span>Other public datasets</span>
         </div>
 
         <p class="trusted-note">
           Numbers on this page are real-time estimates derived from annual public data
-          sources and updated using UTC time.
+          sources and updated using UTC time. The risk summary is a directional,
+          AI-assisted interpretation layer built on public reporting and institutional signals.
         </p>
       </div>
     </section>
@@ -1279,41 +1303,92 @@
   </div>
 
   <script>
-    const accordionItems = document.querySelectorAll('.accordion-item');
+    const homepageData = {
+      reportDate: "March 15, 2026",
+      risk: {
+        score: 79,
+        label: "High Risk",
+        secondaryBadge: "AI Updated",
+        trendText: "↑ Higher",
+        trendClass: "trend-up",
+        description:
+          "Gulf-linked conflict, shipping insecurity, and energy infrastructure pressure keep the global risk picture elevated, while emergency reserve releases only partly cushion the economic shock."
+      },
+      population: {
+        baseDateUtc: "2026-01-01T00:00:00Z",
+        basePopulation: 8231613070
+      },
+      annualStats: {
+        Births: 136000000,
+        Deaths: 67000000,
+        Marriages: 61000000,
+        WarDeaths: 240000,
+
+        Money: 20000000000000,
+        Water: 500000000000,
+        Electricity: 300000000000,
+        Petroleum: 30000000000,
+
+        Trees: 150000000,
+        CO2: 36000000000,
+        Plastic: 9000000,
+        Animals: 1500,
+        Renewable: 5000000000,
+
+        Emails: 3000000000000,
+        Searches: 10000000000000,
+        Posts: 400000000000,
+        Games: 200000000,
+
+        AIText: 100000000,
+        AIImages: 50000000,
+        AICode: 20000000,
+        AIMusic: 10000000
+      },
+      groupedCounters: [
+        ["Births", "Deaths", "Marriages", "WarDeaths"],
+        ["Money", "Water", "Electricity", "Petroleum"],
+        ["Trees", "CO2", "Plastic", "Animals", "Renewable"],
+        ["Emails", "Searches", "Posts", "Games"],
+        ["AIText", "AIImages", "AICode", "AIMusic"]
+      ]
+    };
+
+    const accordionItems = document.querySelectorAll(".accordion-item");
 
     function openAccordionItem(targetItem, doScroll = false) {
-      const contents = document.querySelectorAll('.accordion-content');
-      const isOpen = targetItem.classList.contains('open');
+      const contents = document.querySelectorAll(".accordion-content");
+      const isOpen = targetItem.classList.contains("open");
 
-      accordionItems.forEach(i => i.classList.remove('open'));
+      accordionItems.forEach(i => i.classList.remove("open"));
       contents.forEach(c => {
-        c.classList.remove('open');
+        c.classList.remove("open");
         c.style.maxHeight = null;
       });
 
       if (!isOpen) {
         const content = targetItem.nextElementSibling;
-        if (content && content.classList.contains('accordion-content')) {
-          targetItem.classList.add('open');
-          content.classList.add('open');
-          content.style.maxHeight = content.scrollHeight + 'px';
+        if (content && content.classList.contains("accordion-content")) {
+          targetItem.classList.add("open");
+          content.classList.add("open");
+          content.style.maxHeight = content.scrollHeight + "px";
 
           if (doScroll) {
-            targetItem.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            targetItem.scrollIntoView({ behavior: "smooth", block: "start" });
           }
         }
       }
     }
 
     accordionItems.forEach((item) => {
-      item.addEventListener('click', () => {
+      item.addEventListener("click", () => {
         openAccordionItem(item, false);
       });
     });
 
-    const highlightCards = document.querySelectorAll('.highlight-card[data-open-section]');
+    const highlightCards = document.querySelectorAll(".highlight-card[data-open-section]");
     highlightCards.forEach(card => {
-      card.addEventListener('click', () => {
+      card.addEventListener("click", () => {
         const sectionKey = card.dataset.openSection;
         const targetItem = document.querySelector('.accordion-item[data-section="' + sectionKey + '"]');
         if (targetItem) {
@@ -1322,133 +1397,137 @@
       });
     });
 
-    const SEC_IN_YEAR = 365 * 24 * 60 * 60;
-    const startDate = new Date('2025-01-01T00:00:00Z');
-    const basePopulation = 8150000000;
-    const yearlyBirths = 140000000;
-    const yearlyDeaths = 67000000;
-    const yearlyMarriages = 65000000;
-    const yearlyWarDeaths = 200000;
+    function formatNumber(value) {
+      return Math.floor(value).toLocaleString("en-US");
+    }
 
     function daysInMonth(year, month) {
       return new Date(year, month + 1, 0).getDate();
     }
 
-    function getElapsedSeconds() {
-      return (new Date() - startDate) / 1000;
+    function secondsInUtcYear(year) {
+      const start = Date.UTC(year, 0, 1);
+      const end = Date.UTC(year + 1, 0, 1);
+      return (end - start) / 1000;
+    }
+
+    function getUtcNow() {
+      const now = new Date();
+      return new Date(now.getTime() + now.getTimezoneOffset() * 60000);
+    }
+
+    function renderRiskWidget() {
+      const risk = homepageData.risk;
+      document.getElementById("heroEyebrow").innerHTML = `
+        <span class="live-dot"></span>
+        Live global counters · ${homepageData.reportDate}
+      `;
+      document.getElementById("riskWidgetLabel").textContent = `Today’s Global Risk · ${homepageData.reportDate}`;
+      document.getElementById("riskScoreValue").textContent = `${risk.score} / 100`;
+      document.getElementById("riskDescription").textContent = risk.description;
+
+      const trendEl = document.getElementById("riskTrend");
+      trendEl.textContent = risk.trendText;
+      trendEl.className = risk.trendClass;
+
+      const fill = document.getElementById("riskFill");
+      fill.style.width = `${risk.score}%`;
+
+      const badges = document.getElementById("riskBadges");
+      badges.innerHTML = `
+        <span class="badge badge-high">${risk.label}</span>
+        <span class="badge badge-ai">${risk.secondaryBadge}</span>
+      `;
+    }
+
+    function updatePopulation(nowUtc, secThisYear) {
+      const baseDate = new Date(homepageData.population.baseDateUtc);
+      const elapsedFromBase = Math.max(0, (nowUtc - baseDate) / 1000);
+
+      const annualBirths = homepageData.annualStats.Births;
+      const annualDeaths = homepageData.annualStats.Deaths;
+      const currentYear = nowUtc.getUTCFullYear();
+      const secInCurrentYear = secondsInUtcYear(currentYear);
+
+      const populationNow =
+        homepageData.population.basePopulation +
+        ((annualBirths - annualDeaths) / secInCurrentYear) * elapsedFromBase;
+
+      const populationText = formatNumber(populationNow);
+
+      const popMain = document.getElementById("population");
+      if (popMain) popMain.innerText = populationText;
+
+      const popHero = document.getElementById("populationHero");
+      if (popHero) popHero.innerText = populationText;
+    }
+
+    function updateMetric(key, annualValue, secToday, secThisMonth, secThisYear, daysThisMonth, daysThisYear) {
+      const perSecDay = annualValue / daysThisYear / 86400;
+      const perSecMonth = annualValue / 12 / (daysThisMonth * 86400);
+      const perSecYear = annualValue / secThisYear;
+
+      const dailyEl = document.getElementById("daily" + key);
+      const monthlyEl = document.getElementById("monthly" + key);
+      const yearlyEl = document.getElementById("yearly" + key);
+
+      if (dailyEl) dailyEl.innerText = formatNumber(perSecDay * secToday);
+      if (monthlyEl) monthlyEl.innerText = formatNumber(perSecMonth * secThisMonth);
+      if (yearlyEl) yearlyEl.innerText = formatNumber(perSecYear * secThisYear);
+    }
+
+    function syncSummary() {
+      const pairs = [
+        ["summaryBirths", "dailyBirths"],
+        ["summaryDeaths", "dailyDeaths"],
+        ["summaryCO2", "dailyCO2"],
+        ["summaryAIText", "dailyAIText"]
+      ];
+
+      pairs.forEach(([summaryId, sourceId]) => {
+        const summaryEl = document.getElementById(summaryId);
+        const sourceEl = document.getElementById(sourceId);
+        if (summaryEl && sourceEl) summaryEl.innerText = sourceEl.innerText;
+      });
     }
 
     function updateCounters() {
-      const now = new Date();
-      const utcNow = new Date(now.getTime() + now.getTimezoneOffset() * 60000);
+      const nowUtc = getUtcNow();
+      const currentYear = nowUtc.getUTCFullYear();
 
-      const yearStart = new Date(Date.UTC(utcNow.getUTCFullYear(), 0, 1));
-      const diffSecYear = (utcNow - yearStart) / 1000;
+      const yearStart = new Date(Date.UTC(currentYear, 0, 1));
+      const monthStart = new Date(Date.UTC(currentYear, nowUtc.getUTCMonth(), 1));
+      const dayStart = new Date(Date.UTC(currentYear, nowUtc.getUTCMonth(), nowUtc.getUTCDate()));
 
-      const monthStart = new Date(Date.UTC(utcNow.getUTCFullYear(), utcNow.getUTCMonth(), 1));
-      const secThisMonth = (utcNow - monthStart) / 1000;
-      const daysThisMonth = daysInMonth(utcNow.getUTCFullYear(), utcNow.getUTCMonth());
+      const secThisYear = (nowUtc - yearStart) / 1000;
+      const secThisMonth = (nowUtc - monthStart) / 1000;
+      const secToday = (nowUtc - dayStart) / 1000;
 
-      const dayStart = new Date(Date.UTC(utcNow.getUTCFullYear(), utcNow.getUTCMonth(), utcNow.getUTCDate()));
-      const secToday = (utcNow - dayStart) / 1000;
+      const daysThisMonth = daysInMonth(currentYear, nowUtc.getUTCMonth());
+      const daysThisYear = (Date.UTC(currentYear + 1, 0, 1) - Date.UTC(currentYear, 0, 1)) / 86400000;
 
-      const elapsed = getElapsedSeconds();
-      const populationNow = basePopulation + ((yearlyBirths - yearlyDeaths) / SEC_IN_YEAR) * elapsed;
-      const populationText = Math.floor(populationNow).toLocaleString();
+      updatePopulation(nowUtc, secThisYear);
 
-      const popMain = document.getElementById('population');
-      if (popMain) popMain.innerText = populationText;
+      homepageData.groupedCounters.forEach(group => {
+        group.forEach(key => {
+          updateMetric(
+            key,
+            homepageData.annualStats[key],
+            secToday,
+            secThisMonth,
+            secThisYear,
+            daysThisMonth,
+            daysThisYear
+          );
+        });
+      });
 
-      const popHero = document.getElementById('populationHero');
-      if (popHero) popHero.innerText = populationText;
-
-      function updateGroup(ids, yearlyValues) {
-        for (let i = 0; i < ids.length; i++) {
-          const key = ids[i];
-          const yearly = yearlyValues[i];
-
-          const perSecYear = yearly / SEC_IN_YEAR;
-          const perSecMonth = yearly / 12 / (daysThisMonth * 24 * 60 * 60);
-          const perSecDay = yearly / 365 / (24 * 60 * 60);
-
-          const dailyEl = document.getElementById('daily' + key);
-          const monthlyEl = document.getElementById('monthly' + key);
-          const yearlyEl = document.getElementById('yearly' + key);
-
-          const dailyVal = Math.floor(perSecDay * secToday).toLocaleString();
-          const monthlyVal = Math.floor(perSecMonth * secThisMonth).toLocaleString();
-          const yearlyValText = Math.floor(perSecYear * diffSecYear).toLocaleString();
-
-          if (dailyEl) dailyEl.innerText = dailyVal;
-          if (monthlyEl) monthlyEl.innerText = monthlyVal;
-          if (yearlyEl) yearlyEl.innerText = yearlyValText;
-        }
-      }
-
-      updateGroup(
-        ['Births', 'Deaths', 'Marriages', 'WarDeaths'],
-        [yearlyBirths, yearlyDeaths, yearlyMarriages, yearlyWarDeaths]
-      );
-
-      const yearlyMoney = 20000000000000;
-      const yearlyWater = 500000000000;
-      const yearlyElectricity = 300000000000;
-      const yearlyPetroleum = 30000000000;
-
-      updateGroup(
-        ['Money', 'Water', 'Electricity', 'Petroleum'],
-        [yearlyMoney, yearlyWater, yearlyElectricity, yearlyPetroleum]
-      );
-
-      const yearlyTrees = 150000000;
-      const yearlyCO2 = 36000000000;
-      const yearlyPlastic = 900000000;
-      const yearlyAnimals = 1500;
-      const yearlyRenewable = 5000000000;
-
-      updateGroup(
-        ['Trees', 'CO2', 'Plastic', 'Animals', 'Renewable'],
-        [yearlyTrees, yearlyCO2, yearlyPlastic, yearlyAnimals, yearlyRenewable]
-      );
-
-      const yearlyEmails = 3000000000000;
-      const yearlySearches = 10000000000000;
-      const yearlyPosts = 400000000000;
-      const yearlyGames = 200000000;
-
-      updateGroup(
-        ['Emails', 'Searches', 'Posts', 'Games'],
-        [yearlyEmails, yearlySearches, yearlyPosts, yearlyGames]
-      );
-
-      const yearlyAIText = 100000000;
-      const yearlyAIImages = 50000000;
-      const yearlyAICode = 20000000;
-      const yearlyAIMusic = 10000000;
-
-      updateGroup(
-        ['AIText', 'AIImages', 'AICode', 'AIMusic'],
-        [yearlyAIText, yearlyAIImages, yearlyAICode, yearlyAIMusic]
-      );
-
-      const sb = document.getElementById('summaryBirths');
-      const sd = document.getElementById('summaryDeaths');
-      const sc = document.getElementById('summaryCO2');
-      const sa = document.getElementById('summaryAIText');
-
-      const dBirths = document.getElementById('dailyBirths');
-      const dDeaths = document.getElementById('dailyDeaths');
-      const dCO2 = document.getElementById('dailyCO2');
-      const dAIText = document.getElementById('dailyAIText');
-
-      if (sb && dBirths) sb.innerText = dBirths.innerText;
-      if (sd && dDeaths) sd.innerText = dDeaths.innerText;
-      if (sc && dCO2) sc.innerText = dCO2.innerText;
-      if (sa && dAIText) sa.innerText = dAIText.innerText;
+      syncSummary();
     }
 
-    setInterval(updateCounters, 1000);
+    renderRiskWidget();
     updateCounters();
+    setInterval(updateCounters, 1000);
   </script>
 </body>
 </html>

@@ -1,0 +1,71 @@
+{
+  "reportDate": "March 16, 2026",
+  "risk": {
+    "score": 80,
+    "label": "High Risk",
+    "secondaryBadge": "AI Updated",
+    "trendText": "↑ Slightly higher",
+    "trendClass": "trend-up",
+    "description": "Global risk remains high and slightly above yesterday as Hormuz-linked conflict, shipping insecurity, and oil-flow disruption continue to outweigh the partial relief from emergency stock releases and Fujairah’s restart."
+  },
+  "population": {
+    "baseDateUtc": "2026-01-01T00:00:00Z",
+    "basePopulation": 8231613070
+  },
+  "annualStats": {
+    "Births": 136000000,
+    "Deaths": 67000000,
+    "Marriages": 61000000,
+    "WarDeaths": 240000,
+    "Money": 20000000000000,
+    "Water": 500000000000,
+    "Electricity": 300000000000,
+    "Petroleum": 30000000000,
+    "Trees": 150000000,
+    "CO2": 36000000000,
+    "Plastic": 9000000,
+    "Animals": 1500,
+    "Renewable": 5000000000,
+    "Emails": 3000000000000,
+    "Searches": 10000000000000,
+    "Posts": 400000000000,
+    "Games": 200000000,
+    "AIText": 100000000,
+    "AIImages": 50000000,
+    "AICode": 20000000,
+    "AIMusic": 10000000
+  },
+  "groupedCounters": [
+    [
+      "Births",
+      "Deaths",
+      "Marriages",
+      "WarDeaths"
+    ],
+    [
+      "Money",
+      "Water",
+      "Electricity",
+      "Petroleum"
+    ],
+    [
+      "Trees",
+      "CO2",
+      "Plastic",
+      "Animals",
+      "Renewable"
+    ],
+    [
+      "Emails",
+      "Searches",
+      "Posts",
+      "Games"
+    ],
+    [
+      "AIText",
+      "AIImages",
+      "AICode",
+      "AIMusic"
+    ]
+  ]
+}

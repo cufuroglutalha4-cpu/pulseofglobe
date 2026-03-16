@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Global Risk Index | Daily AI World Risk Report | Pulse Of Globe</title>
+  <meta
+    name="description"
+    content="Track daily AI-generated global risk analysis across conflict, economy, health, and climate with regularly updated risk scores, trend indicators, and structured daily reports."
+  />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+
+  <meta property="og:title" content="Global Risk Index | Pulse Of Globe" />
+  <meta
+    property="og:description"
+    content="Daily AI-assisted global risk dashboard covering conflict, economy, health, and climate."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Pulse Of Globe" />
+  <meta property="og:url" content="https://pulseofglobe.com/global-risk.html" />
+  <link rel="canonical" href="https://pulseofglobe.com/global-risk.html" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0D58BVYWTK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0D58BVYWTK');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Global Risk Index",
+    "url": "https://pulseofglobe.com/global-risk.html",
+    "description": "Daily AI-assisted global risk dashboard covering conflict, economy, health, and climate.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Pulse Of Globe",
+      "url": "https://pulseofglobe.com/"
+    },
+    "dateModified": "2026-03-16T09:00:00Z",
+    "about": [
+      "global conflict risk",
+      "economic risk",
+      "public health risk",
+      "climate risk"
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #f4f8fc;
+      --bg-deep: #edf4fb;
+      --surface: rgba(255, 255, 255, 0.82);
+      --surface-strong: #ffffff;
+      --surface-soft: #f8fbff;
+      --text: #0f172a;
+      --text-soft: #334155;
+      --text-muted: #64748b;
+      --line: rgba(15, 23, 42, 0.08);
+      --line-strong: rgba(15, 23, 42, 0.12);
+
+      --primary: #0f7db7;
+      --primary-2: #38bdf8;
+      --primary-soft: rgba(56, 189, 248, 0.12);
+
+      --danger: #ef4444;
+      --danger-soft: rgba(239, 68, 68, 0.12);
+
+      --warning: #f59e0b;
+      --warning-soft: rgba(245, 158, 11, 0.14);
+
+      --success: #16a34a;
+      --success-soft: rgba(22, 163, 74, 0.12);
+
+      --neutral-soft: rgba(100, 116, 139, 0.12);
+
+      --shadow-lg: 0 20px 60px rgba(15, 23, 42, 0.10);
+      --shadow-md: 0 14px 34px rgba(15, 23, 42, 0.08);
+      --shadow-sm: 0 10px 22px rgba(15, 23, 42, 0.05);
+
+      --radius-xl: 28px;
+      --radius-lg: 22px;
+      --radius-md: 18px;
+      --radius-sm: 14px;
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 8% 10%, rgba(56, 189, 248, 0.15), transparent 24%),
+        radial-gradient(circle at 92% 8%, rgba(14, 165, 233, 0.12), transparent 22%),
+        radial-gradient(circle at 85% 85%, rgba(99, 102, 241, 0.08), transparent 18%),
+        linear-gradient(180deg, #f9fcff 0%, var(--bg) 35%, var(--bg-deep) 100%);
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(15, 23, 42, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(15, 23, 42, 0.03) 1px, transparent 1px);
+      background-size: 38px 38px;
+      mask-image: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.05));
+      opacity: 0.32;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .page {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 20px 16px 56px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .top-shell {
+      position: sticky;
+      top: 14px;
+      z-index: 20;
+      margin-bottom: 22px;
+    }
+
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding: 14px 18px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.72);
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+    }
+
+    .brand {
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      font-size: 0.88rem;
+      color: var(--primary);
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .site-nav {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .nav-link {
+      position: relative;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      padding-bottom: 4px;
+      transition: color 0.2s ease;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+      color: var(--primary);
+    }
+
+    .nav-link.active::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      height: 2px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--primary), var(--primary-2));
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      border-radius: 34px;
+      padding: 34px;
+      background:
+        linear-gradient(135deg, rgba(56, 189, 248, 0.10), rgba(255,255,255,0.92)),
+        linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,255,255,0.84));
+      border: 1px solid rgba(255,255,255,0.82);
+      box-shadow: var(--shadow-lg);
+      margin-bottom: 22px;
+      isolation: isolate;
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      border-radius: 999px;
+      pointer-events: none;
+      filter: blur(2px);
+    }
+
+    .hero::before {
+      width: 320px;
+      height: 320px;
+      right: -100px;
+      top: -120px;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.18), transparent 70%);
+    }
+
+    .hero::after {
+      width: 220px;
+      height: 220px;
+      left: -70px;
+      bottom: -100px;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.12), transparent 72%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 0.85fr;
+      gap: 22px;
+      align-items: stretch;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-left { min-width: 0; }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.10);
+      color: var(--primary);
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      margin-bottom: 16px;
+    }
+
+    .live-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--danger);
+      box-shadow: 0 0 0 rgba(239, 68, 68, 0.45);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.38); }
+      70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+    }
+
+    .hero h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2.2rem, 4.2vw, 4rem);
+      line-height: 0.98;
+      letter-spacing: -0.06em;
+      color: #08324a;
+      max-width: 720px;
+    }
+
+    .hero p {
+      margin: 0;
+      max-width: 720px;
+      color: var(--text-soft);
+      font-size: 1rem;
+      line-height: 1.76;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 22px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 16px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 26px rgba(15, 23, 42, 0.08);
+    }
+
+    .btn-primary {
+      color: white;
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+    }
+
+    .btn-secondary {
+      color: var(--text-soft);
+      background: rgba(255,255,255,0.76);
+      border: 1px solid rgba(15,23,42,0.08);
+    }
+
+    .hero-right {
+      background: rgba(255,255,255,0.72);
+      border: 1px solid rgba(255,255,255,0.72);
+      border-radius: 26px;
+      padding: 22px;
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100%;
+    }
+
+    .eyeline {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .big-score {
+      display: flex;
+      align-items: end;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .big-score .value {
+      font-size: 4rem;
+      line-height: 0.9;
+      font-weight: 800;
+      letter-spacing: -0.07em;
+      color: #082d45;
+    }
+
+    .big-score .unit {
+      font-size: 1rem;
+      color: var(--text-muted);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .hero-right p {
+      margin: 0 0 16px;
+      color: var(--text-soft);
+      line-height: 1.68;
+      font-size: 0.95rem;
+    }
+
+    .hero-trend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 0.79rem;
+      line-height: 1;
+      font-weight: 800;
+      white-space: nowrap;
+      letter-spacing: 0.02em;
+    }
+
+    .pill-danger { background: var(--danger-soft); color: var(--danger); }
+    .pill-warning { background: var(--warning-soft); color: #b45309; }
+    .pill-success { background: var(--success-soft); color: var(--success); }
+    .pill-neutral { background: var(--neutral-soft); color: #475569; }
+
+    .overview-strip {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+      margin-bottom: 22px;
+    }
+
+    .overview-card {
+      background: rgba(255,255,255,0.76);
+      border: 1px solid rgba(255,255,255,0.72);
+      border-radius: 22px;
+      padding: 18px;
+      box-shadow: var(--shadow-sm);
+      backdrop-filter: blur(10px);
+    }
+
+    .label {
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--text-muted);
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    .value {
+      font-size: 1.06rem;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.4;
+    }
+
+    .value-sub {
+      margin-top: 5px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .section { margin-bottom: 22px; }
+
+    .section-card {
+      background: rgba(255,255,255,0.82);
+      border: 1px solid rgba(255,255,255,0.78);
+      border-radius: 28px;
+      box-shadow: var(--shadow-md);
+      backdrop-filter: blur(10px);
+      padding: 24px;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 16px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: 1.22rem;
+      letter-spacing: -0.03em;
+      color: var(--text);
+    }
+
+    .section-head p {
+      margin: 6px 0 0;
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      line-height: 1.6;
+      max-width: 760px;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 18px;
+    }
+
+    .sub-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.92), rgba(248,251,255,0.88));
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 20px;
+    }
+
+    .sub-card h3 {
+      margin: 0 0 12px;
+      font-size: 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    .sub-card p {
+      margin: 0;
+      color: var(--text-soft);
+      font-size: 0.93rem;
+      line-height: 1.74;
+    }
+
+    .bullet-list {
+      list-style: none;
+      padding: 0;
+      margin: 14px 0 0;
+      display: grid;
+      gap: 10px;
+    }
+
+    .bullet-list li {
+      display: flex;
+      gap: 10px;
+      color: var(--text-soft);
+      font-size: 0.92rem;
+      line-height: 1.6;
+    }
+
+    .bullet-list li::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+      margin-top: 8px;
+      flex: 0 0 auto;
+    }
+
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .mini-box {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 14px;
+    }
+
+    .mini-box .mini-label {
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+
+    .mini-box .mini-value {
+      font-size: 1.06rem;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.35;
+    }
+
+    .risk-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .risk-card {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(180deg, rgba(255,255,255,0.94), rgba(248,251,255,0.90));
+      border: 1px solid rgba(15,23,42,0.08);
+      border-radius: 24px;
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+    }
+
+    .risk-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 34px rgba(15, 23, 42, 0.08);
+      border-color: rgba(56, 189, 248, 0.24);
+    }
+
+    .risk-card::after {
+      content: "";
+      position: absolute;
+      right: -35px;
+      top: -35px;
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.13), transparent 70%);
+      pointer-events: none;
+    }
+
+    .risk-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: start;
+      margin-bottom: 14px;
+    }
+
+    .risk-title {
+      margin: 0 0 6px;
+      font-size: 1.04rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    .risk-subtitle {
+      color: var(--text-muted);
+      font-size: 0.86rem;
+      line-height: 1.5;
+    }
+
+    .risk-score {
+      text-align: right;
+      flex: 0 0 auto;
+    }
+
+    .risk-score .num {
+      font-size: 2.2rem;
+      line-height: 0.95;
+      font-weight: 800;
+      letter-spacing: -0.06em;
+      color: #08324a;
+    }
+
+    .risk-score .small {
+      margin-top: 4px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+
+    .bar {
+      width: 100%;
+      height: 11px;
+      background: #e7eef6;
+      border-radius: 999px;
+      overflow: hidden;
+      margin-bottom: 14px;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: inherit;
+      transition: width 0.9s ease;
+    }
+
+    .fill-low { background: linear-gradient(90deg, #22c55e, #16a34a); }
+    .fill-medium { background: linear-gradient(90deg, #facc15, #f59e0b); }
+    .fill-high { background: linear-gradient(90deg, #fb7185, #ef4444); }
+
+    .risk-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .chips-block { margin-bottom: 14px; }
+
+    .chips-label {
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--text-muted);
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    .chips-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 10px;
+      border-radius: 999px;
+      font-size: 0.79rem;
+      line-height: 1;
+      font-weight: 700;
+      border: 1px solid rgba(15,23,42,0.06);
+    }
+
+    .chip.driver {
+      background: #f1f5f9;
+      color: #334155;
+    }
+
+    .chip.source {
+      background: rgba(56, 189, 248, 0.10);
+      color: #0369a1;
+    }
+
+    .sparkline-box {
+      height: 54px;
+      padding: 8px 10px;
+      border-radius: 16px;
+      background: linear-gradient(180deg, #fbfdff, #f5f9fd);
+      border: 1px solid var(--line);
+      margin-bottom: 14px;
+    }
+
+    .sparkline-box svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .sparkline-line {
+      fill: none;
+      stroke: #0ea5e9;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .sparkline-area {
+      fill: rgba(56, 189, 248, 0.12);
+    }
+
+    .sparkline-dot {
+      fill: #0ea5e9;
+    }
+
+    .risk-desc {
+      color: var(--text-soft);
+      font-size: 0.92rem;
+      line-height: 1.72;
+    }
+
+    .report-stack {
+      display: grid;
+      gap: 18px;
+    }
+
+    .report-box {
+      background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(249,252,255,0.92));
+      border: 1px solid rgba(15,23,42,0.08);
+      border-radius: 24px;
+      padding: 22px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .report-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+
+    .report-head h3 {
+      margin: 0;
+      font-size: 1.08rem;
+      letter-spacing: -0.02em;
+    }
+
+    .report-layout {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 18px;
+    }
+
+    .report-side {
+      display: grid;
+      gap: 12px;
+      align-content: start;
+    }
+
+    .report-stat {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px;
+    }
+
+    .report-stat small {
+      display: block;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      font-weight: 800;
+      margin-bottom: 7px;
+    }
+
+    .report-stat strong {
+      color: var(--text);
+      font-size: 0.96rem;
+      line-height: 1.5;
+    }
+
+    .report-body h4 {
+      margin: 0 0 8px;
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+    }
+
+    .report-body p {
+      margin: 0 0 14px;
+      color: var(--text-soft);
+      font-size: 0.93rem;
+      line-height: 1.75;
+    }
+
+    .method-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .method-card {
+      background: linear-gradient(180deg, #ffffff, #f9fcff);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 18px;
+    }
+
+    .method-card h3 {
+      margin: 0 0 8px;
+      font-size: 0.96rem;
+      letter-spacing: -0.01em;
+    }
+
+    .method-card p {
+      margin: 0;
+      color: var(--text-soft);
+      font-size: 0.88rem;
+      line-height: 1.68;
+    }
+
+    footer {
+      margin-top: 28px;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.84rem;
+      padding-top: 18px;
+      border-top: 1px solid rgba(15, 23, 42, 0.08);
+    }
+
+    .footer-share { margin-bottom: 10px; }
+
+    .footer-share a,
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+      margin: 0 6px;
+    }
+
+    .footer-share a:hover,
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 1024px) {
+      .hero-grid,
+      .summary-grid,
+      .report-layout,
+      .method-grid,
+      .overview-strip,
+      .risk-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-right { min-height: auto; }
+    }
+
+    @media (max-width: 720px) {
+      .page { padding: 16px 14px 40px; }
+      .top-shell { position: static; }
+      .site-header { border-radius: 22px; }
+      .hero { padding: 22px; border-radius: 28px; }
+      .big-score .value { font-size: 3.1rem; }
+      .comparison-grid { grid-template-columns: 1fr; }
+      .risk-top { flex-direction: column; }
+      .risk-score { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <div class="top-shell">
+      <header class="site-header">
+        <a href="/" class="brand notranslate" translate="no">PULSE OF GLOBE</a>
+
+        <nav class="site-nav">
+          <a href="/" class="nav-link">Home</a>
+          <a href="global-risk.html" class="nav-link active">Global Risk</a>
+          <a href="sources.html" class="nav-link">Sources</a>
+        </nav>
+      </header>
+    </div>
+
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <div class="hero-eyebrow" id="hero-eyebrow"></div>
+
+          <h1>Global Risk Index</h1>
+
+          <p id="hero-summary"></p>
+
+          <div class="hero-actions">
+            <a href="#risk-categories" class="btn btn-primary">Explore risk categories</a>
+            <a href="/" class="btn btn-secondary">Back to live counters</a>
+          </div>
+        </div>
+
+        <aside class="hero-right">
+          <div>
+            <div class="eyeline">Overall global risk</div>
+            <div class="big-score">
+              <div class="value" id="overall-score" data-count="80">80</div>
+              <div class="unit">/ 100</div>
+            </div>
+            <p id="overall-explainer"></p>
+          </div>
+
+          <div class="hero-trend" id="hero-status-pills"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="overview-strip section" id="overview-strip"></section>
+
+    <section class="section">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>Today at a glance</h2>
+            <p>
+              A compressed view of the biggest global risk signals shaping today’s
+              dashboard before the full category breakdown below.
+            </p>
+          </div>
+        </div>
+
+        <div class="summary-grid">
+          <div class="sub-card">
+            <h3>What changed today?</h3>
+            <p id="glance-summary"></p>
+            <ul class="bullet-list" id="glance-bullets"></ul>
+          </div>
+
+          <div class="sub-card">
+            <h3>Daily comparison</h3>
+            <div class="comparison-grid" id="daily-comparison"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="risk-categories">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>Risk categories</h2>
+            <p>
+              Scores are directional indicators designed to show broad movement and
+              relative intensity across four global risk domains.
+            </p>
+          </div>
+        </div>
+
+        <div class="risk-grid" id="risk-grid"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>Detailed daily reports</h2>
+            <p>
+              Each report explains why the category is here, what moved today’s score,
+              and what to watch over the next 48 hours.
+            </p>
+          </div>
+        </div>
+
+        <div class="report-stack" id="report-stack"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>How this index is generated</h2>
+            <p>
+              The index combines public reporting, institutional signals, and AI-assisted
+              synthesis into a simplified daily directional score.
+            </p>
+          </div>
+          <span class="pill pill-neutral">Transparency</span>
+        </div>
+
+        <div class="method-grid">
+          <div class="method-card">
+            <h3>1) Public inputs</h3>
+            <p>
+              The dashboard combines public data, institutional signals, and widely reported
+              developments across conflict, economy, health, and climate.
+            </p>
+          </div>
+
+          <div class="method-card">
+            <h3>2) AI-assisted synthesis</h3>
+            <p>
+              AI is used to summarize, organize, and explain the daily picture in a readable
+              format. It does not replace official institutional forecasts or policy advice.
+            </p>
+          </div>
+
+          <div class="method-card">
+            <h3>3) Directional scoring</h3>
+            <p>
+              Scores are simplified directional indicators designed to show broad movement and
+              relative intensity, not exact probabilistic forecasts.
+            </p>
+          </div>
+        </div>
+
+        <div style="margin-top:16px;">
+          <p style="margin:0 0 10px; font-size:0.92rem; color:var(--text-soft); line-height:1.72;">
+            <strong>AI disclosure:</strong> Parts of the written analysis on this page are generated
+            with the help of artificial intelligence and may be updated daily.
+          </p>
+          <p style="margin:0; font-size:0.92rem; color:var(--text-soft); line-height:1.72;">
+            <strong>Disclaimer:</strong> This page does not provide official institutional forecasts
+            or policy guidance. It is intended for informational and educational use only.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-share">
+        Share this page:
+        <a href="https://twitter.com/intent/tweet?text=Check%20the%20daily%20AI-assisted%20global%20risk%20dashboard&url=https%3A%2F%2Fpulseofglobe.com%2Fglobal-risk.html" target="_blank" rel="noopener noreferrer">X</a> ·
+        <a href="https://api.whatsapp.com/send?text=Check%20the%20daily%20AI-assisted%20global%20risk%20dashboard%20https%3A%2F%2Fpulseofglobe.com%2Fglobal-risk.html" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+
+      <div>
+        <a href="about.html">About Us</a> |
+        <a href="sources.html">Data Sources</a> |
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="terms.html">Terms of Use</a> |
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <p style="margin-top: 10px;">
+        © 2026 PulseOfGlobe. All rights reserved. Risk summaries are based on public data and AI-assisted interpretation.
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    const pageData = {
+      reportDate: "March 16, 2026",
+      updateTimeUtc: "01:00 UTC",
+      overallScore: 80,
+      previousOverallScore: 79,
+      overallLabel: "High",
+      overallTrend: "+1 vs yesterday",
+      confidence: "Medium",
+      heroSummary:
+        "A daily directional snapshot of worldwide risk conditions across conflict, economy, public health, and climate. Today’s update keeps global risk firmly high and slightly higher than yesterday as Hormuz-linked conflict, oil-export disruption, and shipping insecurity continue to outweigh the partial relief coming from emergency stock releases and Fujairah’s restart.",
+      overallExplainer:
+        "The composite score remains high because conflict risk is still transmitting through shipping, energy infrastructure, oil supply, insurance, freight, and market confidence channels. Health risk remains moderate rather than low, while climate risk continues to sit as a persistent structural background pressure.",
+      overview: [
+        {
+          label: "Report Date",
+          value: "March 16, 2026",
+          sub: "Updated daily"
+        },
+        {
+          label: "Top Driver",
+          value: "Conflict Risk",
+          sub: "Highest category today"
+        },
+        {
+          label: "What Changed",
+          value: "Shipping Risk + Oil Relief",
+          sub: "Conflict stayed severe despite reserve action"
+        },
+        {
+          label: "Watch Next 48h",
+          value: "Hormuz + Export Hubs",
+          sub: "Main short-term swing factors"
+        }
+      ],
+      glanceSummary:
+        "The index moved modestly higher because the core Gulf risk picture still has not normalized. Partial operational recovery at Fujairah and emergency stock releases help reduce immediate panic, but they do not remove the underlying conflict, supply, shipping, and confidence shock. Health conditions remain moderate because cholera and measles still prevent a low-risk baseline, while climate risk stays structurally elevated under warm seasonal guidance.",
+      glanceBullets: [
+        "Conflict risk remained the clearest global driver as Hormuz insecurity, coalition pressure, and retaliation risk continued to dominate the near-term outlook.",
+        "Economic risk stayed high because oil, insurance, and freight stress remain elevated even with IEA and national reserve releases.",
+        "Health risk stayed moderate with cholera burden and measles activity still visible across international monitoring.",
+        "Climate risk remained persistently high because seasonal guidance still favors widespread above-normal land temperatures."
+      ],
+      dailyComparison: [
+        {
+          label: "Yesterday",
+          value: "79 / 100"
+        },
+        {
+          label: "Today",
+          value: "80 / 100"
+        },
+        {
+          label: "Trend",
+          value: "High, Slightly Higher"
+        },
+        {
+          label: "Update Time",
+          value: "01:00 UTC"
+        }
+      ],
+      riskData: [
+        {
+          title: "🌍 Global Conflict Risk",
+          subtitle: "Hormuz insecurity, export-hub stress, and retaliation pressure",
+          score: 95,
+          changeText: "+1 vs yesterday",
+          changeClass: "pill-danger",
+          direction: "Very High / Escalating",
+          directionClass: "pill-danger",
+          description:
+            "Conflict risk remains the dominant global driver. The immediate threat environment still extends beyond direct strikes into tanker security, oil-export infrastructure, allied naval posture, and regional retaliation scenarios, keeping the geopolitical backdrop extremely unstable.",
+          drivers: ["Hormuz closure risk", "Kharg/Fujairah stress", "Coalition and retaliation pressure"],
+          sources: ["Reuters", "Public reporting", "Maritime monitoring"],
+          trend: [88, 89, 90, 92, 94, 94, 95]
+        },
+        {
+          title: "💰 Global Economic Risk",
+          subtitle: "Oil shock, freight insurance, and inflation sensitivity",
+          score: 78,
+          changeText: "+1 vs yesterday",
+          changeClass: "pill-warning",
+          direction: "High / Partly Buffered",
+          directionClass: "pill-warning",
+          description:
+            "Economic risk remains high. Emergency reserve releases and Japan’s stock draw help soften the most acute supply panic, but they do not remove the broader macro pressure coming from disrupted flows, higher crude prices, shipping risk, and cost transmission into fuel and inflation.",
+          drivers: ["Oil prices above stress zone", "Insurance and freight risk", "Reserve-release buffering"],
+          sources: ["Reuters", "IEA", "Market pricing"],
+          trend: [71, 72, 74, 76, 77, 77, 78]
+        },
+        {
+          title: "🏥 Global Health Risk",
+          subtitle: "Persistent cholera burden and continued measles pressure",
+          score: 42,
+          changeText: "No change",
+          changeClass: "pill-neutral",
+          direction: "Moderate",
+          directionClass: "pill-neutral",
+          description:
+            "Health risk remains moderate rather than low. There is still no single pandemic-scale shock dominating the dashboard, but ongoing cholera monitoring and sustained measles pressure continue to signal resilience gaps in routine surveillance, immunization, and outbreak control.",
+          drivers: ["Cholera burden", "Measles clusters", "System resilience gaps"],
+          sources: ["WHO", "ECDC", "Public health monitoring"],
+          trend: [43, 43, 42, 42, 42, 42, 42]
+        },
+        {
+          title: "🌡️ Climate Risk",
+          subtitle: "Warm-season stress and widespread temperature anomalies",
+          score: 79,
+          changeText: "No change",
+          changeClass: "pill-warning",
+          direction: "Persistently High",
+          directionClass: "pill-warning",
+          description:
+            "Climate risk remains structurally elevated. Seasonal outlooks continue to indicate a widespread signal for above-normal land temperatures, keeping pressure high across agriculture, water systems, infrastructure, wildfire exposure, and humanitarian resilience.",
+          drivers: ["Warm seasonal outlook", "Heat exposure", "Systemic climate pressure"],
+          sources: ["WMO", "Seasonal outlooks", "Climate monitoring"],
+          trend: [80, 80, 79, 79, 79, 79, 79]
+        }
+      ],
+      reportData: [
+        {
+          title: "🌍 Global Conflict Report",
+          tag: "Very High Risk",
+          tagClass: "pill-danger",
+          score: "95 / 100",
+          direction: "Very High / Escalating",
+          watch: "Hormuz transit, coalition buildup, export-site targeting",
+          why:
+            "Conflict risk remains the top category because the current Gulf crisis still threatens both military and commercial arteries at the same time. The danger now spans direct confrontation, shipping access, export terminals, and allied response posture across one of the world’s most critical energy corridors.",
+          moved:
+            "The score moved slightly higher because the underlying confrontation remains unresolved and still capable of producing fresh infrastructure or maritime shocks. Fujairah’s restart helps, but it does not yet change the wider risk regime.",
+          matters:
+            "Conflict risk matters because it feeds directly into energy flows, trade costs, market psychology, humanitarian pressure, and wider regional instability. It remains the strongest reason the composite index stays elevated."
+        },
+        {
+          title: "💰 Global Economic Report",
+          tag: "High Risk",
+          tagClass: "pill-warning",
+          score: "78 / 100",
+          direction: "High / Partly Buffered",
+          watch: "Oil flows, reserve delivery, insurance pricing, freight costs",
+          why:
+            "The global economy remains exposed to a war-driven energy and logistics shock. Emergency oil releases reduce some near-term panic, but the broader disruption risk remains tied to actual shipping insecurity and the possibility of renewed export losses.",
+          moved:
+            "The score edged higher because relief measures are arriving into a still-unresolved conflict environment. That means price spikes may soften at the margin while the underlying vulnerability remains high.",
+          matters:
+            "Economic risk matters because it is the main channel through which geopolitics reaches households and businesses: fuel prices, transport costs, inflation pressure, fiscal strain, and confidence."
+        },
+        {
+          title: "🏥 Global Health Report",
+          tag: "Moderate Risk",
+          tagClass: "pill-neutral",
+          score: "42 / 100",
+          direction: "Moderate",
+          watch: "Cholera monitoring, measles cases, immunity gaps",
+          why:
+            "Health conditions remain below the intensity of conflict and energy risk in today’s dashboard, but not low enough to fade from view. Cholera remains a multi-country concern and measles continues to reflect weaknesses in routine immunization and surveillance.",
+          moved:
+            "The score stayed broadly unchanged because there is no new dominant pandemic-style emergency today. The pressure remains persistent rather than sharply accelerating.",
+          matters:
+            "Health risk matters because it compounds humanitarian fragility and can intensify the downstream effects of conflict, displacement, climate stress, and weaker public services."
+        },
+        {
+          title: "🌡️ Climate Risk Report",
+          tag: "Very High Structural Risk",
+          tagClass: "pill-danger",
+          score: "79 / 100",
+          direction: "Persistently High",
+          watch: "Heat anomalies, crop stress, wildfire and water pressure",
+          why:
+            "Climate risk remains structurally high even on days dominated by war and markets. Seasonal guidance still points to widespread above-normal land temperatures, which keeps the climate layer of the dashboard elevated.",
+          moved:
+            "The score stayed broadly unchanged because the climate backdrop remains severe but was not the sharpest same-day mover in the dashboard. This is a chronic structural pressure rather than a sudden headline-driven jump.",
+          matters:
+            "Climate risk matters because it amplifies food stress, water pressure, infrastructure loss, insurance strain, migration pressure, and public-health vulnerability."
+        }
+      ]
+    };
+
+    function getBarClass(score) {
+      if (score < 35) return "fill-low";
+      if (score < 70) return "fill-medium";
+      return "fill-high";
+    }
+
+    function createPill(text, className) {
+      return `<span class="pill ${className}">${text}</span>`;
+    }
+
+    function createSparkline(values) {
+      const width = 240;
+      const height = 36;
+      const padding = 4;
+      const min = Math.min(...values);
+      const max = Math.max(...values);
+      const range = max - min || 1;
+      const stepX = (width - padding * 2) / (values.length - 1);
+
+      const points = values.map((value, index) => {
+        const x = padding + index * stepX;
+        const y = height - padding - ((value - min) / range) * (height - padding * 2);
+        return { x, y };
+      });
+
+      const line = points.map(p => `${p.x},${p.y}`).join(" ");
+      const area = `${points.map(p => `${p.x},${p.y}`).join(" ")} ${points[points.length - 1].x},${height - padding} ${points[0].x},${height - padding}`;
+      const lastPoint = points[points.length - 1];
+
+      return `
+        <svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-hidden="true">
+          <polygon class="sparkline-area" points="${area}"></polygon>
+          <polyline class="sparkline-line" points="${line}"></polyline>
+          <circle class="sparkline-dot" cx="${lastPoint.x}" cy="${lastPoint.y}" r="3.5"></circle>
+        </svg>
+      `;
+    }
+
+    function renderTopMeta() {
+      document.getElementById("hero-eyebrow").innerHTML = `
+        <span class="live-dot"></span>
+        Daily AI-assisted global risk report · ${pageData.reportDate}
+      `;
+
+      const overallScoreEl = document.getElementById("overall-score");
+      overallScoreEl.dataset.count = pageData.overallScore;
+      overallScoreEl.textContent = pageData.overallScore;
+
+      document.getElementById("hero-summary").textContent = pageData.heroSummary;
+      document.getElementById("overall-explainer").textContent = pageData.overallExplainer;
+
+      document.getElementById("hero-status-pills").innerHTML = `
+        ${createPill(pageData.overallLabel, "pill-danger")}
+        ${createPill(pageData.overallTrend, "pill-warning")}
+        ${createPill(`Confidence: ${pageData.confidence}`, "pill-neutral")}
+      `;
+    }
+
+    function renderOverview() {
+      document.getElementById("overview-strip").innerHTML = pageData.overview.map(item => `
+        <div class="overview-card">
+          <div class="label">${item.label}</div>
+          <div class="value">${item.value}</div>
+          <div class="value-sub">${item.sub}</div>
+        </div>
+      `).join("");
+    }
+
+    function renderGlance() {
+      document.getElementById("glance-summary").textContent = pageData.glanceSummary;
+
+      document.getElementById("glance-bullets").innerHTML = pageData.glanceBullets.map(item => `
+        <li>${item}</li>
+      `).join("");
+
+      document.getElementById("daily-comparison").innerHTML = pageData.dailyComparison.map(item => `
+        <div class="mini-box">
+          <div class="mini-label">${item.label}</div>
+          <div class="mini-value">${item.value}</div>
+        </div>
+      `).join("");
+    }
+
+    function renderRiskCards() {
+      const riskGrid = document.getElementById("risk-grid");
+
+      riskGrid.innerHTML = pageData.riskData.map(item => `
+        <article class="risk-card">
+          <div class="risk-top">
+            <div>
+              <div class="risk-title">${item.title}</div>
+              <div class="risk-subtitle">${item.subtitle}</div>
+            </div>
+
+            <div class="risk-score">
+              <div class="num" data-count="${item.score}">${item.score}</div>
+              <div class="small">/ 100</div>
+            </div>
+          </div>
+
+          <div class="bar">
+            <div class="bar-fill ${getBarClass(item.score)}" style="width:${item.score}%"></div>
+          </div>
+
+          <div class="risk-pills">
+            ${createPill(item.changeText, item.changeClass)}
+            ${createPill(item.direction, item.directionClass)}
+          </div>
+
+          <div class="chips-block">
+            <div class="chips-label">Key drivers</div>
+            <div class="chips-row">
+              ${item.drivers.map(driver => `<span class="chip driver">${driver}</span>`).join("")}
+            </div>
+          </div>
+
+          <div class="chips-block">
+            <div class="chips-label">Last 7 updates</div>
+            <div class="sparkline-box">${createSparkline(item.trend)}</div>
+          </div>
+
+          <div class="chips-block">
+            <div class="chips-label">Signals used</div>
+            <div class="chips-row">
+              ${item.sources.map(source => `<span class="chip source">${source}</span>`).join("")}
+            </div>
+          </div>
+
+          <div class="risk-desc">${item.description}</div>
+        </article>
+      `).join("");
+    }
+
+    function renderReports() {
+      const reportStack = document.getElementById("report-stack");
+
+      reportStack.innerHTML = pageData.reportData.map(item => `
+        <article class="report-box">
+          <div class="report-head">
+            <h3>${item.title}</h3>
+            <span class="pill ${item.tagClass}">${item.tag}</span>
+          </div>
+
+          <div class="report-layout">
+            <div class="report-side">
+              <div class="report-stat">
+                <small>Score</small>
+                <strong>${item.score}</strong>
+              </div>
+              <div class="report-stat">
+                <small>Direction</small>
+                <strong>${item.direction}</strong>
+              </div>
+              <div class="report-stat">
+                <small>Watch Next 48h</small>
+                <strong>${item.watch}</strong>
+              </div>
+            </div>
+
+            <div class="report-body">
+              <h4>Why it remains here</h4>
+              <p>${item.why}</p>
+
+              <h4>What moved the score</h4>
+              <p>${item.moved}</p>
+
+              <h4>Why it matters</h4>
+              <p>${item.matters}</p>
+            </div>
+          </div>
+        </article>
+      `).join("");
+    }
+
+    function animateCounters() {
+      const counters = document.querySelectorAll("[data-count]");
+
+      counters.forEach(counter => {
+        const target = Number(counter.dataset.count);
+        const duration = 900;
+        const start = performance.now();
+
+        function update(now) {
+          const progress = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          const value = Math.round(target * eased);
+          counter.textContent = value;
+
+          if (progress < 1) {
+            requestAnimationFrame(update);
+          } else {
+            counter.textContent = target;
+          }
+        }
+
+        requestAnimationFrame(update);
+      });
+    }
+
+    renderTopMeta();
+    renderOverview();
+    renderGlance();
+    renderRiskCards();
+    renderReports();
+    animateCounters();
+  </script>
+</body>
+</html>

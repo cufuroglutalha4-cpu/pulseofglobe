@@ -900,7 +900,7 @@
         <div class="hero-left">
           <div class="hero-eyebrow" id="heroEyebrow">
             <span class="live-dot"></span>
-            Live global counters · March 15, 2026
+            Live global counters · March 16, 2026
           </div>
 
           <h1>World Live Counters</h1>
@@ -956,7 +956,7 @@
 
             <div class="risk-widget-top">
               <div class="risk-score-wrap">
-                <strong id="riskScoreValue">79 / 100</strong>
+                <strong id="riskScoreValue">80 / 100</strong>
                 <span id="riskScoreSub">Overall global risk score</span>
               </div>
 
@@ -968,15 +968,15 @@
 
             <div class="risk-trend">
               Trend:
-              <span class="trend-up" id="riskTrend">↑ Higher</span>
+              <span class="trend-up" id="riskTrend">↑ Slightly higher</span>
             </div>
 
             <div class="risk-bar">
-              <div class="risk-fill" id="riskFill" style="width:79%"></div>
+              <div class="risk-fill" id="riskFill" style="width:80%"></div>
             </div>
 
             <p id="riskDescription">
-              Gulf-linked conflict, shipping insecurity, and energy infrastructure pressure keep the global risk picture elevated, while emergency reserve releases only partly cushion the economic shock.
+              Global risk remains high and slightly above yesterday as Hormuz-linked conflict, shipping insecurity, and oil-flow disruption continue to outweigh the partial relief from emergency stock releases and Fujairah’s restart.
             </p>
 
             <div class="risk-widget-actions">
@@ -1304,15 +1304,15 @@
 
   <script>
     const homepageData = {
-      reportDate: "March 15, 2026",
+      reportDate: "March 16, 2026",
       risk: {
-        score: 79,
+        score: 80,
         label: "High Risk",
         secondaryBadge: "AI Updated",
-        trendText: "↑ Higher",
+        trendText: "↑ Slightly higher",
         trendClass: "trend-up",
         description:
-          "Gulf-linked conflict, shipping insecurity, and energy infrastructure pressure keep the global risk picture elevated, while emergency reserve releases only partly cushion the economic shock."
+          "Global risk remains high and slightly above yesterday as Hormuz-linked conflict, shipping insecurity, and oil-flow disruption continue to outweigh the partial relief from emergency stock releases and Fujairah’s restart."
       },
       population: {
         baseDateUtc: "2026-01-01T00:00:00Z",
@@ -1398,11 +1398,9 @@
     });
 
     function formatNumber(value) {
-      return Math.floor(value).toLocaleString("en-US");
-    }
-
-    function daysInMonth(year, month) {
-      return new Date(year, month + 1, 0).getDate();
+      return Math.floor(Math.max(0, value))
+        .toString()
+        .replace(/\B(?=(\d{3})+(?!\d))/g, ".");
     }
 
     function secondsInUtcYear(year) {
@@ -1412,8 +1410,12 @@
     }
 
     function getUtcNow() {
-      const now = new Date();
-      return new Date(now.getTime() + now.getTimezoneOffset() * 60000);
+      return new Date();
+    }
+
+    function elapsedSecondsInCurrentYear(nowUtc) {
+      const yearStart = Date.UTC(nowUtc.getUTCFullYear(), 0, 1, 0, 0, 0);
+      return (nowUtc.getTime() - yearStart) / 1000;
     }
 
     function renderRiskWidget() {
@@ -1440,18 +1442,28 @@
       `;
     }
 
-    function updatePopulation(nowUtc, secThisYear) {
+    function updatePopulation(nowUtc) {
       const baseDate = new Date(homepageData.population.baseDateUtc);
-      const elapsedFromBase = Math.max(0, (nowUtc - baseDate) / 1000);
+      let populationNow = homepageData.population.basePopulation;
 
-      const annualBirths = homepageData.annualStats.Births;
-      const annualDeaths = homepageData.annualStats.Deaths;
-      const currentYear = nowUtc.getUTCFullYear();
-      const secInCurrentYear = secondsInUtcYear(currentYear);
+      if (nowUtc > baseDate) {
+        let year = baseDate.getUTCFullYear();
+        let cursor = baseDate.getTime();
+        const currentTime = nowUtc.getTime();
 
-      const populationNow =
-        homepageData.population.basePopulation +
-        ((annualBirths - annualDeaths) / secInCurrentYear) * elapsedFromBase;
+        while (cursor < currentTime) {
+          const yearEnd = Date.UTC(year + 1, 0, 1, 0, 0, 0);
+          const segmentEnd = Math.min(yearEnd, currentTime);
+          const elapsedSeconds = (segmentEnd - cursor) / 1000;
+          const secInYear = secondsInUtcYear(year);
+          const netAnnualChange = homepageData.annualStats.Births - homepageData.annualStats.Deaths;
+
+          populationNow += (netAnnualChange / secInYear) * elapsedSeconds;
+
+          cursor = segmentEnd;
+          year += 1;
+        }
+      }
 
       const populationText = formatNumber(populationNow);
 
@@ -1462,18 +1474,16 @@
       if (popHero) popHero.innerText = populationText;
     }
 
-    function updateMetric(key, annualValue, secToday, secThisMonth, secThisYear, daysThisMonth, daysThisYear) {
-      const perSecDay = annualValue / daysThisYear / 86400;
-      const perSecMonth = annualValue / 12 / (daysThisMonth * 86400);
-      const perSecYear = annualValue / secThisYear;
+    function updateMetric(key, annualValue, secToday, secThisMonth, secThisYear, secInYear) {
+      const ratePerSecond = annualValue / secInYear;
 
       const dailyEl = document.getElementById("daily" + key);
       const monthlyEl = document.getElementById("monthly" + key);
       const yearlyEl = document.getElementById("yearly" + key);
 
-      if (dailyEl) dailyEl.innerText = formatNumber(perSecDay * secToday);
-      if (monthlyEl) monthlyEl.innerText = formatNumber(perSecMonth * secThisMonth);
-      if (yearlyEl) yearlyEl.innerText = formatNumber(perSecYear * secThisYear);
+      if (dailyEl) dailyEl.innerText = formatNumber(ratePerSecond * secToday);
+      if (monthlyEl) monthlyEl.innerText = formatNumber(ratePerSecond * secThisMonth);
+      if (yearlyEl) yearlyEl.innerText = formatNumber(ratePerSecond * secThisYear);
     }
 
     function syncSummary() {
@@ -1499,14 +1509,12 @@
       const monthStart = new Date(Date.UTC(currentYear, nowUtc.getUTCMonth(), 1));
       const dayStart = new Date(Date.UTC(currentYear, nowUtc.getUTCMonth(), nowUtc.getUTCDate()));
 
-      const secThisYear = (nowUtc - yearStart) / 1000;
-      const secThisMonth = (nowUtc - monthStart) / 1000;
-      const secToday = (nowUtc - dayStart) / 1000;
+      const secThisYear = (nowUtc.getTime() - yearStart.getTime()) / 1000;
+      const secThisMonth = (nowUtc.getTime() - monthStart.getTime()) / 1000;
+      const secToday = (nowUtc.getTime() - dayStart.getTime()) / 1000;
+      const secInYear = secondsInUtcYear(currentYear);
 
-      const daysThisMonth = daysInMonth(currentYear, nowUtc.getUTCMonth());
-      const daysThisYear = (Date.UTC(currentYear + 1, 0, 1) - Date.UTC(currentYear, 0, 1)) / 86400000;
-
-      updatePopulation(nowUtc, secThisYear);
+      updatePopulation(nowUtc);
 
       homepageData.groupedCounters.forEach(group => {
         group.forEach(key => {
@@ -1516,8 +1524,7 @@
             secToday,
             secThisMonth,
             secThisYear,
-            daysThisMonth,
-            daysThisYear
+            secInYear
           );
         });
       });

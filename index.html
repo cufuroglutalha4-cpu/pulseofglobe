@@ -968,15 +968,15 @@
 
             <div class="risk-trend">
               Trend:
-              <span class="trend-up" id="riskTrend">↑ Slightly higher</span>
+              <span class="trend-up" id="riskTrend">↑ Sharply higher</span>
             </div>
 
             <div class="risk-bar">
-              <div class="risk-fill" id="riskFill" style="width:80%"></div>
+              <div class="risk-fill" id="riskFill" style="width:83%"></div>
             </div>
 
             <p id="riskDescription">
-              Global risk remains high and slightly above yesterday as Hormuz-linked conflict, shipping insecurity, and oil-flow disruption continue to outweigh the partial relief from emergency stock releases and Fujairah’s restart.
+              Global risk remains high and moved higher today as renewed Gulf-linked attacks, continued insecurity in the Strait of Hormuz, and rising oil prices intensified pressure on shipping, energy flows, and market confidence.
             </p>
 
             <div class="risk-widget-actions">
@@ -1306,13 +1306,13 @@
     const homepageData = {
       reportDate: "March 17, 2026",
       risk: {
-        score: 80,
+        score: 83,
         label: "High Risk",
         secondaryBadge: "AI Updated",
-        trendText: "↑ Slightly higher",
+        trendText: "↑ Sharply higher",
         trendClass: "trend-up",
         description:
-          "Global risk remains high and slightly above yesterday as Hormuz-linked conflict, shipping insecurity, and oil-flow disruption continue to outweigh the partial relief from emergency stock releases and Fujairah’s restart."
+          "Global risk remains high and moved higher today as renewed Gulf-linked attacks, continued insecurity in the Strait of Hormuz, and rising oil prices intensified pressure on shipping, energy flows, and market confidence."
       },
       population: {
         baseDateUtc: "2026-01-01T00:00:00Z",
@@ -1411,11 +1411,6 @@
 
     function getUtcNow() {
       return new Date();
-    }
-
-    function elapsedSecondsInCurrentYear(nowUtc) {
-      const yearStart = Date.UTC(nowUtc.getUTCFullYear(), 0, 1, 0, 0, 0);
-      return (nowUtc.getTime() - yearStart) / 1000;
     }
 
     function renderRiskWidget() {

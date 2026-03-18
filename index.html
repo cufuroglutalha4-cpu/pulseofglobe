@@ -5,7 +5,6 @@
   <title>Live World Counters | Pulse Of Globe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" sizes="any" />
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png" />
@@ -13,7 +12,6 @@
   <link rel="apple-touch-icon" href="/images/favicon-48.png" />
   <meta name="theme-color" content="#0f7db7" />
 
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -21,7 +19,6 @@
     rel="stylesheet"
   />
 
-  <!-- SEO & Social -->
   <meta
     name="description"
     content="Real-time world counters for population, environment, economy, technology, and daily AI-assisted global risk insights."
@@ -114,13 +111,8 @@
       --max: 1180px;
     }
 
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
 
     body {
       margin: 0;
@@ -148,10 +140,7 @@
       opacity: 0.32;
     }
 
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
+    a { color: inherit; text-decoration: none; }
 
     .page {
       max-width: var(--max);
@@ -271,9 +260,7 @@
       z-index: 1;
     }
 
-    .hero-left {
-      min-width: 0;
-    }
+    .hero-left { min-width: 0; }
 
     .hero-eyebrow {
       display: inline-flex;
@@ -321,9 +308,7 @@
       line-height: 1.76;
     }
 
-    .hero-stat {
-      margin-top: 18px;
-    }
+    .hero-stat { margin-top: 18px; }
 
     .hero-label {
       display: block;
@@ -481,25 +466,10 @@
       white-space: nowrap;
     }
 
-    .badge-high {
-      background: var(--danger-soft);
-      color: var(--danger);
-    }
-
-    .badge-medium {
-      background: var(--warning-soft);
-      color: #b45309;
-    }
-
-    .badge-low {
-      background: var(--success-soft);
-      color: var(--success);
-    }
-
-    .badge-ai {
-      background: var(--primary-soft);
-      color: #0369a1;
-    }
+    .badge-high { background: var(--danger-soft); color: var(--danger); }
+    .badge-medium { background: var(--warning-soft); color: #b45309; }
+    .badge-low { background: var(--success-soft); color: var(--success); }
+    .badge-ai { background: var(--primary-soft); color: #0369a1; }
 
     .risk-trend {
       margin: 8px 0 10px;
@@ -508,20 +478,9 @@
       color: var(--text-soft);
     }
 
-    .trend-up {
-      color: var(--danger);
-      margin-left: 4px;
-    }
-
-    .trend-down {
-      color: var(--success);
-      margin-left: 4px;
-    }
-
-    .trend-stable {
-      color: #64748b;
-      margin-left: 4px;
-    }
+    .trend-up { color: var(--danger); margin-left: 4px; }
+    .trend-down { color: var(--success); margin-left: 4px; }
+    .trend-stable { color: #64748b; margin-left: 4px; }
 
     .risk-bar {
       height: 10px;
@@ -570,9 +529,7 @@
       transform: translateY(-1px);
     }
 
-    .section {
-      margin-bottom: 22px;
-    }
+    .section { margin-bottom: 22px; }
 
     .section-card {
       background: rgba(255,255,255,0.82);
@@ -632,9 +589,7 @@
       border-color: rgba(56, 189, 248, 0.22);
     }
 
-    .highlight-icon {
-      font-size: 1.2rem;
-    }
+    .highlight-icon { font-size: 1.2rem; }
 
     .highlight-title {
       font-size: 0.95rem;
@@ -740,9 +695,7 @@
       margin-top: 8px;
     }
 
-    .counters.counters-single {
-      max-width: 280px;
-    }
+    .counters.counters-single { max-width: 280px; }
 
     .counter-box {
       background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(248,251,255,0.92));
@@ -808,9 +761,7 @@
       border-top: 1px solid rgba(15, 23, 42, 0.08);
     }
 
-    .footer-share {
-      margin-bottom: 10px;
-    }
+    .footer-share { margin-bottom: 10px; }
 
     .footer-share a,
     footer a {
@@ -847,22 +798,10 @@
     }
 
     @media (max-width: 720px) {
-      .page {
-        padding: 16px 14px 40px;
-      }
-
-      .top-shell {
-        position: static;
-      }
-
-      .site-header {
-        border-radius: 22px;
-      }
-
-      .hero {
-        padding: 22px;
-        border-radius: 28px;
-      }
+      .page { padding: 16px 14px 40px; }
+      .top-shell { position: static; }
+      .site-header { border-radius: 22px; }
+      .hero { padding: 22px; border-radius: 28px; }
 
       .highlights,
       .counters,
@@ -870,13 +809,8 @@
         grid-template-columns: 1fr;
       }
 
-      .accordion-item {
-        padding: 14px 14px;
-      }
-
-      .risk-score-wrap strong {
-        font-size: 1.75rem;
-      }
+      .accordion-item { padding: 14px 14px; }
+      .risk-score-wrap strong { font-size: 1.75rem; }
     }
   </style>
 </head>
@@ -900,7 +834,7 @@
         <div class="hero-left">
           <div class="hero-eyebrow" id="heroEyebrow">
             <span class="live-dot"></span>
-            Live global counters · March 17, 2026
+            Live global counters · March 18, 2026
           </div>
 
           <h1>World Live Counters</h1>
@@ -956,7 +890,7 @@
 
             <div class="risk-widget-top">
               <div class="risk-score-wrap">
-                <strong id="riskScoreValue">83 / 100</strong>
+                <strong id="riskScoreValue">84 / 100</strong>
                 <span id="riskScoreSub">Overall global risk score</span>
               </div>
 
@@ -968,15 +902,15 @@
 
             <div class="risk-trend">
               Trend:
-              <span class="trend-up" id="riskTrend">↑ Sharply higher</span>
+              <span class="trend-up" id="riskTrend">↑ Higher than yesterday</span>
             </div>
 
             <div class="risk-bar">
-              <div class="risk-fill" id="riskFill" style="width:83%"></div>
+              <div class="risk-fill" id="riskFill" style="width:84%"></div>
             </div>
 
             <p id="riskDescription">
-              Global risk remains high and moved higher today as renewed Gulf-linked attacks, continued insecurity in the Strait of Hormuz, and rising oil prices intensified pressure on shipping, energy flows, and market confidence.
+              Global risk remains high and ticked higher again as Hormuz-linked shipping disruption, renewed attacks affecting the UAE, and severe oil-export stress continue to pressure energy flows, freight confidence, and markets.
             </p>
 
             <div class="risk-widget-actions">
@@ -1304,15 +1238,15 @@
 
   <script>
     const homepageData = {
-      reportDate: "March 17, 2026",
+      reportDate: "March 18, 2026",
       risk: {
-        score: 83,
+        score: 84,
         label: "High Risk",
         secondaryBadge: "AI Updated",
-        trendText: "↑ Sharply higher",
+        trendText: "↑ Higher than yesterday",
         trendClass: "trend-up",
         description:
-          "Global risk remains high and moved higher today as renewed Gulf-linked attacks, continued insecurity in the Strait of Hormuz, and rising oil prices intensified pressure on shipping, energy flows, and market confidence."
+          "Global risk remains high and ticked higher again as Hormuz-linked shipping disruption, renewed attacks affecting the UAE, and severe oil-export stress continue to pressure energy flows, freight confidence, and markets."
       },
       population: {
         baseDateUtc: "2026-01-01T00:00:00Z",

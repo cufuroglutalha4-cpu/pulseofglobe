@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Global Risk Index | Daily AI World Risk Report | Pulse Of Globe</title>
+  <meta
+    name="description"
+    content="Track daily AI-generated global risk analysis across conflict, economy, health, and climate with regularly updated risk scores, trend indicators, and structured daily reports."
+  />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+
+  <meta property="og:title" content="Global Risk Index | Pulse Of Globe" />
+  <meta
+    property="og:description"
+    content="Daily AI-assisted global risk dashboard covering conflict, economy, health, and climate."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Pulse Of Globe" />
+  <meta property="og:url" content="https://pulseofglobe.com/global-risk.html" />
+  <link rel="canonical" href="https://pulseofglobe.com/global-risk.html" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48.png" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0D58BVYWTK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0D58BVYWTK');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Global Risk Index",
+    "url": "https://pulseofglobe.com/global-risk.html",
+    "description": "Daily AI-assisted global risk dashboard covering conflict, economy, health, and climate.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Pulse Of Globe",
+      "url": "https://pulseofglobe.com/"
+    },
+    "dateModified": "2026-03-20T00:01:00Z",
+    "about": [
+      "global conflict risk",
+      "economic risk",
+      "public health risk",
+      "climate risk"
+    ]
+  }
+  </script>
+
+    <link rel="stylesheet" href="assets/css/global-risk.css" />
+</head>
+<body>
+  <div class="page">
+
+    <div class="top-shell">
+      <header class="site-header">
+        <a href="/" class="brand notranslate" translate="no">PULSE OF GLOBE</a>
+
+        <nav class="site-nav">
+          <a href="/" class="nav-link">Home</a>
+          <a href="global-risk.html" class="nav-link active">Global Risk</a>
+          <a href="sources.html" class="nav-link">Sources</a>
+        </nav>
+      </header>
+    </div>
+
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <div class="hero-eyebrow" id="hero-eyebrow"></div>
+
+          <h1>Global Risk Index</h1>
+
+          <p id="hero-summary"></p>
+
+          <div class="hero-actions">
+            <a href="#risk-categories" class="btn btn-primary">Explore risk categories</a>
+            <a href="/" class="btn btn-secondary">Back to live counters</a>
+          </div>
+        </div>
+
+        <aside class="hero-right">
+          <div>
+            <div class="eyeline">Overall global risk</div>
+            <div class="big-score">
+              <div class="value" id="overall-score" data-count="82">82</div>
+              <div class="unit">/ 100</div>
+            </div>
+            <p id="overall-explainer"></p>
+          </div>
+
+          <div class="hero-trend" id="hero-status-pills"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="overview-strip section" id="overview-strip"></section>
+
+    <section class="section">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>Today at a glance</h2>
+            <p>
+              A compressed view of the biggest global risk signals shaping today’s
+              dashboard before the full category breakdown below.
+            </p>
+          </div>
+        </div>
+
+        <div class="summary-grid">
+          <div class="sub-card">
+            <h3>What changed today?</h3>
+            <p id="glance-summary"></p>
+            <ul class="bullet-list" id="glance-bullets"></ul>
+          </div>
+
+          <div class="sub-card">
+            <h3>Daily comparison</h3>
+            <div class="comparison-grid" id="daily-comparison"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="risk-categories">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>Risk categories</h2>
+            <p>
+              Scores are directional indicators designed to show broad movement and
+              relative intensity across four global risk domains.
+            </p>
+          </div>
+        </div>
+
+        <div class="risk-grid" id="risk-grid"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>Detailed daily reports</h2>
+            <p>
+              Each report explains why the category is here, what moved today’s score,
+              and what to watch over the next 48 hours.
+            </p>
+          </div>
+        </div>
+
+        <div class="report-stack" id="report-stack"></div>
+      </div>
+    </section>
+
+
+    <section class="section" id="country-risk-index">
+      <div class="section-card">
+        <div class="section-head">
+          <div class="country-section-note">
+            <h2>Country Risk Index</h2>
+            <p>
+              A first country layer for the risk page. These 10 country cards keep the same
+              visual language as the main dashboard and can be updated daily from a separate data file.
+            </p>
+          </div>
+          <span class="pill pill-neutral">10 countries</span>
+        </div>
+
+        <div class="country-grid" id="country-risk-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="country-risk-reports">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>Country Risk Reports</h2>
+            <p>
+              A detailed daily write-up for each tracked country with score, trend, watch items,
+              and the main pressure points shaping today’s index.
+            </p>
+          </div>
+        </div>
+
+        <div class="country-report-stack" id="country-report-stack"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>How this index is generated</h2>
+            <p>
+              The index combines public reporting, institutional signals, and AI-assisted
+              synthesis into a simplified daily directional score.
+            </p>
+          </div>
+          <span class="pill pill-neutral">Transparency</span>
+        </div>
+
+        <div class="method-grid">
+          <div class="method-card">
+            <h3>1) Public inputs</h3>
+            <p>
+              The dashboard combines public data, institutional signals, and widely reported
+              developments across conflict, economy, health, and climate.
+            </p>
+          </div>
+
+          <div class="method-card">
+            <h3>2) AI-assisted synthesis</h3>
+            <p>
+              AI is used to summarize, organize, and explain the daily picture in a readable
+              format. It does not replace official institutional forecasts or policy advice.
+            </p>
+          </div>
+
+          <div class="method-card">
+            <h3>3) Directional scoring</h3>
+            <p>
+              Scores are simplified directional indicators designed to show broad movement and
+              relative intensity, not exact probabilistic forecasts.
+            </p>
+          </div>
+        </div>
+
+        <div style="margin-top:16px;">
+          <p style="margin:0 0 10px; font-size:0.92rem; color:var(--text-soft); line-height:1.72;">
+            <strong>AI disclosure:</strong> Parts of the written analysis on this page are generated
+            with the help of artificial intelligence and may be updated daily.
+          </p>
+          <p style="margin:0; font-size:0.92rem; color:var(--text-soft); line-height:1.72;">
+            <strong>Disclaimer:</strong> This page does not provide official institutional forecasts
+            or policy guidance. It is intended for informational and educational use only.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-share">
+        Share this page:
+        <a href="https://twitter.com/intent/tweet?text=Check%20the%20daily%20AI-assisted%20global%20risk%20dashboard&url=https%3A%2F%2Fpulseofglobe.com%2Fglobal-risk.html" target="_blank" rel="noopener noreferrer">X</a> ·
+        <a href="https://api.whatsapp.com/send?text=Check%20the%20daily%20AI-assisted%20global%20risk%20dashboard%20https%3A%2F%2Fpulseofglobe.com%2Fglobal-risk.html" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+
+      <div>
+        <a href="about.html">About Us</a> |
+        <a href="sources.html">Data Sources</a> |
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="terms.html">Terms of Use</a> |
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <p style="margin-top: 10px;">
+        © 2026 PulseOfGlobe. All rights reserved. Risk summaries are based on public data and AI-assisted interpretation.
+      </p>
+    </footer>
+  </div>
+
+    <script src="assets/js/daily-risk-data.js"></script>
+  <script src="assets/js/global-risk.js"></script>
+</body>
+</html>

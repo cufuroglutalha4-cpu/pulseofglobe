@@ -835,15 +835,15 @@
         <div class="hero-left">
           <div class="hero-eyebrow" id="heroEyebrow">
             <span class="live-dot"></span>
-            Live global counters · March 20, 2026
+            Live global counters · UTC-based estimates
           </div>
 
           <h1>World Live Counters</h1>
 
           <p>
             Explore live global estimates across population, environment, economy,
-            technology, and a daily AI-assisted risk snapshot in one cleaner,
-            faster, more structured dashboard.
+            technology, and direct access to country-based global risk reporting
+            in one cleaner, faster, more structured dashboard.
           </p>
 
           <div class="hero-stat">
@@ -887,35 +887,29 @@
           </div>
 
           <div class="risk-widget">
-            <div class="risk-widget-label" id="riskWidgetLabel">Today’s Global Risk</div>
+            <div class="risk-widget-label">Global Risk Intelligence</div>
 
             <div class="risk-widget-top">
               <div class="risk-score-wrap">
-                <strong id="riskScoreValue">82 / 100</strong>
-                <span id="riskScoreSub">Overall global risk score</span>
+                <strong>Country Risk Reports</strong>
+                <span>Daily reports, country tracking and geopolitical monitoring</span>
               </div>
 
-              <div class="risk-badges" id="riskBadges">
-                <span class="badge badge-high">High Risk</span>
-                <span class="badge badge-ai">AI Updated</span>
+              <div class="risk-badges">
+                <span class="badge badge-ai">Pulse Of Globe</span>
+                <span class="badge badge-medium">Live on risk page</span>
               </div>
             </div>
 
-            <div class="risk-trend">
-              Trend:
-              <span class="trend-down" id="riskTrend">↓ Lower than yesterday</span>
-            </div>
-
-            <div class="risk-bar">
-              <div class="risk-fill" id="riskFill" style="width:82%"></div>
-            </div>
-
-            <p id="riskDescription">
-              Global risk remains high, but slightly below yesterday’s peak, as limited transit, partial rerouting, and workaround export flows offer some relief while Hormuz-linked disruption, tanker insecurity, and regional attack risk still keep the global picture under heavy pressure.
+            <p>
+              Explore country-based risk reports, daily index tracking, and geopolitical
+              developments from one dedicated page. This homepage card stays fixed, while
+              the latest risk updates live inside the Global Risk section.
             </p>
 
             <div class="risk-widget-actions">
               <a href="global-risk.html" class="risk-link">Open Global Risk Report</a>
+              <a href="sources.html" class="risk-link">View Data Sources</a>
             </div>
           </div>
         </div>
@@ -1237,20 +1231,8 @@
     </footer>
   </div>
 
-  <script src="assets/js/daily-risk-data.js"></script>
-  <script src="assets/js/homepage-risk-widget.js"></script>
   <script>
     const homepageData = {
-      reportDate: window.getHomepageRiskCardData?.().reportDate || "March 20, 2026",
-      risk: window.getHomepageRiskCardData?.().risk || {
-        score: 82,
-        label: "High Risk",
-        secondaryBadge: "AI Updated",
-        trendText: "↓ Lower than yesterday",
-        trendClass: "trend-down",
-        description:
-          "Global risk remains high, but slightly below yesterday’s peak, as limited transit, partial rerouting, and workaround export flows offer some relief while Hormuz-linked disruption, tanker insecurity, and regional attack risk still keep the global picture under heavy pressure."
-      },
       population: {
         baseDateUtc: "2026-01-01T00:00:00Z",
         basePopulation: 8231613070
@@ -1350,15 +1332,6 @@
       return new Date();
     }
 
-    function renderRiskWidget() {
-      if (typeof window.renderHomepageRiskWidget === "function") {
-        window.renderHomepageRiskWidget({
-          reportDate: homepageData.reportDate,
-          risk: homepageData.risk
-        });
-      }
-    }
-
     function updatePopulation(nowUtc) {
       const baseDate = new Date(homepageData.population.baseDateUtc);
       let populationNow = homepageData.population.basePopulation;
@@ -1449,7 +1422,6 @@
       syncSummary();
     }
 
-    renderRiskWidget();
     updateCounters();
     setInterval(updateCounters, 1000);
   </script>

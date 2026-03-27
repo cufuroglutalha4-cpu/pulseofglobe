@@ -1,23 +1,23 @@
 window.dailyRiskPageData = {
-  "reportDate": "March 26, 2026",
-  "updateTimeUtc": "21:08 UTC",
-  "overallScore": 88,
-  "previousOverallScore": 86,
+  "reportDate": "March 27, 2026",
+  "updateTimeUtc": "22:40 UTC",
+  "overallScore": 89,
+  "previousOverallScore": 88,
   "overallLabel": "High",
-  "overallTrend": "+2 vs yesterday",
+  "overallTrend": "+1 vs yesterday",
   "confidence": "Medium",
-  "heroSummary": "A daily directional snapshot of worldwide risk conditions across conflict, economy, public health, climate, and the country layer. Today’s dashboard moved higher again: diplomacy remains fragile, Iran has rejected the current U.S. proposal as one-sided, Israel is expanding its Lebanon buffer posture, and the renewed energy and market shock has pushed the global risk backdrop deeper into the high zone.",
-  "overallExplainer": "The composite score moved higher because both the security and macro channels worsened together. Conflict risk edged up as Iran rejected the current U.S. peace terms, Trump threatened further strikes, Israel pushed ahead with a larger buffer zone in southern Lebanon, and Hormuz remains only partially relieved even after limited tanker passage. Economic risk rose back into a more acute zone because Brent crude climbed to around $108, global equities fell, central-bank expectations tightened, and fresh reporting points to a prolonged supply shock rather than a clean reset. Health risk moved slightly higher as WHO continues to warn of a deepening health crisis across the Middle East. Climate risk remains structurally elevated after Copernicus reported another unusually warm global month and exceptional rainfall and flooding in parts of Europe and North Africa.",
+  "heroSummary": "A daily directional snapshot of worldwide risk conditions across conflict, economy, public health, climate, and the country layer. Today’s dashboard moved higher again: ceasefire confidence weakened, oil surged back above the latest stress threshold, humanitarian pressure expanded in Lebanon, and the global system remains highly exposed to conflict-driven energy and logistics disruption.",
+  "overallExplainer": "The composite score moved higher because both the security and macro channels deteriorated further. Conflict risk edged up as ceasefire prospects weakened, Israel’s Lebanon posture stayed broad, and Hormuz remained unstable enough for the U.N. to begin work on a dedicated trade-safeguard mechanism. Economic risk rose again because Brent climbed above $110, markets continue to price a longer energy shock, and Europe is openly discussing stagflation and emergency energy responses. Health risk moved higher as WHO’s latest situation reporting and new aid-delivery bottlenecks show that the war is now disrupting health systems and disease-response logistics beyond the immediate battlefield. Climate risk remains structurally elevated after Copernicus reported another unusually warm and exceptionally wet February across parts of Europe and North Africa.",
   "overview": [
     {
       "label": "Report Date",
-      "value": "March 26, 2026",
+      "value": "March 27, 2026",
       "sub": "Updated daily"
     },
     {
       "label": "Top Driver",
       "value": "Conflict + Energy Shock",
-      "sub": "Diplomacy still has not stabilised the system"
+      "sub": "Ceasefire doubts pushed the system higher again"
     },
     {
       "label": "Country Layer",
@@ -26,31 +26,31 @@ window.dailyRiskPageData = {
     },
     {
       "label": "What Changed",
-      "value": "Oil and market stress returned",
-      "sub": "Conflict stayed extreme and economics worsened"
+      "value": "Oil, logistics, and humanitarian stress worsened",
+      "sub": "Conflict stayed extreme and economics tightened further"
     },
     {
       "label": "Watch Next 48h",
-      "value": "Hormuz + deal terms + Lebanon",
+      "value": "Hormuz + ceasefire response + Lebanon",
       "sub": "Main short-term swing factors"
     }
   ],
-  "glanceSummary": "The global score moved higher again rather than lower. Today’s backdrop is defined by an unresolved Middle East war, still-fragile access through Hormuz, renewed oil and financial-market stress, a conflict-driven health burden, and a climate background that remains structurally elevated. Limited diplomatic signals and a small tanker release were not enough to restore stability.",
+  "glanceSummary": "The global score moved higher again rather than easing. Today’s backdrop is defined by an unresolved Middle East war, renewed oil-price pressure, fragile shipping access, worsening humanitarian and health strain, and a climate background that remains structurally elevated. Diplomatic activity continues, but markets and institutions are still pricing a wider and longer spillover shock.",
   "glanceBullets": [
-    "Conflict risk moved higher because Iran rejected the current U.S. proposal, Trump warned strikes could continue, and Israel’s Lebanon buffer-zone push signals a broader regional posture.",
-    "Economic risk moved back up because Brent climbed to roughly $108, global equities sold off, and energy officials still describe a prolonged supply crisis.",
-    "Health risk ticked higher because WHO continues to describe a worsening regional public-health emergency marked by casualties, displacement, and health-system strain.",
+    "Conflict risk moved higher because ceasefire confidence weakened, Lebanon escalation remained active, and Hormuz stayed unstable enough for a special U.N. safeguarding mechanism to be discussed.",
+    "Economic risk moved higher because Brent pushed above $110, energy security concerns broadened, and European officials openly warned about stagflation and emergency cost responses.",
+    "Health risk moved higher because WHO’s latest reporting shows a widening regional health burden while logistics disruption is now delaying emergency disease-response supplies.",
     "Climate risk remains persistently elevated after Copernicus reported a very warm February globally and exceptional rainfall and flooding impacts across parts of Europe and North Africa.",
-    "The country tracker remains useful because it shows where conflict, energy, inflation, logistics, and military spillover are landing most directly."
+    "The country tracker remains useful because it shows where conflict, energy, inflation, logistics, and humanitarian spillover are landing most directly."
   ],
   "dailyComparison": [
     {
       "label": "Yesterday",
-      "value": "86 / 100"
+      "value": "88 / 100"
     },
     {
       "label": "Today",
-      "value": "88 / 100"
+      "value": "89 / 100"
     },
     {
       "label": "Trend",
@@ -64,89 +64,89 @@ window.dailyRiskPageData = {
   "riskData": [
     {
       "title": "🌍 Global Conflict Risk",
-      "subtitle": "Rejected peace terms, Lebanon expansion, and Hormuz fragility",
-      "score": 96,
+      "subtitle": "Ceasefire doubts, Lebanon escalation, and Hormuz instability",
+      "score": 97,
       "changeText": "+1 vs yesterday",
       "changeClass": "pill-danger",
-      "direction": "Very High / Escalating Again",
+      "direction": "Very High / Escalating",
       "directionClass": "pill-danger",
-      "description": "Conflict risk remains the dominant global driver. Iran has called the current U.S. proposal one-sided and unfair, Trump says strikes can continue if no deal is reached, Israel is advancing a wider buffer-zone posture in southern Lebanon, and Hormuz remains highly unstable even after limited tanker passage.",
+      "description": "Conflict risk remains the dominant global driver. Diplomacy is still active, but markets and governments increasingly doubt a near-term de-escalation. Lebanon pressure remains severe, maritime security around Hormuz is still unstable, and the wider regional posture remains highly fragile.",
       "drivers": [
         "Hormuz chokepoint risk",
-        "Lebanon expansion",
-        "Deal failure risk"
+        "Lebanon escalation",
+        "Ceasefire credibility risk"
       ],
       "sources": [
         "Reuters",
-        "WHO",
+        "U.N. reporting",
         "Public reporting"
       ],
       "trend": [
-        90,
         91,
         90,
         94,
         95,
         95,
-        96
+        96,
+        97
       ]
     },
     {
       "title": "📉 Global Economic Risk",
-      "subtitle": "Brent near $108, market selloff, and prolonged supply-crisis fears",
-      "score": 84,
+      "subtitle": "Oil above $110, stagflation warnings, and prolonged supply-shock fears",
+      "score": 86,
       "changeText": "+2 vs yesterday",
       "changeClass": "pill-danger",
       "direction": "Very High / Rising Again",
       "directionClass": "pill-danger",
-      "description": "Economic risk moved higher again as oil surged back toward crisis levels, equities and bonds sold off, and officials and executives warned that the current energy disruption could last well beyond a short diplomatic pause. Growth expectations are weakening while inflation risk is firming again.",
+      "description": "Economic risk moved higher again as oil surged, policymakers warned about a longer energy shock, and Europe intensified its discussion of emergency responses to the price surge. The system is still pricing slower growth and firmer inflation at the same time.",
       "drivers": [
         "Oil shock return",
-        "Market stress",
+        "Stagflation pressure",
         "Persistent supply disruption"
       ],
       "sources": [
         "Reuters",
-        "S&P Global PMI",
+        "EU policy reporting",
         "Market reporting"
       ],
       "trend": [
-        77,
         78,
         76,
         84,
         83,
         82,
-        84
+        84,
+        86
       ]
     },
     {
       "title": "🏥 Global Health Risk",
-      "subtitle": "Regional health emergency, displacement, and care-system strain",
-      "score": 50,
-      "changeText": "+1 vs yesterday",
+      "subtitle": "Regional health emergency, displacement, and delayed aid logistics",
+      "score": 52,
+      "changeText": "+2 vs yesterday",
       "changeClass": "pill-warning",
       "direction": "Moderate / Rising",
       "directionClass": "pill-warning",
-      "description": "Health risk remains moderate but is still edging higher. WHO continues to warn that the conflict is creating a fast-moving regional health crisis, with casualties, displacement, damaged health infrastructure, and pressure on already fragile systems.",
+      "description": "Health risk remains moderate but is rising more clearly. WHO’s latest conflict situation reporting and the disruption to emergency aid logistics show that the war is now worsening health outcomes through displacement, damaged care systems, and delayed outbreak-response capacity.",
       "drivers": [
         "Health-system strain",
         "Conflict displacement",
-        "Attacks on health care"
+        "Aid and disease-response delays"
       ],
       "sources": [
         "WHO",
-        "Regional updates",
-        "Institutional reporting"
+        "Humanitarian reporting",
+        "Institutional updates"
       ],
       "trend": [
-        45,
         44,
         47,
         47,
         48,
         49,
-        50
+        50,
+        52
       ]
     },
     {
@@ -157,7 +157,7 @@ window.dailyRiskPageData = {
       "changeClass": "pill-warning",
       "direction": "High / Structural",
       "directionClass": "pill-danger",
-      "description": "Climate risk remains structurally elevated. Copernicus reported February 2026 as the fifth warmest on record globally, with exceptionally wet conditions and flooding impacts across parts of Europe and North Africa.",
+      "description": "Climate risk remains structurally elevated. The background state remains warm and hydrologically unstable, with recent Copernicus reporting highlighting exceptional rainfall and flooding across parts of Europe and North Africa.",
       "drivers": [
         "Flooding exposure",
         "Heat background",
@@ -170,7 +170,7 @@ window.dailyRiskPageData = {
       ],
       "trend": [
         78,
-        78,
+        79,
         79,
         79,
         79,
@@ -184,33 +184,33 @@ window.dailyRiskPageData = {
       "title": "🌍 Global Conflict Report",
       "tag": "Very High Risk",
       "tagClass": "pill-danger",
-      "score": "96 / 100",
-      "direction": "Very High / Escalating Again",
-      "watch": "Hormuz access, deal credibility, Lebanon front, U.S. strike scope",
-      "why": "Conflict remains the top category because diplomacy is still fragile while the war’s regional footprint continues to widen across maritime, air, and border-security channels.",
-      "moved": "The score moved higher because the latest diplomatic opening did not produce de-escalation, while Lebanon posture and strike threats kept the system unstable.",
+      "score": "97 / 100",
+      "direction": "Very High / Escalating",
+      "watch": "Hormuz access, ceasefire credibility, Lebanon front, regional spillover",
+      "why": "Conflict remains the top category because diplomacy has not yet stabilized the system and the war’s regional footprint remains broad across maritime, air, and border-security channels.",
+      "moved": "The score moved higher because ceasefire expectations weakened while Lebanon and Hormuz remained active pressure points.",
       "matters": "Conflict risk matters because it is still the main transmission channel into energy prices, shipping, civilian safety, diplomacy, and financial stress."
     },
     {
       "title": "📉 Global Economic Report",
       "tag": "Very High Risk",
       "tagClass": "pill-danger",
-      "score": "84 / 100",
+      "score": "86 / 100",
       "direction": "Very High / Rising Again",
-      "watch": "Oil, Hormuz flow, equity stress, PMI damage, inflation expectations",
-      "why": "Economic pressure is worsening again because the earlier relief in oil did not hold and markets are now repricing for a longer, more disruptive energy shock.",
-      "moved": "The score moved higher because Brent returned to around $108, global stocks fell, and reporting from governments and industry points to a persistent supply squeeze.",
+      "watch": "Oil, Hormuz flow, stagflation risk, energy-cost responses, inflation expectations",
+      "why": "Economic pressure is worsening again because earlier relief failed to hold and the system is repricing for a longer, more disruptive energy shock.",
+      "moved": "The score moved higher because Brent surged above $110, Europe’s policy language turned more defensive, and markets are still pricing conflict-led inflation pressure.",
       "matters": "Economic risk matters because this is still the fastest route through which conflict reaches households, transport, industry, financing conditions, and government budgets."
     },
     {
       "title": "🏥 Global Health Report",
       "tag": "Moderate Rising Risk",
       "tagClass": "pill-warning",
-      "score": "50 / 100",
+      "score": "52 / 100",
       "direction": "Moderate / Rising",
-      "watch": "Middle East health-system strain, casualties, displacement, emergency access",
-      "why": "Health conditions remain below the intensity of conflict and economics, but the burden keeps worsening as hospitals, workers, and displaced populations face rising pressure.",
-      "moved": "The score moved slightly higher because WHO’s latest warnings continue to show a widening gap between humanitarian needs and health-system capacity.",
+      "watch": "Middle East health-system strain, displacement, emergency access, disease-response logistics",
+      "why": "Health conditions remain below the intensity of conflict and economics, but the burden is now widening through both direct war damage and disrupted aid-delivery systems.",
+      "moved": "The score moved higher because WHO reporting remains severe and critical health-response logistics are now being delayed by conflict-related disruption.",
       "matters": "Health risk matters because it deepens humanitarian strain, weakens resilience, and amplifies the downstream effects of conflict, displacement, and climate pressure."
     },
     {
@@ -234,7 +234,7 @@ window.dailyRiskPageData = {
       "changeClass": "pill-warning",
       "direction": "Very High",
       "directionClass": "pill-danger",
-      "summary": "Ukraine stays at the top of the tracker as Russia’s recent mass drone campaign and signals of a broader offensive keep infrastructure and civilian exposure extremely high.",
+      "summary": "Ukraine remains at the top of the tracker as Russia’s recent mass drone tempo and continued infrastructure pressure keep civilian and system exposure extremely high.",
       "drivers": [
         "War exposure",
         "Mass drone pressure",
@@ -248,9 +248,9 @@ window.dailyRiskPageData = {
       "trend": [
         91,
         91,
-        91,
         92,
         93,
+        94,
         94,
         94
       ]
@@ -258,12 +258,12 @@ window.dailyRiskPageData = {
     {
       "country": "Israel",
       "region": "Middle East",
-      "score": 94,
+      "score": 95,
       "changeText": "+1 today",
       "changeClass": "pill-danger",
       "direction": "Very High",
       "directionClass": "pill-danger",
-      "summary": "Israel moved higher as direct war exposure continues and the Lebanon buffer-zone expansion points to a broader and more entrenched regional security posture.",
+      "summary": "Israel moved higher as direct war exposure continues and the Lebanon front remains a major live escalator in the current regional security picture.",
       "drivers": [
         "Direct war exposure",
         "Missile and drone threat",
@@ -275,24 +275,24 @@ window.dailyRiskPageData = {
         "Northern front escalation"
       ],
       "trend": [
-        87,
         88,
         88,
         92,
         93,
         93,
-        94
+        94,
+        95
       ]
     },
     {
       "country": "Iran",
       "region": "Middle East",
-      "score": 93,
+      "score": 94,
       "changeText": "+1 today",
       "changeClass": "pill-danger",
       "direction": "Very High",
       "directionClass": "pill-danger",
-      "summary": "Iran moved higher as it rejected the current U.S. plan, remained under strike pressure, and continued to sit at the center of the Hormuz and energy-risk picture.",
+      "summary": "Iran moved higher as ceasefire doubt, maritime leverage, and ongoing strike-related exposure keep it at the center of the global energy and conflict picture.",
       "drivers": [
         "Direct conflict",
         "Strike exposure",
@@ -304,13 +304,13 @@ window.dailyRiskPageData = {
         "Energy-route posture"
       ],
       "trend": [
-        88,
         89,
         87,
         91,
         92,
         92,
-        93
+        93,
+        94
       ]
     },
     {
@@ -321,7 +321,7 @@ window.dailyRiskPageData = {
       "changeClass": "pill-warning",
       "direction": "High",
       "directionClass": "pill-warning",
-      "summary": "Russia remains in a high-risk band as war costs, sanctions pressure, and the capacity for large-scale drone escalation against Ukraine all stay active.",
+      "summary": "Russia remains in a high-risk band as war costs, sanctions pressure, and the capacity for continued drone escalation against Ukraine all stay active.",
       "drivers": [
         "War costs",
         "Operational escalation",
@@ -333,11 +333,11 @@ window.dailyRiskPageData = {
         "Sanctions adaptation"
       ],
       "trend": [
-        83,
         84,
         83,
         84,
         84,
+        85,
         85,
         85
       ]
@@ -345,12 +345,12 @@ window.dailyRiskPageData = {
     {
       "country": "Türkiye",
       "region": "Eastern Mediterranean",
-      "score": 67,
+      "score": 68,
       "changeText": "+1 today",
       "changeClass": "pill-warning",
       "direction": "Moderate-High",
       "directionClass": "pill-warning",
-      "summary": "Türkiye remains below the top-risk tier, but nearby conflict, route sensitivity, and the renewed energy-price shock are lifting the backdrop again.",
+      "summary": "Türkiye remains below the top-risk tier, but nearby conflict, route sensitivity, and renewed oil-price pressure are lifting the backdrop again.",
       "drivers": [
         "Regional spillover",
         "Energy sensitivity",
@@ -364,22 +364,22 @@ window.dailyRiskPageData = {
       "trend": [
         62,
         62,
-        62,
         65,
         66,
         66,
-        67
+        67,
+        68
       ]
     },
     {
       "country": "United States",
       "region": "North America",
-      "score": 63,
+      "score": 64,
       "changeText": "+1 today",
       "changeClass": "pill-warning",
       "direction": "Moderate",
       "directionClass": "pill-neutral",
-      "summary": "The U.S. score moved higher as Washington remains exposed through strike policy, diplomatic pressure, market spillovers, and a visible domestic inflation channel.",
+      "summary": "The U.S. score moved higher as Washington remains exposed through regional military posture, ceasefire diplomacy, and the domestic inflation channel from energy prices.",
       "drivers": [
         "Strategic exposure",
         "Regional deployments",
@@ -392,23 +392,23 @@ window.dailyRiskPageData = {
       ],
       "trend": [
         58,
-        58,
         57,
         60,
         61,
         62,
-        63
+        63,
+        64
       ]
     },
     {
       "country": "China",
       "region": "East Asia",
-      "score": 63,
+      "score": 64,
       "changeText": "+1 today",
       "changeClass": "pill-warning",
       "direction": "Moderate",
       "directionClass": "pill-neutral",
-      "summary": "China’s risk profile edged higher as energy-import sensitivity, trade exposure, and diplomatic concern over a prolonged war all remain active.",
+      "summary": "China’s risk profile edged higher as energy-import sensitivity, trade exposure, and a longer conflict horizon keep pressure on the macro backdrop.",
       "drivers": [
         "Energy/LNG exposure",
         "Growth pressure",
@@ -422,22 +422,22 @@ window.dailyRiskPageData = {
       "trend": [
         59,
         59,
-        59,
         61,
         62,
         62,
-        63
+        63,
+        64
       ]
     },
     {
       "country": "India",
       "region": "South Asia",
-      "score": 61,
+      "score": 62,
       "changeText": "+1 today",
       "changeClass": "pill-warning",
       "direction": "Moderate",
       "directionClass": "pill-neutral",
-      "summary": "India moved slightly higher as renewed oil pressure, external-balance sensitivity, and fuel-import dependence remain clear vulnerabilities.",
+      "summary": "India moved slightly higher as renewed oil pressure and external-balance sensitivity remain clear vulnerabilities under a prolonged shock.",
       "drivers": [
         "Oil dependence",
         "Rupee pressure",
@@ -451,22 +451,22 @@ window.dailyRiskPageData = {
       "trend": [
         54,
         54,
-        54,
         57,
         59,
         60,
-        61
+        61,
+        62
       ]
     },
     {
       "country": "Germany",
       "region": "Western Europe",
-      "score": 52,
+      "score": 53,
       "changeText": "+1 today",
       "changeClass": "pill-warning",
       "direction": "Moderate",
       "directionClass": "pill-neutral",
-      "summary": "Germany remains relatively stable, but weaker confidence and energy-linked cost pressure continue to push near-term risk modestly higher.",
+      "summary": "Germany remains relatively stable, but energy-cost pressure and soft confidence are still pushing near-term risk gradually higher.",
       "drivers": [
         "Energy costs",
         "Confidence slowdown",
@@ -479,23 +479,23 @@ window.dailyRiskPageData = {
       ],
       "trend": [
         47,
-        47,
         46,
         49,
         50,
         51,
-        52
+        52,
+        53
       ]
     },
     {
       "country": "Japan",
       "region": "East Asia",
-      "score": 50,
+      "score": 51,
       "changeText": "+1 today",
       "changeClass": "pill-warning",
       "direction": "Moderate-Low",
       "directionClass": "pill-neutral",
-      "summary": "Japan stays below many peers, but emergency reserve measures and renewed oil stress show that imported-energy vulnerability is still material.",
+      "summary": "Japan stays below many peers, but reserve measures and renewed oil stress show that imported-energy vulnerability is still material.",
       "drivers": [
         "Energy imports",
         "Reserve releases",
@@ -508,12 +508,12 @@ window.dailyRiskPageData = {
       ],
       "trend": [
         43,
-        43,
         42,
         45,
         48,
         49,
-        50
+        50,
+        51
       ]
     }
   ],
@@ -525,30 +525,30 @@ window.dailyRiskPageData = {
       "score": "94 / 100",
       "direction": "Very High",
       "watch": "Drone tempo, air-defense load, energy infrastructure, allied support",
-      "why": "Ukraine remains at the top of the tracker because active war exposure is still severe and Russia’s recent drone tempo suggests broader offensive pressure rather than relief.",
-      "moved": "The score stayed flat because the risk picture remains extremely severe even without a brand-new jump after the recent massive strike wave.",
+      "why": "Ukraine remains at the top of the tracker because active war exposure is still severe and recent Russian drone tempo points to continued pressure rather than relief.",
+      "moved": "The score stayed flat because the risk picture remains extremely severe even without a new major break above the already elevated baseline.",
       "matters": "Ukraine matters because it remains one of the clearest examples of how war risk transmits into infrastructure strain, energy disruption, migration pressure, and wider European security."
     },
     {
       "title": "🇮🇱 Israel Country Report",
       "tag": "Very High Risk",
       "tagClass": "pill-danger",
-      "score": "94 / 100",
+      "score": "95 / 100",
       "direction": "Very High",
       "watch": "Lebanon front, missile threat, ceasefire credibility, urban resilience",
-      "why": "Israel moved deeper into the very high-risk band because direct war exposure has not materially eased and the Lebanon posture is broadening.",
-      "moved": "The score moved higher because the buffer-zone plan signals a more entrenched northern-front risk environment.",
+      "why": "Israel moved deeper into the very high-risk band because direct war exposure has not materially eased and the Lebanon front remains a major escalatory channel.",
+      "moved": "The score moved higher because the northern-front posture still points to a broader and more entrenched conflict environment.",
       "matters": "Israel matters because developments there still shape regional security expectations, energy pricing, and diplomatic escalation risk."
     },
     {
       "title": "🇮🇷 Iran Country Report",
       "tag": "Very High Risk",
       "tagClass": "pill-danger",
-      "score": "93 / 100",
+      "score": "94 / 100",
       "direction": "Very High",
       "watch": "Proposal response, military sites, sanctions, Hormuz posture",
       "why": "Iran remains in the highest tier because direct conflict exposure, strategic energy leverage, and strike vulnerability all remain active at once.",
-      "moved": "The score moved higher because Tehran rejected the current U.S. terms while the surrounding military and maritime picture stayed highly unstable.",
+      "moved": "The score moved higher because ceasefire doubt and maritime leverage remain central to the current risk environment.",
       "matters": "Iran matters because even small changes in its security posture can reshape shipping, LNG, oil, insurance, and regional power balances."
     },
     {
@@ -559,47 +559,47 @@ window.dailyRiskPageData = {
       "direction": "High",
       "watch": "Strike tempo, sanctions adaptation, defense output, fiscal strain",
       "why": "Russia remains high-risk due to the ongoing cost of war and its continued capacity for large-scale escalation against Ukrainian cities and infrastructure.",
-      "moved": "The score stayed flat because the system remains severe but did not show a fresh macro break beyond the recent attack surge.",
+      "moved": "The score stayed flat because the system remains severe but did not show a fresh macro break beyond the recent attack pattern.",
       "matters": "Russia matters because shifts in its military tempo and fiscal resilience affect European security, commodity markets, and geopolitical pricing."
     },
     {
       "title": "🇹🇷 Türkiye Country Report",
       "tag": "Moderate-High Risk",
       "tagClass": "pill-warning",
-      "score": "67 / 100",
+      "score": "68 / 100",
       "direction": "Moderate-High",
       "watch": "Regional spillover, fuel costs, trade routes, inflation pressure",
       "why": "Türkiye remains meaningfully exposed because proximity to conflict combines with route sensitivity and imported-energy pressure.",
-      "moved": "The score moved slightly higher because the renewed oil shock raises spillover and cost risks even without a direct new security break at home.",
+      "moved": "The score moved slightly higher because renewed oil stress raises spillover and cost risks even without a direct new security break at home.",
       "matters": "Türkiye matters because it is a bridge economy and logistics node linking Europe, the Black Sea, and the Middle East."
     },
     {
       "title": "🇺🇸 United States Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "63 / 100",
+      "score": "64 / 100",
       "direction": "Moderate",
       "watch": "Strike policy, negotiation track, force protection, fuel prices",
       "why": "The U.S. remains above low-risk territory because it combines strong institutional resilience with direct strategic exposure to the conflict and visible market spillovers.",
-      "moved": "The score moved slightly higher because continued strike threats and oil-price stress increased both geopolitical and domestic economic pressure.",
+      "moved": "The score moved slightly higher because ceasefire uncertainty and energy-price pressure increased both geopolitical and domestic economic sensitivity.",
       "matters": "The United States matters because its policy choices directly influence financial conditions, security commitments, energy expectations, and crisis-management capacity."
     },
     {
       "title": "🇨🇳 China Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "63 / 100",
+      "score": "64 / 100",
       "direction": "Moderate",
       "watch": "LNG flows, industrial demand, fuel costs, regional diplomacy",
       "why": "China’s country score reflects energy and trade sensitivity more than immediate battlefield exposure, but those channels remain under pressure.",
-      "moved": "The score moved slightly higher because oil stress returned while Beijing kept urging talks instead of signaling confidence in a fast resolution.",
+      "moved": "The score moved slightly higher because oil stress and a longer conflict horizon are keeping the macro backdrop fragile.",
       "matters": "China matters because changes in its demand, trade posture, and strategic positioning can reshape global supply chains and market confidence."
     },
     {
       "title": "🇮🇳 India Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "61 / 100",
+      "score": "62 / 100",
       "direction": "Moderate",
       "watch": "Fuel imports, rupee pressure, bond yields, LNG availability",
       "why": "India remains in the moderate band because imported-energy stress is interacting more clearly with macro and market sensitivity.",
@@ -610,18 +610,18 @@ window.dailyRiskPageData = {
       "title": "🇩🇪 Germany Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "52 / 100",
+      "score": "53 / 100",
       "direction": "Moderate",
       "watch": "PMI and sentiment, gas prices, industrial costs, EU coordination",
       "why": "Germany remains relatively stable, but renewed energy pressure is again weighing on confidence and private-sector momentum.",
-      "moved": "The score moved slightly higher because consumer and business sentiment remain soft under the latest energy shock.",
+      "moved": "The score moved slightly higher because energy-cost pressure and soft sentiment remain a live near-term drag.",
       "matters": "Germany matters because it remains a major European industrial and fiscal anchor with spillovers across the continent."
     },
     {
       "title": "🇯🇵 Japan Country Report",
       "tag": "Moderate-Low Risk",
       "tagClass": "pill-neutral",
-      "score": "50 / 100",
+      "score": "51 / 100",
       "direction": "Moderate-Low",
       "watch": "Stockpile releases, fuel costs, shipping security, import resilience",
       "why": "Japan stays comparatively lower-risk because institutional resilience is strong, even as energy-import dependence remains a live vulnerability.",

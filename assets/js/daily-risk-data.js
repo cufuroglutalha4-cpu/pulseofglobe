@@ -70,7 +70,7 @@ window.dailyRiskPageData = {
     {
       "title": "🌍 Global Conflict Risk",
       "subtitle": "Regional widening, Houthi entry, Lebanon pressure, and Hormuz disruption",
-      "score": 98,
+      "score": 93,
       "changeText": "+1 vs previous update",
       "changeClass": "pill-danger",
       "direction": "Very High / Escalating",

@@ -86,7 +86,7 @@ window.dailyRiskPageData = {
         "WHO",
         "Public reporting"
       ],
-      "trend": [91, 90, 94, 95, 95, 97, 98]
+      "trend": [91, 90, 90, 91, 94, 93, 93]
     },
     {
       "title": "📉 Global Economic Risk",

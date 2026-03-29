@@ -37,11 +37,11 @@ window.dailyRiskPageData = {
     }
   ],
 
-  "glanceSummary": "The global score stays high, but this update is more evidence-based and less mechanically upward. Conflict risk remains the core driver because the war is spreading across more actors and routes. Economic risk is still very high because energy and shipping remain exposed, but not every indicator justifies another automatic jump. Health risk is rising more clearly as WHO reporting confirms displacement, attacks on care, and supply-chain delays. Climate risk remains persistently elevated in the background rather than driving the day’s move alone.",
+  "glanceSummary": "The global  stays high, but this update is more evidence-based and less mechanically upward. Conflict risk remains the core driver because the war is spreading across more actors and routes. Economic risk is still very high because energy and shipping remain exposed, but not every indicator justifies another automatic jump. Health risk is rising more clearly as WHO reporting confirms displacement, attacks on care, and supply-chain delays. Climate risk remains persistently elevated in the background rather than driving the day’s move alone.",
 
   "glanceBullets": [
     "Conflict risk remains the top global driver because the war widened with Houthi involvement, sustained Lebanon pressure, and continued Hormuz disruption.",
-    "Economic risk remains very high because oil still carries a large geopolitical premium, but today’s score is capped below panic-extreme because price action is volatile rather than one-directional.",
+    "Economic risk remains very high because oil still carries a large geopolitical premium, but today’s  is capped below panic-extreme because price action is volatile rather than one-directional.",
     "Health risk rose because WHO reporting now shows stronger evidence of attacks on care, mass displacement, and delays to essential medical supply delivery.",
     "Climate risk remains structurally elevated after Copernicus reported an unusually warm and exceptionally wet February across parts of Europe and North Africa.",
     "The country tracker is calibrated to direct exposure channels: battlefield risk, energy dependence, logistics sensitivity, inflation spillover, and humanitarian stress."
@@ -70,7 +70,7 @@ window.dailyRiskPageData = {
     {
       "title": "🌍 Global Conflict Risk",
       "subtitle": "Regional widening, Houthi entry, Lebanon pressure, and Hormuz disruption",
-      "score": 93,
+      "": 93,
       "changeText": "+1 vs previous update",
       "changeClass": "pill-danger",
       "direction": "Very High / Escalating",
@@ -91,7 +91,7 @@ window.dailyRiskPageData = {
     {
       "title": "📉 Global Economic Risk",
       "subtitle": "Oil shock premium, shipping disruption, and stagflation pressure",
-      "score": 81,
+      "": 81,
       "changeText": "-5 vs previous update",
       "changeClass": "pill-warning",
       "direction": "Very High / Elevated",
@@ -158,7 +158,7 @@ window.dailyRiskPageData = {
       "title": "🌍 Global Conflict Report",
       "tag": "Very High Risk",
       "tagClass": "pill-danger",
-      "score": "98 / 100",
+      "score": "93 / 100",
       "direction": "Very High / Escalating",
       "watch": "Hormuz access, Houthi attacks, Lebanon front, regional spillover",
       "why": "Conflict remains the top category because the war has widened across more actors, more routes, and more escalation channels rather than clearly narrowing.",

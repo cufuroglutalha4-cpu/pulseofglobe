@@ -1,6 +1,6 @@
 window.dailyRiskPageData = {
-  reportDate: "April 10, 2026",
-  updateTimeUtc: "12:55 UTC",
+  reportDate: "April 11, 2026",
+  updateTimeUtc: "20:25 UTC",
   overallScore: 94,
   previousOverallScore: 93,
   overallLabel: "Very High",
@@ -16,7 +16,7 @@ window.dailyRiskPageData = {
   overview: [
     {
       label: "Report Date",
-      value: "April 10, 2026",
+      value: "April 11, 2026",
       sub: "Updated daily (UTC)"
     },
     {

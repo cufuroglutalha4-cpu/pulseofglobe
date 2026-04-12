@@ -1,28 +1,28 @@
 window.dailyRiskPageData = {
-  reportDate: "April 11, 2026",
-  updateTimeUtc: "20:25 UTC",
-  overallScore: 94,
-  previousOverallScore: 93,
+  reportDate: "April 12, 2026",
+  updateTimeUtc: "21:20 UTC",
+  overallScore: 91,
+  previousOverallScore: 94,
   overallLabel: "Very High",
-  overallTrend: "+1 vs previous update",
+  overallTrend: "-3 vs previous update",
   confidence: "High",
 
   heroSummary:
-    "Global risk conditions remain very high as the temporary ceasefire has prevented an immediate return to peak panic, but the Strait of Hormuz is still operating under severe restriction, political control, and slow-flow conditions. Energy shipments remain impaired, shipping confidence is weak, and the wider system is still functioning under disruption rather than normalization.",
+    "Global risk conditions remain very high, but the system no longer looks like it is at peak panic levels. Ceasefire strain, restricted Strait of Hormuz passage, and incomplete shipping recovery continue to keep global conditions stressed, yet the picture is more consistent with severe disruption than with an immediate systemic breakdown.",
 
   overallExplainer:
-    "The global composite score moved slightly higher because the ceasefire environment has still not produced durable operational normalization. Passage through Hormuz remains constrained, vessel throughput is well below normal, and the energy market is still pricing recovery risk rather than restored stability. Conflict risk remains the dominant top-layer driver because escalation channels remain open and maritime access is still politically conditioned. Economic risk remains the main global transmission mechanism through oil, LNG, freight, insurance, and inflation expectations. Health risk continues to stay elevated through displacement, emergency strain, and disrupted humanitarian access. Climate risk remains structurally high in the background, but it is still not the main short-term driver behind today’s move.",
+    "The global composite score moved lower because the system is still under heavy pressure, but conditions no longer justify a near-maximum panic reading. Maritime access through Hormuz remains politically constrained, diplomacy remains fragile, and shipping normalization is incomplete. However, the immediate worst-case freeze scenario has eased compared with the peak phase. Conflict risk remains the dominant top-layer driver because escalation channels are still open. Economic risk remains the main global transmission mechanism through oil, LNG, freight, insurance, and inflation expectations. Health risk stays elevated through displacement, emergency strain, and disrupted humanitarian access. Climate risk remains structurally high in the background, but it is still not the main short-term driver behind today’s move.",
 
   overview: [
     {
       label: "Report Date",
-      value: "April 11, 2026",
+      value: "April 12, 2026",
       sub: "Updated daily (UTC)"
     },
     {
       label: "Top Driver",
-      value: "Restricted Hormuz Flow + Fragile Ceasefire",
-      sub: "Conflict still dominates while energy and shipping normalization remain incomplete"
+      value: "Ceasefire Strain + Restricted Hormuz Access",
+      sub: "Conflict still dominates while maritime access and energy stability remain politically fragile"
     },
     {
       label: "Country Layer",
@@ -31,22 +31,22 @@ window.dailyRiskPageData = {
     },
     {
       label: "What Changed",
-      value: "Recovery stalled again",
-      sub: "Ceasefire remains in place, but maritime throughput is still highly constrained"
+      value: "Stress remains high, but below peak panic",
+      sub: "Talks stalled and shipping normalization is incomplete, though the immediate freeze scenario has eased"
     },
     {
       label: "Watch Next 48h",
-      value: "Transit permissions + vessel counts + ceasefire durability",
+      value: "Ceasefire durability + military signaling + vessel flow",
       sub: "Main near-term swing factors"
     }
   ],
 
   glanceSummary:
-    "The global risk score remains very high and has moved slightly higher again. The immediate freeze scenario is lower than at peak crisis, but Hormuz traffic remains severely restricted, shipping rules remain politically controlled, and energy normalization has still not returned.",
+    "The global risk score remains very high, but it is lower than the most acute shock phase. Shipping through Hormuz is still constrained, diplomacy remains fragile, and the system remains exposed to renewed conflict, energy, and transport disruption.",
 
   glanceBullets: [
-    "Conflict risk remains the top structural driver because the ceasefire is fragile and escalation channels remain open.",
-    "Economic risk remains very high because oil, LNG, freight, and insurance systems are still operating under disrupted rather than normal conditions.",
+    "Conflict risk remains the top structural driver because the ceasefire is under strain and escalation channels remain open.",
+    "Economic risk remains very high because oil, LNG, freight, and insurance systems are still operating under disrupted and politically uncertain conditions.",
     "Health risk remains moderate but rising because displacement, emergency-system strain, and disrupted humanitarian access continue.",
     "Climate risk remains structurally elevated, but no new climate-specific trigger is the main reason for today’s move.",
     "The country tracker remains calibrated to direct exposure channels: battlefield intensity, energy dependence, shipping vulnerability, inflation transmission, and humanitarian strain."
@@ -55,15 +55,15 @@ window.dailyRiskPageData = {
   dailyComparison: [
     {
       label: "Previous Update",
-      value: "93 / 100"
-    },
-    {
-      label: "Today",
       value: "94 / 100"
     },
     {
+      label: "Today",
+      value: "91 / 100"
+    },
+    {
       label: "Trend",
-      value: "Very High, Slightly Higher"
+      value: "Very High, Slightly Lower"
     },
     {
       label: "Countries Tracked",
@@ -74,16 +74,16 @@ window.dailyRiskPageData = {
   riskData: [
     {
       title: "🌍 Global Conflict Risk",
-      subtitle: "Fragile ceasefire, politically restricted Hormuz passage, and unresolved escalation channels",
-      score: 96,
-      changeText: "0 vs previous update",
-      changeClass: "pill-warning",
+      subtitle: "Ceasefire strain, politically restricted Hormuz passage, and unresolved escalation channels",
+      score: 94,
+      changeText: "-2 vs previous update",
+      changeClass: "pill-neutral",
       direction: "Very High / Fragile",
       directionClass: "pill-danger",
       description:
-        "Conflict risk remains near the top because the ceasefire has not produced secure freedom of navigation or a durable de-escalation structure. Maritime access remains politically controlled, flashpoints remain active, and the system is still vulnerable to a rapid reversal.",
+        "Conflict risk remains very high because the ceasefire is fragile, maritime access is still politically controlled, and regional flashpoints remain active. However, conditions look somewhat less extreme than during the most acute phase, when the risk of a total strategic freeze appeared more immediate.",
       drivers: [
-        "Fragile ceasefire",
+        "Ceasefire fragility",
         "Restricted Hormuz passage",
         "Unresolved retaliation risk"
       ],
@@ -92,18 +92,18 @@ window.dailyRiskPageData = {
         "Public reporting",
         "Institutional updates"
       ],
-      trend: [97, 97, 97, 95, 95, 96, 96]
+      trend: [97, 97, 95, 95, 96, 96, 94]
     },
     {
       title: "📉 Global Economic Risk",
-      subtitle: "Delayed flow recovery, LNG uncertainty, and persistent freight-insurance stress",
-      score: 96,
-      changeText: "+1 vs previous update",
-      changeClass: "pill-warning",
+      subtitle: "Incomplete flow recovery, LNG uncertainty, and persistent freight-insurance stress",
+      score: 92,
+      changeText: "-4 vs previous update",
+      changeClass: "pill-neutral",
       direction: "Very High / Persistent",
       directionClass: "pill-danger",
       description:
-        "Economic risk moved slightly higher because energy flows through Hormuz remain materially below normal and the recovery path is still uncertain. Freight stress, tanker caution, supply uncertainty, and insurance pressure continue to keep the system in disruption mode rather than recovery mode.",
+        "Economic risk remains very high because shipping recovery through Hormuz is still incomplete and uncertainty around supply, freight, and insurance conditions remains significant. Still, the current picture looks more like severe ongoing disruption than a full-scale economic panic scenario.",
       drivers: [
         "Delayed oil and LNG flow recovery",
         "Shipping and insurance stress",
@@ -114,18 +114,18 @@ window.dailyRiskPageData = {
         "Market reporting",
         "Public data"
       ],
-      trend: [95, 97, 97, 94, 94, 95, 96]
+      trend: [97, 97, 94, 94, 95, 96, 92]
     },
     {
       title: "🏥 Global Health Risk",
       subtitle: "Displacement pressure, aid disruption, and emergency-system strain",
-      score: 65,
-      changeText: "0 vs previous update",
-      changeClass: "pill-warning",
+      score: 63,
+      changeText: "-2 vs previous update",
+      changeClass: "pill-neutral",
       direction: "Moderate / Rising",
       directionClass: "pill-warning",
       description:
-        "Health risk remains below conflict and economics, but it stays elevated. Displacement, disrupted access to care, and humanitarian pressure remain unresolved even as the immediate military shock has softened.",
+        "Health risk remains below conflict and economics, but it stays elevated. Displacement, disrupted access to care, and humanitarian pressure remain unresolved, even if the immediate military shock has softened somewhat from the most acute phase.",
       drivers: [
         "Health-system strain",
         "Displacement burden",
@@ -136,13 +136,13 @@ window.dailyRiskPageData = {
         "Humanitarian reporting",
         "Institutional updates"
       ],
-      trend: [60, 62, 64, 65, 65, 65, 65]
+      trend: [60, 62, 64, 65, 65, 65, 63]
     },
     {
       title: "🌡️ Climate Risk",
       subtitle: "Warm background, hydrological instability, and persistent water-system stress",
-      score: 78,
-      changeText: "0 vs previous update",
+      score: 76,
+      changeText: "-2 vs previous update",
       changeClass: "pill-neutral",
       direction: "High / Structural",
       directionClass: "pill-danger",
@@ -158,7 +158,7 @@ window.dailyRiskPageData = {
         "Seasonal outlooks",
         "Public reporting"
       ],
-      trend: [78, 78, 78, 78, 78, 78, 78]
+      trend: [78, 78, 78, 78, 78, 78, 76]
     }
   ],
 
@@ -167,44 +167,44 @@ window.dailyRiskPageData = {
       title: "🌍 Global Conflict Report",
       tag: "Very High Risk",
       tagClass: "pill-danger",
-      score: "96 / 100",
+      score: "94 / 100",
       direction: "Very High / Fragile",
-      watch: "Transit permissions, retaliation signals, Lebanon spillover, ceasefire durability",
-      why: "Conflict remains the top category because the ceasefire is temporary, maritime freedom is still restricted, and regional escalation channels remain unresolved.",
-      moved: "The score stayed near the top because the ceasefire has still not produced durable operational normalization, and the strategic maritime corridor remains under politically conditioned access.",
+      watch: "Ceasefire durability, military signaling, Lebanon spillover, transit permissions",
+      why: "Conflict remains the top category because the ceasefire is under strain, maritime freedom remains restricted, and regional escalation channels remain unresolved.",
+      moved: "The score moved lower from the most alarmed level because the immediate worst-case scenario has eased, even though negotiations have still not produced a durable breakthrough.",
       matters: "Conflict risk matters because it remains the main channel through which energy instability, shipping disruption, civilian harm, and diplomatic volatility spread globally."
     },
     {
       title: "📉 Global Economic Report",
       tag: "Very High Risk",
       tagClass: "pill-danger",
-      score: "96 / 100",
+      score: "92 / 100",
       direction: "Very High / Persistent",
-      watch: "Vessel counts, LNG restart pace, tanker confidence, freight costs, insurance conditions",
+      watch: "Vessel counts, tanker confidence, freight costs, insurance conditions, oil response",
       why: "Economic pressure remains severe because the global energy and shipping system is still functioning under abnormal and risk-heavy conditions.",
-      moved: "The score moved slightly higher because traffic recovery through Hormuz remains delayed, vessel throughput is still very limited, and continuing constraints on movement keep supply, freight, and insurance conditions unstable.",
+      moved: "The score moved lower because the system no longer appears to be in peak panic mode, even though shipping recovery remains incomplete and supply, freight, and insurance uncertainty remain elevated.",
       matters: "Economic risk matters because it is still the fastest route through which conflict reaches households, logistics networks, industry, imports, and inflation expectations."
     },
     {
       title: "🏥 Global Health Report",
       tag: "Moderate Rising Risk",
       tagClass: "pill-warning",
-      score: "65 / 100",
+      score: "63 / 100",
       direction: "Moderate / Rising",
       watch: "Displacement, emergency access, shelter conditions, aid logistics",
       why: "Health conditions remain below the intensity of conflict and macro stress, but humanitarian burden continues through disrupted care access and pressure on vulnerable populations.",
-      moved: "The score stayed broadly stable because humanitarian stress has not materially improved even though the immediate shock phase has eased.",
+      moved: "The score moved slightly lower because the broader system has eased from its most acute phase, though humanitarian stress has not materially improved.",
       matters: "Health risk matters because it deepens humanitarian strain, weakens resilience, and amplifies the downstream effects of conflict and displacement."
     },
     {
       title: "🌡️ Climate Risk Report",
       tag: "High Structural Risk",
       tagClass: "pill-danger",
-      score: "78 / 100",
+      score: "76 / 100",
       direction: "Persistently High",
       watch: "Flooding, water stress, crop pressure, hydrological instability",
       why: "Climate risk remains high because the background climate state is still abnormally warm and hydrologically unstable across multiple regions.",
-      moved: "The score stayed flat because the structural climate backdrop remains elevated without a new day-specific trigger large enough to move the index.",
+      moved: "The score moved slightly lower because the current short-term move continues to be driven mainly by conflict and macro stress rather than a new climate-specific trigger.",
       matters: "Climate risk matters because it adds persistent pressure to infrastructure, agriculture, migration, insurance systems, and public services."
     }
   ],
@@ -235,9 +235,9 @@ window.dailyRiskPageData = {
     {
       country: "Israel",
       region: "Middle East",
-      score: 96,
-      changeText: "0 today",
-      changeClass: "pill-warning",
+      score: 95,
+      changeText: "-1 today",
+      changeClass: "pill-neutral",
       direction: "Very High",
       directionClass: "pill-danger",
       summary:
@@ -252,14 +252,14 @@ window.dailyRiskPageData = {
         "Lebanon front",
         "Ceasefire signals"
       ],
-      trend: [97, 97, 97, 97, 97, 96, 96]
+      trend: [97, 97, 97, 97, 97, 96, 95]
     },
     {
       country: "Iran",
       region: "Middle East",
-      score: 97,
-      changeText: "0 today",
-      changeClass: "pill-warning",
+      score: 96,
+      changeText: "-1 today",
+      changeClass: "pill-neutral",
       direction: "Very High",
       directionClass: "pill-danger",
       summary:
@@ -274,7 +274,7 @@ window.dailyRiskPageData = {
         "Transit permissions",
         "Talks follow-through"
       ],
-      trend: [98, 98, 98, 98, 98, 97, 97]
+      trend: [98, 98, 98, 98, 98, 97, 96]
     },
     {
       country: "Russia",
@@ -301,13 +301,13 @@ window.dailyRiskPageData = {
     {
       country: "Türkiye",
       region: "Eastern Mediterranean",
-      score: 74,
-      changeText: "+1 today",
-      changeClass: "pill-warning",
+      score: 70,
+      changeText: "-4 today",
+      changeClass: "pill-neutral",
       direction: "Moderate-High",
       directionClass: "pill-warning",
       summary:
-        "Türkiye remains exposed through imported-energy sensitivity, regional route vulnerability, and inflation pass-through. Delayed maritime normalization keeps fuel-cost and spillover pressure meaningful.",
+        "Türkiye remains exposed through imported-energy sensitivity, regional route vulnerability, and inflation pass-through. Delayed maritime normalization keeps fuel-cost and spillover pressure meaningful, but the country no longer looks as exposed as under the peak-shock scenario.",
       drivers: [
         "Regional spillover",
         "Energy sensitivity",
@@ -318,13 +318,13 @@ window.dailyRiskPageData = {
         "Border security",
         "Regional transport flows"
       ],
-      trend: [73, 73, 73, 75, 72, 73, 74]
+      trend: [73, 73, 73, 75, 72, 73, 70]
     },
     {
       country: "United States",
       region: "North America",
-      score: 66,
-      changeText: "0 today",
+      score: 64,
+      changeText: "-2 today",
       changeClass: "pill-neutral",
       direction: "Moderate",
       directionClass: "pill-neutral",
@@ -340,18 +340,18 @@ window.dailyRiskPageData = {
         "Negotiation track",
         "Fuel prices"
       ],
-      trend: [67, 67, 67, 68, 66, 66, 66]
+      trend: [67, 67, 67, 68, 66, 66, 64]
     },
     {
       country: "China",
       region: "East Asia",
-      score: 67,
-      changeText: "+1 today",
-      changeClass: "pill-warning",
+      score: 64,
+      changeText: "-3 today",
+      changeClass: "pill-neutral",
       direction: "Moderate",
       directionClass: "pill-neutral",
       summary:
-        "China remains exposed through imported-energy sensitivity and trade vulnerability, and the slow recovery in Gulf shipping keeps macro exposure significant.",
+        "China remains exposed through imported-energy sensitivity and trade vulnerability, though the current picture is more consistent with sustained macro pressure than with an acute shock phase.",
       drivers: [
         "Energy import sensitivity",
         "Trade exposure",
@@ -362,18 +362,18 @@ window.dailyRiskPageData = {
         "Industrial demand",
         "Supply continuity"
       ],
-      trend: [67, 67, 66, 67, 65, 66, 67]
+      trend: [67, 67, 66, 67, 65, 66, 64]
     },
     {
       country: "India",
       region: "South Asia",
-      score: 68,
-      changeText: "+1 today",
-      changeClass: "pill-warning",
-      direction: "Moderate-High",
-      directionClass: "pill-warning",
+      score: 65,
+      changeText: "-3 today",
+      changeClass: "pill-neutral",
+      direction: "Moderate",
+      directionClass: "pill-neutral",
       summary:
-        "India remains vulnerable through imported oil dependence and external-balance sensitivity, while delayed flow recovery keeps energy stress economically relevant.",
+        "India remains vulnerable through imported oil dependence and external-balance sensitivity, while delayed flow recovery keeps energy stress economically relevant without implying peak-shock conditions.",
       drivers: [
         "Oil dependence",
         "External-balance sensitivity",
@@ -384,13 +384,13 @@ window.dailyRiskPageData = {
         "Rupee pressure",
         "Bond yields"
       ],
-      trend: [67, 67, 67, 69, 66, 67, 68]
+      trend: [67, 67, 67, 69, 66, 67, 65]
     },
     {
       country: "Germany",
       region: "Western Europe",
-      score: 55,
-      changeText: "0 today",
+      score: 54,
+      changeText: "-1 today",
       changeClass: "pill-neutral",
       direction: "Moderate",
       directionClass: "pill-neutral",
@@ -406,18 +406,18 @@ window.dailyRiskPageData = {
         "PMI and sentiment",
         "EU coordination"
       ],
-      trend: [57, 57, 56, 57, 55, 55, 55]
+      trend: [57, 57, 56, 57, 55, 55, 54]
     },
     {
       country: "Japan",
       region: "East Asia",
-      score: 58,
-      changeText: "+1 today",
-      changeClass: "pill-warning",
+      score: 55,
+      changeText: "-3 today",
+      changeClass: "pill-neutral",
       direction: "Moderate-Low",
       directionClass: "pill-neutral",
       summary:
-        "Japan remains sensitive to imported-energy and maritime-security stress, and slow Hormuz normalization keeps the near-term outlook cautious.",
+        "Japan remains sensitive to imported-energy and maritime-security stress, but current conditions look more like prolonged caution than acute near-break disruption.",
       drivers: [
         "Energy imports",
         "Maritime exposure",
@@ -428,7 +428,7 @@ window.dailyRiskPageData = {
         "Shipping flows",
         "Reserve policy"
       ],
-      trend: [57, 57, 56, 58, 56, 57, 58]
+      trend: [57, 57, 56, 58, 56, 57, 55]
     }
   ],
 
@@ -448,22 +448,22 @@ window.dailyRiskPageData = {
       title: "🇮🇱 Israel Country Report",
       tag: "Very High Risk",
       tagClass: "pill-danger",
-      score: "96 / 100",
+      score: "95 / 100",
       direction: "Very High",
       watch: "Regional retaliation, Lebanon front, missile threat, ceasefire signals",
       why: "Israel remains in the highest tier because direct war exposure and multi-front military pressure have not materially disappeared.",
-      moved: "The score stayed extremely high because the ceasefire environment remains fragile and the broader regional conflict picture is still unstable.",
+      moved: "The score moved slightly lower because conditions are no longer being read at the most extreme panic level, even though the regional conflict picture remains unstable.",
       matters: "Israel matters because developments there still shape regional security expectations, energy pricing, and escalation risk."
     },
     {
       title: "🇮🇷 Iran Country Report",
       tag: "Very High Risk",
       tagClass: "pill-danger",
-      score: "97 / 100",
+      score: "96 / 100",
       direction: "Very High",
       watch: "Transit permissions, negotiations, military posture, Hormuz leverage",
       why: "Iran remains at the top of the tracker because direct conflict exposure, strategic energy leverage, and Hormuz centrality are all still active.",
-      moved: "The score stayed near the top because maritime control, negotiation uncertainty, and conflict exposure remain core to the current risk environment.",
+      moved: "The score moved slightly lower because the reading now reflects severe but not near-maximum conditions, even though maritime control and negotiation uncertainty remain core risks.",
       matters: "Iran matters because even small changes in its security posture can reshape shipping, oil, insurance, and regional power balances."
     },
     {
@@ -481,66 +481,66 @@ window.dailyRiskPageData = {
       title: "🇹🇷 Türkiye Country Report",
       tag: "Moderate-High Risk",
       tagClass: "pill-warning",
-      score: "74 / 100",
+      score: "70 / 100",
       direction: "Moderate-High",
       watch: "Regional spillover, fuel costs, trade routes, inflation pressure",
       why: "Türkiye remains meaningfully exposed because regional proximity, imported-energy dependence, and trade-route sensitivity continue to overlap.",
-      moved: "The score moved slightly higher because delayed shipping normalization keeps fuel-cost and spillover pressure economically relevant.",
+      moved: "The score moved lower because the current picture is more consistent with sustained spillover pressure than with an immediate peak-shock scenario.",
       matters: "Türkiye matters because it is a bridge economy and logistics node linking Europe, the Black Sea, and the Middle East."
     },
     {
       title: "🇺🇸 United States Country Report",
       tag: "Moderate Risk",
       tagClass: "pill-neutral",
-      score: "66 / 100",
+      score: "64 / 100",
       direction: "Moderate",
       watch: "Force posture, negotiation track, energy prices, domestic inflation",
       why: "The U.S. remains above low-risk territory because it combines strong institutional resilience with strategic exposure and visible market spillovers.",
-      moved: "The score stayed broadly stable because immediate escalation pressure is lower than at peak shock, but force posture and energy-price transmission remain active channels.",
+      moved: "The score moved lower because immediate escalation pressure is lower than at peak shock, even though force posture and energy-price transmission remain active channels.",
       matters: "The United States matters because its policy choices directly influence financial conditions, security commitments, and crisis management."
     },
     {
       title: "🇨🇳 China Country Report",
       tag: "Moderate Risk",
       tagClass: "pill-neutral",
-      score: "67 / 100",
+      score: "64 / 100",
       direction: "Moderate",
       watch: "Fuel costs, LNG flows, industrial demand, supply continuity",
       why: "China’s country score reflects energy and trade sensitivity more than immediate battlefield exposure, but those channels remain exposed under continued maritime uncertainty.",
-      moved: "The score moved slightly higher because slow Gulf-shipping recovery continues to weigh on the near-term macro picture.",
+      moved: "The score moved lower because current conditions look more like prolonged macro pressure than acute disruption.",
       matters: "China matters because changes in its demand, trade posture, and strategic positioning can reshape global supply chains and market confidence."
     },
     {
       title: "🇮🇳 India Country Report",
-      tag: "Moderate-High Risk",
-      tagClass: "pill-warning",
-      score: "68 / 100",
-      direction: "Moderate-High",
+      tag: "Moderate Risk",
+      tagClass: "pill-neutral",
+      score: "65 / 100",
+      direction: "Moderate",
       watch: "Fuel imports, rupee pressure, bond yields, marine insurance",
       why: "India remains exposed because imported-energy stress still interacts with macro sensitivity even after the immediate shock phase eased.",
-      moved: "The score moved slightly higher because delayed flow recovery keeps oil-related vulnerability and external-balance sensitivity relevant.",
+      moved: "The score moved lower because delayed flow recovery still matters, but the broader reading no longer supports a higher near-panic band.",
       matters: "India matters because of its scale, energy demand, external-balance sensitivity, and role in global growth."
     },
     {
       title: "🇩🇪 Germany Country Report",
       tag: "Moderate Risk",
       tagClass: "pill-neutral",
-      score: "55 / 100",
+      score: "54 / 100",
       direction: "Moderate",
       watch: "PMI and sentiment, energy costs, industrial margins, EU coordination",
       why: "Germany remains relatively stable, though renewed energy pressure still weighs on confidence and cost structures.",
-      moved: "The score stayed broadly stable because the immediate full-shock scenario softened, but persistent flow constraints keep cost volatility relevant.",
+      moved: "The score moved slightly lower because the current environment is better described as persistent cost stress than acute shock.",
       matters: "Germany matters because it remains a major European industrial and fiscal anchor."
     },
     {
       title: "🇯🇵 Japan Country Report",
       tag: "Moderate-Low Risk",
       tagClass: "pill-neutral",
-      score: "58 / 100",
+      score: "55 / 100",
       direction: "Moderate-Low",
       watch: "Fuel costs, shipping security, import resilience, reserve policy",
       why: "Japan stays comparatively lower-risk because institutional resilience is strong even as imported-energy vulnerability remains real.",
-      moved: "The score moved slightly higher because slow Hormuz normalization keeps maritime and energy sensitivity elevated enough to prevent a cleaner improvement.",
+      moved: "The score moved lower because current conditions point more to sustained caution than immediate systemic disruption.",
       matters: "Japan matters because it is a major finance, technology, and supply-chain node."
     }
   ]

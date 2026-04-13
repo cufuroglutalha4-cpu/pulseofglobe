@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
- <title>Live World Data & Global Risk Index | Pulse Of Globe</title>
+  <title>Live World Data & Global Risk Index | Pulse Of Globe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link rel="icon" href="/favicon.ico" sizes="any" />
-<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48x48.png" />
-<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
-<link rel="manifest" href="/images/site.webmanifest" />
-<meta name="theme-color" content="#0f7db7" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48x48.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+  <link rel="manifest" href="/images/site.webmanifest" />
+  <meta name="theme-color" content="#0f7db7" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -606,6 +606,84 @@
       line-height: 1.55;
     }
 
+    .landing-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .landing-card {
+      display: block;
+      background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(248,251,255,0.92));
+      border: 1px solid rgba(15,23,42,0.08);
+      border-radius: 22px;
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+      min-height: 100%;
+    }
+
+    .landing-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 16px 28px rgba(15, 23, 42, 0.08);
+      border-color: rgba(56, 189, 248, 0.24);
+    }
+
+    .landing-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .landing-icon {
+      font-size: 1.35rem;
+      line-height: 1;
+    }
+
+    .landing-badge {
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: var(--primary);
+      background: var(--primary-soft);
+      border-radius: 999px;
+      padding: 6px 10px;
+      white-space: nowrap;
+    }
+
+    .landing-card h3 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+
+    .landing-card p {
+      margin: 0 0 14px;
+      font-size: 0.87rem;
+      line-height: 1.65;
+      color: var(--text-soft);
+    }
+
+    .landing-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+
+    .landing-link span {
+      transition: transform 0.18s ease;
+    }
+
+    .landing-card:hover .landing-link span {
+      transform: translateX(4px);
+    }
+
     .accordion-section-title {
       font-size: 0.92rem;
       font-weight: 700;
@@ -779,7 +857,8 @@
 
     @media (max-width: 1024px) {
       .hero-grid,
-      .highlights {
+      .highlights,
+      .landing-grid {
         grid-template-columns: 1fr 1fr;
       }
     }
@@ -806,6 +885,7 @@
       .hero { padding: 22px; border-radius: 28px; }
 
       .highlights,
+      .landing-grid,
       .counters,
       .hero-summary-items {
         grid-template-columns: 1fr;
@@ -962,6 +1042,94 @@
             </div>
           </div>
         </section>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>Explore more live data pages</h2>
+            <p>
+              Discover focused live pages for world population, births, deaths,
+              country comparisons and real-time global tracking.
+            </p>
+          </div>
+        </div>
+
+        <div class="landing-grid">
+          <a href="world-population-live.html" class="landing-card">
+            <div class="landing-card-top">
+              <div class="landing-icon">🌍</div>
+              <div class="landing-badge">Live Page</div>
+            </div>
+            <h3>World Population Live</h3>
+            <p>
+              Track the live world population with continuously updating global estimates.
+            </p>
+            <div class="landing-link">Open page <span>→</span></div>
+          </a>
+
+          <a href="births-today-live.html" class="landing-card">
+            <div class="landing-card-top">
+              <div class="landing-icon">👶</div>
+              <div class="landing-badge">Live Page</div>
+            </div>
+            <h3>Births Today</h3>
+            <p>
+              See how many babies are born today with real-time live birth estimates.
+            </p>
+            <div class="landing-link">Open page <span>→</span></div>
+          </a>
+
+          <a href="deaths-today-live.html" class="landing-card">
+            <div class="landing-card-top">
+              <div class="landing-icon">🕊️</div>
+              <div class="landing-badge">Live Page</div>
+            </div>
+            <h3>Deaths Today</h3>
+            <p>
+              View today’s live death estimates and follow real-time daily mortality data.
+            </p>
+            <div class="landing-link">Open page <span>→</span></div>
+          </a>
+
+          <a href="population-by-country.html" class="landing-card">
+            <div class="landing-card-top">
+              <div class="landing-icon">🗺️</div>
+              <div class="landing-badge">Country Data</div>
+            </div>
+            <h3>Population by Country</h3>
+            <p>
+              Compare population estimates across countries and explore the largest nations.
+            </p>
+            <div class="landing-link">Open page <span>→</span></div>
+          </a>
+
+          <a href="what-happens-every-second.html" class="landing-card">
+            <div class="landing-card-top">
+              <div class="landing-icon">⏱️</div>
+              <div class="landing-badge">Trending Idea</div>
+            </div>
+            <h3>What Happens Every Second?</h3>
+            <p>
+              Explore what changes every second across population, environment and technology.
+            </p>
+            <div class="landing-link">Open page <span>→</span></div>
+          </a>
+
+          <a href="real-time-world-stats.html" class="landing-card">
+            <div class="landing-card-top">
+              <div class="landing-icon">📊</div>
+              <div class="landing-badge">All-in-One</div>
+            </div>
+            <h3>Real-Time World Stats</h3>
+            <p>
+              Access an all-in-one page for live global counters, trends and world data snapshots.
+            </p>
+            <div class="landing-link">Open page <span>→</span></div>
+          </a>
+        </div>
       </div>
     </section>
 

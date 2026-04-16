@@ -1,27 +1,27 @@
 window.dailyRiskPageData = {
-  reportDate: "April 15, 2026",
-  updateTimeUtc: "21:13 UTC",
-  overallScore: 92,
+  reportDate: "April 16, 2026",
+  updateTimeUtc: "18:45 UTC",
+  overallScore: 93,
   previousOverallScore: 92,
   overallLabel: "Very High",
-  overallTrend: "0 vs previous update",
+  overallTrend: "+1 vs previous update",
   confidence: "High",
 
   heroSummary:
-    "Global risk conditions remain very high as the blockade on Iranian port traffic, still-constrained Strait of Hormuz flows, and weak shipping confidence continue to keep the system under pressure. Transit has not fully stopped, but the wider environment still reflects severe disruption rather than genuine normalization.",
+    "Global risk conditions remain very high as blockade pressure, still-disrupted Strait of Hormuz flows, and renewed energy-market uncertainty continue to keep the system under stress. Transit has not fully stopped, but normalization has clearly not returned, and fresh signals from shipping, petrochemicals, and oil pricing point to a more fragile environment again.",
 
   overallExplainer:
-    "The global composite score held at a very high level because the system remains under significant maritime and energy stress, even though the worst-case full-freeze scenario has not fully materialized. The blockade on Iranian port traffic is now an established factor, some vessels continue to turn back, and overall traffic remains far below pre-war conditions, though limited transit still continues through Hormuz. Conflict risk remains the dominant top-layer driver because escalation channels remain open and maritime conditions are still politically and militarily sensitive. Economic risk remains the main global transmission mechanism through oil, LNG, freight, insurance, and inflation expectations. Health risk stays elevated through displacement, emergency strain, and disrupted humanitarian access. Climate risk remains structurally high in the background, but it is still not the main short-term driver behind today’s move.",
+    "The global composite score moved slightly higher because the system remains under severe maritime and energy stress and today’s signals point more toward prolonged disruption than improving normalization. Some sanctioned tankers are still entering the Gulf despite the blockade, Iran has halted petrochemical exports, and oil prices have risen again as doubts persist over whether talks can meaningfully restore flows through Hormuz. Conflict risk remains the dominant top-layer driver because escalation channels remain open and maritime conditions are still politically and militarily sensitive. Economic risk remains the main global transmission mechanism through oil, LNG, freight, insurance, and inflation expectations. Health risk stays elevated through displacement, emergency strain, and disrupted humanitarian access. Climate risk remains structurally high in the background, but it is still not the main short-term driver behind today’s move.",
 
   overview: [
     {
       label: "Report Date",
-      value: "April 15, 2026",
+      value: "April 16, 2026",
       sub: "Updated daily (UTC)"
     },
     {
       label: "Top Driver",
-      value: "Blockade Pressure + Disrupted Hormuz Flow",
+      value: "Blockade Stress + Incomplete Hormuz Normalization",
       sub: "Conflict still dominates while shipping and energy conditions remain abnormal"
     },
     {
@@ -31,18 +31,18 @@ window.dailyRiskPageData = {
     },
     {
       label: "What Changed",
-      value: "Blockade pressure persists, transit remains limited",
-      sub: "Some ships continue to turn back while selective movement still continues under high risk"
+      value: "Risk firmed again",
+      sub: "Oil rose, export restrictions widened, and maritime normalization remained incomplete"
     },
     {
       label: "Watch Next 48h",
-      value: "Blockade enforcement + vessel flow + negotiation signals",
+      value: "Talks track + vessel flow + sanctions pressure",
       sub: "Main near-term swing factors"
     }
   ],
 
   glanceSummary:
-    "The global risk score remains very high. Shipping through Hormuz is still disrupted, blockade enforcement continues to distort commercial behavior, and the system remains exposed to renewed conflict, energy, and transport stress even though some tanker movement continues.",
+    "The global risk score remains very high and has moved slightly higher again. Shipping through Hormuz remains disrupted, blockade pressure continues, and the system remains exposed to renewed conflict, energy, and transport stress even though some tanker movement continues.",
 
   glanceBullets: [
     "Conflict risk remains the top structural driver because maritime escalation channels remain open and the ceasefire framework remains weak.",
@@ -59,11 +59,11 @@ window.dailyRiskPageData = {
     },
     {
       label: "Today",
-      value: "92 / 100"
+      value: "93 / 100"
     },
     {
       label: "Trend",
-      value: "Very High, Stable"
+      value: "Very High, Slightly Higher"
     },
     {
       label: "Countries Tracked",
@@ -74,14 +74,14 @@ window.dailyRiskPageData = {
   riskData: [
     {
       title: "🌍 Global Conflict Risk",
-      subtitle: "Blockade enforcement, maritime escalation, and unresolved retaliation channels",
+      subtitle: "Blockade enforcement, maritime tension, and unresolved retaliation channels",
       score: 95,
       changeText: "0 vs previous update",
       changeClass: "pill-warning",
       direction: "Very High / Fragile",
       directionClass: "pill-danger",
       description:
-        "Conflict risk remains very high because blockade enforcement, unresolved retaliation risk, and politically sensitive maritime access continue to keep the system fragile. Conditions remain more severe than during the immediate post-ceasefire lull, even though transit has not completely stopped.",
+        "Conflict risk remains very high because blockade enforcement, unresolved retaliation risk, and politically sensitive maritime access continue to keep the system fragile. Conditions remain above the post-ceasefire lull, even though transit has not completely stopped.",
       drivers: [
         "Maritime escalation",
         "Restricted Hormuz conditions",
@@ -92,20 +92,20 @@ window.dailyRiskPageData = {
         "Public reporting",
         "Institutional updates"
       ],
-      trend: [95, 96, 96, 94, 95, 95, 95]
+      trend: [96, 96, 94, 95, 95, 95, 95]
     },
     {
       title: "📉 Global Economic Risk",
-      subtitle: "Oil shock, incomplete flows, and persistent freight-insurance stress",
-      score: 93,
-      changeText: "0 vs previous update",
+      subtitle: "Oil-price pressure, incomplete flows, and persistent freight-insurance stress",
+      score: 94,
+      changeText: "+1 vs previous update",
       changeClass: "pill-warning",
       direction: "Very High / Persistent",
       directionClass: "pill-danger",
       description:
-        "Economic risk remains very high because tanker traffic is still impaired, oil and LNG flows remain disrupted, and shipping and insurance conditions are still abnormal. The current picture is consistent with severe ongoing disruption rather than a clean recovery.",
+        "Economic risk moved slightly higher because oil prices rose again, petrochemical exports from Iran were halted, and shipping and insurance conditions remain abnormal. The current picture still reflects severe ongoing disruption rather than a clean recovery.",
       drivers: [
-        "Oil and LNG disruption",
+        "Oil and petrochemical disruption",
         "Shipping and insurance stress",
         "Inflation and input-cost spillover"
       ],
@@ -114,7 +114,7 @@ window.dailyRiskPageData = {
         "Market reporting",
         "Public data"
       ],
-      trend: [94, 95, 96, 92, 93, 93, 93]
+      trend: [95, 96, 92, 93, 93, 93, 94]
     },
     {
       title: "🏥 Global Health Risk",
@@ -136,7 +136,7 @@ window.dailyRiskPageData = {
         "Humanitarian reporting",
         "Institutional updates"
       ],
-      trend: [64, 65, 65, 63, 63, 63, 63]
+      trend: [65, 65, 63, 63, 63, 63, 63]
     },
     {
       title: "🌡️ Climate Risk",
@@ -158,7 +158,7 @@ window.dailyRiskPageData = {
         "Seasonal outlooks",
         "Public reporting"
       ],
-      trend: [78, 78, 78, 76, 76, 76, 76]
+      trend: [78, 78, 76, 76, 76, 76, 76]
     }
   ],
 
@@ -171,18 +171,18 @@ window.dailyRiskPageData = {
       direction: "Very High / Fragile",
       watch: "Blockade enforcement, retaliation signals, regional spillover, vessel permissions",
       why: "Conflict remains the top category because maritime escalation remains active and regional retaliation channels are still unresolved.",
-      moved: "The score stayed near the top because blockade enforcement continues to raise operational tension, even though limited transit still occurs and negotiations remain possible.",
+      moved: "The score stayed near the top because blockade pressure remains active, even though some tanker movement continues and talks are still being discussed.",
       matters: "Conflict risk matters because it remains the main channel through which energy instability, shipping disruption, civilian harm, and diplomatic volatility spread globally."
     },
     {
       title: "📉 Global Economic Report",
       tag: "Very High Risk",
       tagClass: "pill-danger",
-      score: "93 / 100",
+      score: "94 / 100",
       direction: "Very High / Persistent",
       watch: "Vessel counts, tanker confidence, freight costs, insurance conditions, oil response",
       why: "Economic pressure remains severe because the global energy and shipping system is still functioning under abnormal and risk-heavy conditions.",
-      moved: "The score stayed very high because some traffic continues, but overall flows remain impaired and supply, freight, and insurance uncertainty remain elevated.",
+      moved: "The score moved slightly higher because oil prices rose again, petrochemical export restrictions widened, and supply, freight, and insurance uncertainty remained elevated.",
       matters: "Economic risk matters because it is still the fastest route through which conflict reaches households, logistics networks, industry, imports, and inflation expectations."
     },
     {
@@ -252,7 +252,7 @@ window.dailyRiskPageData = {
         "Lebanon front",
         "Ceasefire signals"
       ],
-      trend: [97, 97, 96, 95, 95, 95, 95]
+      trend: [97, 96, 95, 95, 95, 95, 95]
     },
     {
       country: "Iran",
@@ -274,7 +274,7 @@ window.dailyRiskPageData = {
         "Transit permissions",
         "Retaliation signals"
       ],
-      trend: [98, 98, 97, 96, 96, 96, 96]
+      trend: [98, 97, 96, 96, 96, 96, 96]
     },
     {
       country: "Russia",
@@ -318,7 +318,7 @@ window.dailyRiskPageData = {
         "Border security",
         "Regional transport flows"
       ],
-      trend: [75, 72, 73, 70, 71, 71, 71]
+      trend: [72, 73, 70, 71, 71, 71, 71]
     },
     {
       country: "United States",
@@ -340,7 +340,7 @@ window.dailyRiskPageData = {
         "Negotiation track",
         "Fuel prices"
       ],
-      trend: [68, 66, 66, 64, 64, 64, 64]
+      trend: [66, 66, 64, 64, 64, 64, 64]
     },
     {
       country: "China",
@@ -362,7 +362,7 @@ window.dailyRiskPageData = {
         "Industrial demand",
         "Supply continuity"
       ],
-      trend: [67, 65, 66, 64, 65, 65, 65]
+      trend: [65, 66, 64, 65, 65, 65, 65]
     },
     {
       country: "India",
@@ -384,7 +384,7 @@ window.dailyRiskPageData = {
         "Rupee pressure",
         "Bond yields"
       ],
-      trend: [69, 66, 67, 65, 66, 66, 66]
+      trend: [66, 67, 65, 66, 66, 66, 66]
     },
     {
       country: "Germany",
@@ -406,7 +406,7 @@ window.dailyRiskPageData = {
         "PMI and sentiment",
         "EU coordination"
       ],
-      trend: [57, 55, 55, 54, 54, 54, 54]
+      trend: [55, 55, 54, 54, 54, 54, 54]
     },
     {
       country: "Japan",
@@ -428,7 +428,7 @@ window.dailyRiskPageData = {
         "Shipping flows",
         "Reserve policy"
       ],
-      trend: [58, 56, 57, 55, 56, 56, 56]
+      trend: [56, 57, 55, 56, 56, 56, 56]
     }
   ],
 

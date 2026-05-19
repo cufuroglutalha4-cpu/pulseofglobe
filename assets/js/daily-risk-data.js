@@ -1,70 +1,70 @@
 window.dailyRiskPageData = {
-  reportDate: "May 17, 2026",
-  updateTimeUtc: "18:40 UTC",
+  reportDate: "May 19, 2026",
+  updateTimeUtc: "16:30 UTC",
 
-  overallScore: 75,
-  previousOverallScore: 78,
+  overallScore: 72,
+  previousOverallScore: 75,
   overallLabel: "Elevated",
   overallTrend: "-3 vs previous update",
-  confidence: "Moderate-High",
+  confidence: "Moderate",
 
   heroSummary:
-    "Global risk conditions remain elevated but continued to ease gradually compared with previous updates. Ukraine battlefield pressure, energy-market sensitivity, and Middle East instability remain active drivers, although the latest environment increasingly reflects controlled geopolitical stress rather than acute escalation momentum.",
+    "Global risk conditions remain elevated but continued to stabilize compared with previous updates. Ukraine battlefield pressure, regional instability, and energy-market sensitivity remain active drivers, although the broader environment currently reflects controlled geopolitical stress rather than rapid escalation momentum.",
 
   overallExplainer:
-    "The global composite score eased from 78 to 75 because several macro and geopolitical stress channels stabilized further during the latest cycle. Maritime activity and energy shipments through key routes remain sensitive but operational, while oil-market volatility moderated again compared with earlier escalation phases. Ukraine continues facing infrastructure and frontline pressure, though without a major new strategic escalation layer. Economic exposure through freight, fuel, insurance, and inflation channels remains elevated but increasingly orderly. Humanitarian conditions remain strained in conflict zones through displacement and aid disruption, while climate conditions continue contributing structural background pressure globally.",
+    "The global composite score eased from 75 to 72 because several geopolitical and macroeconomic transmission channels stabilized further during the latest cycle. Maritime activity and global energy flows remain sensitive but operational, while oil-market volatility moderated again compared with previous escalation phases. Ukraine continues facing frontline and infrastructure pressure without a major new escalation layer. Economic exposure through freight, shipping insurance, fuel, and inflation channels remains elevated but increasingly manageable. Humanitarian conditions remain strained in conflict zones through displacement and aid disruption, while climate conditions continue contributing structural background pressure globally.",
 
   overview: [
     {
       label: "Report Date",
-      value: "May 17, 2026",
+      value: "May 19, 2026",
       sub: "Updated daily (UTC)"
     },
     {
       label: "Top Driver",
       value: "Ukraine Pressure + Energy Sensitivity",
-      sub: "Conflict-linked economic channels remain dominant"
+      sub: "Conflict-linked economic channels remain the main drivers"
     },
     {
       label: "Country Layer",
       value: "10 Countries Live",
-      sub: "National exposure monitoring remains active"
+      sub: "Country exposure monitoring remains active"
     },
     {
       label: "What Changed",
-      value: "Risk eased modestly",
-      sub: "Lower market volatility reduced broader systemic pressure"
+      value: "Risk eased again",
+      sub: "Lower volatility and steadier markets reduced systemic pressure"
     },
     {
       label: "Watch Next 48h",
-      value: "Oil prices + Ukraine strikes + regional diplomacy + shipping flows",
+      value: "Ukraine strikes + oil prices + shipping flows + regional diplomacy",
       sub: "Main short-term volatility drivers"
     }
   ],
 
   glanceSummary:
-    "The global risk score eased to 75 / 100. Ukraine pressure, regional instability, and energy-market sensitivity continue to keep conditions elevated, although broader systemic stress remains below recent escalation peaks.",
+    "The global risk score eased to 72 / 100. Ukraine pressure, regional instability, and energy-market sensitivity continue to keep conditions elevated, although broader systemic stress remains well below recent escalation peaks.",
 
   glanceBullets: [
-    "Conflict risk remains the primary global driver because Ukraine pressure and Middle East instability remain active.",
-    "Economic risk remains elevated through oil, LNG, freight, insurance, and inflation sensitivity, although broader volatility moderated again.",
+    "Conflict risk remains the primary global driver because Ukraine pressure and regional instability remain active.",
+    "Economic risk remains elevated through oil, LNG, freight, insurance, and inflation sensitivity, although volatility continued cooling.",
     "Health and humanitarian pressure remain moderately elevated because displacement and aid disruption continue in conflict zones.",
     "Climate risk remains structurally elevated through heat stress and hydrological instability, though it is not the dominant short-term catalyst.",
-    "Country exposure tracking remains focused on battlefield intensity, inflation transmission, logistics vulnerability, and energy dependence."
+    "Country exposure tracking remains focused on battlefield intensity, energy dependence, inflation transmission, and logistics vulnerability."
   ],
 
   dailyComparison: [
     {
       label: "Previous Update",
-      value: "78 / 100"
-    },
-    {
-      label: "Today",
       value: "75 / 100"
     },
     {
+      label: "Today",
+      value: "72 / 100"
+    },
+    {
       label: "Trend",
-      value: "Elevated, Stabilizing"
+      value: "Elevated, Improving"
     },
     {
       label: "Countries Tracked",
@@ -75,14 +75,14 @@ window.dailyRiskPageData = {
   riskData: [
     {
       title: "🌍 Global Conflict Risk",
-      subtitle: "Ukraine pressure, regional instability, and maritime sensitivity",
-      score: 79,
+      subtitle: "Ukraine pressure, maritime sensitivity, and regional instability",
+      score: 76,
       changeText: "-3 vs previous update",
       changeClass: "pill-neutral",
       direction: "High / Fragile",
       directionClass: "pill-danger",
       description:
-        "Conflict risk remains high because Ukraine battlefield pressure and regional instability continue sustaining active geopolitical stress channels. However, the broader environment still reflects controlled escalation pressure rather than rapid deterioration.",
+        "Conflict risk remains high because Ukraine battlefield pressure and regional instability continue sustaining geopolitical stress channels. However, the broader environment still reflects controlled escalation pressure rather than rapid deterioration.",
       drivers: [
         "Ukraine frontline pressure",
         "Regional instability",
@@ -93,22 +93,22 @@ window.dailyRiskPageData = {
         "Institutional monitoring",
         "Public reporting"
       ],
-      trend: [84, 83, 82, 81, 80, 80, 79]
+      trend: [81, 80, 79, 78, 78, 77, 76]
     },
 
     {
       title: "📉 Global Economic Risk",
       subtitle: "Energy sensitivity, freight exposure, and inflation transmission",
-      score: 71,
+      score: 68,
       changeText: "-3 vs previous update",
       changeClass: "pill-neutral",
-      direction: "High / Persistent",
+      direction: "Elevated / Persistent",
       directionClass: "pill-warning",
       description:
-        "Economic risk remains elevated because fuel markets, shipping systems, freight costs, and inflation expectations remain sensitive to geopolitical developments. However, broader market stress continues easing compared with previous escalation phases.",
+        "Economic risk remains elevated because fuel markets, freight systems, shipping insurance, and inflation expectations remain sensitive to geopolitical developments. However, broader market stress moderated further compared with previous escalation phases.",
       drivers: [
         "Oil-market sensitivity",
-        "Freight and logistics exposure",
+        "Freight exposure",
         "Inflation spillover"
       ],
       sources: [
@@ -116,19 +116,19 @@ window.dailyRiskPageData = {
         "Market reporting",
         "Public data"
       ],
-      trend: [76, 75, 74, 73, 72, 72, 71]
+      trend: [73, 72, 71, 70, 69, 69, 68]
     },
 
     {
       title: "🏥 Global Health Risk",
       subtitle: "Humanitarian strain and displacement pressure",
-      score: 55,
+      score: 53,
       changeText: "-2 vs previous update",
       changeClass: "pill-neutral",
       direction: "Moderate",
       directionClass: "pill-warning",
       description:
-        "Health risk remains moderately elevated because humanitarian strain, displacement, and aid disruption continue across conflict-affected regions, although no major new global deterioration emerged during the latest cycle.",
+        "Health risk remains moderately elevated because humanitarian strain, displacement, and aid disruption continue across conflict-affected regions, although no major new deterioration emerged during the latest cycle.",
       drivers: [
         "Displacement pressure",
         "Aid disruption",
@@ -139,13 +139,13 @@ window.dailyRiskPageData = {
         "Humanitarian reporting",
         "Reuters"
       ],
-      trend: [58, 58, 57, 57, 56, 56, 55]
+      trend: [56, 56, 55, 55, 54, 54, 53]
     },
 
     {
       title: "🌡️ Climate Risk",
       subtitle: "Persistent heat conditions and water-system instability",
-      score: 66,
+      score: 64,
       changeText: "-2 vs previous update",
       changeClass: "pill-neutral",
       direction: "High / Structural",
@@ -162,7 +162,7 @@ window.dailyRiskPageData = {
         "Seasonal outlooks",
         "Public reporting"
       ],
-      trend: [69, 69, 68, 68, 67, 67, 66]
+      trend: [67, 67, 66, 66, 65, 65, 64]
     }
   ],
 
@@ -171,22 +171,22 @@ window.dailyRiskPageData = {
       title: "🌍 Global Conflict Report",
       tag: "High Risk",
       tagClass: "pill-danger",
-      score: "79 / 100",
+      score: "76 / 100",
       direction: "High / Fragile",
-      watch: "Ukraine strikes, maritime-security signals, regional retaliation, diplomatic messaging",
+      watch: "Ukraine strikes, regional retaliation signals, maritime-security activity, diplomatic messaging",
       why: "Conflict remains the dominant category because Ukraine pressure and broader regional instability continue simultaneously.",
-      moved: "The score eased because escalation signals remained contained despite continued battlefield and regional pressure.",
-      matters: "Conflict risk matters because it remains the primary transmission channel for geopolitical instability, shipping disruption, and energy volatility."
+      moved: "The score eased because escalation signals remained contained despite continued battlefield pressure.",
+      matters: "Conflict risk matters because it remains the primary transmission channel for geopolitical instability, energy volatility, and shipping disruption."
     },
 
     {
       title: "📉 Global Economic Report",
-      tag: "High Risk",
+      tag: "Elevated Risk",
       tagClass: "pill-warning",
-      score: "71 / 100",
-      direction: "High / Persistent",
-      watch: "Oil prices, freight costs, tanker confidence, LNG flows, inflation expectations",
-      why: "Economic pressure remains elevated because energy and logistics systems continue operating under risk-heavy geopolitical conditions.",
+      score: "68 / 100",
+      direction: "Elevated / Persistent",
+      watch: "Oil prices, freight costs, LNG flows, tanker confidence, inflation expectations",
+      why: "Economic pressure remains elevated because energy and logistics systems continue operating under sensitive geopolitical conditions.",
       moved: "The score eased because fuel-market volatility and freight stress moderated further.",
       matters: "Economic risk matters because geopolitical instability continues transmitting into inflation, logistics, airlines, and household costs."
     },
@@ -195,7 +195,7 @@ window.dailyRiskPageData = {
       title: "🏥 Global Health Report",
       tag: "Moderate Elevated Risk",
       tagClass: "pill-warning",
-      score: "55 / 100",
+      score: "53 / 100",
       direction: "Moderate",
       watch: "Displacement, aid logistics, emergency access, food insecurity",
       why: "Health conditions remain pressured through humanitarian-system strain and conflict-linked displacement.",
@@ -207,7 +207,7 @@ window.dailyRiskPageData = {
       title: "🌡️ Climate Risk Report",
       tag: "High Structural Risk",
       tagClass: "pill-danger",
-      score: "66 / 100",
+      score: "64 / 100",
       direction: "Persistently High",
       watch: "Flood exposure, heat stress, crop pressure, water systems",
       why: "Climate risk remains structurally elevated because global heat and hydrological instability remain abnormal.",
@@ -220,7 +220,7 @@ window.dailyRiskPageData = {
     {
       country: "Ukraine",
       region: "Eastern Europe",
-      score: 85,
+      score: 82,
       changeText: "-3 today",
       changeClass: "pill-neutral",
       direction: "Very High",
@@ -237,13 +237,13 @@ window.dailyRiskPageData = {
         "Energy systems",
         "Air-defense pressure"
       ],
-      trend: [89, 88, 88, 87, 86, 86, 85]
+      trend: [86, 85, 85, 84, 83, 83, 82]
     },
 
     {
       country: "Israel",
       region: "Middle East",
-      score: 78,
+      score: 75,
       changeText: "-3 today",
       changeClass: "pill-neutral",
       direction: "High",
@@ -260,13 +260,13 @@ window.dailyRiskPageData = {
         "Regional retaliation",
         "Ceasefire signals"
       ],
-      trend: [82, 81, 81, 80, 79, 79, 78]
+      trend: [79, 78, 78, 77, 76, 76, 75]
     },
 
     {
       country: "Iran",
       region: "Middle East",
-      score: 78,
+      score: 75,
       changeText: "-3 today",
       changeClass: "pill-neutral",
       direction: "High",
@@ -283,13 +283,13 @@ window.dailyRiskPageData = {
         "Regional signaling",
         "Shipping activity"
       ],
-      trend: [82, 81, 81, 80, 79, 79, 78]
+      trend: [79, 78, 78, 77, 76, 76, 75]
     },
 
     {
       country: "Russia",
       region: "Eastern Europe / Eurasia",
-      score: 71,
+      score: 68,
       changeText: "-3 today",
       changeClass: "pill-neutral",
       direction: "High",
@@ -306,13 +306,13 @@ window.dailyRiskPageData = {
         "Infrastructure exposure",
         "Fiscal conditions"
       ],
-      trend: [75, 74, 74, 73, 72, 72, 71]
+      trend: [72, 71, 71, 70, 69, 69, 68]
     },
 
     {
       country: "Türkiye",
       region: "Eastern Mediterranean",
-      score: 54,
+      score: 51,
       changeText: "-3 today",
       changeClass: "pill-neutral",
       direction: "Moderate",
@@ -329,16 +329,16 @@ window.dailyRiskPageData = {
         "Trade routes",
         "Inflation data"
       ],
-      trend: [58, 57, 57, 56, 55, 55, 54]
+      trend: [55, 54, 54, 53, 52, 52, 51]
     },
 
     {
       country: "United States",
       region: "North America",
-      score: 47,
+      score: 44,
       changeText: "-3 today",
       changeClass: "pill-neutral",
-      direction: "Moderate-Low",
+      direction: "Low-Moderate",
       directionClass: "pill-neutral",
       summary:
         "The U.S. remains moderately exposed through strategic commitments and global market transmission channels, although broader systemic stress moderated further.",
@@ -352,16 +352,16 @@ window.dailyRiskPageData = {
         "Energy prices",
         "Regional deployments"
       ],
-      trend: [51, 50, 50, 49, 48, 48, 47]
+      trend: [48, 47, 47, 46, 45, 45, 44]
     },
 
     {
       country: "China",
       region: "East Asia",
-      score: 47,
+      score: 44,
       changeText: "-3 today",
       changeClass: "pill-neutral",
-      direction: "Moderate-Low",
+      direction: "Low-Moderate",
       directionClass: "pill-neutral",
       summary:
         "China remains exposed through energy-import dependence and trade sensitivity, although panic conditions cooled further.",
@@ -375,16 +375,16 @@ window.dailyRiskPageData = {
         "Fuel costs",
         "Supply continuity"
       ],
-      trend: [51, 50, 50, 49, 48, 48, 47]
+      trend: [48, 47, 47, 46, 45, 45, 44]
     },
 
     {
       country: "India",
       region: "South Asia",
-      score: 48,
+      score: 45,
       changeText: "-3 today",
       changeClass: "pill-neutral",
-      direction: "Moderate-Low",
+      direction: "Low-Moderate",
       directionClass: "pill-neutral",
       summary:
         "India remains exposed through imported-energy sensitivity and inflation pressure, although broader market stress eased further.",
@@ -398,16 +398,16 @@ window.dailyRiskPageData = {
         "Currency pressure",
         "Inflation trends"
       ],
-      trend: [52, 51, 51, 50, 49, 49, 48]
+      trend: [49, 48, 48, 47, 46, 46, 45]
     },
 
     {
       country: "Germany",
       region: "Western Europe",
-      score: 39,
+      score: 36,
       changeText: "-3 today",
       changeClass: "pill-neutral",
-      direction: "Low-Moderate",
+      direction: "Low",
       directionClass: "pill-neutral",
       summary:
         "Germany remains exposed through energy sensitivity and European security pressure, although broader systemic conditions stabilized further.",
@@ -421,16 +421,16 @@ window.dailyRiskPageData = {
         "Energy costs",
         "EU coordination"
       ],
-      trend: [43, 42, 42, 41, 40, 40, 39]
+      trend: [40, 39, 39, 38, 37, 37, 36]
     },
 
     {
       country: "Japan",
       region: "East Asia",
-      score: 40,
+      score: 37,
       changeText: "-3 today",
       changeClass: "pill-neutral",
-      direction: "Low-Moderate",
+      direction: "Low",
       directionClass: "pill-neutral",
       summary:
         "Japan remains exposed to maritime-security and imported-energy sensitivity, although institutional resilience continues limiting acute exposure.",
@@ -444,7 +444,7 @@ window.dailyRiskPageData = {
         "Shipping flows",
         "Reserve policy"
       ],
-      trend: [44, 43, 43, 42, 41, 41, 40]
+      trend: [41, 40, 40, 39, 38, 38, 37]
     }
   ]
 };

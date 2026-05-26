@@ -1,29 +1,29 @@
 window.dailyRiskPageData = {
-  reportDate: "May 23, 2026",
-  updateTimeUtc: "12:05 UTC",
+  reportDate: "May 26, 2026",
+  updateTimeUtc: "21:40 UTC",
 
-  overallScore: 73,
-  previousOverallScore: 74,
+  overallScore: 78,
+  previousOverallScore: 79,
   overallLabel: "Elevated",
   overallTrend: "-1 vs previous update",
-  confidence: "Moderate-High",
+  confidence: "High",
 
   heroSummary:
-    "Global risk conditions remain elevated but slightly eased as short-term volatility in energy and maritime markets cooled. However, geopolitical stress remains structurally high due to ongoing Ukraine conflict pressure, persistent Middle East instability, and continued sensitivity in global oil and shipping routes. The system is stable but fragile, with reduced panic intensity compared to prior peaks.",
+    "Global risk conditions remain elevated but slightly eased at the margin. The system continues to be driven by persistent geopolitical friction, particularly in Ukraine, the wider Middle East security environment, and maritime/energy corridor sensitivity. However, short-term volatility in energy and shipping markets has cooled compared to prior stress peaks, indicating a controlled but fragile equilibrium rather than escalation acceleration.",
 
   overallExplainer:
-    "The global composite score declined slightly from 74 to 73 due to stabilization in short-term volatility indicators across energy and maritime channels. While Hormuz-related shipping sensitivity remains a key systemic risk, no major disruption event materialized in the latest cycle. Oil markets remain reactive but less disorderly compared to earlier escalation phases. Ukraine continues to experience sustained drone warfare and infrastructure pressure, maintaining elevated European security risk. Middle East geopolitical conditions remain unstable but not rapidly deteriorating. Economic transmission through freight, shipping insurance, and inflation expectations remains active but controlled. Humanitarian pressure persists in conflict zones through displacement and infrastructure strain. Climate risk remains structurally high, acting as a persistent background stress factor rather than a short-term driver.",
+    "The composite global risk score declined slightly due to marginal stabilization in energy markets, freight pricing, and short-term geopolitical escalation signals. Ukraine remains the primary active war risk driver with sustained infrastructure pressure and asymmetric drone warfare shaping regional security expectations. Middle East risk remains structurally high, with maritime security and regional deterrence dynamics continuing to influence oil and LNG pricing sensitivity. The Strait of Hormuz remains a latent systemic risk node for global energy flows, though no immediate disruption escalation is currently confirmed. Economic transmission channels remain active but less disorderly, with inflation expectations stabilizing compared to earlier volatility phases. Humanitarian and displacement pressures persist across conflict zones. Climate risk remains structurally elevated but continues to act as a background systemic stressor rather than a short-term shock driver.",
 
   overview: [
     {
       label: "Report Date",
-      value: "May 22, 2026",
+      value: "May 27, 2026",
       sub: "UTC daily update"
     },
     {
       label: "Top Driver",
-      value: "Ukraine Pressure + Maritime Sensitivity",
-      sub: "Conflict-energy linkage remains dominant"
+      value: "Ukraine War + Middle East Maritime Sensitivity",
+      sub: "Geopolitical core remains dominant"
     },
     {
       label: "Country Layer",
@@ -32,30 +32,30 @@ window.dailyRiskPageData = {
     },
     {
       label: "What Changed",
-      value: "Slight easing in volatility",
-      sub: "Energy + shipping stress cooled marginally"
+      value: "Slight de-escalation in volatility",
+      sub: "Energy and shipping stress marginally stabilized"
     },
     {
-      label: "Next 48h Watch",
-      value: "Oil flows + Ukraine strikes + Hormuz transit + diplomacy",
-      sub: "Key swing variables"
+      label: "Watch Next 48h",
+      value: "Hormuz signals + Ukraine strikes + oil flows + diplomacy",
+      sub: "Key swing factors"
     }
   ],
 
   glanceSummary:
-    "Global risk eased slightly to 73/100, reflecting reduced short-term volatility while underlying geopolitical tensions remain structurally elevated.",
+    "Global risk eased slightly to 78/100, reflecting reduced short-term volatility while underlying geopolitical tensions remain structurally elevated.",
 
   glanceBullets: [
-    "Ukraine remains the core conflict driver with sustained infrastructure and drone pressure.",
-    "Maritime and energy systems remain sensitive but stable compared to earlier peaks.",
-    "Economic risk remains elevated due to inflation transmission and freight sensitivity.",
-    "Humanitarian pressure continues in active conflict zones due to displacement and infrastructure damage.",
-    "Climate risk remains structurally persistent but not a short-term shock driver."
+    "Ukraine remains the primary conflict driver due to sustained war and infrastructure pressure.",
+    "Middle East and Hormuz maritime sensitivity continues to anchor energy-market risk.",
+    "Economic risk remains elevated but less volatile compared to prior peaks.",
+    "Humanitarian pressure persists in conflict zones with ongoing displacement stress.",
+    "Climate risk remains structurally high and persistent in the background."
   ],
 
   dailyComparison: [
-    { label: "Previous", value: "74" },
-    { label: "Current", value: "73" },
+    { label: "Previous", value: "79" },
+    { label: "Current", value: "78" },
     { label: "Trend", value: "Slight Decrease" },
     { label: "Tracked Countries", value: "10" }
   ],
@@ -63,78 +63,78 @@ window.dailyRiskPageData = {
   riskData: [
     {
       title: "🌍 Global Conflict Risk",
-      subtitle: "Ukraine pressure, regional instability, maritime sensitivity",
-      score: 77,
-      changeText: "-2",
+      subtitle: "Ukraine war, Middle East instability, maritime sensitivity",
+      score: 81,
+      changeText: "-1",
       changeClass: "pill-neutral",
-      direction: "High",
+      direction: "Very High / Fragile",
       directionClass: "pill-danger",
       description:
-        "Conflict risk remains elevated due to sustained Ukraine battlefield pressure and ongoing regional instability. Maritime sensitivity around key shipping corridors continues to act as a latent escalation channel, although immediate escalation intensity has slightly eased.",
+        "Conflict risk remains very high due to sustained Ukraine war pressure and persistent Middle East instability. Maritime corridors remain sensitive, particularly around Hormuz, where strategic deterrence dynamics continue to influence global energy expectations without immediate disruption escalation.",
       drivers: [
-        "Ukraine drone + missile pressure",
-        "Middle East instability",
-        "Hormuz maritime sensitivity"
+        "Ukraine drone warfare",
+        "Infrastructure targeting pressure",
+        "Middle East security instability"
       ],
       sources: ["Reuters", "UN monitoring", "Defense briefings"],
-      trend: [79, 79, 78, 78, 78, 77, 77]
+      trend: [82, 82, 82, 81, 81, 81, 81]
     },
 
     {
       title: "📉 Global Economic Risk",
-      subtitle: "Energy volatility, freight pressure, inflation transmission",
-      score: 70,
+      subtitle: "Energy pricing sensitivity, freight stabilization, inflation moderation",
+      score: 74,
       changeText: "-1",
       changeClass: "pill-neutral",
-      direction: "Elevated",
+      direction: "High",
       directionClass: "pill-warning",
       description:
-        "Economic risk remains elevated as oil markets remain sensitive to geopolitical developments. Freight costs and shipping insurance remain reactive to perceived risk in maritime corridors, though volatility is less disorderly than earlier cycles.",
+        "Economic risk remains elevated but shows reduced volatility as energy and freight markets stabilize relative to prior stress peaks. Inflation transmission remains active but is less disorderly than earlier escalation phases.",
       drivers: [
         "Oil price sensitivity",
-        "Freight + shipping insurance",
-        "Inflation pass-through effects"
+        "Freight normalization trends",
+        "Inflation transmission lag"
       ],
       sources: ["IEA", "EIA", "Market data"],
-      trend: [71, 71, 71, 70, 70, 70, 70]
+      trend: [75, 75, 75, 74, 74, 74, 74]
     },
 
     {
       title: "🏥 Global Health Risk",
-      subtitle: "Humanitarian pressure and displacement effects",
-      score: 54,
+      subtitle: "Humanitarian strain and displacement pressure",
+      score: 56,
       changeText: "0",
       changeClass: "pill-neutral",
       direction: "Moderate",
       directionClass: "pill-warning",
       description:
-        "Health and humanitarian risk remains stable but elevated due to ongoing displacement in conflict zones and strain on emergency response systems. No major deterioration or improvement was observed in the latest cycle.",
+        "Humanitarian risk remains stable but elevated due to continued displacement in active conflict zones and pressure on emergency response systems.",
       drivers: [
         "Displacement flows",
-        "Aid delivery constraints",
-        "Healthcare system strain"
+        "Healthcare access constraints",
+        "Aid logistics pressure"
       ],
       sources: ["WHO", "UNHCR", "NGO reports"],
-      trend: [53, 53, 53, 54, 54, 54, 54]
+      trend: [55, 55, 55, 56, 56, 56, 56]
     },
 
     {
       title: "🌡️ Climate Risk",
-      subtitle: "Structural heat stress and hydrological instability",
-      score: 65,
+      subtitle: "Structural heat and hydrological stress",
+      score: 66,
       changeText: "0",
       changeClass: "pill-neutral",
       direction: "High Structural",
       directionClass: "pill-danger",
       description:
-        "Climate risk remains structurally high due to persistent global heat anomalies and water-system instability. While not a short-term escalation driver, it contributes continuously to agricultural, infrastructure, and insurance stress globally.",
+        "Climate risk remains structurally elevated due to persistent global heat anomalies and hydrological instability affecting agriculture, infrastructure, and insurance systems.",
       drivers: [
         "Heat anomalies",
-        "Flooding exposure",
-        "Water scarcity stress"
+        "Flood risk exposure",
+        "Water stress accumulation"
       ],
       sources: ["Copernicus", "IPCC frameworks", "Climate monitoring"],
-      trend: [64, 64, 64, 65, 65, 65, 65]
+      trend: [65, 65, 65, 66, 66, 66, 66]
     }
   ],
 
@@ -142,65 +142,65 @@ window.dailyRiskPageData = {
     {
       title: "🌍 Global Conflict Report",
       tag: "High Risk",
-      score: "77/100",
       tagClass: "pill-danger",
-      direction: "High",
+      score: "81 / 100",
+      direction: "Very High",
       watch:
-        "Ukraine frontline dynamics, drone warfare intensity, Middle East tensions, maritime signals",
+        "Ukraine frontline dynamics, drone warfare, Middle East tensions, Hormuz signals",
       why:
-        "Conflict remains the dominant global risk driver due to sustained Ukraine war pressure and persistent regional instability across the Middle East.",
+        "Conflict remains the dominant global risk driver due to sustained war conditions in Ukraine and ongoing instability across the Middle East.",
       moved:
-        "Risk eased slightly due to reduced immediate escalation signals in maritime and regional conflict indicators.",
+        "Risk slightly eased due to absence of new escalation shocks in maritime or regional conflict zones.",
       matters:
-        "Conflict risk remains the primary transmission channel into energy markets, shipping security, and geopolitical stability."
+        "Conflict risk continues to transmit into global energy pricing, shipping security, and geopolitical stability."
     },
 
     {
       title: "📉 Global Economic Report",
-      tag: "Elevated Risk",
-      score: "70/100",
+      tag: "High Risk",
       tagClass: "pill-warning",
-      direction: "Elevated",
+      score: "74 / 100",
+      direction: "High",
       watch:
-        "Oil pricing, LNG flows, freight costs, insurance premiums, inflation trends",
+        "Oil pricing, freight costs, LNG flows, inflation trends",
       why:
-        "Economic risk remains elevated due to continued sensitivity in energy markets and logistics systems tied to geopolitical developments.",
+        "Economic risk remains elevated but less volatile as energy markets stabilize relative to prior peaks.",
       moved:
-        "Slight easing due to reduced volatility in oil and freight pricing.",
+        "Slight easing due to reduced shipping and energy volatility.",
       matters:
-        "Economic risk translates geopolitical tension into inflation, supply chain costs, and industrial pressure."
+        "Economic risk remains the main transmission channel from geopolitics into global inflation and industrial cost structures."
     },
 
     {
       title: "🏥 Global Health Report",
       tag: "Moderate Risk",
-      score: "54/100",
       tagClass: "pill-warning",
+      score: "56 / 100",
       direction: "Moderate",
       watch:
-        "Humanitarian corridors, displacement regions, emergency healthcare access",
+        "Humanitarian corridors, displacement zones, emergency healthcare systems",
       why:
-        "Humanitarian systems remain strained in conflict zones but without systemic global deterioration.",
+        "Health risk remains stable but elevated due to ongoing displacement and healthcare system pressure.",
       moved:
-        "No major change observed; conditions remain structurally stable but stressed.",
+        "No meaningful change in structural humanitarian conditions.",
       matters:
-        "Humanitarian stress increases long-term fragility in affected regions."
+        "Humanitarian stress increases long-term fragility in conflict-affected regions."
     },
 
     {
       title: "🌡️ Climate Risk Report",
       tag: "High Structural Risk",
-      score: "65/100",
       tagClass: "pill-danger",
+      score: "66 / 100",
       direction: "Persistent",
       watch:
-        "Flood risks, heat anomalies, agricultural pressure, water systems",
+        "Flood risks, heat anomalies, agricultural pressure",
       why:
-        "Climate risk remains structurally elevated due to persistent global environmental stress patterns.",
+        "Climate risk remains structurally elevated due to persistent global environmental stress.",
       moved:
-        "Stable structural condition with no short-term escalation.",
+        "Stable structural conditions with no short-term escalation.",
       matters:
-        "Climate risk amplifies long-term systemic pressure across economies and infrastructure."
+        "Climate risk acts as a continuous background multiplier of systemic global stress."
     }
   ],
 
@@ -208,231 +208,231 @@ window.dailyRiskPageData = {
     {
       country: "Ukraine",
       region: "Eastern Europe",
-      score: 83,
+      score: 85,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "Very High",
       directionClass: "pill-danger",
       summary:
-        "Ukraine remains under sustained military pressure with ongoing drone strikes, infrastructure targeting, and frontline instability affecting both civilian and energy systems.",
+        "Ukraine continues to experience sustained warfare pressure with ongoing drone strikes, infrastructure targeting, and systemic strain on energy and civilian networks.",
       drivers: [
         "Drone warfare intensity",
-        "Energy infrastructure targeting",
-        "Frontline pressure stability"
+        "Infrastructure targeting",
+        "Frontline stability pressure"
       ],
       watchItems: [
-        "Power grid resilience",
-        "Air defense load",
-        "Frontline shifts"
+        "Energy grid resilience",
+        "Air defense capacity",
+        "Frontline dynamics"
       ],
-      trend: [84, 84, 84, 84, 83, 83, 83]
+      trend: [86, 86, 86, 85, 85, 85, 85]
     },
 
     {
       country: "Israel",
       region: "Middle East",
-      score: 77,
+      score: 79,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "High",
       directionClass: "pill-danger",
       summary:
-        "Israel remains exposed to regional security instability, missile risk, and broader geopolitical tension across multiple neighboring fronts.",
+        "Israel remains exposed to persistent regional instability, multi-front security pressure, and periodic escalation risk across neighboring theaters.",
       drivers: [
-        "Regional escalation risk",
-        "Missile and drone threat environment",
-        "Multi-front security pressure"
+        "Regional security tension",
+        "Missile/drone threat environment",
+        "Multi-front deterrence dynamics"
       ],
       watchItems: [
-        "Border security dynamics",
-        "Regional retaliation cycles",
-        "Diplomatic stabilization efforts"
+        "Border escalation signals",
+        "Regional diplomatic stability",
+        "Security incidents"
       ],
-      trend: [78, 78, 78, 77, 77, 77, 77]
+      trend: [80, 80, 80, 79, 79, 79, 79]
     },
 
     {
       country: "Iran",
       region: "Middle East",
-      score: 77,
+      score: 78,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "High",
       directionClass: "pill-danger",
       summary:
-        "Iran remains central to maritime and regional risk dynamics due to its strategic position in Hormuz and ongoing geopolitical tensions.",
+        "Iran remains a central node in global maritime and regional risk dynamics due to its strategic position in Hormuz and ongoing geopolitical friction.",
       drivers: [
         "Hormuz strategic leverage",
-        "Regional geopolitical pressure",
+        "Regional geopolitical tension",
         "Security signaling uncertainty"
       ],
       watchItems: [
         "Maritime corridor activity",
         "Regional diplomacy signals",
-        "Military posture adjustments"
+        "Military posture shifts"
       ],
-      trend: [78, 78, 78, 77, 77, 77, 77]
+      trend: [79, 79, 79, 78, 78, 78, 78]
     },
 
     {
       country: "Russia",
       region: "Eastern Europe / Eurasia",
-      score: 68,
+      score: 70,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "High",
       directionClass: "pill-warning",
       summary:
-        "Russia remains engaged in prolonged conflict conditions with continued economic pressure and military operational strain.",
+        "Russia remains in prolonged conflict conditions with sustained military operations and economic pressure under sanctions environment.",
       drivers: [
-        "War-related fiscal pressure",
-        "Sanctions impact adaptation",
-        "Operational military costs"
+        "War-related economic strain",
+        "Military operational costs",
+        "Sanctions adaptation pressure"
       ],
       watchItems: [
         "Energy export flows",
         "Military activity tempo",
-        "Economic resilience indicators"
+        "Fiscal resilience"
       ],
-      trend: [69, 69, 69, 68, 68, 68, 68]
+      trend: [71, 71, 71, 70, 70, 70, 70]
     },
 
     {
       country: "Türkiye",
       region: "Eastern Mediterranean",
-      score: 54,
+      score: 56,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "Moderate",
       directionClass: "pill-warning",
       summary:
-        "Türkiye remains exposed through energy import dependency, inflation sensitivity, and regional logistics exposure linked to global oil and shipping conditions.",
+        "Türkiye remains exposed to global energy price fluctuations, inflation transmission, and regional logistics corridor sensitivity.",
       drivers: [
-        "Imported energy sensitivity",
-        "Inflation transmission effects",
-        "Regional logistics corridor exposure"
+        "Imported energy dependency",
+        "Inflation pass-through",
+        "Regional trade corridor exposure"
       ],
       watchItems: [
-        "Fuel pricing trends",
-        "Inflation trajectory",
-        "Trade corridor stability"
+        "Fuel price trends",
+        "Inflation data",
+        "Trade flow stability"
       ],
-      trend: [55, 55, 55, 54, 54, 54, 54]
+      trend: [57, 57, 57, 56, 56, 56, 56]
     },
 
     {
       country: "United States",
       region: "North America",
-      score: 46,
+      score: 48,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "Low-Moderate",
       directionClass: "pill-neutral",
       summary:
-        "The United States remains indirectly exposed through global energy markets, strategic military positioning, and financial system sensitivity to geopolitical shocks.",
+        "The United States remains indirectly exposed to global geopolitical risk through energy markets, strategic military posture, and financial transmission channels.",
       drivers: [
-        "Global energy market exposure",
-        "Strategic defense commitments",
-        "Financial market transmission risk"
+        "Global energy exposure",
+        "Defense commitments",
+        "Financial system sensitivity"
       ],
       watchItems: [
         "Oil price volatility",
-        "Military deployment posture",
-        "Inflation indicators"
+        "Military posture updates",
+        "Inflation signals"
       ],
-      trend: [47, 47, 47, 46, 46, 46, 46]
+      trend: [49, 49, 49, 48, 48, 48, 48]
     },
 
     {
       country: "China",
       region: "East Asia",
-      score: 46,
+      score: 49,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "Low-Moderate",
       directionClass: "pill-neutral",
       summary:
-        "China remains exposed through energy import dependency and global trade sensitivity under persistent maritime uncertainty.",
+        "China remains exposed through energy import dependence and global trade sensitivity under ongoing maritime uncertainty.",
       drivers: [
         "Energy import reliance",
-        "Global trade exposure",
+        "Trade system exposure",
         "Industrial demand sensitivity"
       ],
       watchItems: [
         "Shipping lane stability",
         "Manufacturing demand",
-        "Energy import costs"
+        "Import cost trends"
       ],
-      trend: [47, 47, 47, 46, 46, 46, 46]
+      trend: [50, 50, 50, 49, 49, 49, 49]
     },
 
     {
       country: "India",
       region: "South Asia",
-      score: 47,
+      score: 50,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "Moderate",
       directionClass: "pill-neutral",
       summary:
-        "India remains sensitive to global oil price fluctuations due to import dependence and inflation transmission channels affecting macroeconomic stability.",
+        "India remains sensitive to global oil price fluctuations due to import dependency and inflation transmission effects.",
       drivers: [
-        "Oil import dependency",
+        "Oil import dependence",
         "Inflation transmission",
-        "Currency sensitivity to energy prices"
+        "Currency sensitivity"
       ],
       watchItems: [
         "Brent oil correlation",
         "Currency stability",
         "Fiscal import burden"
       ],
-      trend: [48, 48, 48, 47, 47, 47, 47]
+      trend: [51, 51, 51, 50, 50, 50, 50]
     },
 
     {
       country: "Germany",
       region: "Western Europe",
-      score: 38,
+      score: 40,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "Low",
       directionClass: "pill-neutral",
       summary:
-        "Germany remains exposed primarily through industrial energy sensitivity and broader European security spillover risks.",
+        "Germany remains structurally stable but exposed to industrial energy sensitivity and broader European economic conditions.",
       drivers: [
         "Industrial energy costs",
-        "EU security exposure",
-        "Manufacturing sensitivity"
+        "EU economic exposure",
+        "Manufacturing cycle sensitivity"
       ],
       watchItems: [
-        "Industrial output trends",
-        "Energy pricing",
+        "Industrial output",
+        "Energy pricing trends",
         "EU coordination stability"
       ],
-      trend: [39, 39, 39, 38, 38, 38, 38]
+      trend: [41, 41, 41, 40, 40, 40, 40]
     },
 
     {
       country: "Japan",
       region: "East Asia",
-      score: 39,
+      score: 41,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "Low",
       directionClass: "pill-neutral",
       summary:
-        "Japan remains exposed to maritime supply chain risks and imported energy dependency, though strong institutional buffers limit systemic instability.",
+        "Japan remains exposed to maritime trade risks and imported energy dependency, though strong institutional buffers limit systemic instability.",
       drivers: [
         "Maritime supply chain exposure",
-        "Energy import dependence",
-        "Currency stability mechanisms"
+        "Energy import dependency",
+        "Currency stabilization framework"
       ],
       watchItems: [
-        "Shipping lane security",
+        "Shipping security",
         "Energy import costs",
-        "Currency stabilization policy"
+        "Currency policy response"
       ],
-      trend: [40, 40, 40, 39, 39, 39, 39]
+      trend: [42, 42, 42, 41, 41, 41, 41]
     }
   ],
 
@@ -441,62 +441,62 @@ window.dailyRiskPageData = {
       title: "🇺🇦 Ukraine Country Report",
       tag: "Very High Risk",
       tagClass: "pill-danger",
-      score: "83 / 100",
+      score: "85 / 100",
       direction: "Very High",
       watch:
-        "Frontline dynamics, drone warfare intensity, energy infrastructure resilience, air defense capacity",
+        "Frontline dynamics, drone warfare, infrastructure resilience, energy grid stability",
       why:
-        "Ukraine remains in the highest risk category due to sustained battlefield pressure and continued targeting of critical infrastructure.",
+        "Ukraine remains the central active war theater in Europe with sustained military pressure and infrastructure targeting.",
       moved:
-        "Risk remains stable with slight easing as escalation intensity did not increase further in the latest cycle.",
+        "Risk remains structurally stable with no major escalation spike in the latest cycle.",
       matters:
-        "Ukraine continues to be the central geopolitical risk anchor affecting European security and global energy sentiment."
+        "Ukraine continues to shape European security expectations and global energy risk sentiment."
     },
 
     {
       title: "🇮🇱 Israel Country Report",
       tag: "High Risk",
       tagClass: "pill-danger",
-      score: "77 / 100",
+      score: "79 / 100",
       direction: "High",
       watch:
-        "Regional military tensions, missile threats, diplomatic stabilization efforts",
+        "Regional tensions, security incidents, diplomatic stabilization",
       why:
-        "Israel remains exposed to multi-front regional security instability and ongoing geopolitical friction.",
+        "Israel remains exposed to multi-front regional instability and security escalation risk.",
       moved:
-        "No major escalation observed, but risk remains structurally elevated.",
+        "No structural change, risk remains persistent.",
       matters:
-        "Regional instability around Israel continues to influence broader Middle East risk pricing."
+        "Regional instability around Israel continues to influence Middle East risk pricing."
     },
 
     {
       title: "🇮🇷 Iran Country Report",
       tag: "High Risk",
       tagClass: "pill-danger",
-      score: "77 / 100",
+      score: "78 / 100",
       direction: "High",
       watch:
-        "Hormuz shipping security, regional diplomacy, military posture signals",
+        "Hormuz maritime flows, regional diplomacy, security posture signals",
       why:
-        "Iran remains central to maritime energy risk due to its strategic position in global oil transit routes.",
+        "Iran remains central to global energy security dynamics due to Hormuz corridor sensitivity.",
       moved:
-        "Risk remains stable with continued sensitivity in maritime corridors.",
+        "Stable but elevated risk conditions continue.",
       matters:
-        "Iran’s position directly affects global energy pricing and shipping insurance dynamics."
+        "Iran remains a systemic factor in global oil and shipping risk models."
     },
 
     {
       title: "🇷🇺 Russia Country Report",
       tag: "High Risk",
       tagClass: "pill-warning",
-      score: "68 / 100",
+      score: "70 / 100",
       direction: "High",
       watch:
-        "Military operations tempo, sanctions adaptation, energy export flows",
+        "Military operations tempo, sanctions pressure, energy export flows",
       why:
-        "Russia remains in prolonged conflict conditions with sustained economic and military pressure.",
+        "Russia remains in prolonged conflict conditions with sustained geopolitical and economic pressure.",
       moved:
-        "No major directional change; conditions remain structurally tense.",
+        "No significant directional shift.",
       matters:
         "Russia remains a key driver of European security and global commodity markets."
     },
@@ -505,76 +505,76 @@ window.dailyRiskPageData = {
       title: "🇹🇷 Türkiye Country Report",
       tag: "Moderate Risk",
       tagClass: "pill-warning",
-      score: "54 / 100",
+      score: "56 / 100",
       direction: "Moderate",
       watch:
-        "Inflation trajectory, energy imports, regional logistics corridor stability",
+        "Inflation trajectory, energy imports, trade corridor stability",
       why:
-        "Türkiye remains sensitive to global energy prices and regional geopolitical spillovers.",
+        "Türkiye remains sensitive to global energy pricing and regional spillover dynamics.",
       moved:
-        "Slight easing aligned with global oil volatility stabilization.",
+        "Slight easing in line with global volatility reduction.",
       matters:
-        "Türkiye acts as a regional logistics and energy corridor between Europe and the Middle East."
+        "Türkiye functions as a critical logistics and energy bridge economy."
     },
 
     {
       title: "🇺🇸 United States Country Report",
       tag: "Low-Moderate Risk",
       tagClass: "pill-neutral",
-      score: "46 / 100",
+      score: "48 / 100",
       direction: "Low-Moderate",
       watch:
-        "Energy market volatility, military deployment posture, inflation sensitivity",
+        "Energy market volatility, defense posture, financial system sensitivity",
       why:
-        "The US remains indirectly exposed through global market and strategic commitments.",
+        "The US remains indirectly exposed to global geopolitical risk through markets and strategic commitments.",
       moved:
-        "Slight decrease due to marginal easing in global volatility.",
+        "Slight easing due to reduced volatility.",
       matters:
-        "US policy remains a primary stabilizer of global financial and security systems."
+        "US policy remains central to global financial and security stabilization."
     },
 
     {
       title: "🇨🇳 China Country Report",
       tag: "Low-Moderate Risk",
       tagClass: "pill-neutral",
-      score: "46 / 100",
+      score: "49 / 100",
       direction: "Low-Moderate",
       watch:
-        "Energy imports, industrial demand, maritime supply chain stability",
+        "Energy imports, trade flows, maritime stability",
       why:
-        "China remains exposed through global trade dependency and energy import sensitivity.",
+        "China remains exposed through global trade and energy dependency channels.",
       moved:
-        "Slight easing aligned with global energy stabilization.",
+        "Stable with slight easing.",
       matters:
-        "China remains central to global manufacturing and supply chain stability."
+        "China remains central to global manufacturing and supply chains."
     },
 
     {
       title: "🇮🇳 India Country Report",
       tag: "Moderate Risk",
       tagClass: "pill-neutral",
-      score: "47 / 100",
+      score: "50 / 100",
       direction: "Moderate",
       watch:
-        "Oil import costs, inflation transmission, currency stability",
+        "Oil import costs, inflation transmission, currency sensitivity",
       why:
-        "India remains sensitive to global oil fluctuations and inflation transmission effects.",
+        "India remains sensitive to global energy price fluctuations and macro transmission effects.",
       moved:
-        "Slight easing consistent with global commodity stabilization.",
+        "Stable risk profile with slight easing.",
       matters:
-        "India’s economic stability is highly dependent on global energy pricing trends."
+        "India’s macro stability remains closely linked to global energy markets."
     },
 
     {
       title: "🇩🇪 Germany Country Report",
       tag: "Low Risk",
       tagClass: "pill-neutral",
-      score: "38 / 100",
+      score: "40 / 100",
       direction: "Low",
       watch:
-        "Industrial output, energy pricing, EU economic coordination",
+        "Industrial output, energy pricing, EU coordination",
       why:
-        "Germany remains structurally stable but sensitive to energy and industrial cycles.",
+        "Germany remains structurally stable but exposed to industrial energy sensitivity.",
       moved:
         "Slight easing due to reduced energy volatility.",
       matters:
@@ -585,16 +585,16 @@ window.dailyRiskPageData = {
       title: "🇯🇵 Japan Country Report",
       tag: "Low Risk",
       tagClass: "pill-neutral",
-      score: "39 / 100",
+      score: "41 / 100",
       direction: "Low",
       watch:
         "Maritime security, energy imports, currency stability",
       why:
-        "Japan remains exposed to maritime trade risks but maintains strong institutional buffers.",
+        "Japan remains exposed to maritime trade risk but maintains strong institutional buffers.",
       moved:
-        "Slight easing aligned with global shipping stabilization.",
+        "Stable with slight easing.",
       matters:
-        "Japan remains a key node in global technology and supply chains."
+        "Japan remains a key technology and supply chain hub."
     }
   ]
 };

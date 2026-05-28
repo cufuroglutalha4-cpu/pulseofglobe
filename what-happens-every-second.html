@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>What Happens Every Second? | Pulse Of Globe</title>
+  <title>What Happens Every Second in the World? Live Global Counter</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -20,22 +20,43 @@
     rel="stylesheet"
   />
 
-  <meta name="description" content="See what changes every second across population dynamics." />
+  <meta name="description" content="See what happens every second on Earth: births, deaths, net population growth and live world statistics explained with UTC-based estimates." />
   <meta name="robots" content="index, follow, max-image-preview:large" />
 
-  <meta property="og:title" content="What Happens Every Second? | Pulse Of Globe" />
-  <meta property="og:description" content="See what changes every second across population dynamics." />
+  <meta property="og:title" content="What Happens Every Second in the World? Live Global Counter" />
+  <meta property="og:description" content="Explore births, deaths, net population growth and live global change in a simple real-time world counter." />
   <meta property="og:image" content="https://pulseofglobe.com/images/earth-network.jpg" />
   <meta property="og:url" content="https://pulseofglobe.com/what-happens-every-second.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Pulse Of Globe" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="What Happens Every Second? | Pulse Of Globe" />
-  <meta name="twitter:description" content="See what changes every second across population dynamics." />
+  <meta name="twitter:title" content="What Happens Every Second in the World? Live Global Counter" />
+  <meta name="twitter:description" content="Explore births, deaths, net population growth and live global change in a simple real-time world counter." />
   <meta name="twitter:image" content="https://pulseofglobe.com/images/earth-network.jpg" />
 
   <link rel="canonical" href="https://pulseofglobe.com/what-happens-every-second.html" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "What Happens Every Second in the World?",
+    "url": "https://pulseofglobe.com/what-happens-every-second.html",
+    "description": "A live-style global counter explaining births, deaths, net population growth and real-time world statistics using UTC-based estimates.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Pulse Of Globe",
+      "url": "https://pulseofglobe.com/"
+    },
+    "about": [
+      "Live world statistics",
+      "World population",
+      "Births and deaths",
+      "Global counters"
+    ]
+  }
+  </script>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0D58BVYWTK"></script>
@@ -541,6 +562,80 @@
 
     tr:last-child td { border-bottom: none; }
 
+
+
+    .seo-content {
+      display: grid;
+      gap: 16px;
+    }
+
+    .seo-content p {
+      margin: 0;
+      color: var(--text-soft);
+      line-height: 1.78;
+      font-size: 0.95rem;
+    }
+
+    .seo-content strong {
+      color: var(--text);
+    }
+
+    .related-grid,
+    .faq-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .related-card,
+    .faq-card {
+      display: block;
+      background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(248,251,255,0.92));
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid rgba(15,23,42,0.06);
+    }
+
+    .related-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .related-card h3,
+    .faq-card h3 {
+      margin: 0 0 8px;
+      color: var(--text);
+      font-weight: 800;
+      font-size: 0.98rem;
+      line-height: 1.42;
+    }
+
+    .related-card p,
+    .faq-card p {
+      margin: 0;
+      color: var(--text-soft);
+      line-height: 1.65;
+      font-size: 0.86rem;
+    }
+
+    .table-note {
+      margin-top: 10px;
+      color: var(--text-muted);
+      font-size: 0.82rem;
+      line-height: 1.55;
+    }
+
+    .inline-link {
+      color: var(--primary);
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+
     footer {
       margin-top: 28px;
       text-align: center;
@@ -575,7 +670,9 @@
       .hero-grid,
       .hero-summary-items,
       .stats-grid,
-      .info-grid {
+      .info-grid,
+      .related-grid,
+      .faq-grid {
         grid-template-columns: 1fr;
       }
     }
@@ -595,13 +692,13 @@
 
     <div class="top-shell">
       <header class="site-header">
-        <a href="index.html" class="brand notranslate" translate="no">PULSE OF GLOBE</a>
+        <a href="/" class="brand notranslate" translate="no">PULSE OF GLOBE</a>
 
         <nav class="site-nav">
-          <a href="index.html" class="nav-link">Home</a>
+          <a href="/" class="nav-link">Home</a>
           <a href="/live-data.html" class="nav-link">Live Data</a>
-<a href="global-risk.html" class="nav-link">Global Risk</a>
-<a href="sources.html" class="nav-link">Sources</a>
+<a href="/global-risk.html" class="nav-link">Global Risk</a>
+<a href="/sources.html" class="nav-link">Sources</a>
         </nav>
       </header>
     </div>
@@ -614,23 +711,23 @@
             Live global counters · UTC-based estimates
           </div>
 
-          <h1>What Happens Every Second?</h1>
+          <h1>What Happens Every Second in the World?</h1>
 
           <p>
-            Discover the average number of births, deaths and net population change happening every second around the world on a single curiosity-driven page.
+            Every second, the world changes. People are born, people die, the global population moves, resources are consumed and live world statistics shift in real time. Pulse Of Globe turns public global estimates into simple UTC-based counters so you can understand the scale of change happening on Earth right now.
           </p>
 
           <div class="hero-stat">
             <span class="hero-label">Live World Population</span>
-            <span class="hero-value" id="heroValue">Loading...</span>
+            <span class="hero-value" id="heroValue">8.231.613.070</span>
             <div class="hero-note">
-              Continuously updated using UTC-based live estimates.
+              Live-style estimate updated every second using UTC time progression.
             </div>
           </div>
 
           <div class="hero-actions">
-            <a href="index.html" class="btn btn-primary">Back to homepage</a>
-            <a href="sources.html" class="btn btn-secondary">View data sources</a>
+            <a href="/" class="btn btn-primary">Back to homepage</a>
+            <a href="/sources.html" class="btn btn-secondary">View data sources</a>
           </div>
         </div>
 
@@ -638,7 +735,10 @@
           <div class="hero-summary">
             <div class="hero-summary-label">Today – Live snapshot</div>
             <div class="hero-summary-items">
-              <div class="hero-summary-item"><span>Birth pace</span><strong>Per second</strong></div><div class="hero-summary-item"><span>Death pace</span><strong>Per second</strong></div><div class="hero-summary-item"><span>Net growth</span><strong>Live</strong></div><div class="hero-summary-item"><span>Type</span><strong>Curiosity</strong></div>
+              <div class="hero-summary-item"><span>Birth pace</span><strong id="miniBirths">4.31/sec</strong></div>
+              <div class="hero-summary-item"><span>Death pace</span><strong id="miniDeaths">2.12/sec</strong></div>
+              <div class="hero-summary-item"><span>Net growth</span><strong id="miniGrowth">+2.19/sec</strong></div>
+              <div class="hero-summary-item"><span>Focus</span><strong>Live world stats</strong></div>
             </div>
             <p class="hero-summary-note">
               Live estimates update continuously based on UTC time progression.
@@ -647,11 +747,11 @@
 
           <div class="info-widget">
             <div class="info-widget-label">Page Focus</div>
-            <p>A highly shareable curiosity page built around per-second change.</p>
-            <p>This concept works well for social media, homepage cards and lightweight search intent around live global change.</p>
+            <p>This page is designed for quick search intent: users want to know what happens every second in the world, not read a long statistical report first.</p>
+            <p>The counters use annual baseline estimates and convert them into second-by-second values for a clearer view of global change.</p>
             <div class="risk-widget-actions">
-              <a href="index.html" class="risk-link">Open Homepage</a>
-              <a href="real-time-world-stats.html" class="risk-link">Open World Stats</a>
+              <a href="/" class="risk-link">Open Homepage</a>
+              <a href="/real-time-world-stats.html" class="risk-link">Open World Stats</a>
             </div>
           </div>
         </div>
@@ -663,14 +763,136 @@
       <div class="section-card">
         <div class="section-head">
           <div>
-            <h2>What changes every second?</h2>
-            <p>This page turns large annual numbers into an intuitive per-second view that is easier to understand and share.</p>
+            <h2>Live world changes at a glance</h2>
+            <p>This page turns large annual population numbers into an intuitive per-second, per-day and real-time view that is easier to understand and share.</p>
           </div>
         </div>
         <div class="stats-grid">
-          <div class="counter-box"><h3>Births per second</h3><p class="value-big" id="v1">Loading...</p><p class="meta">Average global birth pace.</p></div>
-          <div class="counter-box"><h3>Deaths per second</h3><p class="value-big" id="v2">Loading...</p><p class="meta">Average global death pace.</p></div>
-          <div class="counter-box"><h3>Net growth per second</h3><p class="value-big" id="v3">Loading...</p><p class="meta">Births minus deaths.</p></div>
+          <div class="counter-box"><h3>Births per second</h3><p class="value-big" id="v1">4.31</p><p class="meta">Average global birth pace.</p></div>
+          <div class="counter-box"><h3>Deaths per second</h3><p class="value-big" id="v2">2.12</p><p class="meta">Average global death pace.</p></div>
+          <div class="counter-box"><h3>Net growth per second</h3><p class="value-big" id="v3">2.19</p><p class="meta">Births minus deaths.</p></div>
+          <div class="counter-box"><h3>Births today</h3><p class="value-big" id="v4">0</p><p class="meta">UTC-based estimated births since midnight.</p></div>
+          <div class="counter-box"><h3>Deaths today</h3><p class="value-big" id="v5">0</p><p class="meta">UTC-based estimated deaths since midnight.</p></div>
+          <div class="counter-box"><h3>Net growth today</h3><p class="value-big" id="v6">0</p><p class="meta">Estimated population increase today.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>Per second, per minute, per hour</h2>
+            <p>Per-second numbers are small, but they become easier to feel when they are scaled into minutes, hours and days.</p>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table aria-label="Live world counter time scale table">
+            <thead>
+              <tr>
+                <th>Metric</th>
+                <th>Per second</th>
+                <th>Per minute</th>
+                <th>Per hour</th>
+                <th>Per day</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Births</td>
+                <td id="birthSec">4.31</td>
+                <td id="birthMin">259</td>
+                <td id="birthHour">15.525</td>
+                <td id="birthDay">372.603</td>
+              </tr>
+              <tr>
+                <td>Deaths</td>
+                <td id="deathSec">2.12</td>
+                <td id="deathMin">127</td>
+                <td id="deathHour">7.648</td>
+                <td id="deathDay">183.562</td>
+              </tr>
+              <tr>
+                <td>Net population growth</td>
+                <td id="growthSec">2.19</td>
+                <td id="growthMin">131</td>
+                <td id="growthHour">7.877</td>
+                <td id="growthDay">189.041</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table-note">Values are live-style estimates based on annual baseline assumptions, not official real-time counts.</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>What happens every second on Earth?</h2>
+            <p>A simple explanation for users and search engines.</p>
+          </div>
+        </div>
+        <div class="seo-content">
+          <p>
+            The world does not update once a day. It changes every second. New babies are born, people die, cities grow, energy is used, data is created and the global population keeps moving. This page focuses on the population side of that story by showing <strong>births per second</strong>, <strong>deaths per second</strong>, <strong>net population growth</strong> and today’s estimated totals.
+          </p>
+          <p>
+            Pulse Of Globe uses public statistical baselines and converts annual estimates into live-style counters. For example, annual births and deaths are divided across the number of seconds in the current UTC year. The result is not a government-certified live register, but a clear and educational estimate that helps visitors understand the scale of global change.
+          </p>
+          <p>
+            This format is useful because very large numbers are hard to imagine. A yearly population figure can feel abstract, but a per-second counter makes the pace visible. It also connects naturally with related pages such as <a href="/world-population-live.html" class="inline-link">world population live</a>, <a href="/real-time-world-stats.html" class="inline-link">real-time world stats</a> and the daily <a href="/global-risk.html" class="inline-link">global risk index</a>.
+          </p>
+        </div>
+
+        <div class="related-grid">
+          <a class="related-card" href="/world-population-live.html">
+            <h3>World Population Live</h3>
+            <p>Track the estimated current world population with a simple live counter.</p>
+          </a>
+          <a class="related-card" href="/real-time-world-stats.html">
+            <h3>Real-Time World Stats</h3>
+            <p>Explore live-style global indicators in one broader statistics dashboard.</p>
+          </a>
+          <a class="related-card" href="/population-growth-today.html">
+            <h3>Population Growth Today</h3>
+            <p>See how much the global population has changed since the start of the UTC day.</p>
+          </a>
+          <a class="related-card" href="/global-risk.html">
+            <h3>Global Risk Index Today</h3>
+            <p>Follow daily conflict, economic, health and climate risk signals.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-card">
+        <div class="section-head">
+          <div>
+            <h2>Frequently asked questions</h2>
+            <p>Quick answers about the live world counter methodology.</p>
+          </div>
+        </div>
+        <div class="faq-grid">
+          <div class="faq-card">
+            <h3>Are these exact real-time numbers?</h3>
+            <p>No. They are live-style estimates based on annual baseline data. They are designed to show scale and pace, not to replace official statistical releases.</p>
+          </div>
+          <div class="faq-card">
+            <h3>Why use UTC time?</h3>
+            <p>UTC creates one shared global clock. That makes today, this month and this year easier to calculate consistently for visitors from different countries.</p>
+          </div>
+          <div class="faq-card">
+            <h3>Why do the counters move every second?</h3>
+            <p>The page converts annual estimates into per-second rates, then multiplies those rates by elapsed UTC time.</p>
+          </div>
+          <div class="faq-card">
+            <h3>Where can I check the sources?</h3>
+            <p>The methodology is summarized on the data sources page, with references to public statistical and international data providers.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -680,8 +902,8 @@
     <footer>
       <div class="footer-share">
         Share this page:
-        <a href="https://twitter.com/intent/tweet?text=Check%20What%20Happens%20Every%20Second%3F%20%7C%20Pulse%20Of%20Globe%20on%20Pulse%20Of%20Globe&url=https%3A//pulseofglobe.com/what-happens-every-second.html" target="_blank" rel="noopener noreferrer">X</a> ·
-        <a href="https://api.whatsapp.com/send?text=Check%20What%20Happens%20Every%20Second%3F%20%7C%20Pulse%20Of%20Globe%20https%3A//pulseofglobe.com/what-happens-every-second.html" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a href="https://twitter.com/intent/tweet?text=What%20Happens%20Every%20Second%20in%20the%20World%3F%20Live%20Global%20Counter%20%7C%20Pulse%20Of%20Globe&url=https%3A//pulseofglobe.com/what-happens-every-second.html" target="_blank" rel="noopener noreferrer">X</a> ·
+        <a href="https://api.whatsapp.com/send?text=What%20Happens%20Every%20Second%20in%20the%20World%3F%20Live%20Global%20Counter%20%7C%20Pulse%20Of%20Globe%20https%3A//pulseofglobe.com/what-happens-every-second.html" target="_blank" rel="noopener noreferrer">WhatsApp</a>
       </div>
 
       <div>
@@ -769,13 +991,44 @@
     }
 
 
+    function setText(id, value) {
+      const el = document.getElementById(id);
+      if (el) el.innerText = value;
+    }
+
     function refreshPage(){
       const births = metricFromAnnual(liveData.annualBirths);
       const deaths = metricFromAnnual(liveData.annualDeaths);
-      document.getElementById('heroValue').innerText = formatNumber(livePopulationNow());
-      document.getElementById('v1').innerText = births.perSecond.toFixed(2);
-      document.getElementById('v2').innerText = deaths.perSecond.toFixed(2);
-      document.getElementById('v3').innerText = (births.perSecond - deaths.perSecond).toFixed(2);
+      const growthPerSecond = births.perSecond - deaths.perSecond;
+      const growthToday = births.today - deaths.today;
+
+      setText('heroValue', formatNumber(livePopulationNow()));
+
+      setText('v1', births.perSecond.toFixed(2));
+      setText('v2', deaths.perSecond.toFixed(2));
+      setText('v3', growthPerSecond.toFixed(2));
+      setText('v4', formatNumber(births.today));
+      setText('v5', formatNumber(deaths.today));
+      setText('v6', formatNumber(growthToday));
+
+      setText('miniBirths', births.perSecond.toFixed(2) + '/sec');
+      setText('miniDeaths', deaths.perSecond.toFixed(2) + '/sec');
+      setText('miniGrowth', '+' + growthPerSecond.toFixed(2) + '/sec');
+
+      setText('birthSec', births.perSecond.toFixed(2));
+      setText('birthMin', formatNumber(births.perSecond * 60));
+      setText('birthHour', formatNumber(births.perSecond * 3600));
+      setText('birthDay', formatNumber(births.perSecond * 86400));
+
+      setText('deathSec', deaths.perSecond.toFixed(2));
+      setText('deathMin', formatNumber(deaths.perSecond * 60));
+      setText('deathHour', formatNumber(deaths.perSecond * 3600));
+      setText('deathDay', formatNumber(deaths.perSecond * 86400));
+
+      setText('growthSec', growthPerSecond.toFixed(2));
+      setText('growthMin', formatNumber(growthPerSecond * 60));
+      setText('growthHour', formatNumber(growthPerSecond * 3600));
+      setText('growthDay', formatNumber(growthPerSecond * 86400));
     }
     refreshPage();
     setInterval(refreshPage, 1000);

@@ -1,18 +1,18 @@
 window.dailyRiskPageData = {
-  reportDate: "May 30, 2026",
-  updateTimeUtc: "21:20 UTC",
+  reportDate: "May 31, 2026",
+  updateTimeUtc: "20:45 UTC",
 
-  overallScore: 83,
+  overallScore: 82,
   previousOverallScore: 83,
   overallLabel: "High / Elevated",
-  overallTrend: "0 vs previous update",
+  overallTrend: "-1 vs previous update",
   confidence: "High",
 
   heroSummary:
-    "Global risk conditions remain high but are broadly stable versus the previous update. The model does not add extra weight to older shock signals unless they are still producing measurable operational effects. The clearest active deterioration is the Bundibugyo Ebola outbreak in the Democratic Republic of the Congo, where the case burden and response pressure remain serious. Conflict risk remains very high due to Ukraine and maritime-corridor exposure, but the Black Sea vessel attacks are now treated as an active risk factor rather than a new daily escalation. Hormuz remains a major energy chokepoint, although signs of ceasefire and negotiation activity reduce the case for a higher economic score today. Climate risk remains structurally high but unchanged.",
+    "Global risk conditions remain high but eased slightly versus the previous update. The model removes incremental weight from older shock signals unless they are still generating fresh operational disruption. Bundibugyo Ebola remains the clearest active health-risk driver, especially in the Democratic Republic of the Congo, while Uganda requires continued surveillance. Ukraine and Black Sea maritime risk remain important but are now treated as continuing corridor exposure rather than a new daily escalation. Hormuz remains a major energy chokepoint, but oil-market behavior and Iran-U.S. diplomacy uncertainty point to elevated risk rather than a new full-scale supply shock. Climate risk remains structurally high but unchanged.",
 
   overallExplainer:
-    "The composite global risk score is held at 83/100. This is an intentionally objective update: older events are not double-counted, and the index is not raised unless a risk layer shows fresh escalation. Health risk rises because the Bundibugyo Ebola outbreak remains difficult to contain, with suspected cases, deaths, health-worker exposure, contact-tracing challenges, and community-trust issues keeping the regional emergency serious. Conflict risk is trimmed slightly because the Black Sea merchant-vessel attacks remain relevant but have not yet developed into a wider confirmed disruption cycle. Economic risk is also trimmed slightly because oil-market behavior and ceasefire-related signals show some stabilizing pressure, even though Hormuz traffic remains impaired and energy-route confidence is still fragile. Climate risk remains high as a structural background multiplier, but no new short-term climate shock is added today. Overall, the global picture remains high-risk but not accelerating.",
+    "The composite global risk score declines from 83 to 82. This is an objective adjustment rather than a de-escalation call: the global environment remains high-risk, but the latest evidence does not justify adding new weight to already-counted Black Sea, Hormuz, or broader Middle East stress. Health risk remains the main active concern because the Bundibugyo Ebola outbreak continues to place heavy pressure on response capacity in DRC, with Uganda still exposed through cross-border surveillance needs. Conflict risk remains very high due to the Ukraine war and maritime-corridor vulnerability, but no new wider shipping shutdown is confirmed today. Economic risk remains high but slightly less disorderly because oil-market stress is being partly offset by ceasefire and negotiation signals, even though Hormuz traffic confidence has not fully normalized. Climate risk remains high as a structural background multiplier, with no fresh short-term shock added in this cycle.",
 
   overview: [
     {
@@ -32,8 +32,8 @@ window.dailyRiskPageData = {
     },
     {
       label: "What Changed",
-      value: "Index held stable",
-      sub: "Health rose, while conflict and economic pressure eased slightly"
+      value: "Slight easing, still high",
+      sub: "Older shock effects reduced; health remains the main active driver"
     },
     {
       label: "Watch Next 48h",
@@ -43,20 +43,20 @@ window.dailyRiskPageData = {
   ],
 
   glanceSummary:
-    "Global risk remains stable at 83/100. Ebola containment pressure increased, but older conflict and energy shocks were not double-counted, and market/diplomatic signals partially offset the health deterioration.",
+    "Global risk eased slightly to 82/100. Ebola containment remains the clearest active concern, but older conflict and energy shocks were not double-counted and market/diplomatic signals partially reduced economic pressure.",
 
   glanceBullets: [
-    "Bundibugyo Ebola remains the clearest active risk increase, especially in DRC where response pressure remains high.",
+    "Bundibugyo Ebola remains the clearest active health driver, especially in DRC where response pressure remains high.",
     "Ukraine and Black Sea shipping risk remain important, but the latest vessel attacks are now treated as continuing corridor risk rather than a new escalation spike.",
-    "Hormuz remains a major energy chokepoint, but ceasefire and negotiation signals reduce the case for raising the economic score today.",
-    "Economic risk remains high but slightly less disorderly because markets are reacting to both disruption risk and possible diplomatic progress.",
+    "Hormuz remains a major energy chokepoint, but no confirmed full reopening or full closure means the risk is elevated rather than newly extreme.",
+    "Economic risk remains high but slightly less disorderly because oil markets are reacting to both disruption risk and possible diplomatic progress.",
     "Climate risk remains structurally high, but no additional short-term climate shock is added in this cycle."
   ],
 
   dailyComparison: [
     { label: "Previous", value: "83" },
-    { label: "Current", value: "83" },
-    { label: "Trend", value: "Stable" },
+    { label: "Current", value: "82" },
+    { label: "Trend", value: "Slight Decrease" },
     { label: "Tracked Countries", value: "12" }
   ],
 
@@ -64,13 +64,13 @@ window.dailyRiskPageData = {
     {
       title: "🌍 Global Conflict Risk",
       subtitle: "Ukraine war, Black Sea corridor risk, Hormuz sensitivity",
-      score: 86,
+      score: 85,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "Very High / Fragile",
       directionClass: "pill-danger",
       description:
-        "Conflict risk remains very high, but the score is reduced slightly to avoid over-counting older escalation signals. Ukraine remains under sustained war pressure, and the Black Sea export corridor remains vulnerable after reported attacks on foreign-flagged merchant vessels. However, there is no confirmed new wider shipping shutdown in this update. Hormuz remains a separate systemic maritime risk node, but today's assessment treats it as persistent sensitivity rather than a fresh military escalation. The category therefore remains high, but not higher than the previous cycle.",
+        "Conflict risk remains very high but eases slightly because older Black Sea and Hormuz signals are no longer counted as new daily escalation. Ukraine remains under sustained war pressure, and maritime-corridor vulnerability remains real, but there is no confirmed wider shipping shutdown in this update. Hormuz remains a separate systemic chokepoint risk, yet today’s assessment treats it as persistent sensitivity rather than a fresh military escalation.",
       drivers: [
         "Ukraine war and infrastructure pressure",
         "Black Sea maritime-corridor vulnerability",
@@ -78,19 +78,19 @@ window.dailyRiskPageData = {
         "Middle East deterrence and sanctions signaling"
       ],
       sources: ["Reuters", "UN monitoring", "Maritime and defense briefings"],
-      trend: [87, 87, 87, 86, 86, 86, 86]
+      trend: [87, 86, 86, 86, 85, 85, 85]
     },
 
     {
       title: "📉 Global Economic Risk",
       subtitle: "Energy-route confidence, freight insurance, inflation transmission",
-      score: 79,
+      score: 78,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "High",
       directionClass: "pill-warning",
       description:
-        "Economic risk remains high but eases slightly. Hormuz traffic is still impaired and energy-route confidence remains fragile, so the category cannot fall sharply. At the same time, oil markets have responded to ceasefire and negotiation signals, and there is no confirmed full-scale supply shock in this update. The risk is therefore still elevated through freight, insurance, fuel prices and inflation pass-through, but it is not assessed as a disorderly global economic shock today.",
+        "Economic risk remains high but eases slightly. Hormuz traffic confidence is still fragile and energy-route risk has not fully normalized, but oil-market behavior and diplomacy signals provide a modest stabilizing offset. The category remains elevated through freight, insurance, fuel prices and inflation pass-through, but it is not assessed as a disorderly global economic shock today.",
       drivers: [
         "Hormuz traffic impairment",
         "Oil and LNG shipping confidence",
@@ -99,19 +99,19 @@ window.dailyRiskPageData = {
         "Ceasefire and diplomacy signals"
       ],
       sources: ["Reuters", "IEA", "EIA", "Shipping market data"],
-      trend: [80, 80, 80, 79, 79, 79, 79]
+      trend: [80, 79, 79, 79, 78, 78, 78]
     },
 
     {
       title: "🏥 Global Health Risk",
       subtitle: "Bundibugyo Ebola emergency and containment pressure",
-      score: 74,
-      changeText: "+2",
+      score: 75,
+      changeText: "+1",
       changeClass: "pill-warning",
       direction: "Elevated / Regional Emergency",
       directionClass: "pill-warning",
       description:
-        "Health risk rises because Bundibugyo Ebola remains the clearest active deterioration in the global risk model. The outbreak remains concentrated in DRC and Uganda, but DRC carries the heavier burden due to suspected cases, deaths, health-worker exposure, insecurity, contact-tracing pressure and community-trust challenges. Uganda remains elevated through confirmed cases and cross-border surveillance needs. The score remains below pandemic-level risk because the available evidence still points to a serious regional emergency rather than uncontrolled global spread.",
+        "Health risk increases slightly because Bundibugyo Ebola remains the clearest active deterioration in the global model. The outbreak remains concentrated in DRC and Uganda, with DRC carrying the heavier burden due to suspected cases, deaths, health-worker exposure, contact-tracing pressure and community-trust challenges. The score remains below pandemic-level risk because the available evidence still points to a serious regional emergency rather than uncontrolled global spread.",
       drivers: [
         "Bundibugyo Ebola response pressure",
         "High suspected case and death burden in DRC",
@@ -120,7 +120,7 @@ window.dailyRiskPageData = {
         "Cross-border surveillance in Uganda"
       ],
       sources: ["WHO", "AP", "Reuters", "National health authorities"],
-      trend: [72, 72, 73, 73, 74, 74, 74]
+      trend: [72, 73, 73, 74, 74, 75, 75]
     },
 
     {
@@ -149,14 +149,14 @@ window.dailyRiskPageData = {
       title: "🌍 Global Conflict Report",
       tag: "Very High Risk",
       tagClass: "pill-danger",
-      score: "86 / 100",
+      score: "85 / 100",
       direction: "Very High",
       watch:
         "Ukraine strikes, Black Sea export corridor, maritime insurance, Hormuz security, Middle East military and sanctions signals",
       why:
         "Conflict remains the strongest structural risk category. Ukraine continues to face sustained war conditions, and the Black Sea maritime corridor remains exposed after recent attacks on foreign-flagged merchant vessels. This keeps commercial-shipping confidence and export-route security under pressure. Hormuz also remains a systemic risk node because even partial traffic disruption can affect oil, LNG, insurance and shipping decisions.",
       moved:
-        "The conflict score is reduced by one point because the latest update does not confirm a new wider military escalation or broader shipping shutdown beyond the already-counted Black Sea and Hormuz risk channels. The risk remains very high, but older stress is not counted again as fresh escalation.",
+        "The conflict score is reduced by one point because older Black Sea and Hormuz signals are now counted as continuing exposure rather than new daily escalation. The risk remains very high, but no new wider military escalation or broader shipping shutdown is confirmed today.",
       matters:
         "Conflict risk matters because it can transmit quickly into shipping routes, energy costs, food logistics, defense posture and investor behavior. The current environment is fragile, but today's movement is more about persistence than acceleration."
     },
@@ -165,14 +165,14 @@ window.dailyRiskPageData = {
       title: "📉 Global Economic Report",
       tag: "High Risk",
       tagClass: "pill-warning",
-      score: "79 / 100",
+      score: "78 / 100",
       direction: "High",
       watch:
         "Brent oil, Hormuz traffic, LNG flows, marine insurance, Black Sea freight, inflation expectations",
       why:
         "Economic risk remains high because energy and shipping channels are still sensitive. Hormuz traffic remains below normal, Black Sea shipping risk has not fully cleared, and insurance or freight costs can still transmit geopolitical risk into prices. However, ceasefire and negotiation signals have reduced some market pressure, and there is no confirmed full-scale global supply shock.",
       moved:
-        "The score falls by one point because market behavior and diplomacy signals provide a modest stabilizing offset. This does not mean the economic risk is gone; it means the latest evidence does not justify another increase.",
+        "The score falls by one point because oil-market behavior and diplomacy signals provide a modest stabilizing offset. This does not mean the economic risk is gone; it means the latest evidence points to high but less disorderly transmission.",
       matters:
         "Economic risk is the channel through which geopolitical shocks reach households and businesses. If shipping confidence improves, the score can ease further. If Hormuz or Black Sea routes deteriorate again, the score can rise quickly."
     },
@@ -181,14 +181,14 @@ window.dailyRiskPageData = {
       title: "🏥 Global Health Report",
       tag: "Elevated Risk",
       tagClass: "pill-warning",
-      score: "74 / 100",
+      score: "75 / 100",
       direction: "Elevated / Regional Emergency",
       watch:
         "DRC suspected cases, confirmed deaths, Uganda surveillance, contact tracing, healthcare-worker infections, community trust and safe burials",
       why:
         "Health risk is the clearest active deterioration. The Bundibugyo Ebola outbreak remains serious, with DRC carrying the main burden and Uganda requiring continued surveillance. The response environment is difficult because testing, isolation, safe burials, community trust, protective equipment, healthcare-worker safety and cross-border coordination all matter at the same time.",
       moved:
-        "The score increases from 72 to 74 because the outbreak response is still under pressure and the situation has not shown enough stabilization to justify holding the health category flat. The model still avoids pandemic-level scoring because the risk remains primarily regional.",
+        "The score increases from 74 to 75 because the outbreak response is still under pressure and the situation has not shown enough stabilization to justify holding the health category flat. The model still avoids pandemic-level scoring because the risk remains primarily regional.",
       matters:
         "Health risk matters because outbreak control is time-sensitive. Delays in testing, isolation or contact tracing can turn a contained regional emergency into a broader humanitarian and governance crisis."
     },
@@ -214,13 +214,13 @@ window.dailyRiskPageData = {
     {
       country: "Ukraine",
       region: "Eastern Europe",
-      score: 87,
+      score: 86,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "Very High",
       directionClass: "pill-danger",
       summary:
-        "Ukraine remains one of the highest-risk countries in the model due to active war conditions and maritime-corridor vulnerability. The score eases slightly because the Black Sea vessel attacks remain relevant but are no longer treated as a new daily escalation spike.",
+        "Ukraine remains one of the highest-risk countries in the model due to active war conditions and maritime-corridor vulnerability. The score eases slightly because the Black Sea vessel attacks are now treated as continuing operational risk rather than a new daily escalation spike.",
       drivers: [
         "Active war conditions",
         "Black Sea export-corridor risk",
@@ -233,13 +233,13 @@ window.dailyRiskPageData = {
         "Energy grid resilience",
         "Frontline dynamics"
       ],
-      trend: [88, 88, 87, 87, 87, 87, 87]
+      trend: [88, 87, 87, 86, 86, 86, 86]
     },
 
     {
       country: "Israel",
       region: "Middle East",
-      score: 82,
+      score: 81,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "High / Very High",
@@ -258,19 +258,19 @@ window.dailyRiskPageData = {
         "US-Iran diplomacy",
         "Air defense posture"
       ],
-      trend: [83, 83, 83, 82, 82, 82, 82]
+      trend: [83, 82, 82, 81, 81, 81, 81]
     },
 
     {
       country: "Iran",
       region: "Middle East",
-      score: 85,
+      score: 84,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "Very High",
       directionClass: "pill-danger",
       summary:
-        "Iran remains a core systemic risk node because Hormuz, sanctions and regional military signaling affect global oil, LNG and shipping confidence. The score is reduced slightly because ceasefire-related signals partially offset the absence of a new full disruption.",
+        "Iran remains a core systemic risk node because Hormuz, sanctions and regional military signaling affect global oil, LNG and shipping confidence. The score is reduced slightly because ceasefire and negotiation signals partially offset the absence of a new full disruption.",
       drivers: [
         "Hormuz strategic leverage",
         "Oil sanctions pressure",
@@ -283,13 +283,13 @@ window.dailyRiskPageData = {
         "Negotiation signals",
         "Insurance and shipping confidence"
       ],
-      trend: [86, 86, 86, 85, 85, 85, 85]
+      trend: [86, 85, 85, 84, 84, 84, 84]
     },
 
     {
       country: "Russia",
       region: "Eastern Europe / Eurasia",
-      score: 75,
+      score: 74,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "High",
@@ -308,19 +308,19 @@ window.dailyRiskPageData = {
         "Energy export flows",
         "Fiscal resilience"
       ],
-      trend: [76, 76, 76, 75, 75, 75, 75]
+      trend: [76, 75, 75, 74, 74, 74, 74]
     },
 
     {
       country: "Democratic Republic of the Congo",
       region: "Central Africa",
-      score: 87,
-      changeText: "+2",
+      score: 88,
+      changeText: "+1",
       changeClass: "pill-danger",
       direction: "Very High",
       directionClass: "pill-danger",
       summary:
-        "DRC is the main upward country-level mover. The Bundibugyo Ebola outbreak remains severe, with suspected cases, deaths, health-worker exposure, community-trust challenges and insecurity keeping containment pressure high.",
+        "DRC is the main upward country-level mover. The Bundibugyo Ebola outbreak remains severe, with suspected cases, confirmed deaths, health-worker exposure, community-trust challenges and insecurity keeping containment pressure high.",
       drivers: [
         "Bundibugyo Ebola outbreak",
         "High suspected case and death burden",
@@ -334,19 +334,19 @@ window.dailyRiskPageData = {
         "Health worker infections",
         "Isolation and referral capacity"
       ],
-      trend: [85, 85, 86, 86, 87, 87, 87]
+      trend: [85, 86, 87, 87, 88, 88, 88]
     },
 
     {
       country: "Uganda",
       region: "East Africa",
       score: 71,
-      changeText: "+1",
+      changeText: "0",
       changeClass: "pill-warning",
       direction: "Elevated",
       directionClass: "pill-warning",
       summary:
-        "Uganda remains elevated because confirmed cases and cross-border exposure require continued surveillance. The score rises slightly due to DRC's worsening outbreak pressure, but remains below DRC because broad community transmission is not the main current assessment.",
+        "Uganda remains elevated because confirmed cases and cross-border exposure require continued surveillance. The score is held stable because the heavier outbreak burden remains centered in DRC, while Uganda’s main current risk is surveillance and containment.",
       drivers: [
         "Cross-border Ebola exposure",
         "Confirmed cases",
@@ -359,13 +359,13 @@ window.dailyRiskPageData = {
         "Kampala surveillance",
         "DRC border movement"
       ],
-      trend: [70, 70, 70, 71, 71, 71, 71]
+      trend: [70, 71, 71, 71, 71, 71, 71]
     },
 
     {
       country: "Türkiye",
       region: "Eastern Mediterranean",
-      score: 61,
+      score: 60,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "Moderate / Elevated",
@@ -384,13 +384,13 @@ window.dailyRiskPageData = {
         "Inflation data",
         "Regional diplomatic signals"
       ],
-      trend: [62, 62, 62, 61, 61, 61, 61]
+      trend: [62, 61, 61, 60, 60, 60, 60]
     },
 
     {
       country: "United States",
       region: "North America",
-      score: 59,
+      score: 58,
       changeText: "-1",
       changeClass: "pill-neutral",
       direction: "Moderate / Elevated",
@@ -409,7 +409,7 @@ window.dailyRiskPageData = {
         "Military posture updates",
         "Inflation expectations"
       ],
-      trend: [60, 60, 60, 59, 59, 59, 59]
+      trend: [60, 59, 59, 58, 58, 58, 58]
     },
 
     {
@@ -518,14 +518,14 @@ window.dailyRiskPageData = {
       title: "🇺🇦 Ukraine Country Report",
       tag: "Very High Risk",
       tagClass: "pill-danger",
-      score: "87 / 100",
+      score: "86 / 100",
       direction: "Very High",
       watch:
         "Black Sea export corridor, merchant-vessel security, drone warfare, infrastructure resilience, frontline dynamics",
       why:
         "Ukraine remains the central active-war theater in Europe. Maritime-corridor risk remains relevant because recent attacks on foreign-flagged merchant vessels affect export-route security, shipping insurance and commercial confidence. The land-war layer also remains active through drone, missile and infrastructure pressure.",
       moved:
-        "The score is reduced by one point because the Black Sea incident is now treated as continuing operational risk rather than a fresh daily escalation.",
+        "The score eases by one point because the Black Sea incident is now treated as continuing operational risk rather than a fresh daily escalation, while the underlying war risk remains very high.",
       matters:
         "Ukraine matters because its war environment affects European security, commodity routes, export corridors, sanctions policy, defense planning and global risk sentiment."
     },
@@ -534,7 +534,7 @@ window.dailyRiskPageData = {
       title: "🇮🇱 Israel Country Report",
       tag: "High / Very High Risk",
       tagClass: "pill-danger",
-      score: "82 / 100",
+      score: "81 / 100",
       direction: "High / Very High",
       watch:
         "Regional tensions, Iran-linked signaling, border incidents, missile and drone threats, diplomatic stabilization",
@@ -550,7 +550,7 @@ window.dailyRiskPageData = {
       title: "🇮🇷 Iran Country Report",
       tag: "Very High Risk",
       tagClass: "pill-danger",
-      score: "85 / 100",
+      score: "84 / 100",
       direction: "Very High",
       watch:
         "Hormuz maritime flows, sanctions enforcement, shipping confidence, US-Iran diplomacy, tanker insurance",
@@ -566,7 +566,7 @@ window.dailyRiskPageData = {
       title: "🇷🇺 Russia Country Report",
       tag: "High Risk",
       tagClass: "pill-warning",
-      score: "75 / 100",
+      score: "74 / 100",
       direction: "High",
       watch:
         "Ukraine strike activity, Black Sea shipping incidents, sanctions pressure, energy exports, military operations tempo",
@@ -582,14 +582,14 @@ window.dailyRiskPageData = {
       title: "🇨🇩 Democratic Republic of the Congo Country Report",
       tag: "Very High Health Risk",
       tagClass: "pill-danger",
-      score: "87 / 100",
+      score: "88 / 100",
       direction: "Very High",
       watch:
         "Bundibugyo Ebola suspected cases, confirmed deaths, contact tracing, healthcare-worker infections, isolation capacity, community trust",
       why:
         "DRC is the main upward country-level risk driver. The Bundibugyo Ebola outbreak has a serious suspected case and death burden, and the response environment is complicated by healthcare-worker exposure, insecurity, community-trust issues and contact-tracing pressure.",
       moved:
-        "The score rises from 85 to 87 because the latest assessment shows outbreak response remains under pressure. The increase is significant but still regional, not global-pandemic scoring.",
+        "The score rises from 87 to 88 because the latest assessment shows outbreak response remains under pressure. The increase is significant but still regional, not global-pandemic scoring.",
       matters:
         "DRC matters because outbreak control depends on surveillance, isolation, contact tracing, safe burials, treatment access, community trust and secure humanitarian operations."
     },
@@ -605,7 +605,7 @@ window.dailyRiskPageData = {
       why:
         "Uganda remains elevated due to confirmed cases and cross-border exposure from DRC. The current risk is mainly surveillance and containment rather than confirmed broad domestic spread.",
       moved:
-        "The score rises by one point because DRC's outbreak pressure increases Uganda's exposure. It remains below DRC because the heavier outbreak burden is still centered in DRC.",
+        "The score is held stable because DRC's outbreak pressure keeps Uganda exposed, but the heavier burden remains centered in DRC. It remains below DRC because the heavier outbreak burden is still centered in DRC.",
       matters:
         "Uganda matters because cross-border surveillance is essential for preventing wider regional spread. Early detection and hospital readiness are the key stabilizers."
     },
@@ -614,7 +614,7 @@ window.dailyRiskPageData = {
       title: "🇹🇷 Türkiye Country Report",
       tag: "Moderate-Elevated Risk",
       tagClass: "pill-warning",
-      score: "61 / 100",
+      score: "60 / 100",
       direction: "Moderate / Elevated",
       watch:
         "Black Sea shipping security, fuel prices, inflation trajectory, energy imports, regional logistics",
@@ -630,7 +630,7 @@ window.dailyRiskPageData = {
       title: "🇺🇸 United States Country Report",
       tag: "Moderate Risk",
       tagClass: "pill-warning",
-      score: "59 / 100",
+      score: "58 / 100",
       direction: "Moderate / Elevated",
       watch:
         "Iran sanctions, US-Iran diplomacy, defense posture, oil prices, inflation expectations",

@@ -1,6 +1,6 @@
 window.dailyRiskPageData = {
   reportDate: "June 3, 2026",
-  updateTimeUtc: "18:20 UTC",
+  updateTimeUtc: "13:20 UTC",
 
   overallScore: 85,
   previousOverallScore: 84,

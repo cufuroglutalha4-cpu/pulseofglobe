@@ -1053,3 +1053,125 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Score breakdown / transparency section */
+.score-explain-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.score-note {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 0.94rem;
+  line-height: 1.7;
+}
+
+.score-method-note {
+  margin: 0;
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: rgba(56, 189, 248, 0.09);
+  border: 1px solid rgba(56, 189, 248, 0.18);
+  color: var(--text-soft);
+  line-height: 1.7;
+  font-size: 0.92rem;
+}
+
+.score-factor-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.score-factor,
+.breakdown-category {
+  background: linear-gradient(180deg, #ffffff, #f9fcff);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 18px;
+  box-shadow: var(--shadow-sm);
+}
+
+.score-factor-top,
+.breakdown-category-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.score-factor h3,
+.breakdown-category h3 {
+  margin: 0;
+  font-size: 0.96rem;
+  letter-spacing: -0.02em;
+}
+
+.score-factor p,
+.breakdown-item p {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 0.88rem;
+  line-height: 1.62;
+}
+
+.impact-badge {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 7px 10px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.impact-positive { background: var(--warning-soft); color: #b45309; }
+.impact-negative { background: var(--success-soft); color: var(--success); }
+.impact-neutral { background: var(--neutral-soft); color: #475569; }
+
+.breakdown-category-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.breakdown-items {
+  display: grid;
+  gap: 10px;
+}
+
+.breakdown-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: start;
+  padding: 12px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+}
+
+.breakdown-item strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.breakdown-item span {
+  white-space: nowrap;
+  color: var(--primary);
+  font-weight: 800;
+  font-size: 0.82rem;
+}
+
+@media (max-width: 1024px) {
+  .score-factor-grid,
+  .breakdown-category-grid {
+    grid-template-columns: 1fr;
+  }
+}

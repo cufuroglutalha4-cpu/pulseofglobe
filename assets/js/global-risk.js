@@ -204,6 +204,47 @@
     }).join("");
   }
 
+
+  function renderScoreBreakdown() {
+    const data = pageData.scoreBreakdown || {};
+    const section = $("score-breakdown");
+    if (!section) return;
+
+    setText("score-breakdown-title", data.title || "Why the Index Is at This Level");
+    setText("score-breakdown-summary", data.summary || "");
+    setText("score-breakdown-method", data.methodNote || "");
+
+    setHTML("score-breakdown-overall", toArray(data.overall).map(item => `
+      <article class="score-factor">
+        <div class="score-factor-top">
+          <h3>${escapeHTML(item.label)}</h3>
+          <span class="impact-badge ${safeClass(item.impactClass, "impact-neutral")}">${escapeHTML(item.impact)}</span>
+        </div>
+        <p>${escapeHTML(item.note)}</p>
+      </article>
+    `).join(""));
+
+    setHTML("score-breakdown-categories", toArray(data.categories).map(category => `
+      <article class="breakdown-category">
+        <div class="breakdown-category-head">
+          <h3>${escapeHTML(category.title)}</h3>
+          <span class="pill pill-neutral">${escapeHTML(category.score)}</span>
+        </div>
+        <div class="breakdown-items">
+          ${toArray(category.items).map(item => `
+            <div class="breakdown-item">
+              <div>
+                <strong>${escapeHTML(item.label)}</strong>
+                <p>${escapeHTML(item.note)}</p>
+              </div>
+              <span>${escapeHTML(item.impact)}</span>
+            </div>
+          `).join("")}
+        </div>
+      </article>
+    `).join(""));
+  }
+
   function renderReports() {
     const reportStack = $("report-stack");
     if (!reportStack) return;
@@ -353,6 +394,7 @@
   renderOverview();
   renderGlance();
   renderRiskCards();
+  renderScoreBreakdown();
   renderReports();
   renderCountryRiskCards();
   renderCountryReports();

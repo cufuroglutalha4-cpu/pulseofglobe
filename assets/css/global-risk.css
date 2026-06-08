@@ -1175,3 +1175,211 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Mobile overflow fix - keeps hero, buttons and translated text inside viewport */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.page,
+.hero,
+.hero-grid,
+.hero-left,
+.hero-right,
+.section-card,
+.sub-card,
+.risk-card,
+.report-box,
+.country-card,
+.breakdown-category,
+.score-factor,
+.method-card,
+.faq-item {
+  min-width: 0;
+}
+
+.hero-eyebrow,
+.hero h1,
+.hero p,
+.hero-right p,
+.section-head h2,
+.section-head p,
+.risk-title,
+.risk-subtitle,
+.risk-desc,
+.report-body p,
+.country-name,
+.country-desc,
+.value,
+.value-sub,
+.mini-value,
+.chip,
+.pill,
+.btn,
+.source-links a,
+.breakdown-item strong,
+.breakdown-item p,
+.breakdown-item span {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.hero-eyebrow {
+  max-width: 100%;
+  white-space: normal;
+  flex-wrap: wrap;
+  line-height: 1.45;
+}
+
+.btn {
+  white-space: normal;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .page {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px 10px 36px;
+  }
+
+  .site-header {
+    border-radius: 20px;
+    padding: 12px 14px;
+  }
+
+  .site-nav {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .nav-link {
+    font-size: 0.82rem;
+  }
+
+  .hero {
+    padding: 18px;
+    border-radius: 24px;
+  }
+
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .hero-eyebrow {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 8px 10px;
+    border-radius: 18px;
+    font-size: 0.74rem;
+    letter-spacing: 0.02em;
+  }
+
+  .live-dot {
+    margin-top: 5px;
+    flex: 0 0 auto;
+  }
+
+  .hero h1 {
+    font-size: clamp(2rem, 10.5vw, 2.8rem);
+    line-height: 1.04;
+    letter-spacing: -0.055em;
+    max-width: 100%;
+  }
+
+  .hero p {
+    max-width: 100%;
+    font-size: 0.95rem;
+    line-height: 1.66;
+  }
+
+  .hero-actions,
+  .source-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .btn,
+  .source-links a {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-right,
+  .section-card,
+  .sub-card,
+  .risk-card,
+  .report-box,
+  .country-card,
+  .breakdown-category,
+  .score-factor {
+    border-radius: 20px;
+    padding: 16px;
+  }
+
+  .big-score .value {
+    font-size: 3rem;
+  }
+
+  .pill,
+  .chip,
+  .meta-chip {
+    white-space: normal;
+    line-height: 1.35;
+  }
+
+  .breakdown-item {
+    grid-template-columns: 1fr;
+  }
+
+  .breakdown-item span {
+    justify-self: start;
+  }
+}
+
+@media (max-width: 420px) {
+  .page {
+    padding: 10px 8px 32px;
+  }
+
+  .hero {
+    padding: 16px;
+    border-radius: 22px;
+  }
+
+  .hero h1 {
+    font-size: clamp(1.85rem, 10vw, 2.35rem);
+  }
+
+  .hero p,
+  .hero-right p,
+  .section-head p,
+  .risk-desc,
+  .country-desc,
+  .report-body p {
+    font-size: 0.9rem;
+    line-height: 1.62;
+  }
+
+  .hero-actions {
+    margin-top: 18px;
+  }
+
+  .btn {
+    padding: 11px 12px;
+    font-size: 0.86rem;
+  }
+
+  .overview-card,
+  .mini-box {
+    padding: 14px;
+  }
+}

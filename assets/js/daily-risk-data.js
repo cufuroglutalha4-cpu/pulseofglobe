@@ -1,60 +1,60 @@
 window.dailyRiskPageData = {
-  "reportDate": "June 8, 2026",
+  "reportDate": "June 9, 2026",
   "updateTimeUtc": "Daily UTC update",
-  "overallScore": 70,
-  "previousOverallScore": 89,
-  "overallLabel": "Elevated / Conservative",
-  "overallTrend": "-19 vs previous update · scale recalibrated",
+  "overallScore": 71,
+  "previousOverallScore": 70,
+  "overallLabel": "Elevated / Realistic",
+  "overallTrend": "+1 vs previous update · no inflation",
   "confidence": "Medium-High",
-  "heroSummary": "Global Risk Index Today is recalibrated to 70/100 to avoid overstating conditions after several earlier shock headlines have become continuing background exposure rather than fresh daily escalation. The world risk environment is still elevated: Gulf and Strait of Hormuz navigation risk remains important, the Red Sea threat layer is active again, Ukraine-Russia war risk continues, Taiwan-China maritime pressure is visible, Bundibugyo Ebola remains a serious regional emergency, and El Niño-linked climate risk is moving into the Northern Hemisphere summer window. However, the index is deliberately moved out of the upper-80s because there is no confirmed direct great-power war, no universal global shipping shutdown, no uncontrolled global disease spread and no single new climate disaster driving the whole dashboard today.",
-  "overallExplainer": "The composite score is lowered from 89 to 70 because the scoring scale has been tightened. Fresh events still add pressure, but older Hormuz, Ukraine, market-spike and nuclear-safety headlines are no longer counted as new daily shocks unless they produce fresh measurable escalation. Conflict remains the largest risk layer, but it is scored as elevated rather than extreme because multiple flashpoints are active without a confirmed global military rupture. Economic risk is also elevated because energy routes, crude inventories, tanker insurance and inflation expectations remain sensitive, while softer demand signals and functioning markets prevent a crisis-level reading. Health risk remains elevated but regional, and climate risk is structural rather than a one-day emergency. The result is a more disciplined index: high enough to show real pressure, but low enough to avoid an alarmist or inflated reading.",
+  "heroSummary": "Global Risk Index Today is updated to 71/100, keeping the index realistic and avoiding the inflated high-80s range. The main rule in this update is simple: old shock headlines are discounted unless they produce fresh measurable escalation. The global environment is still elevated because Gulf and Strait of Hormuz traffic remains abnormal, Red Sea shipping threats are active, Ukraine-Russia war risk continues, Taiwan-China maritime pressure has increased around commercial shipping, Bundibugyo Ebola in DRC and Uganda has worsened at the regional level, and El Niño-linked climate risk remains a structural summer-season multiplier. At the same time, the score is not pushed much above 70 because some LNG traffic is still moving through Hormuz, global markets continue to function, the Chornobyl-related strike did not produce a radiation release, Taiwan-China friction has not become an armed conflict, and Ebola has not become uncontrolled global spread.",
+  "overallExplainer": "The composite score moves from 70 to 71. This is a modest increase, not a return to alarmist scoring. Conflict and economic pressure are trimmed slightly because older Hormuz, Red Sea, Ukraine and oil-price headlines are no longer counted as new shocks every day. The update still keeps conflict and economic risk elevated because Hormuz and Red Sea routes remain sensitive, but functioning energy flows and market adaptation prevent crisis-level scoring. Health risk is raised because the Ebola outbreak in DRC has grown and contact tracing remains below target, while Uganda still requires cross-border surveillance. Climate risk is held steady because the El Niño and above-normal temperature signal is structural and already priced into the model. The result is a disciplined daily score: high enough to show real pressure, low enough to avoid inflated risk language.",
   "overview": [
     {
       "label": "Report Date",
-      "value": "June 8, 2026",
+      "value": "June 9, 2026",
       "sub": "UTC daily update"
     },
     {
       "label": "Top Driver",
-      "value": "Gulf Navigation + Ukraine War",
-      "sub": "Active risks remain, but stale shocks are discounted"
+      "value": "Ebola + Maritime Routes",
+      "sub": "Health risk rises while old conflict shocks are discounted"
     },
     {
       "label": "Country Layer",
       "value": "12 Countries Monitored",
-      "sub": "Iran, Ukraine, DRC, Israel and major energy importers remain on watch"
+      "sub": "Iran, Ukraine, DRC, Israel, China and major energy importers remain on watch"
     },
     {
       "label": "What Changed",
-      "value": "Index recalibrated from 89 to 70",
-      "sub": "Older headline effects removed from the daily score"
+      "value": "Index edges from 70 to 71",
+      "sub": "Realistic update: health risk up, conflict/economic inflation capped"
     },
     {
       "label": "Watch Next 48h",
-      "value": "Hormuz traffic + Red Sea threats + Ukraine air war + Ebola trend",
+      "value": "Ebola tracing + Hormuz LNG traffic + Taiwan waters + Red Sea threats",
       "sub": "Key swing factors for the next update"
     }
   ],
-  "glanceSummary": "Global risk is reset to 70/100 after removing excess weight from older escalation headlines. The dashboard remains elevated because Gulf navigation risk, Red Sea shipping threats, Ukraine-Russia war activity, Taiwan-China maritime friction, Ebola containment and seasonal climate stress are still active, but today’s evidence does not justify an extreme 85–90 style composite score.",
+  "glanceSummary": "Global risk edges up to 71/100. The index remains conservative: Ebola containment pressure is stronger, Taiwan-China maritime pressure is more visible, and Red Sea/Hormuz risks remain active, but older escalation headlines are discounted so the composite does not inflate back into the 80s without a truly new systemic shock.",
   "glanceBullets": [
-    "Old-news discount is now applied more aggressively: earlier Hormuz, Ukraine, market-spike and nuclear-safety headlines are treated as background exposure unless confirmed by fresh escalation.",
-    "Gulf and Strait of Hormuz risk remains the strongest transmission channel, but the index avoids panic scoring because some oil is still moving and markets continue to function.",
-    "The Red Sea threat layer is watched after Houthi warnings toward Israeli-linked shipping, but the threat is not treated as a total global shipping shutdown.",
-    "Ukraine remains a very high country-level risk, yet recent Chornobyl-related concern is capped because radiation levels were reported normal and no wider NATO-Russia escalation is confirmed.",
-    "Health and climate remain important but are not global shock drivers today: Ebola is severe and regional, while El Niño-linked heat risk is structural and already partly priced into the model."
+    "Old-news discount remains active: repeated Hormuz, Ukraine, Red Sea and market-spike headlines are treated as background exposure unless new escalation changes the risk picture.",
+    "Hormuz remains important, but the score is capped because several LNG cargoes are still transiting and the route is not treated as a total global energy shutdown.",
+    "Red Sea risk remains on watch after Houthi threats toward Israeli-linked shipping, but this is not scored as a universal global shipping collapse.",
+    "Taiwan-China pressure increases after Chinese coast guard activity around commercial shipping, but no boarding, armed clash or full blockade is confirmed.",
+    "Health risk rises because DRC Ebola cases and deaths increased and contact tracing is still below target, although the outbreak remains regional rather than global."
   ],
   "dailyComparison": [
     {
       "label": "Previous",
-      "value": "89"
-    },
-    {
-      "label": "Current",
       "value": "70"
     },
     {
+      "label": "Current",
+      "value": "71"
+    },
+    {
       "label": "Trend",
-      "value": "Recalibrated Lower"
+      "value": "Slight Increase"
     },
     {
       "label": "Tracked Countries",
@@ -62,123 +62,128 @@ window.dailyRiskPageData = {
     }
   ],
   "scoreBreakdown": {
-    "title": "Why the Global Risk Index Is 70 Today",
-    "summary": "The 70/100 score reflects a conservative daily reading: active global pressure is still elevated, but older shock headlines are no longer allowed to keep the composite index in the high-80s without fresh confirmation.",
-    "methodNote": "These are directional pressure contributions, not exact mathematical probabilities. Fresh confirmed events add pressure; fading or repeated headlines are discounted so the index does not inflate over time.",
+    "title": "Why the Global Risk Index Is 71 Today",
+    "summary": "The 71/100 score reflects elevated but not extreme global pressure. Fresh health and maritime signals add risk, while older conflict and oil-shock headlines are discounted to prevent score inflation.",
+    "methodNote": "These are directional pressure contributions, not exact mathematical probabilities. Fresh confirmed events add pressure; repeated or fading headlines are discounted unless they produce measurable escalation.",
     "overall": [
       {
         "label": "Baseline global stress",
         "impact": "+40",
         "impactClass": "impact-neutral",
-        "note": "War, inflation sensitivity, climate exposure and outbreak risk keep the world above a normal low-risk baseline."
+        "note": "Existing war, energy sensitivity, climate exposure and outbreak risk keep the world above a normal low-risk baseline."
       },
       {
         "label": "Active conflict pressure",
-        "impact": "+14",
+        "impact": "+12",
         "impactClass": "impact-positive",
-        "note": "Ukraine-Russia war, Gulf navigation risk, Israel-Hezbollah-Lebanon fragility and Taiwan-China maritime friction remain active."
+        "note": "Ukraine, Gulf navigation, Red Sea threats, Israel-Hezbollah-Lebanon fragility and Taiwan-China maritime pressure remain active but not extreme."
       },
       {
         "label": "Energy and shipping fragility",
-        "impact": "+9",
+        "impact": "+8",
         "impactClass": "impact-positive",
-        "note": "Hormuz opacity, Red Sea threats, tanker insurance and oil-inventory concerns still matter for markets."
+        "note": "Hormuz and Red Sea route sensitivity still matters, but continued LNG transits and market functioning cap the score."
       },
       {
         "label": "Health risk pressure",
-        "impact": "+6",
+        "impact": "+9",
         "impactClass": "impact-positive",
-        "note": "Bundibugyo Ebola in DRC and Uganda remains a serious regional emergency, but not a global pandemic signal."
+        "note": "Ebola in DRC and Uganda has become the clearest upward pressure in this update."
       },
       {
         "label": "Climate and food-system pressure",
         "impact": "+7",
         "impactClass": "impact-positive",
-        "note": "El Niño-linked heat and rainfall risk is more relevant as the June-August season advances."
+        "note": "El Niño-linked heat and rainfall risk remains a structural multiplier during the June-August period."
       },
       {
         "label": "Old headline discount",
-        "impact": "-6",
+        "impact": "-5",
         "impactClass": "impact-negative",
-        "note": "Earlier oil spikes, repeated Hormuz headlines and older Ukraine nuclear-safety concerns are no longer counted as fresh shocks."
+        "note": "Older oil spikes, repeated Hormuz alerts and earlier nuclear-safety concerns are no longer counted as fresh shocks."
       }
     ],
     "categories": [
       {
         "title": "Conflict score logic",
-        "score": "73 / 100",
+        "score": "72 / 100",
         "items": [
           {
             "label": "Ukraine-Russia active war",
             "impact": "Strong",
-            "note": "Still the most persistent war-risk layer."
+            "note": "Persistent conflict layer remains high, but no new direct NATO-Russia escalation is confirmed."
           },
           {
             "label": "Gulf / Hormuz navigation risk",
             "impact": "Moderate-Strong",
-            "note": "Important for shipping and oil, but not scored as a complete global shutdown."
+            "note": "Important for shipping and energy, but not a complete route shutdown in this update."
           },
           {
-            "label": "Middle East spillover risk",
+            "label": "Red Sea shipping threat",
             "impact": "Moderate",
-            "note": "Israel-Hezbollah-Lebanon and Iran-linked signals keep the region fragile."
+            "note": "Houthi threats raise route risk but are not yet a full global shipping collapse."
           },
           {
-            "label": "Taiwan-China maritime friction",
+            "label": "Taiwan-China maritime pressure",
             "impact": "Limited-Moderate",
-            "note": "A live pressure point, not yet a major armed conflict signal."
+            "note": "Coast guard activity is current, but no armed clash or blockade is confirmed."
           },
           {
             "label": "Discount applied",
             "impact": "Lowering factor",
-            "note": "Repeated older conflict headlines are capped unless new escalation is confirmed."
+            "note": "Repeated conflict headlines are capped unless new escalation is confirmed."
           }
         ]
       },
       {
         "title": "Economic score logic",
-        "score": "71 / 100",
+        "score": "70 / 100",
         "items": [
           {
-            "label": "Oil and route sensitivity",
+            "label": "Oil and LNG route sensitivity",
             "impact": "Strong",
-            "note": "Hormuz and Red Sea issues keep crude, LNG, freight and insurance sensitive."
+            "note": "Hormuz and Red Sea risks keep energy and freight channels sensitive."
           },
           {
-            "label": "Market functioning",
+            "label": "Continued LNG transits",
             "impact": "Lowering factor",
-            "note": "Markets are stressed but still functioning, which prevents crisis-level scoring."
+            "note": "Cargoes are still moving, so this is not scored as a full energy shutdown."
           },
           {
-            "label": "Demand softness",
+            "label": "Market adaptation",
             "impact": "Lowering factor",
-            "note": "Weaker demand signals reduce the case for an extreme energy-price score."
+            "note": "Markets are stressed but functioning, which prevents crisis-level scoring."
           },
           {
             "label": "Inflation and rates",
             "impact": "Moderate",
-            "note": "Energy shocks can still pass into inflation expectations and policy risk."
+            "note": "A renewed route shock could still affect inflation expectations and policy risk."
           }
         ]
       },
       {
         "title": "Health score logic",
-        "score": "65 / 100",
+        "score": "68 / 100",
         "items": [
           {
-            "label": "Ebola confirmed burden",
-            "impact": "Moderate-Strong",
-            "note": "DRC and Uganda remain serious regional health risks."
+            "label": "DRC Ebola case burden",
+            "impact": "Strong",
+            "note": "Confirmed cases and deaths have increased and contact tracing remains below target."
+          },
+          {
+            "label": "Uganda cross-border exposure",
+            "impact": "Moderate",
+            "note": "Uganda remains exposed through border movement and surveillance needs."
           },
           {
             "label": "No global spread signal",
             "impact": "Lowering factor",
-            "note": "No uncontrolled global transmission is confirmed."
+            "note": "The outbreak remains a serious regional emergency, not uncontrolled global spread."
           },
           {
             "label": "Response coordination",
             "impact": "Lowering factor",
-            "note": "International surveillance and response reduce uncertainty."
+            "note": "WHO and national response efforts reduce uncertainty but do not remove the risk."
           }
         ]
       },
@@ -199,7 +204,7 @@ window.dailyRiskPageData = {
           {
             "label": "Energy and food multiplier",
             "impact": "Moderate",
-            "note": "Heat and rainfall anomalies can amplify power demand, food prices and public-health pressure."
+            "note": "Heat and rainfall anomalies can amplify power demand, crop stress and food prices."
           }
         ]
       }
@@ -209,51 +214,50 @@ window.dailyRiskPageData = {
     {
       "title": "🌍 Global Conflict Risk",
       "subtitle": "Ukraine war, Gulf navigation risk, Red Sea threats and Taiwan maritime pressure",
-      "score": 73,
-      "changeText": "-20",
+      "score": 72,
+      "changeText": "-1",
       "changeClass": "pill-neutral",
       "direction": "Elevated / Fragile",
       "directionClass": "pill-warning",
-      "description": "Conflict risk is lowered from the previous extreme reading to a more conservative elevated level. Ukraine-Russia war activity, Gulf and Strait of Hormuz navigation pressure, Israel-Hezbollah-Lebanon fragility, Houthi Red Sea threats and Taiwan-China maritime friction remain real risks. However, older escalation headlines are discounted and the score is capped because there is no confirmed direct great-power war, no China-Taiwan armed conflict and no universal shutdown across all major maritime routes.",
+      "description": "Conflict risk remains elevated but is trimmed slightly to keep the index realistic. Ukraine-Russia war activity continues, Gulf and Strait of Hormuz traffic remains sensitive, Houthi threats keep the Red Sea route on watch, Israel-Hezbollah-Lebanon risk remains fragile, and Taiwan-China coast guard pressure has become more visible around commercial shipping. The score is not pushed into the 80s because there is no confirmed direct great-power war, no armed Taiwan-China clash, no full global route shutdown and no radiation release from recent Ukraine nuclear-related concerns.",
       "drivers": [
         "Ukraine-Russia active war",
         "Gulf and Hormuz navigation risk",
         "Red Sea shipping threats",
         "Israel-Hezbollah-Lebanon fragility",
-        "Taiwan-China maritime friction"
+        "Taiwan-China coast guard pressure"
       ],
       "sources": [
         "Reuters",
         "IAEA monitoring",
-        "ECDC / WHO",
-        "WMO",
-        "Maritime and market reporting"
+        "Maritime reporting",
+        "Regional security reporting"
       ],
       "trend": [
-        86,
         88,
         92,
         93,
         89,
         78,
-        73
+        73,
+        72
       ]
     },
     {
       "title": "📉 Global Economic Risk",
-      "subtitle": "Oil-route sensitivity, tanker insurance, inflation and demand softness",
-      "score": 71,
-      "changeText": "-18",
+      "subtitle": "Oil-route sensitivity, tanker insurance, LNG flows, inflation and market adaptation",
+      "score": 70,
+      "changeText": "-1",
       "changeClass": "pill-neutral",
       "direction": "Elevated",
       "directionClass": "pill-warning",
-      "description": "Economic risk is reduced because the index no longer treats every earlier oil spike or Hormuz headline as a fresh shock. Energy and shipping risks remain elevated: tanker uncertainty, Red Sea threats, crude inventories, LNG routing, freight costs and inflation expectations are still important. The score is kept near 70 rather than 85–90 because markets continue to function, some oil is still moving and softer demand signals reduce the case for extreme economic stress.",
+      "description": "Economic risk remains elevated but is reduced by one point because the model no longer treats every maritime headline as a new oil shock. Hormuz and Red Sea risks continue to affect crude, LNG, tanker insurance, freight and inflation expectations. However, loaded LNG cargoes are still exiting Hormuz, markets remain open, and adaptive routing reduces the case for an extreme economic reading. The economic layer should stay near 70 unless a fresh route closure, supply shock or disorderly price move is confirmed.",
       "drivers": [
         "Oil and LNG route sensitivity",
         "Hormuz and Red Sea shipping risk",
         "Marine insurance pressure",
         "Inflation and rate-expectation risk",
-        "Softer demand limiting upside pressure"
+        "Market adaptation and continued cargo movement"
       ],
       "sources": [
         "Reuters",
@@ -262,57 +266,57 @@ window.dailyRiskPageData = {
         "Central-bank and market reporting"
       ],
       "trend": [
-        84,
         88,
         89,
         89,
         85,
         76,
-        71
+        71,
+        70
       ]
     },
     {
       "title": "🏥 Global Health Risk",
-      "subtitle": "Bundibugyo Ebola in DRC and Uganda remains regional, not global",
-      "score": 65,
-      "changeText": "-13",
-      "changeClass": "pill-neutral",
+      "subtitle": "Bundibugyo Ebola in DRC and Uganda is the main upward risk today",
+      "score": 68,
+      "changeText": "+3",
+      "changeClass": "pill-warning",
       "direction": "Elevated / Regional",
       "directionClass": "pill-warning",
-      "description": "Health risk remains elevated but is moved down from the previous high reading. Bundibugyo Ebola in DRC and Uganda remains a serious regional emergency with confirmed cases, contact tracing, safe-burial needs and cross-border surveillance pressure. The score is not placed near pandemic level because no uncontrolled global spread is confirmed, no U.S. cases are confirmed and international response systems are active.",
+      "description": "Health risk rises because the Bundibugyo Ebola outbreak in DRC and Uganda has become more clearly serious at the regional level. Confirmed DRC cases and deaths have increased, contact tracing remains below target in several zones, and community resistance has complicated burial and treatment operations. Uganda still requires cross-border surveillance, but the score remains below pandemic-level risk because there is no confirmed uncontrolled global transmission.",
       "drivers": [
         "DRC confirmed Ebola burden",
+        "Contact tracing below target",
         "Uganda cross-border surveillance",
-        "Contact-tracing and testing pressure",
         "Health-worker protection and safe-burial needs",
         "No confirmed global spread"
       ],
       "sources": [
         "WHO",
+        "Reuters",
         "ECDC",
         "CDC",
-        "Africa CDC",
-        "National health authorities"
+        "Africa CDC"
       ],
       "trend": [
-        77,
         79,
         79,
         78,
         78,
         70,
-        65
+        65,
+        68
       ]
     },
     {
       "title": "🌡️ Climate Risk",
       "subtitle": "El Niño probability, heat stress and food-system pressure",
       "score": 68,
-      "changeText": "-9",
+      "changeText": "0",
       "changeClass": "pill-neutral",
       "direction": "Moderate-High Structural",
       "directionClass": "pill-warning",
-      "description": "Climate risk remains structurally important but is no longer scored as a fresh daily shock. WMO and NOAA-linked outlooks point to El Niño probability and above-normal temperature risk during the June-August window. This can raise electricity demand, water stress, crop risk and food-price sensitivity. The score stays below the high-70s because there is no new single global climate disaster event in this update.",
+      "description": "Climate risk holds at 68. WMO-linked outlooks point to developing El Niño conditions, above-normal temperature risk and rainfall anomalies over the June-August period. That can increase electricity demand, crop stress, drought, flood and food-price sensitivity. The score is not raised because this is a structural seasonal signal rather than a new single-day global disaster event.",
       "drivers": [
         "El Niño-linked seasonal risk",
         "Above-normal temperature outlook",
@@ -327,12 +331,12 @@ window.dailyRiskPageData = {
         "Climate monitoring"
       ],
       "trend": [
-        74,
         76,
         77,
         77,
         76,
         70,
+        68,
         68
       ]
     }
@@ -342,33 +346,33 @@ window.dailyRiskPageData = {
       "title": "🌍 Global Conflict Report",
       "tag": "Elevated Risk",
       "tagClass": "pill-warning",
-      "score": "73 / 100",
+      "score": "72 / 100",
       "direction": "Elevated / Fragile",
       "watch": "Ukraine-Russia air attacks, Gulf and Hormuz maritime traffic, Red Sea shipping threats, Israel-Hezbollah-Lebanon signals, Taiwan-China coast-guard activity",
-      "why": "Conflict risk remains the largest component of the Global Risk Index, but the score is recalibrated lower because the previous upper-80s reading was too dependent on repeated escalation headlines. Ukraine, the Gulf, Red Sea shipping, Israel-Hezbollah-Lebanon and Taiwan-China maritime friction all matter, but none currently confirms a direct great-power war or a total global route shutdown.",
-      "moved": "The score falls from 93 to 73. This is a scale correction: active risks stay in the model, while older shock effects are removed unless new escalation is confirmed. The result is still elevated, not calm.",
-      "matters": "Conflict risk matters because military and maritime pressure can quickly affect oil, freight, insurance, sanctions, humanitarian needs and investor sentiment. A lower score makes the page more credible by separating live risk from repeated headlines."
+      "why": "Conflict remains the largest risk component, but the score is deliberately held in the low-70s. Ukraine, Gulf navigation, Red Sea threats, Israel-Hezbollah-Lebanon fragility and Taiwan-China maritime friction all matter, but none currently confirms a direct great-power war or a total global route shutdown.",
+      "moved": "The score falls from 73 to 72. This reflects stricter old-news discounting and avoids repeatedly adding points for the same conflict headlines without fresh escalation.",
+      "matters": "Conflict risk matters because military and maritime pressure can quickly affect oil, freight, insurance, sanctions, humanitarian needs and investor sentiment. The lower score makes the report more credible by separating live risk from repeated headlines."
     },
     {
       "title": "📉 Global Economic Report",
       "tag": "Elevated Risk",
       "tagClass": "pill-warning",
-      "score": "71 / 100",
+      "score": "70 / 100",
       "direction": "Elevated",
-      "watch": "Brent and WTI oil, Hormuz traffic, Red Sea routing, tanker insurance, crude inventories, LNG flows, inflation expectations and global equity risk appetite",
-      "why": "Economic risk remains elevated because energy-route uncertainty can still pass into oil, LNG, freight, insurance, food logistics and inflation expectations. However, the model reduces the score because markets are functioning and weaker demand signals lower the probability of an immediate extreme price shock.",
-      "moved": "The score falls from 89 to 71. Old oil-spike pressure is not repeated as fresh daily risk. Current route pressure stays in the model, but the absence of a confirmed systemic market break pulls the category down.",
+      "watch": "Brent and WTI oil, Hormuz traffic, Red Sea routing, tanker insurance, LNG flows, crude inventories, inflation expectations and global risk appetite",
+      "why": "Economic risk remains elevated because energy-route uncertainty can still pass into oil, LNG, freight, insurance, food logistics and inflation expectations. The score is reduced because LNG cargoes are still moving through Hormuz, markets are functioning and the evidence does not show a fresh systemic market break.",
+      "moved": "The score falls from 71 to 70. Old oil-spike pressure is not repeated as fresh daily risk. Current route sensitivity remains in the model, but the absence of a confirmed systemic market shock keeps the reading realistic.",
       "matters": "Economic risk matters because external shocks become household and business costs through fuel, electricity, transport, food prices, currency moves and borrowing conditions."
     },
     {
       "title": "🏥 Global Health Report",
       "tag": "Elevated Regional Risk",
       "tagClass": "pill-warning",
-      "score": "65 / 100",
+      "score": "68 / 100",
       "direction": "Elevated / Regional",
       "watch": "DRC confirmed Ebola cases, Uganda surveillance, contact tracing, testing capacity, safe burials, response funding and cross-border screening",
-      "why": "Health risk remains important because Bundibugyo Ebola continues in DRC and Uganda. The outbreak is serious at the regional level, but the score is lowered because the evidence does not show uncontrolled global spread and response coordination is active.",
-      "moved": "The score falls from 78 to 65. This removes excess global-risk weight while keeping the outbreak visible as a meaningful health pressure point.",
+      "why": "Health risk rises because DRC Ebola case counts and deaths increased and contact tracing remains below target. The outbreak is serious at the regional level, and Uganda remains exposed through border movement and surveillance needs.",
+      "moved": "The score rises from 65 to 68. This is the main upward change in the update. The increase is capped because the evidence still points to regional outbreak pressure rather than uncontrolled global spread.",
       "matters": "Health risk matters because surveillance, trust, contact tracing, safe burials and health-worker protection determine whether a regional outbreak remains contained."
     },
     {
@@ -378,8 +382,8 @@ window.dailyRiskPageData = {
       "score": "68 / 100",
       "direction": "Structural / Watch",
       "watch": "El Niño development, June-August heat outlook, drought-sensitive regions, flood risk, crop stress, water demand, electricity demand and food-price pressure",
-      "why": "Climate risk is structural rather than event-driven today. Seasonal forecasts keep heat, rainfall anomalies, drought and flood risk in focus, but there is no new single global climate disaster headline forcing a high-70s score.",
-      "moved": "The score falls from 77 to 68. The model still recognizes the climate multiplier, but discounts the idea that the same seasonal outlook should keep adding daily points.",
+      "why": "Climate risk is structural rather than event-driven today. Seasonal forecasts keep heat, rainfall anomalies, drought and flood risk in focus, but there is no new single global climate disaster headline forcing a higher score.",
+      "moved": "The score holds at 68. The model recognizes the climate multiplier but does not let the same seasonal outlook add points every day without a fresh event.",
       "matters": "Climate risk matters because it lowers resilience when conflict, energy and health risks are already active."
     }
   ],
@@ -387,12 +391,12 @@ window.dailyRiskPageData = {
     {
       "country": "Ukraine",
       "region": "Eastern Europe",
-      "score": 80,
-      "changeText": "-11",
+      "score": 79,
+      "changeText": "-1",
       "changeClass": "pill-neutral",
       "direction": "Very High",
       "directionClass": "pill-danger",
-      "summary": "Ukraine remains one of the highest-risk countries because the active war, drone and missile attacks and infrastructure targeting continue. The score is lowered from extreme levels because the latest nuclear-safety-adjacent concern did not produce a confirmed radiation release or wider NATO-Russia escalation.",
+      "summary": "Ukraine remains one of the highest-risk countries because the active war, drone and missile attacks and infrastructure targeting continue. The score is trimmed because the latest nuclear-safety-adjacent concern did not produce a radiation release or wider NATO-Russia escalation.",
       "drivers": [
         "Active war conditions",
         "Drone and missile warfare",
@@ -406,20 +410,20 @@ window.dailyRiskPageData = {
         "Frontline dynamics"
       ],
       "trend": [
-        89,
         90,
         91,
         91,
         89,
         84,
-        80
+        80,
+        79
       ]
     },
     {
       "country": "Israel",
       "region": "Middle East",
-      "score": 69,
-      "changeText": "-19",
+      "score": 68,
+      "changeText": "-1",
       "changeClass": "pill-neutral",
       "direction": "Elevated",
       "directionClass": "pill-warning",
@@ -437,24 +441,24 @@ window.dailyRiskPageData = {
         "U.S.-Iran diplomacy"
       ],
       "trend": [
-        83,
         85,
         88,
         88,
         82,
         74,
-        69
+        69,
+        68
       ]
     },
     {
       "country": "Iran",
       "region": "Middle East",
-      "score": 76,
-      "changeText": "-19",
+      "score": 75,
+      "changeText": "-1",
       "changeClass": "pill-neutral",
       "direction": "High / Systemic",
       "directionClass": "pill-warning",
-      "summary": "Iran remains a major systemic risk node through Hormuz, sanctions, oil exports and proxy-linked regional dynamics. The score is lowered because the index no longer treats every earlier Gulf headline as a fresh escalation event.",
+      "summary": "Iran remains a major systemic risk node through Hormuz, sanctions, oil exports and proxy-linked regional dynamics. The score is trimmed because several LNG cargoes are still moving and repeated Gulf headlines are not treated as fresh escalation every day.",
       "drivers": [
         "Hormuz leverage",
         "Sanctions pressure",
@@ -468,24 +472,24 @@ window.dailyRiskPageData = {
         "Shipping insurance"
       ],
       "trend": [
-        89,
         94,
         95,
         95,
         88,
         80,
-        76
+        76,
+        75
       ]
     },
     {
       "country": "Russia",
       "region": "Eastern Europe / Eurasia",
       "score": 70,
-      "changeText": "-9",
+      "changeText": "0",
       "changeClass": "pill-neutral",
       "direction": "Elevated / High",
       "directionClass": "pill-warning",
-      "summary": "Russia remains elevated because war operations, sanctions pressure and energy-export exposure continue, but the country score is reduced because no broader direct Russia-NATO escalation is confirmed today.",
+      "summary": "Russia remains elevated because war operations, sanctions pressure and energy-export exposure continue, but the country score is held rather than raised because no broader direct Russia-NATO escalation is confirmed today.",
       "drivers": [
         "War tempo",
         "Sanctions pressure",
@@ -499,27 +503,27 @@ window.dailyRiskPageData = {
         "Fiscal resilience"
       ],
       "trend": [
-        76,
         77,
         78,
         79,
         78,
         72,
+        70,
         70
       ]
     },
     {
       "country": "Democratic Republic of the Congo",
       "region": "Central Africa",
-      "score": 72,
-      "changeText": "-17",
-      "changeClass": "pill-neutral",
+      "score": 76,
+      "changeText": "+4",
+      "changeClass": "pill-warning",
       "direction": "High Health Risk",
       "directionClass": "pill-warning",
-      "summary": "DRC remains the main health-risk country due to Bundibugyo Ebola, but the score is reduced from extreme because the risk is severe and regional rather than confirmed global spread.",
+      "summary": "DRC rises because the Bundibugyo Ebola outbreak has grown, confirmed deaths have passed a serious threshold and contact tracing remains below target in several areas. The score remains below extreme because the risk is still regional rather than global spread.",
       "drivers": [
         "Bundibugyo Ebola outbreak",
-        "Confirmed case burden",
+        "Confirmed case and death burden",
         "Contact-tracing gaps",
         "Community trust challenges"
       ],
@@ -530,24 +534,24 @@ window.dailyRiskPageData = {
         "Response funding"
       ],
       "trend": [
-        88,
         90,
         89,
         89,
         84,
         76,
-        72
+        72,
+        76
       ]
     },
     {
       "country": "Uganda",
       "region": "East Africa",
-      "score": 58,
-      "changeText": "-14",
-      "changeClass": "pill-neutral",
+      "score": 59,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
       "direction": "Moderate / Elevated",
       "directionClass": "pill-warning",
-      "summary": "Uganda remains elevated because of Ebola surveillance and cross-border exposure, but the score is lowered because broad uncontrolled domestic spread is not confirmed.",
+      "summary": "Uganda remains elevated because of Ebola surveillance and cross-border exposure. The score rises slightly because border policy and imported-case risk remain active, while broad uncontrolled domestic spread is not confirmed.",
       "drivers": [
         "Cross-border Ebola exposure",
         "Confirmed cases",
@@ -561,24 +565,24 @@ window.dailyRiskPageData = {
         "DRC border movement"
       ],
       "trend": [
-        72,
         73,
         72,
         72,
         68,
         62,
-        58
+        58,
+        59
       ]
     },
     {
       "country": "Türkiye",
       "region": "Eastern Mediterranean",
-      "score": 52,
-      "changeText": "-13",
+      "score": 51,
+      "changeText": "-1",
       "changeClass": "pill-neutral",
       "direction": "Moderate",
       "directionClass": "pill-neutral",
-      "summary": "Türkiye remains moderately exposed through imported energy costs, inflation sensitivity, Black Sea logistics and Middle East corridor risk, but the score is lowered to avoid overstating external spillover.",
+      "summary": "Türkiye remains moderately exposed through imported energy costs, inflation sensitivity, Black Sea logistics and Middle East corridor risk, but the score is lowered because the current evidence is external exposure rather than a Türkiye-specific crisis.",
       "drivers": [
         "Imported energy dependency",
         "Inflation pass-through",
@@ -592,20 +596,20 @@ window.dailyRiskPageData = {
         "Middle East diplomacy"
       ],
       "trend": [
-        62,
         64,
         65,
         65,
         60,
         55,
-        52
+        52,
+        51
       ]
     },
     {
       "country": "United States",
       "region": "North America",
-      "score": 50,
-      "changeText": "-17",
+      "score": 49,
+      "changeText": "-1",
       "changeClass": "pill-neutral",
       "direction": "Moderate",
       "directionClass": "pill-neutral",
@@ -623,24 +627,24 @@ window.dailyRiskPageData = {
         "Military posture"
       ],
       "trend": [
-        61,
         66,
         67,
         67,
         60,
         54,
-        50
+        50,
+        49
       ]
     },
     {
       "country": "China",
       "region": "East Asia",
-      "score": 50,
-      "changeText": "-13",
-      "changeClass": "pill-neutral",
+      "score": 52,
+      "changeText": "+2",
+      "changeClass": "pill-warning",
       "direction": "Moderate",
       "directionClass": "pill-neutral",
-      "summary": "China remains on watch because of Taiwan maritime friction and Gulf energy exposure, but the score is lowered because the current signal is maritime pressure rather than a confirmed armed crisis.",
+      "summary": "China rises because coast guard activity around Taiwan-linked commercial shipping is a current maritime pressure point. The score stays moderate because no boarding, blockade or armed conflict is confirmed.",
       "drivers": [
         "Taiwan maritime friction",
         "Gulf energy reliance",
@@ -654,20 +658,20 @@ window.dailyRiskPageData = {
         "Import cost trends"
       ],
       "trend": [
-        60,
         62,
         63,
         63,
         58,
         53,
-        50
+        50,
+        52
       ]
     },
     {
       "country": "India",
       "region": "South Asia",
-      "score": 51,
-      "changeText": "-13",
+      "score": 50,
+      "changeText": "-1",
       "changeClass": "pill-neutral",
       "direction": "Moderate",
       "directionClass": "pill-neutral",
@@ -685,24 +689,24 @@ window.dailyRiskPageData = {
         "Currency stability"
       ],
       "trend": [
-        61,
         63,
         64,
         64,
         58,
         54,
-        51
+        51,
+        50
       ]
     },
     {
       "country": "Germany",
       "region": "Western Europe",
       "score": 39,
-      "changeText": "-12",
+      "changeText": "0",
       "changeClass": "pill-neutral",
       "direction": "Low-Moderate",
       "directionClass": "pill-neutral",
-      "summary": "Germany remains structurally stable with external energy and industrial sensitivity, but the score is reduced because the country is not facing a direct crisis signal today.",
+      "summary": "Germany remains structurally stable with external energy and industrial sensitivity, and the score is held because the country is not facing a direct crisis signal today.",
       "drivers": [
         "Industrial energy sensitivity",
         "ECB policy sensitivity",
@@ -716,24 +720,24 @@ window.dailyRiskPageData = {
         "Export demand"
       ],
       "trend": [
-        48,
         50,
         51,
         51,
         46,
         42,
+        39,
         39
       ]
     },
     {
       "country": "Japan",
       "region": "East Asia",
-      "score": 40,
-      "changeText": "-13",
-      "changeClass": "pill-neutral",
+      "score": 41,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
       "direction": "Low-Moderate",
       "directionClass": "pill-neutral",
-      "summary": "Japan remains stable but exposed to imported energy costs and regional sea-lane risk. The score is lowered because the risk is external-route sensitivity, not a domestic crisis.",
+      "summary": "Japan remains stable but exposed to imported energy costs and regional sea-lane risk. The score rises slightly because Taiwan-China maritime pressure and Hormuz route sensitivity matter for Japan’s external exposure.",
       "drivers": [
         "Maritime supply-chain exposure",
         "Energy import dependency",
@@ -747,13 +751,13 @@ window.dailyRiskPageData = {
         "Asian demand"
       ],
       "trend": [
-        49,
         52,
         53,
         53,
         48,
         44,
-        40
+        40,
+        41
       ]
     }
   ],
@@ -762,34 +766,34 @@ window.dailyRiskPageData = {
       "title": "Ukraine Country Report",
       "tag": "High Risk",
       "tagClass": "pill-danger",
-      "score": "80 / 100",
+      "score": "79 / 100",
       "direction": "Very High",
       "watch": "Air defense capacity, Energy grid resilience, Radiation monitoring, Frontline dynamics",
-      "why": "Ukraine remains one of the highest-risk countries because the active war, drone and missile attacks and infrastructure targeting continue. The score is lowered from extreme levels because the latest nuclear-safety-adjacent concern did not produce a confirmed radiation release or wider NATO-Russia escalation.",
-      "moved": "The score moves to 80 as part of the conservative recalibration. Current drivers remain visible, but stale headline pressure is removed unless fresh escalation confirms it.",
-      "matters": "Ukraine matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score is designed to show exposure without inflating the global index."
+      "why": "Ukraine remains one of the highest-risk countries because the active war, drone and missile attacks and infrastructure targeting continue. The score is trimmed because the latest nuclear-safety-adjacent concern did not produce a radiation release or wider NATO-Russia escalation.",
+      "moved": "The score moves to 79 as part of the June 9 realistic recalibration. Current drivers remain visible, but repeated headline pressure is removed unless fresh escalation confirms it.",
+      "matters": "Ukraine matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score shows exposure without inflating the global index."
     },
     {
       "title": "Israel Country Report",
       "tag": "Elevated Risk",
       "tagClass": "pill-warning",
-      "score": "69 / 100",
+      "score": "68 / 100",
       "direction": "Elevated",
       "watch": "Lebanon border signals, Regional retaliation signs, Ceasefire durability, U.S.-Iran diplomacy",
       "why": "Israel remains exposed to Lebanon, Hezbollah and Iran-linked regional risk, but the score is lowered because recent escalation is treated as fragile background pressure rather than a confirmed wider regional war.",
-      "moved": "The score moves to 69 as part of the conservative recalibration. Current drivers remain visible, but stale headline pressure is removed unless fresh escalation confirms it.",
-      "matters": "Israel matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score is designed to show exposure without inflating the global index."
+      "moved": "The score moves to 68 as part of the June 9 realistic recalibration. Current drivers remain visible, but repeated headline pressure is removed unless fresh escalation confirms it.",
+      "matters": "Israel matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score shows exposure without inflating the global index."
     },
     {
       "title": "Iran Country Report",
       "tag": "High Risk",
       "tagClass": "pill-warning",
-      "score": "76 / 100",
+      "score": "75 / 100",
       "direction": "High / Systemic",
       "watch": "Hormuz tanker flows, Retaliation cycle, U.S.-Iran talks, Shipping insurance",
-      "why": "Iran remains a major systemic risk node through Hormuz, sanctions, oil exports and proxy-linked regional dynamics. The score is lowered because the index no longer treats every earlier Gulf headline as a fresh escalation event.",
-      "moved": "The score moves to 76 as part of the conservative recalibration. Current drivers remain visible, but stale headline pressure is removed unless fresh escalation confirms it.",
-      "matters": "Iran matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score is designed to show exposure without inflating the global index."
+      "why": "Iran remains a major systemic risk node through Hormuz, sanctions, oil exports and proxy-linked regional dynamics. The score is trimmed because several LNG cargoes are still moving and repeated Gulf headlines are not treated as fresh escalation every day.",
+      "moved": "The score moves to 75 as part of the June 9 realistic recalibration. Current drivers remain visible, but repeated headline pressure is removed unless fresh escalation confirms it.",
+      "matters": "Iran matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score shows exposure without inflating the global index."
     },
     {
       "title": "Russia Country Report",
@@ -798,97 +802,97 @@ window.dailyRiskPageData = {
       "score": "70 / 100",
       "direction": "Elevated / High",
       "watch": "Russian air attacks, Ukrainian long-range strikes, Energy export flows, Fiscal resilience",
-      "why": "Russia remains elevated because war operations, sanctions pressure and energy-export exposure continue, but the country score is reduced because no broader direct Russia-NATO escalation is confirmed today.",
-      "moved": "The score moves to 70 as part of the conservative recalibration. Current drivers remain visible, but stale headline pressure is removed unless fresh escalation confirms it.",
-      "matters": "Russia matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score is designed to show exposure without inflating the global index."
+      "why": "Russia remains elevated because war operations, sanctions pressure and energy-export exposure continue, but the country score is held rather than raised because no broader direct Russia-NATO escalation is confirmed today.",
+      "moved": "The score moves to 70 as part of the June 9 realistic recalibration. Current drivers remain visible, but repeated headline pressure is removed unless fresh escalation confirms it.",
+      "matters": "Russia matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score shows exposure without inflating the global index."
     },
     {
       "title": "Democratic Republic of the Congo Country Report",
-      "tag": "High Risk",
+      "tag": "High Health Risk",
       "tagClass": "pill-warning",
-      "score": "72 / 100",
+      "score": "76 / 100",
       "direction": "High Health Risk",
       "watch": "Confirmed case trend, Contact tracing coverage, Health-worker infections, Response funding",
-      "why": "DRC remains the main health-risk country due to Bundibugyo Ebola, but the score is reduced from extreme because the risk is severe and regional rather than confirmed global spread.",
-      "moved": "The score moves to 72 as part of the conservative recalibration. Current drivers remain visible, but stale headline pressure is removed unless fresh escalation confirms it.",
-      "matters": "Democratic Republic of the Congo matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score is designed to show exposure without inflating the global index."
+      "why": "DRC rises because the Bundibugyo Ebola outbreak has grown, confirmed deaths have passed a serious threshold and contact tracing remains below target in several areas. The score remains below extreme because the risk is still regional rather than global spread.",
+      "moved": "The score moves to 76 as part of the June 9 realistic recalibration. Current drivers remain visible, but repeated headline pressure is removed unless fresh escalation confirms it.",
+      "matters": "Democratic Republic of the Congo matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score shows exposure without inflating the global index."
     },
     {
       "title": "Uganda Country Report",
       "tag": "Elevated Risk",
       "tagClass": "pill-warning",
-      "score": "58 / 100",
+      "score": "59 / 100",
       "direction": "Moderate / Elevated",
       "watch": "New confirmed cases, Contact tracing results, Kampala surveillance, DRC border movement",
-      "why": "Uganda remains elevated because of Ebola surveillance and cross-border exposure, but the score is lowered because broad uncontrolled domestic spread is not confirmed.",
-      "moved": "The score moves to 58 as part of the conservative recalibration. Current drivers remain visible, but stale headline pressure is removed unless fresh escalation confirms it.",
-      "matters": "Uganda matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score is designed to show exposure without inflating the global index."
+      "why": "Uganda remains elevated because of Ebola surveillance and cross-border exposure. The score rises slightly because border policy and imported-case risk remain active, while broad uncontrolled domestic spread is not confirmed.",
+      "moved": "The score moves to 59 as part of the June 9 realistic recalibration. Current drivers remain visible, but repeated headline pressure is removed unless fresh escalation confirms it.",
+      "matters": "Uganda matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score shows exposure without inflating the global index."
     },
     {
       "title": "Türkiye Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "52 / 100",
+      "score": "51 / 100",
       "direction": "Moderate",
       "watch": "Fuel price trends, Inflation expectations, Black Sea shipping, Middle East diplomacy",
-      "why": "Türkiye remains moderately exposed through imported energy costs, inflation sensitivity, Black Sea logistics and Middle East corridor risk, but the score is lowered to avoid overstating external spillover.",
-      "moved": "The score moves to 52 as part of the conservative recalibration. Current drivers remain visible, but stale headline pressure is removed unless fresh escalation confirms it.",
-      "matters": "Türkiye matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score is designed to show exposure without inflating the global index."
+      "why": "Türkiye remains moderately exposed through imported energy costs, inflation sensitivity, Black Sea logistics and Middle East corridor risk, but the score is lowered because the current evidence is external exposure rather than a Türkiye-specific crisis.",
+      "moved": "The score moves to 51 as part of the June 9 realistic recalibration. Current drivers remain visible, but repeated headline pressure is removed unless fresh escalation confirms it.",
+      "matters": "Türkiye matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score shows exposure without inflating the global index."
     },
     {
       "title": "United States Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "50 / 100",
+      "score": "49 / 100",
       "direction": "Moderate",
       "watch": "U.S.-Iran signals, Oil price volatility, Fed expectations, Military posture",
       "why": "The United States remains relevant through Iran policy, defense posture, oil markets and rate expectations, but the domestic country score is lowered because no broad domestic crisis signal is added today.",
-      "moved": "The score moves to 50 as part of the conservative recalibration. Current drivers remain visible, but stale headline pressure is removed unless fresh escalation confirms it.",
-      "matters": "United States matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score is designed to show exposure without inflating the global index."
+      "moved": "The score moves to 49 as part of the June 9 realistic recalibration. Current drivers remain visible, but repeated headline pressure is removed unless fresh escalation confirms it.",
+      "matters": "United States matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score shows exposure without inflating the global index."
     },
     {
       "title": "China Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "50 / 100",
+      "score": "52 / 100",
       "direction": "Moderate",
       "watch": "Taiwan restricted waters, Pratas activity, Crude arrivals, Import cost trends",
-      "why": "China remains on watch because of Taiwan maritime friction and Gulf energy exposure, but the score is lowered because the current signal is maritime pressure rather than a confirmed armed crisis.",
-      "moved": "The score moves to 50 as part of the conservative recalibration. Current drivers remain visible, but stale headline pressure is removed unless fresh escalation confirms it.",
-      "matters": "China matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score is designed to show exposure without inflating the global index."
+      "why": "China rises because coast guard activity around Taiwan-linked commercial shipping is a current maritime pressure point. The score stays moderate because no boarding, blockade or armed conflict is confirmed.",
+      "moved": "The score moves to 52 as part of the June 9 realistic recalibration. Current drivers remain visible, but repeated headline pressure is removed unless fresh escalation confirms it.",
+      "matters": "China matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score shows exposure without inflating the global index."
     },
     {
       "title": "India Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "51 / 100",
+      "score": "50 / 100",
       "direction": "Moderate",
       "watch": "Brent oil correlation, Gulf crude arrivals, Fuel pass-through, Currency stability",
       "why": "India remains sensitive to oil imports and Gulf shipping risk, but the score is lowered because this is an external exposure channel rather than a domestic crisis.",
-      "moved": "The score moves to 51 as part of the conservative recalibration. Current drivers remain visible, but stale headline pressure is removed unless fresh escalation confirms it.",
-      "matters": "India matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score is designed to show exposure without inflating the global index."
+      "moved": "The score moves to 50 as part of the June 9 realistic recalibration. Current drivers remain visible, but repeated headline pressure is removed unless fresh escalation confirms it.",
+      "matters": "India matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score shows exposure without inflating the global index."
     },
     {
       "title": "Germany Country Report",
-      "tag": "Moderate Risk",
+      "tag": "Low-Moderate Risk",
       "tagClass": "pill-neutral",
       "score": "39 / 100",
       "direction": "Low-Moderate",
       "watch": "Industrial output, Energy pricing, ECB policy, Export demand",
-      "why": "Germany remains structurally stable with external energy and industrial sensitivity, but the score is reduced because the country is not facing a direct crisis signal today.",
-      "moved": "The score moves to 39 as part of the conservative recalibration. Current drivers remain visible, but stale headline pressure is removed unless fresh escalation confirms it.",
-      "matters": "Germany matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score is designed to show exposure without inflating the global index."
+      "why": "Germany remains structurally stable with external energy and industrial sensitivity, and the score is held because the country is not facing a direct crisis signal today.",
+      "moved": "The score moves to 39 as part of the June 9 realistic recalibration. Current drivers remain visible, but repeated headline pressure is removed unless fresh escalation confirms it.",
+      "matters": "Germany matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score shows exposure without inflating the global index."
     },
     {
       "title": "Japan Country Report",
-      "tag": "Moderate Risk",
+      "tag": "Low-Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "40 / 100",
+      "score": "41 / 100",
       "direction": "Low-Moderate",
       "watch": "Shipping security, Energy import costs, Taiwan Strait signals, Asian demand",
-      "why": "Japan remains stable but exposed to imported energy costs and regional sea-lane risk. The score is lowered because the risk is external-route sensitivity, not a domestic crisis.",
-      "moved": "The score moves to 40 as part of the conservative recalibration. Current drivers remain visible, but stale headline pressure is removed unless fresh escalation confirms it.",
-      "matters": "Japan matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score is designed to show exposure without inflating the global index."
+      "why": "Japan remains stable but exposed to imported energy costs and regional sea-lane risk. The score rises slightly because Taiwan-China maritime pressure and Hormuz route sensitivity matter for Japan’s external exposure.",
+      "moved": "The score moves to 41 as part of the June 9 realistic recalibration. Current drivers remain visible, but repeated headline pressure is removed unless fresh escalation confirms it.",
+      "matters": "Japan matters because its risk channel can transmit through regional security, trade, energy, health or market sentiment depending on the country layer. The revised score shows exposure without inflating the global index."
     }
   ]
 };

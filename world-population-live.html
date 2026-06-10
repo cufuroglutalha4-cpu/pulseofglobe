@@ -852,7 +852,7 @@
     function formatNumber(value) {
       return Math.floor(Math.max(0, value))
         .toString()
-        .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        .replace(/\B(?=(\d{3})+(?!\d))/g, ".");
     }
 
     function secondsInUtcYear(year) {

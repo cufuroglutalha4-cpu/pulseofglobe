@@ -20,7 +20,7 @@
     rel="stylesheet"
   />
 
-  <meta name="description" content="See what happens every second on Earth: births, deaths, net population growth and live world statistics explained with UTC-based estimates." />
+  <meta name="description" content="See what happens every second in the world: live-style births, deaths, net population growth and real-time world statistics with UTC-based estimates." />
   <meta name="robots" content="index, follow, max-image-preview:large" />
 
   <meta property="og:title" content="What Happens Every Second in the World? Live Global Counter" />
@@ -38,22 +38,110 @@
   <link rel="canonical" href="https://pulseofglobe.com/what-happens-every-second.html" />
 
   <script type="application/ld+json">
-  {
+{
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "What Happens Every Second in the World?",
-    "url": "https://pulseofglobe.com/what-happens-every-second.html",
-    "description": "A live-style global counter explaining births, deaths, net population growth and real-time world statistics using UTC-based estimates.",
-    "isPartOf": {
-      "@type": "WebSite",
-      "name": "Pulse Of Globe",
-      "url": "https://pulseofglobe.com/"
-    },
-    "about": [
-      "Live world statistics",
-      "World population",
-      "Births and deaths",
-      "Global counters"
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://pulseofglobe.com/#organization",
+        "name": "Pulse Of Globe",
+        "url": "https://pulseofglobe.com/",
+        "logo": "https://pulseofglobe.com/images/favicon-48x48.png"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://pulseofglobe.com/#website",
+        "name": "Pulse Of Globe",
+        "url": "https://pulseofglobe.com/",
+        "publisher": {
+          "@id": "https://pulseofglobe.com/#organization"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://pulseofglobe.com/what-happens-every-second.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://pulseofglobe.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "What Happens Every Second",
+            "item": "https://pulseofglobe.com/what-happens-every-second.html"
+          }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://pulseofglobe.com/what-happens-every-second.html#webpage",
+        "name": "What Happens Every Second in the World?",
+        "headline": "What Happens Every Second in the World? Live Global Counter",
+        "url": "https://pulseofglobe.com/what-happens-every-second.html",
+        "description": "A live-style global counter explaining births, deaths, net population growth and real-time world statistics using UTC-based estimates.",
+        "isPartOf": {
+          "@id": "https://pulseofglobe.com/#website"
+        },
+        "publisher": {
+          "@id": "https://pulseofglobe.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://pulseofglobe.com/what-happens-every-second.html#breadcrumb"
+        },
+        "dateModified": "2026-06-10T00:00:00Z",
+        "about": [
+          "what happens every second",
+          "live world statistics",
+          "world population live",
+          "births per second",
+          "deaths per second",
+          "global counters"
+        ],
+        "mainEntity": {
+          "@id": "https://pulseofglobe.com/what-happens-every-second.html#faq"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://pulseofglobe.com/what-happens-every-second.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Are these exact real-time numbers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. They are live-style estimates based on annual baseline data. They are designed to show scale and pace, not to replace official statistical releases."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why use UTC time?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "UTC creates one shared global clock. That makes today, this month and this year easier to calculate consistently for visitors from different countries."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why do the counters move every second?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The page converts annual estimates into per-second rates, then multiplies those rates by elapsed UTC time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where can I check the sources?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The methodology is summarized on the data sources page, with references to public statistical and international data providers."
+            }
+          }
+        ]
+      }
     ]
   }
   </script>
@@ -746,11 +834,11 @@
           </div>
 
           <div class="info-widget">
-            <div class="info-widget-label">Page Focus</div>
-            <p>This page is designed for quick search intent: users want to know what happens every second in the world, not read a long statistical report first.</p>
-            <p>The counters use annual baseline estimates and convert them into second-by-second values for a clearer view of global change.</p>
+            <div class="info-widget-label">Quick Answer</div>
+            <p>On average, about 4.31 babies are born and 2.12 people die every second worldwide, based on annual baseline estimates converted into UTC time.</p>
+            <p>That means the global population increases by roughly 2.19 people every second. These are live-style estimates, not official second-by-second registrations.</p>
             <div class="risk-widget-actions">
-              <a href="/" class="risk-link">Open Homepage</a>
+              <a href="/world-population-live.html" class="risk-link">Population Live</a>
               <a href="/real-time-world-stats.html" class="risk-link">Open World Stats</a>
             </div>
           </div>
@@ -860,9 +948,9 @@
             <h3>Population Growth Today</h3>
             <p>See how much the global population has changed since the start of the UTC day.</p>
           </a>
-          <a class="related-card" href="/global-risk.html">
-            <h3>Global Risk Index Today</h3>
-            <p>Follow daily conflict, economic, health and climate risk signals.</p>
+          <a class="related-card" href="/births-today-live.html">
+            <h3>Births Today Live</h3>
+            <p>See the estimated number of babies born today with a UTC-based live counter.</p>
           </a>
         </div>
       </div>

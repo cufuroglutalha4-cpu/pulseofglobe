@@ -1,58 +1,58 @@
 window.dailyRiskPageData = {
-  "reportDate": "June 20, 2026",
+  "reportDate": "June 21, 2026",
   "updateTimeUtc": "Daily UTC update",
-  "overallScore": 71,
-  "previousOverallScore": 70,
-  "overallLabel": "Elevated / Fragile Watch",
-  "overallTrend": "+1 vs previous update · Ebola acceleration and Lebanon-Israel violence outweigh market relief",
+  "overallScore": 72,
+  "previousOverallScore": 71,
+  "overallLabel": "Elevated / Fragile Escalation Watch",
+  "overallTrend": "+1 vs previous update · Hormuz uncertainty, Ebola growth and Ukraine long-range strikes outweigh diplomacy",
   "confidence": "Medium-High",
-  "heroSummary": "Global Risk Index Today rises to 71/100 for June 20, 2026 UTC. This is not a panic reading, but the risk floor has clearly moved higher. The most serious new pressure is health: Reuters reports that Congo has confirmed 933 Ebola cases and 245 deaths, while officials say 80 people have recovered. That keeps the outbreak severe and regionally fragile. Conflict risk also rises because Israeli strikes in Lebanon killed at least 16 people shortly after a ceasefire, complicating the wider U.S.-Iran implementation track. At the same time, Switzerland says confidential U.S.-Iran talks continue, and Hormuz-related oil panic remains lower than the peak shock. Economic risk therefore stays below crisis levels, but not low: oil volatility, shipping confidence and dollar-rate pressure still matter. The professional reading is simple: markets are calmer, but health and regional conflict risks are stronger.",
-  "overallExplainer": "The composite score moves from 70 to 71 because the strongest new information is negative, while the positive market signals are already partly priced in. Economic risk is contained by the reopening of Hormuz, tanker movement and the fact that oil remains below the peak panic zone. However, the U.S.-Iran diplomatic track is still fragile: Reuters reports continued confidential talks in Switzerland, while renewed violence in Lebanon makes the regional ceasefire environment unstable. Health risk rises again after the DRC Ebola count increased to 933 confirmed cases and 245 deaths. Conflict risk remains elevated because the Zaporizhzhia nuclear-plant drone incident and Moscow refinery attacks still matter, and fresh Lebanon strikes show that regional actors not fully bound by the U.S.-Iran track can still destabilize the picture. Climate risk holds because WMO's El Niño outlook remains a high-probability seasonal multiplier. The result is a credible SEO-ready report: oil panic is lower, but global risk is not easing cleanly.",
+  "heroSummary": "Global Risk Index Today rises to 72/100 for June 21, 2026 UTC. The score is higher, but still not panic-level. The main reason is that several risk drivers moved in the same direction: Ebola in the Democratic Republic of Congo rose again to 956 confirmed cases and 247 deaths; U.S.-Iran diplomacy continued in Switzerland but was overshadowed by new uncertainty around the Strait of Hormuz and public threats; Hezbollah warned it would respond to Israeli violations after the Lebanon ceasefire; and Ukraine expanded the energy-war layer with long-range drone strikes reaching Russia’s Tyumen oil refinery and the Kerch oil terminal. Energy-market panic is still lower than the peak shock, which prevents a larger jump. But the global risk floor is now higher than yesterday because health, conflict and route-security risks are no longer easing cleanly.",
+  "overallExplainer": "The composite score moves from 71 to 72 because the most important fresh signals are negative, while stabilizing signals are fragile. U.S.-Iran talks in Switzerland are a stabilizer, but reports of renewed Hormuz closure claims and disrupted airspace around the negotiations show that implementation risk remains high. Conflict risk rises because the Lebanon ceasefire remains fragile and Hezbollah says it would respond to any Israeli violation, while Ukraine’s long-range strikes on Russian oil infrastructure show that the energy war is widening geographically. Health risk rises again after Reuters reported Congo’s confirmed Ebola cases at 956 with 247 deaths. Climate risk remains structurally elevated because WMO’s El Niño outlook still points to a high-probability June-August event. The result is a credible SEO-ready report: diplomacy is alive, but the risk environment is more fragile than yesterday.",
   "overview": [
     {
       "label": "Report Date",
-      "value": "June 20, 2026",
+      "value": "June 21, 2026",
       "sub": "UTC daily update"
     },
     {
       "label": "Top Story",
-      "value": "Ebola Worsens While Diplomacy Holds",
-      "sub": "Congo health risk rises as U.S.-Iran talks continue under regional pressure"
+      "value": "Diplomacy Continues, But Risk Rises",
+      "sub": "Ebola grows, Hormuz uncertainty returns and Ukraine’s energy-war reach expands"
     },
     {
       "label": "Main Driver",
-      "value": "Health Shock vs Market Relief",
-      "sub": "Oil panic is lower, but Ebola and Lebanon-Israel violence push the risk floor up"
+      "value": "Health Surge + Route Risk",
+      "sub": "Congo Ebola and Hormuz uncertainty lift the global risk floor"
     },
     {
       "label": "What Changed",
-      "value": "Index moves from 70 to 71",
-      "sub": "Health and regional conflict risk rose faster than economic risk cooled"
+      "value": "Index moves from 71 to 72",
+      "sub": "Conflict and health risk rose faster than market relief improved"
     },
     {
       "label": "Watch Next 48h",
-      "value": "Congo Ebola response, U.S.-Iran talks, Lebanon strikes, Hormuz shipping",
+      "value": "Hormuz shipping, U.S.-Iran talks, Congo Ebola, Lebanon ceasefire, Russian oil sites",
       "sub": "Main swing factors for the next update"
     }
   ],
-  "glanceSummary": "The Global Risk Index rises to 71/100. The strongest SEO angle is balanced and credible: oil panic is lower than last week, but Ebola is worsening and violence in Lebanon is testing the wider de-escalation story. This is not a new global panic spike; it is a higher elevated-risk reading.",
+  "glanceSummary": "The Global Risk Index rises to 72/100. Today’s SEO angle is strong but still objective: U.S.-Iran diplomacy is still alive, but the risk score rose because Ebola worsened, Hormuz uncertainty returned, Lebanon’s ceasefire looks fragile and Ukraine’s long-range energy strikes expanded. This is not a global panic spike; it is a higher fragile-risk reading.",
   "glanceBullets": [
     "Old-news discount remains active: repeated Hormuz, Red Sea, Ukraine and oil-spike headlines are not counted again unless they materially change the risk picture.",
-    "Congo's Ebola outbreak worsened to 933 confirmed cases and 245 deaths, making health the clearest upward driver.",
-    "Reuters reports 80 patients have recovered, but the death count and continued outbreak geography keep the regional health score severe.",
-    "Israeli strikes in Lebanon killed at least 16 people after a ceasefire, adding regional conflict pressure and complicating the U.S.-Iran implementation environment.",
-    "Switzerland says confidential U.S.-Iran talks continue, which prevents Hormuz and Iran risk from returning to full panic scoring.",
-    "Oil-market panic remains lower than the peak shock, but price volatility and shipping-confidence questions have not disappeared.",
+    "Congo’s Ebola outbreak rose to 956 confirmed cases and 247 deaths, keeping health as the clearest upward risk driver.",
+    "U.S.-Iran talks continue in Switzerland, but Hormuz closure claims and public threats keep diplomacy fragile rather than fully stabilizing.",
+    "Hezbollah’s leader said the group would respond to any Israeli violation, showing that the Lebanon ceasefire remains vulnerable.",
+    "Ukraine’s long-range drone campaign reached Russia’s Tyumen oil refinery and struck the Kerch oil terminal, deepening the energy-war layer.",
+    "Energy-market panic remains below the peak Hormuz shock, which prevents a sharper overall score jump.",
     "El Niño remains a slow-burn multiplier for heat, rainfall, water, agriculture, electricity demand and food prices."
   ],
   "dailyComparison": [
     {
       "label": "Previous",
-      "value": "70"
+      "value": "71"
     },
     {
       "label": "Current",
-      "value": "71"
+      "value": "72"
     },
     {
       "label": "Trend",
@@ -64,8 +64,8 @@ window.dailyRiskPageData = {
     }
   ],
   "scoreBreakdown": {
-    "title": "Why the Global Risk Index Rises to 71 Today",
-    "summary": "The 71/100 score means global risk remains elevated and has moved higher, mainly because Congo Ebola deteriorated and Lebanon-Israel violence complicated the regional de-escalation picture. Energy markets remain calmer than the peak Hormuz shock, which prevents the index from jumping more sharply.",
+    "title": "Why the Global Risk Index Rises to 72 Today",
+    "summary": "The 72/100 score means global risk remains elevated and has moved higher. The biggest upward forces are Congo Ebola, Hormuz uncertainty, Lebanon ceasefire fragility and Ukraine’s longer-range energy strikes. Ongoing U.S.-Iran diplomacy and lower peak oil panic prevent a larger jump.",
     "methodNote": "These are directional pressure contributions, not exact mathematical probabilities. Fresh confirmed events add pressure; repeated or fading headlines are discounted unless they produce measurable escalation. Confirmed diplomacy, market adaptation and containment lower the score.",
     "overall": [
       {
@@ -76,21 +76,21 @@ window.dailyRiskPageData = {
       },
       {
         "label": "Active conflict pressure",
-        "impact": "+13",
+        "impact": "+14",
         "impactClass": "impact-positive",
-        "note": "Lebanon-Israel strikes, Zaporizhzhia nuclear-site risk and Ukraine-Russia energy infrastructure attacks raise the conflict floor."
+        "note": "Lebanon ceasefire fragility, Hormuz uncertainty and Ukraine-Russia long-range energy strikes raise the conflict floor."
       },
       {
         "label": "Energy and shipping fragility",
-        "impact": "+2",
+        "impact": "+3",
         "impactClass": "impact-positive",
-        "note": "Hormuz and tanker movement are improved, but route confidence and U.S.-Iran implementation remain watch items."
+        "note": "Hormuz risk is below peak panic, but renewed closure claims and route-confidence questions keep shipping risk active."
       },
       {
         "label": "Health risk pressure",
-        "impact": "+20",
+        "impact": "+21",
         "impactClass": "impact-positive",
-        "note": "Congo Ebola case and death counts rose again, making health the strongest upward driver."
+        "note": "Congo Ebola rose again to 956 confirmed cases and 247 deaths."
       },
       {
         "label": "Climate and food-system pressure",
@@ -100,35 +100,35 @@ window.dailyRiskPageData = {
       },
       {
         "label": "Diplomacy, oil relief and old headline discount",
-        "impact": "-12",
+        "impact": "-14",
         "impactClass": "impact-negative",
-        "note": "Ongoing U.S.-Iran talks, lower oil panic and repeated-headline discount prevent artificial score inflation."
+        "note": "U.S.-Iran talks, lower peak oil panic and repeated-headline discount prevent artificial score inflation."
       }
     ],
     "categories": [
       {
         "title": "Conflict score logic",
-        "score": "74 / 100",
+        "score": "75 / 100",
         "items": [
           {
-            "label": "U.S.-Iran diplomacy",
-            "impact": "Fragile stabilizer",
-            "note": "Switzerland says confidential U.S.-Iran talks continue, limiting the return of peak Hormuz panic."
+            "label": "U.S.-Iran / Hormuz uncertainty",
+            "impact": "Strong but capped",
+            "note": "Talks continue, but renewed closure claims and public threats keep the route-security layer fragile."
           },
           {
-            "label": "Lebanon-Israel violence",
+            "label": "Lebanon ceasefire fragility",
             "impact": "Strong",
-            "note": "Israeli strikes after a ceasefire killed at least 16 people and complicate regional de-escalation."
-          },
-          {
-            "label": "Zaporizhzhia nuclear-site risk",
-            "impact": "Strong",
-            "note": "The recent drone attack around plant infrastructure remains an important nuclear-safety risk signal."
+            "note": "Hezbollah says it would respond to Israeli violations, keeping regional escalation risk active."
           },
           {
             "label": "Ukraine-Russia energy war",
             "impact": "Strong",
-            "note": "Moscow refinery and Russian energy-infrastructure attacks keep the war-economy layer active."
+            "note": "Ukraine’s drone campaign reached a refinery around 2,000 km from Ukraine and hit the Kerch oil terminal."
+          },
+          {
+            "label": "Zaporizhzhia nuclear-site risk",
+            "impact": "Moderate-Strong",
+            "note": "Recent nuclear-site infrastructure damage remains on watch even without a new confirmed nuclear release."
           },
           {
             "label": "Red Sea and Taiwan watch",
@@ -139,48 +139,48 @@ window.dailyRiskPageData = {
       },
       {
         "title": "Economic score logic",
-        "score": "62 / 100",
+        "score": "64 / 100",
         "items": [
           {
-            "label": "Oil panic lower than peak",
-            "impact": "Lowering factor",
-            "note": "Hormuz traffic and diplomacy keep oil-market panic below the peak shock."
+            "label": "Hormuz route uncertainty",
+            "impact": "Moderate-Strong",
+            "note": "Shipping is not priced as a full blockade, but closure claims and negotiations keep volatility alive."
           },
           {
-            "label": "Volatility still present",
+            "label": "Oil panic below peak",
+            "impact": "Lowering factor",
+            "note": "Energy markets remain calmer than the peak Hormuz shock, limiting the economic score increase."
+          },
+          {
+            "label": "Russian oil infrastructure strikes",
             "impact": "Moderate",
-            "note": "Regional violence and negotiation uncertainty prevent a clean low-risk reading."
+            "note": "Tyumen and Kerch-related strikes keep the energy-war layer relevant for fuel logistics and sentiment."
           },
           {
             "label": "Dollar and rate pressure",
             "impact": "Moderate",
             "note": "Tighter financial conditions remain a pressure point for risk assets and emerging markets."
-          },
-          {
-            "label": "Russian refinery disruption",
-            "impact": "Moderate",
-            "note": "Ukraine-linked refinery disruption keeps some energy-market risk alive despite lower oil panic."
           }
         ]
       },
       {
         "title": "Health score logic",
-        "score": "86 / 100",
+        "score": "87 / 100",
         "items": [
           {
             "label": "Congo Ebola deterioration",
             "impact": "Very Strong",
-            "note": "Reuters reports 933 confirmed cases and 245 deaths in the DRC."
+            "note": "Reuters reports 956 confirmed cases and 247 deaths in the DRC."
           },
           {
-            "label": "Recoveries confirmed",
-            "impact": "Context",
-            "note": "Officials reported 80 patients recovered, but this does not offset the higher case and death burden."
+            "label": "Response capacity and displacement",
+            "impact": "Strong",
+            "note": "Undetected spread, community resistance and underfunded sanitation remain major containment risks."
           },
           {
-            "label": "Cross-border surveillance",
+            "label": "Uganda cross-border surveillance",
             "impact": "Moderate-Strong",
-            "note": "Uganda remains a surveillance concern because of the broader outbreak geography."
+            "note": "Uganda remains a surveillance concern because of the wider outbreak geography."
           },
           {
             "label": "No global pandemic signal",
@@ -196,7 +196,7 @@ window.dailyRiskPageData = {
           {
             "label": "El Niño probability",
             "impact": "Strong seasonal signal",
-            "note": "WMO's outlook keeps climate risk elevated for June-August and beyond."
+            "note": "WMO’s outlook keeps climate risk elevated for June-August and beyond."
           },
           {
             "label": "Food, water and energy multiplier",
@@ -214,52 +214,53 @@ window.dailyRiskPageData = {
   },
   "riskData": [
     {
-      "title": "🌍 Conflict Risk: Diplomacy Continues, But Lebanon and Nuclear-Site Risk Raise the Floor",
-      "subtitle": "U.S.-Iran talks, Lebanon-Israel strikes, Zaporizhzhia safety, Ukraine-Russia energy war, Red Sea and Taiwan watch",
-      "score": 74,
+      "title": "🌍 Conflict Risk: Hormuz Uncertainty Returns as Ukraine’s Energy War Expands",
+      "subtitle": "U.S.-Iran talks, Hormuz closure claims, Lebanon ceasefire fragility, Tyumen refinery strike, Red Sea and Taiwan watch",
+      "score": 75,
       "changeText": "+1",
       "changeClass": "pill-warning",
       "direction": "Elevated / Fragile",
       "directionClass": "pill-warning",
-      "description": "Conflict risk rises to 74. Switzerland says confidential U.S.-Iran talks continue, which prevents a return to peak Hormuz panic. But the regional environment is fragile: Israeli strikes in Lebanon killed at least 16 people after a ceasefire, and the Zaporizhzhia nuclear-site drone incident remains an important safety signal. Ukraine-Russia energy infrastructure attacks also keep the war-economy layer active. This is not direct great-power war scoring, but it is a higher conflict floor.",
+      "description": "Conflict risk rises to 75. U.S.-Iran talks are still happening in Switzerland, which is a stabilizing signal, but renewed Hormuz closure claims and public threats show that the route-security layer remains fragile. Lebanon’s ceasefire is also vulnerable after Hezbollah warned it would respond to Israeli violations. At the same time, Ukraine’s long-range strike campaign reached Russia’s Tyumen oil refinery and the Kerch oil terminal, keeping the energy-war layer active. This is not direct great-power war scoring, but it is a higher conflict-risk floor.",
       "drivers": [
-        "Confidential U.S.-Iran talks continue",
-        "Lebanon-Israel strikes after ceasefire",
-        "Zaporizhzhia nuclear-site risk",
-        "Ukraine-Russia energy-war pressure",
+        "U.S.-Iran talks under pressure",
+        "Hormuz closure and shipping uncertainty",
+        "Lebanon ceasefire fragility",
+        "Ukraine long-range refinery strikes",
         "Red Sea and Taiwan maritime pressure"
       ],
       "sources": [
         "Reuters",
         "AP",
+        "The Guardian",
         "IEA",
         "Maritime reporting"
       ],
       "trend": [
         70,
-        70,
         71,
         71,
         71,
         73,
-        74
+        74,
+        75
       ]
     },
     {
-      "title": "📉 Economic Risk: Oil Panic Stays Lower, But Confidence Is Uneven",
-      "subtitle": "Hormuz traffic, U.S.-Iran talks, oil volatility, dollar pressure and Russian refinery disruption",
-      "score": 62,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
-      "direction": "Moderate-High / Uneven Cooling",
+      "title": "📉 Economic Risk: Oil Panic Is Capped, But Route Confidence Is Fragile",
+      "subtitle": "Hormuz claims, U.S.-Iran talks, oil volatility, long-range refinery strikes and dollar-rate pressure",
+      "score": 64,
+      "changeText": "+2",
+      "changeClass": "pill-warning",
+      "direction": "Moderate-High / Volatile",
       "directionClass": "pill-warning",
-      "description": "Economic risk holds at 62. Hormuz and oil-market panic remain lower than the peak shock, and continuing U.S.-Iran talks help cap the worst-case route-risk scenario. But the score is not lowered because Lebanon violence, negotiation uncertainty, dollar-rate pressure and Russian refinery disruption keep confidence uneven. The economy layer is cooling, not normalized.",
+      "description": "Economic risk rises to 64, but remains below crisis levels. The peak Hormuz panic is still capped by continuing talks and recent tanker movement, yet renewed closure claims, negotiation uncertainty and Ukraine’s long-range attacks on Russian energy infrastructure keep market confidence uneven. The score rises because the risk is no longer only political: it is again connected to route security, oil logistics and refinery infrastructure.",
       "drivers": [
-        "Hormuz traffic and lower blockade risk",
-        "Continuing U.S.-Iran talks",
+        "Hormuz route uncertainty",
+        "U.S.-Iran negotiation risk",
         "Oil-price volatility",
-        "Dollar and rate pressure",
-        "Russian energy infrastructure disruption"
+        "Russian refinery and oil terminal strikes",
+        "Dollar and rate pressure"
       ],
       "sources": [
         "Reuters",
@@ -269,45 +270,45 @@ window.dailyRiskPageData = {
       ],
       "trend": [
         66,
-        66,
         65,
         63,
         63,
         62,
-        62
+        62,
+        64
       ]
     },
     {
-      "title": "🏥 Health Risk: Congo Ebola Becomes the Dominant Global Risk Floor",
-      "subtitle": "933 confirmed DRC cases, 245 deaths, 80 recoveries and continued regional containment pressure",
-      "score": 86,
-      "changeText": "+2",
+      "title": "🏥 Health Risk: Congo Ebola Keeps Rising",
+      "subtitle": "956 confirmed DRC cases, 247 deaths, displacement risk and cross-border surveillance pressure",
+      "score": 87,
+      "changeText": "+1",
       "changeClass": "pill-warning",
       "direction": "Severe Regional Risk",
       "directionClass": "pill-danger",
-      "description": "Health risk rises to 86 because Congo's Ebola outbreak worsened again. Reuters reports 933 confirmed cases and 245 deaths, while officials said 80 patients have recovered and been discharged. The recovery figure is important context, but the outbreak remains severe because the total case and death burden is still rising. Uganda remains a cross-border surveillance concern. The score is high but not pandemic-level because uncontrolled global spread is not confirmed.",
+      "description": "Health risk rises to 87 because Congo’s Ebola outbreak worsened again. Reuters reports 956 confirmed cases and 247 deaths. The rise from 933 cases and 245 deaths is smaller than the previous day’s jump, so the global health category rises by one point rather than sharply. The score remains severe because responders continue to warn that the true scale may be harder to measure in displaced communities and areas with limited sanitation and testing. It is still not pandemic-level scoring because uncontrolled global spread is not confirmed.",
       "drivers": [
-        "933 confirmed DRC Ebola cases",
-        "245 confirmed deaths",
-        "80 recovered patients",
+        "956 confirmed DRC Ebola cases",
+        "247 confirmed deaths",
+        "Undetected spread risk in displaced communities",
         "Cross-border surveillance needs",
         "No confirmed uncontrolled global spread"
       ],
       "sources": [
         "Reuters",
-        "AP",
+        "WHO",
         "Africa CDC",
         "ECDC",
         "CDC"
       ],
       "trend": [
-        78,
         79,
         79,
         79,
         79,
         84,
-        86
+        86,
+        87
       ]
     },
     {
@@ -318,7 +319,7 @@ window.dailyRiskPageData = {
       "changeClass": "pill-neutral",
       "direction": "Moderate-High Structural",
       "directionClass": "pill-warning",
-      "description": "Climate risk holds at 71. WMO's El Niño outlook remains a major seasonal risk signal for heat, rainfall anomalies, water management, agriculture, electricity demand and food-price sensitivity. The score is not raised because there is no new one-day global climate catastrophe, but the climate layer remains an important multiplier for economies already exposed to conflict, health and food-system risk.",
+      "description": "Climate risk holds at 71. WMO’s El Niño outlook remains a major seasonal risk signal for heat, rainfall anomalies, water management, agriculture, electricity demand and food-price sensitivity. The score is not raised because there is no new one-day global climate catastrophe, but the climate layer remains an important multiplier for economies already exposed to conflict, health and food-system risk.",
       "drivers": [
         "80% El Niño probability for June-August 2026",
         "Near or above 90% probability through at least November",
@@ -348,33 +349,33 @@ window.dailyRiskPageData = {
       "title": "🌍 Global Conflict Report",
       "tag": "Elevated Fragile Risk",
       "tagClass": "pill-warning",
-      "score": "74 / 100",
+      "score": "75 / 100",
       "direction": "Elevated / Fragile",
-      "watch": "U.S.-Iran talks, Lebanon-Israel strikes, Hormuz shipping confidence, Zaporizhzhia plant safety, Ukraine long-range drones, Red Sea threats, Taiwan-China coast-guard activity",
-      "why": "Conflict risk rises because diplomacy continues but the regional environment is fragile. Lebanon-Israel strikes, Zaporizhzhia nuclear-site risk and Ukraine-Russia energy infrastructure attacks keep the category elevated.",
-      "moved": "The score moves from 73 to 74. This reflects fresh regional conflict pressure without treating it as a direct great-power war expansion.",
+      "watch": "U.S.-Iran talks, Hormuz closure claims, Lebanon ceasefire, Tyumen refinery strike, Kerch oil terminal, Zaporizhzhia safety, Red Sea threats, Taiwan-China coast-guard activity",
+      "why": "Conflict risk rises because diplomacy continues but the operating environment is more fragile: Hormuz uncertainty returned, Hezbollah warned over Israeli violations, and Ukraine expanded long-range energy strikes.",
+      "moved": "The score moves from 74 to 75. This reflects fresh route and infrastructure pressure without treating it as direct great-power war expansion.",
       "matters": "Conflict risk matters because military and maritime pressure can transmit quickly into oil, freight, insurance, sanctions, humanitarian needs and investor sentiment."
     },
     {
       "title": "📉 Global Economic Report",
-      "tag": "Uneven Cooling",
-      "tagClass": "pill-neutral",
-      "score": "62 / 100",
-      "direction": "Moderate-High / Uneven Cooling",
-      "watch": "Brent and WTI oil, U.S.-Iran talks, Hormuz traffic, dollar strength, Fed signals, crude inventories and global equity risk appetite",
-      "why": "Economic risk holds because oil panic remains lower than the peak shock, but volatility, Lebanon violence, policy uncertainty and dollar-rate pressure prevent a cleaner decline.",
-      "moved": "The score holds at 62. Market relief is real, but confidence is uneven.",
+      "tag": "Volatile Risk",
+      "tagClass": "pill-warning",
+      "score": "64 / 100",
+      "direction": "Moderate-High / Volatile",
+      "watch": "Brent and WTI oil, Hormuz shipping, U.S.-Iran talks, Russian refinery disruption, dollar strength, Fed signals, crude inventories and global equity risk appetite",
+      "why": "Economic risk rises modestly because route confidence and refinery infrastructure are under pressure, even though peak oil panic remains capped by ongoing diplomacy.",
+      "moved": "The score moves from 62 to 64. Market risk is not a crisis layer, but it is no longer cleanly cooling.",
       "matters": "Economic risk matters because external shocks become household and business costs through fuel, electricity, transport, food prices, currency moves and borrowing conditions."
     },
     {
       "title": "🏥 Global Health Report",
       "tag": "Severe Regional Risk",
       "tagClass": "pill-danger",
-      "score": "86 / 100",
+      "score": "87 / 100",
       "direction": "Severe Regional Risk",
-      "watch": "DRC confirmed Ebola cases, DRC death trend, contact tracing coverage, Uganda surveillance, donor funding, treatment capacity, safe burials and cross-border screening",
-      "why": "Health risk rises because DRC Ebola reporting worsened again to 933 cases and 245 deaths. The score remains regional rather than pandemic-level because uncontrolled global spread is not confirmed.",
-      "moved": "The score moves from 84 to 86. This is data-driven and not headline inflation.",
+      "watch": "DRC confirmed Ebola cases, DRC death trend, contact tracing coverage, Uganda surveillance, displaced communities, donor funding, treatment capacity, safe burials and cross-border screening",
+      "why": "Health risk rises because DRC Ebola reporting worsened again to 956 cases and 247 deaths. The score remains regional rather than pandemic-level because uncontrolled global spread is not confirmed.",
+      "moved": "The score moves from 86 to 87. This is data-driven and not headline inflation.",
       "matters": "Health risk matters because surveillance, trust, contact tracing, safe burials and health-worker protection determine whether a regional outbreak remains contained."
     },
     {
@@ -393,12 +394,12 @@ window.dailyRiskPageData = {
     {
       "country": "Ukraine",
       "region": "Eastern Europe",
-      "score": 84,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
+      "score": 85,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
       "direction": "High / Active War",
       "directionClass": "pill-danger",
-      "summary": "Ukraine remains high because the war continues to touch energy and nuclear-site safety risk, including Zaporizhzhia and Russian refinery infrastructure.",
+      "summary": "Ukraine rises because its long-range drone campaign reached Russia’s Tyumen oil refinery and the Kerch oil terminal, showing wider energy-war reach beyond the immediate front.",
       "drivers": [
         "Active war conditions",
         "Long-range drone warfare",
@@ -413,23 +414,23 @@ window.dailyRiskPageData = {
       ],
       "trend": [
         80,
-        80,
         81,
         82,
         82,
         84,
-        84
+        84,
+        85
       ]
     },
     {
       "country": "Israel",
       "region": "Middle East",
-      "score": 66,
-      "changeText": "+2",
+      "score": 67,
+      "changeText": "+1",
       "changeClass": "pill-warning",
       "direction": "Elevated / Fragile",
       "directionClass": "pill-warning",
-      "summary": "Israel rises because strikes in Lebanon after a ceasefire killed at least 16 people and show that regional de-escalation is not yet stable.",
+      "summary": "Israel rises because Lebanon ceasefire stability is still fragile and Hezbollah warned it would respond to Israeli violations.",
       "drivers": [
         "Lebanon ceasefire fragility",
         "Hezbollah-linked pressure",
@@ -443,24 +444,24 @@ window.dailyRiskPageData = {
         "Ceasefire durability"
       ],
       "trend": [
-        68,
         67,
         65,
         64,
         63,
         64,
-        66
+        66,
+        67
       ]
     },
     {
       "country": "Iran",
       "region": "Middle East",
-      "score": 66,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
-      "direction": "Elevated / Fragile Easing",
+      "score": 68,
+      "changeText": "+2",
+      "changeClass": "pill-warning",
+      "direction": "Elevated / Fragile",
       "directionClass": "pill-warning",
-      "summary": "Iran holds elevated because U.S.-Iran talks continue, but the implementation path remains fragile and linked to regional violence.",
+      "summary": "Iran rises because U.S.-Iran talks continue but renewed Hormuz closure claims and public threats make implementation more fragile.",
       "drivers": [
         "Hormuz leverage",
         "U.S.-Iran deal uncertainty",
@@ -475,24 +476,24 @@ window.dailyRiskPageData = {
         "Shipping insurance"
       ],
       "trend": [
-        75,
         73,
         70,
         68,
         65,
         66,
-        66
+        66,
+        68
       ]
     },
     {
       "country": "Russia",
       "region": "Eastern Europe / Eurasia",
-      "score": 78,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
+      "score": 79,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
       "direction": "Elevated / High",
       "directionClass": "pill-warning",
-      "summary": "Russia holds elevated because refinery and infrastructure exposure remain high and Zaporizhzhia-related risk keeps the conflict floor elevated.",
+      "summary": "Russia rises because Ukrainian long-range strikes reached Tyumen refinery and Kerch oil infrastructure, reinforcing domestic energy vulnerability.",
       "drivers": [
         "War tempo",
         "Drone attacks on industrial regions",
@@ -507,27 +508,27 @@ window.dailyRiskPageData = {
       ],
       "trend": [
         72,
-        72,
         73,
         75,
         76,
         78,
-        78
+        78,
+        79
       ]
     },
     {
       "country": "Democratic Republic of the Congo",
       "region": "Central Africa",
-      "score": 94,
-      "changeText": "+2",
+      "score": 95,
+      "changeText": "+1",
       "changeClass": "pill-warning",
       "direction": "Severe Health Risk",
       "directionClass": "pill-danger",
-      "summary": "DRC rises again after confirmed Ebola cases reached 933 and deaths reached 245, making the country the dominant severe-risk node in the index.",
+      "summary": "DRC rises again after confirmed Ebola cases reached 956 and deaths reached 247, keeping the country as the dominant severe-risk node in the index.",
       "drivers": [
         "Bundibugyo Ebola outbreak",
-        "676 confirmed cases",
-        "136 confirmed deaths",
+        "956 confirmed cases",
+        "247 confirmed deaths",
         "Ituri and North Kivu spread",
         "Isolation and contact-tracing needs"
       ],
@@ -535,27 +536,28 @@ window.dailyRiskPageData = {
         "Confirmed case trend",
         "Contact tracing coverage",
         "Health-worker infections",
+        "Displaced camps",
         "Response funding"
       ],
       "trend": [
         86,
         86,
-        86,
         87,
         87,
         92,
-        94
+        94,
+        95
       ]
     },
     {
       "country": "Uganda",
       "region": "East Africa",
-      "score": 63,
+      "score": 64,
       "changeText": "+1",
       "changeClass": "pill-warning",
       "direction": "Moderate / Elevated",
       "directionClass": "pill-warning",
-      "summary": "Uganda rises slightly because the regional Ebola outbreak is worsening and cross-border surveillance remains important.",
+      "summary": "Uganda rises slightly because the regional Ebola outbreak continues to worsen and cross-border surveillance remains important.",
       "drivers": [
         "Cross-border Ebola exposure",
         "19 confirmed cases",
@@ -569,24 +571,24 @@ window.dailyRiskPageData = {
         "DRC border movement"
       ],
       "trend": [
-        61,
         60,
         60,
         60,
         60,
         62,
-        63
+        63,
+        64
       ]
     },
     {
       "country": "Türkiye",
       "region": "Eastern Mediterranean",
-      "score": 49,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
+      "score": 50,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
       "direction": "Moderate",
       "directionClass": "pill-neutral",
-      "summary": "Türkiye holds moderate: lower oil pressure helps, but Black Sea security, regional corridor risk and inflation sensitivity remain relevant.",
+      "summary": "Türkiye rises slightly because renewed Hormuz uncertainty and Black Sea energy-war risk can affect import costs, corridor confidence and inflation sensitivity.",
       "drivers": [
         "Imported energy dependency",
         "Inflation pass-through",
@@ -600,24 +602,24 @@ window.dailyRiskPageData = {
         "Middle East diplomacy"
       ],
       "trend": [
-        52,
         51,
         50,
         50,
         49,
         49,
-        49
+        49,
+        50
       ]
     },
     {
       "country": "United States",
       "region": "North America",
-      "score": 48,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
+      "score": 50,
+      "changeText": "+2",
+      "changeClass": "pill-warning",
       "direction": "Moderate / Policy-Sensitive",
       "directionClass": "pill-neutral",
-      "summary": "The United States holds because U.S.-Iran talks continue, but diplomacy, sanctions, oil policy and Fed-rate signals remain watch items.",
+      "summary": "The United States rises because U.S.-Iran talks are now tied to renewed Hormuz uncertainty and public escalation risk, while rate and dollar dynamics remain watch items.",
       "drivers": [
         "Iran diplomacy and sanctions",
         "Military posture around Hormuz",
@@ -631,24 +633,24 @@ window.dailyRiskPageData = {
         "Military posture"
       ],
       "trend": [
-        51,
         50,
         49,
         48,
         47,
         48,
-        48
+        48,
+        50
       ]
     },
     {
       "country": "China",
       "region": "East Asia",
-      "score": 51,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
+      "score": 52,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
       "direction": "Moderate",
       "directionClass": "pill-neutral",
-      "summary": "China holds moderate as lower crude prices help import-cost pressure, while Taiwan-linked maritime pressure remains a watch item.",
+      "summary": "China rises slightly because renewed Hormuz route uncertainty can affect crude-import confidence, while Taiwan-linked maritime pressure remains a watch item.",
       "drivers": [
         "Taiwan maritime friction",
         "Commercial-shipping pressure",
@@ -662,24 +664,24 @@ window.dailyRiskPageData = {
         "Import cost trends"
       ],
       "trend": [
-        55,
         54,
         53,
         52,
         51,
         51,
-        51
+        51,
+        52
       ]
     },
     {
       "country": "India",
       "region": "South Asia",
-      "score": 47,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
+      "score": 49,
+      "changeText": "+2",
+      "changeClass": "pill-warning",
       "direction": "Moderate",
       "directionClass": "pill-neutral",
-      "summary": "India holds moderate as oil-price relief helps, while food, fertilizer and El Niño exposure remain watch items.",
+      "summary": "India rises because Hormuz uncertainty can quickly affect oil-import costs, inflation expectations and currency pressure.",
       "drivers": [
         "Oil import dependence",
         "Hormuz shipping exposure",
@@ -693,24 +695,24 @@ window.dailyRiskPageData = {
         "Currency stability"
       ],
       "trend": [
-        51,
         50,
         49,
         48,
         47,
         47,
-        47
+        47,
+        49
       ]
     },
     {
       "country": "Germany",
       "region": "Western Europe",
-      "score": 36,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
+      "score": 37,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
       "direction": "Low-Moderate",
       "directionClass": "pill-neutral",
-      "summary": "Germany holds low-moderate as energy stress is lower but industrial sensitivity and export-cycle weakness remain relevant.",
+      "summary": "Germany rises slightly because oil-route uncertainty and export-cycle weakness can still transmit into industrial sentiment.",
       "drivers": [
         "Industrial energy sensitivity",
         "ECB policy sensitivity",
@@ -724,24 +726,24 @@ window.dailyRiskPageData = {
         "Export demand"
       ],
       "trend": [
-        40,
         39,
         38,
         37,
         36,
         36,
-        36
+        36,
+        37
       ]
     },
     {
       "country": "Japan",
       "region": "East Asia",
-      "score": 38,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
+      "score": 39,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
       "direction": "Low-Moderate",
       "directionClass": "pill-neutral",
-      "summary": "Japan holds low-moderate because lower oil panic helps, while dollar-yen pressure and sea-lane sensitivity remain watch items.",
+      "summary": "Japan rises slightly because renewed route uncertainty and dollar-yen pressure can affect imported energy costs and market sentiment.",
       "drivers": [
         "Maritime supply-chain exposure",
         "Energy import dependency",
@@ -755,13 +757,13 @@ window.dailyRiskPageData = {
         "Asian demand"
       ],
       "trend": [
-        42,
         41,
         40,
         39,
         38,
         38,
-        38
+        38,
+        39
       ]
     }
   ],
@@ -770,136 +772,136 @@ window.dailyRiskPageData = {
       "title": "Ukraine Country Report",
       "tag": "High Risk",
       "tagClass": "pill-danger",
-      "score": "84 / 100",
+      "score": "85 / 100",
       "direction": "High / Active War",
       "watch": "Air defense capacity, Energy grid resilience, Long-range drone campaign, Frontline dynamics",
-      "why": "Ukraine remains high because the war continues to touch energy and nuclear-site safety risk, including Zaporizhzhia and Russian refinery infrastructure.",
-      "moved": "The score holds at 84. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "why": "Ukraine rises because its long-range drone campaign reached Russia’s Tyumen oil refinery and the Kerch oil terminal, showing wider energy-war reach beyond the immediate front.",
+      "moved": "The score moves to 85. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Ukraine matters because its risk channel can transmit through regional security, nuclear safety, energy, grain logistics, sanctions, humanitarian needs and market sentiment."
     },
     {
       "title": "Israel Country Report",
       "tag": "Elevated Risk",
       "tagClass": "pill-warning",
-      "score": "66 / 100",
+      "score": "67 / 100",
       "direction": "Elevated / Fragile",
       "watch": "Lebanon border signals, Iran deal reaction, Regional retaliation signs, Ceasefire durability",
-      "why": "Israel rises because strikes in Lebanon after a ceasefire killed at least 16 people and show that regional de-escalation is not yet stable.",
-      "moved": "The score moves to 66. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "why": "Israel rises because Lebanon ceasefire stability is still fragile and Hezbollah warned it would respond to Israeli violations.",
+      "moved": "The score moves to 67. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Israel matters because its risk channel can transmit through regional security, oil, shipping, defense posture and investor sentiment."
     },
     {
       "title": "Iran Country Report",
       "tag": "Elevated Risk",
       "tagClass": "pill-warning",
-      "score": "66 / 100",
-      "direction": "Elevated / Fragile Easing",
+      "score": "68 / 100",
+      "direction": "Elevated / Fragile",
       "watch": "Deal signing or delay, Hormuz tanker flows, U.S. military posture, Shipping insurance",
-      "why": "Iran holds elevated because U.S.-Iran talks continue, but the implementation path remains fragile and linked to regional violence.",
-      "moved": "The score holds at 66. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "why": "Iran rises because U.S.-Iran talks continue but renewed Hormuz closure claims and public threats make implementation more fragile.",
+      "moved": "The score moves to 68. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Iran matters because its risk channel can transmit quickly into oil, LNG, fertilizer, sanctions, shipping insurance and regional military escalation."
     },
     {
       "title": "Russia Country Report",
       "tag": "Elevated Risk",
       "tagClass": "pill-warning",
-      "score": "78 / 100",
+      "score": "79 / 100",
       "direction": "Elevated / High",
       "watch": "Russian air attacks, Ukrainian long-range strikes, Energy export flows, Domestic fuel pressure",
-      "why": "Russia holds elevated because refinery and infrastructure exposure remain high and Zaporizhzhia-related risk keeps the conflict floor elevated.",
-      "moved": "The score holds at 78. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "why": "Russia rises because Ukrainian long-range strikes reached Tyumen refinery and Kerch oil infrastructure, reinforcing domestic energy vulnerability.",
+      "moved": "The score moves to 79. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Russia matters because its risk channel affects war escalation, sanctions, energy exports, nuclear safety, cyber pressure and investor risk appetite."
     },
     {
       "title": "Democratic Republic of the Congo Country Report",
       "tag": "Severe Health Risk",
       "tagClass": "pill-danger",
-      "score": "94 / 100",
+      "score": "95 / 100",
       "direction": "Severe Health Risk",
-      "watch": "Confirmed case trend, Contact tracing coverage, Health-worker infections, Response funding",
-      "why": "DRC rises again after confirmed Ebola cases reached 933 and deaths reached 245, making the country the dominant severe-risk node in the index.",
-      "moved": "The score moves to 94. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "watch": "Confirmed case trend, Contact tracing coverage, Health-worker infections, Displaced camps, Response funding",
+      "why": "DRC rises again after confirmed Ebola cases reached 956 and deaths reached 247, keeping the country as the dominant severe-risk node in the index.",
+      "moved": "The score moves to 95. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "DRC matters because outbreak control depends on surveillance, safe burials, health-worker protection, trust and cross-border response capacity."
     },
     {
       "title": "Uganda Country Report",
       "tag": "Elevated Risk",
       "tagClass": "pill-warning",
-      "score": "63 / 100",
+      "score": "64 / 100",
       "direction": "Moderate / Elevated",
       "watch": "New confirmed cases, Contact tracing results, Kampala surveillance, DRC border movement",
-      "why": "Uganda rises slightly because the regional Ebola outbreak is worsening and cross-border surveillance remains important.",
-      "moved": "The score moves to 63. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "why": "Uganda rises slightly because the regional Ebola outbreak continues to worsen and cross-border surveillance remains important.",
+      "moved": "The score moves to 64. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Uganda matters because border surveillance and local transmission monitoring determine whether the outbreak remains contained."
     },
     {
       "title": "Türkiye Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "49 / 100",
+      "score": "50 / 100",
       "direction": "Moderate",
       "watch": "Fuel price trends, Inflation expectations, Black Sea shipping, Middle East diplomacy",
-      "why": "Türkiye holds moderate: lower oil pressure helps, but Black Sea security, regional corridor risk and inflation sensitivity remain relevant.",
-      "moved": "The score holds at 49. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "why": "Türkiye rises slightly because renewed Hormuz uncertainty and Black Sea energy-war risk can affect import costs, corridor confidence and inflation sensitivity.",
+      "moved": "The score moves to 50. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Türkiye matters because energy, inflation, Black Sea security and corridor logistics can transmit external shocks into domestic economic pressure."
     },
     {
       "title": "United States Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "48 / 100",
+      "score": "50 / 100",
       "direction": "Moderate / Policy-Sensitive",
       "watch": "U.S.-Iran deal status, Oil price volatility, Fed expectations, Military posture",
-      "why": "The United States holds because U.S.-Iran talks continue, but diplomacy, sanctions, oil policy and Fed-rate signals remain watch items.",
-      "moved": "The score holds at 48. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "why": "The United States rises because U.S.-Iran talks are now tied to renewed Hormuz uncertainty and public escalation risk, while rate and dollar dynamics remain watch items.",
+      "moved": "The score moves to 50. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "The United States matters because its diplomatic, military and monetary-policy signals can move global oil, rates, equities and risk appetite."
     },
     {
       "title": "China Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "51 / 100",
+      "score": "52 / 100",
       "direction": "Moderate",
       "watch": "Taiwan restricted waters, Pratas activity, Crude arrivals, Import cost trends",
-      "why": "China holds moderate as lower crude prices help import-cost pressure, while Taiwan-linked maritime pressure remains a watch item.",
-      "moved": "The score holds at 51. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "why": "China rises slightly because renewed Hormuz route uncertainty can affect crude-import confidence, while Taiwan-linked maritime pressure remains a watch item.",
+      "moved": "The score moves to 52. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "China matters because Taiwan pressure, crude-import exposure and manufacturing input costs can transmit into regional security and global supply chains."
     },
     {
       "title": "India Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "47 / 100",
+      "score": "49 / 100",
       "direction": "Moderate",
       "watch": "Brent oil correlation, Gulf crude arrivals, Food-price pressure, Currency stability",
-      "why": "India holds moderate as oil-price relief helps, while food, fertilizer and El Niño exposure remain watch items.",
-      "moved": "The score holds at 47. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "why": "India rises because Hormuz uncertainty can quickly affect oil-import costs, inflation expectations and currency pressure.",
+      "moved": "The score moves to 49. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "India matters because energy and food-price shocks can transmit into inflation, currency pressure, household costs and growth expectations."
     },
     {
       "title": "Germany Country Report",
       "tag": "Low-Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "36 / 100",
+      "score": "37 / 100",
       "direction": "Low-Moderate",
       "watch": "Industrial output, Energy pricing, ECB policy, Export demand",
-      "why": "Germany holds low-moderate as energy stress is lower but industrial sensitivity and export-cycle weakness remain relevant.",
-      "moved": "The score holds at 36. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "why": "Germany rises slightly because oil-route uncertainty and export-cycle weakness can still transmit into industrial sentiment.",
+      "moved": "The score moves to 37. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Germany matters because industrial demand, energy pricing and ECB policy transmit external shocks into Europe’s manufacturing cycle."
     },
     {
       "title": "Japan Country Report",
       "tag": "Low-Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "38 / 100",
+      "score": "39 / 100",
       "direction": "Low-Moderate",
       "watch": "Shipping security, Energy import costs, Taiwan Strait signals, Asian demand",
-      "why": "Japan holds low-moderate because lower oil panic helps, while dollar-yen pressure and sea-lane sensitivity remain watch items.",
-      "moved": "The score holds at 38. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "why": "Japan rises slightly because renewed route uncertainty and dollar-yen pressure can affect imported energy costs and market sentiment.",
+      "moved": "The score moves to 39. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Japan matters because imported energy, currency sensitivity and Asian sea-lane security affect household prices, industrial costs and regional risk appetite."
     }
   ],
-  "lastVerifiedAtUtc": "June 20, 2026 · latest available public reporting",
+  "lastVerifiedAtUtc": "June 21, 2026 · latest available public reporting",
   "editorialPolicy": {
     "title": "Objective scoring policy",
     "summary": "This dashboard separates live measurable risk from repeated news noise. A topic can be viral and important without automatically increasing the global score.",
@@ -912,45 +914,45 @@ window.dailyRiskPageData = {
     ]
   },
   "seoData": {
-    "title": "Global Risk Index Today: Ebola Worsens as U.S.-Iran Talks Continue",
-    "metaDescription": "Daily Global Risk Index for June 20, 2026: the index rises to 71/100 as Congo Ebola reaches 933 cases and 245 deaths, while U.S.-Iran talks continue and oil panic stays lower.",
-    "slug": "global-risk-index-today-june-20-2026",
-    "h1": "Global Risk Index Today: Why World Risk Rises to 71/100",
+    "title": "Global Risk Index Today: Hormuz Uncertainty Returns as Ebola Keeps Rising",
+    "metaDescription": "Daily Global Risk Index for June 21, 2026: the index rises to 72/100 as Congo Ebola reaches 956 cases and 247 deaths, while U.S.-Iran talks continue under Hormuz uncertainty and Ukraine expands energy strikes.",
+    "slug": "global-risk-index-today-june-21-2026",
+    "h1": "Global Risk Index Today: Why World Risk Rises to 72/100",
     "primaryKeyword": "global risk index today",
     "secondaryKeywords": [
       "world risk report",
       "Congo Ebola outbreak 2026",
-      "Ebola cases 933 deaths 245",
+      "Ebola cases 956 deaths 247",
       "U.S. Iran talks Switzerland",
-      "Lebanon Israel strikes",
-      "Hormuz oil prices",
-      "Zaporizhzhia nuclear plant risk",
+      "Strait of Hormuz uncertainty",
+      "Lebanon ceasefire Hezbollah Israel",
+      "Ukraine Tyumen refinery strike",
       "El Niño 2026 risk"
     ],
     "viralAngles": [
-      "Oil panic is lower, but Ebola is getting worse.",
-      "U.S.-Iran talks continue, but the risk score still rose.",
-      "The global risk story is shifting from oil to health and regional conflict.",
-      "Markets are calmer, but the world is not safer yet."
+      "Diplomacy is alive, but the risk score still rose.",
+      "Hormuz uncertainty is back while Ebola keeps climbing.",
+      "Ukraine’s energy war just reached deeper into Russia.",
+      "The global risk story is shifting from oil panic to fragile diplomacy, disease and infrastructure pressure."
     ],
-    "suggestedSocialPost": "Global Risk Index Today rises to 71/100. Oil panic is lower and U.S.-Iran talks continue, but Congo Ebola has reached 933 cases and Lebanon-Israel strikes keep regional risk elevated. The story is not panic — it is fragile stability."
+    "suggestedSocialPost": "Global Risk Index Today rises to 72/100. U.S.-Iran talks continue, but Hormuz uncertainty is back, Congo Ebola has reached 956 cases and Ukraine’s energy-war strikes are expanding. The story is not panic — it is fragile escalation."
   },
   "sourceNotes": [
     {
       "label": "Ebola",
-      "note": "Reuters reports Congo has confirmed 933 Ebola cases and 245 deaths; officials said 80 patients recovered and were discharged."
+      "note": "Reuters reports Congo confirmed 956 Ebola cases and 247 deaths as of June 20, with continued outbreak pressure."
     },
     {
-      "label": "U.S.-Iran talks",
-      "note": "Reuters reports Switzerland continues to host confidential U.S.-Iran discussions at Bürgenstock."
+      "label": "U.S.-Iran / Hormuz",
+      "note": "Reuters and AP report U.S.-Iran talks in Switzerland under renewed Hormuz uncertainty and public threats, keeping the diplomatic track fragile."
     },
     {
-      "label": "Lebanon-Israel violence",
-      "note": "Reuters reports Israeli strikes in Lebanon killed at least 16 people after a ceasefire, complicating the regional de-escalation environment."
+      "label": "Lebanon ceasefire",
+      "note": "Reuters reports Hezbollah said it would respond to any Israeli violation, showing the ceasefire remains vulnerable."
     },
     {
-      "label": "Zaporizhzhia nuclear plant",
-      "note": "Reuters reported recent drone damage around the Zaporizhzhia nuclear plant transport workshop, keeping nuclear-site safety on watch."
+      "label": "Ukraine / Russia energy war",
+      "note": "The Guardian reports Ukrainian drones struck Russia’s Tyumen oil refinery and the Kerch oil terminal, expanding the energy-war layer."
     },
     {
       "label": "El Niño",

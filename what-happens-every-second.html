@@ -12,6 +12,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
   <link rel="manifest" href="/images/site.webmanifest" />
   <meta name="theme-color" content="#0f7db7" />
+  <meta name="google" content="notranslate" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -231,6 +232,10 @@
     }
 
     * { box-sizing: border-box; }
+
+    .notranslate {
+      translate: no;
+    }
     html { scroll-behavior: smooth; }
 
     body {
@@ -842,7 +847,7 @@
 
           <div class="hero-stat">
             <span class="hero-label">Live World Population</span>
-            <span class="hero-value" id="heroValue">8.231.613.070</span>
+            <span class="hero-value notranslate" translate="no" id="heroValue">8.231.613.070</span>
             <div class="hero-note">
               Updated every second with a UTC-based live estimate. Last reviewed: 21 June 2026.
             </div>
@@ -858,10 +863,10 @@
           <div class="hero-summary">
             <div class="hero-summary-label">Today – Live snapshot</div>
             <div class="hero-summary-items">
-              <div class="hero-summary-item"><span>Birth pace</span><strong id="miniBirths">4.31/sec</strong></div>
-              <div class="hero-summary-item"><span>Death pace</span><strong id="miniDeaths">2.12/sec</strong></div>
-              <div class="hero-summary-item"><span>Net growth</span><strong id="miniGrowth">+2.19/sec</strong></div>
-              <div class="hero-summary-item"><span>Focus</span><strong>Live world stats</strong></div>
+              <div class="hero-summary-item"><span>Birth pace</span><strong class="notranslate" translate="no" id="miniBirths">4.31/sec</strong></div>
+              <div class="hero-summary-item"><span>Death pace</span><strong class="notranslate" translate="no" id="miniDeaths">2.12/sec</strong></div>
+              <div class="hero-summary-item"><span>Net growth</span><strong class="notranslate" translate="no" id="miniGrowth">+2.19/sec</strong></div>
+              <div class="hero-summary-item"><span>Focus</span><strong class="notranslate" translate="no">Live world stats</strong></div>
             </div>
             <p class="hero-summary-note">
               Live estimates update continuously based on UTC time progression.
@@ -912,12 +917,12 @@
           </div>
         </div>
         <div class="stats-grid">
-          <div class="counter-box"><h3>Births per second</h3><p class="value-big" id="v1">4.31</p><p class="meta">Average global birth pace.</p></div>
-          <div class="counter-box"><h3>Deaths per second</h3><p class="value-big" id="v2">2.12</p><p class="meta">Average global death pace.</p></div>
-          <div class="counter-box"><h3>Net growth per second</h3><p class="value-big" id="v3">2.19</p><p class="meta">Births minus deaths.</p></div>
-          <div class="counter-box"><h3>Births today</h3><p class="value-big" id="v4">0</p><p class="meta">UTC-based estimated births since midnight.</p></div>
-          <div class="counter-box"><h3>Deaths today</h3><p class="value-big" id="v5">0</p><p class="meta">UTC-based estimated deaths since midnight.</p></div>
-          <div class="counter-box"><h3>Net growth today</h3><p class="value-big" id="v6">0</p><p class="meta">Estimated population increase today.</p></div>
+          <div class="counter-box"><h3>Births per second</h3><p class="value-big notranslate" translate="no" id="v1">4.31</p><p class="meta">Average global birth pace.</p></div>
+          <div class="counter-box"><h3>Deaths per second</h3><p class="value-big notranslate" translate="no" id="v2">2.12</p><p class="meta">Average global death pace.</p></div>
+          <div class="counter-box"><h3>Net growth per second</h3><p class="value-big notranslate" translate="no" id="v3">2.19</p><p class="meta">Births minus deaths.</p></div>
+          <div class="counter-box"><h3>Births today</h3><p class="value-big notranslate" translate="no" id="v4">0</p><p class="meta">UTC-based estimated births since midnight.</p></div>
+          <div class="counter-box"><h3>Deaths today</h3><p class="value-big notranslate" translate="no" id="v5">0</p><p class="meta">UTC-based estimated deaths since midnight.</p></div>
+          <div class="counter-box"><h3>Net growth today</h3><p class="value-big notranslate" translate="no" id="v6">0</p><p class="meta">Estimated population increase today.</p></div>
         </div>
       </div>
     </section>
@@ -945,24 +950,24 @@
             <tbody>
               <tr>
                 <td>Births</td>
-                <td id="birthSec">4.31</td>
-                <td id="birthMin">259</td>
-                <td id="birthHour">15.525</td>
-                <td id="birthDay">372.603</td>
+                <td class="notranslate" translate="no" id="birthSec">4.31</td>
+                <td class="notranslate" translate="no" id="birthMin">259</td>
+                <td class="notranslate" translate="no" id="birthHour">15.525</td>
+                <td class="notranslate" translate="no" id="birthDay">372.603</td>
               </tr>
               <tr>
                 <td>Deaths</td>
-                <td id="deathSec">2.12</td>
-                <td id="deathMin">127</td>
-                <td id="deathHour">7.648</td>
-                <td id="deathDay">183.562</td>
+                <td class="notranslate" translate="no" id="deathSec">2.12</td>
+                <td class="notranslate" translate="no" id="deathMin">127</td>
+                <td class="notranslate" translate="no" id="deathHour">7.648</td>
+                <td class="notranslate" translate="no" id="deathDay">183.562</td>
               </tr>
               <tr>
                 <td>Net population growth</td>
-                <td id="growthSec">2.19</td>
-                <td id="growthMin">131</td>
-                <td id="growthHour">7.877</td>
-                <td id="growthDay">189.041</td>
+                <td class="notranslate" translate="no" id="growthSec">2.19</td>
+                <td class="notranslate" translate="no" id="growthMin">131</td>
+                <td class="notranslate" translate="no" id="growthHour">7.877</td>
+                <td class="notranslate" translate="no" id="growthDay">189.041</td>
               </tr>
             </tbody>
           </table>
@@ -1166,7 +1171,11 @@
 
     function setText(id, value) {
       const el = document.getElementById(id);
-      if (el) el.innerText = value;
+      if (el) {
+        el.classList.add('notranslate');
+        el.setAttribute('translate', 'no');
+        el.innerText = value;
+      }
     }
 
     function refreshPage(){

@@ -1,52 +1,52 @@
 window.dailyRiskPageData = {
-  "reportDate": "July 7, 2026",
+  "reportDate": "July 10, 2026",
   "updateTimeUtc": "Daily UTC update",
-  "overallScore": 72,
+  "overallScore": 74,
   "previousOverallScore": 72,
-  "overallLabel": "Elevated / Oil Relief vs War-Pressure Watch",
-  "overallTrend": "0 vs previous update · oil supply relief and market calm offset deeper Ukraine strikes into Russia and NATO summit pressure",
+  "overallLabel": "Elevated / Hormuz and Health Watch",
+  "overallTrend": "+2 vs previous update · renewed U.S.-Iran/Hormuz escalation, fuel-market tightness and Ebola growth outweigh oil-supply relief",
   "confidence": "Medium-High",
-  "heroSummary": "Global Risk Index Today holds at 72/100 for July 7, 2026 UTC. The update is SEO-ready, professional and deliberately not inflated: global markets are still receiving relief from lower oil, recovering Gulf supply and OPEC+ output signals, but the war-risk layer remains elevated. Reuters reports oil rose slightly on July 7, with Brent near $72.84 and WTI near $69.29, as the market focused on supply recovery and demand. The broader energy picture still leans toward supply relief: OPEC+ is adding output, Saudi Arabia made a major price cut to Asian buyers, and Gulf producers are competing for market share. However, this is not a clean normalization. Reuters reports shipping recovery through the Strait of Hormuz remains sluggish, and Saudi Arabia is considering expanding its Red Sea pipeline capacity to reduce future reliance on Hormuz. Conflict pressure also stays high after Ukraine struck Russian oil refineries and the Vysotsk oil terminal, while reports of a deep strike on Russia’s largest Omsk refinery underline how the war is reaching further into Russia’s energy system. NATO is also opening its Ankara summit with major arms-deal announcements, keeping Ukraine air-defense and alliance firepower at the center of the risk map. Health risk remains severe but not pandemic-scored: DRC Ebola remains at 1,561 confirmed cases and 506 deaths in the latest Reuters update. The professional reading is: oil panic has faded, but war, fuel infrastructure and heat risk keep the global index elevated.",
-  "overallExplainer": "The composite score holds at 72 because the main drivers move in opposite directions. Economic risk stays contained by oil supply recovery, OPEC+ output additions and Saudi/Gulf price competition, even though Brent and WTI edged higher today. Conflict risk edges higher because Ukraine’s strike campaign now includes Russian refineries and the Vysotsk oil terminal, with reports of a major long-range attack on the Omsk refinery deep inside Russia. The NATO summit in Ankara also raises the policy-importance of air defense, arms deals and Ukraine support. Health risk remains unchanged because Ebola numbers are severe but already priced into the model; without confirmed uncontrolled global spread, the index avoids pandemic-band inflation. Climate risk also holds high because the European heatwave excess-death signal remains important, while France’s government surviving a no-confidence vote over heatwave handling shows that heat risk is also becoming political. The result is a credible SEO-ready update: markets are calmer, but the world is not low-risk.",
+  "heroSummary": "Global Risk Index Today rises to 74/100 for July 10, 2026 UTC. This update is deliberately professional and avoids panic scoring: the index rises because the risk mix changed materially, not because every headline is being counted twice. Reuters reports oil is heading for a weekly gain of about 6% for Brent and 5% for WTI after renewed U.S.-Iran fighting curtailed shipping through the Strait of Hormuz, with tanker traffic near a standstill and Brent around $76.34. The conflict layer is higher after U.S. strikes on Iran triggered Iranian attacks on Kuwait and Bahrain, while Ukraine’s attacks on Russian refineries and transport infrastructure have also led the IEA to cut its Russian supply outlook. Economic risk rises because fuel markets are flashing a supply crunch despite calmer crude than the peak panic phase: diesel margins are at record levels, product stocks remain below normal and Russia has imposed fuel-export restrictions. Health risk rises only slightly and remains below pandemic-band scoring: ECDC reports 1,759 DRC Ebola cases and 600 deaths, with Uganda at 20 cases and no new Uganda case since June 21; this is severe regional risk, not confirmed uncontrolled global spread. Climate risk also edges higher as U.S. electricity generation hit a record high during an intense heatwave. The professional reading is: market panic is not back to peak levels, but Hormuz, fuel, Ebola and heat risks now justify a higher global score.",
+  "overallExplainer": "The composite score moves from 72 to 74 because fresh measurable escalation is now stronger than the market-relief signals. The Middle East route channel worsened after renewed U.S.-Iran strikes, Iranian attacks on Gulf states and near-standstill Hormuz traffic, while crude is on track for a clear weekly gain. The economic layer also rises because fuel-product markets are tighter than crude alone suggests: Reuters reports record European diesel margins, low product stocks and Russia’s diesel export ban after Ukrainian attacks damaged refining infrastructure. Health risk rises, but is capped below 90 because current official framing still supports severe regional risk: ECDC says the outbreak affects DRC and Uganda, with DRC at 1,759 cases and 600 deaths, while EU/EEA infection likelihood remains very low. Climate risk rises one point because heat is now visibly stressing energy systems, with U.S. electricity output exceeding 100,000 GWh in one week for the first time. The result is a credible SEO-ready update: this is not global panic, but it is a real upward move in route, fuel, health and heat pressure.",
   "overview": [
     {
       "label": "Report Date",
-      "value": "July 7, 2026",
+      "value": "July 10, 2026",
       "sub": "UTC daily update"
     },
     {
       "label": "Top Story",
-      "value": "Oil Relief Holds, But Russia Energy War Deepens",
-      "sub": "Supply recovery keeps markets calmer while Ukraine strikes Russian refineries and NATO opens in Ankara"
+      "value": "Hormuz Risk Returns as Fuel and Ebola Pressure Rise",
+      "sub": "Oil is below panic peaks, but shipping, fuel markets and health data are worsening"
     },
     {
       "label": "Main Driver",
-      "value": "Supply Relief vs War Infrastructure Risk",
-      "sub": "OPEC+ and Saudi price cuts cool oil panic, but refinery strikes and NATO arms deals keep conflict risk elevated"
+      "value": "Route Risk + Fuel Crunch vs Contained Panic",
+      "sub": "Renewed U.S.-Iran fighting lifts risk while diplomacy and non-energy-targeting cap a larger spike"
     },
     {
       "label": "What Changed",
-      "value": "Index holds at 72",
-      "sub": "Conflict edges higher, economic risk stays contained, health and climate remain severe but not newly escalated"
+      "value": "Index rises from 72 to 74",
+      "sub": "Conflict, economic, health and climate layers all move higher, but health stays below pandemic-band scoring"
     },
     {
       "label": "Watch Next 48h",
-      "value": "NATO Ankara summit, Ukraine air defense, Russian refinery damage, Hormuz shipping, OPEC+ output, Ebola updates, heatwave politics",
+      "value": "Hormuz tanker traffic, U.S.-Iran technical talks, Russian fuel exports, DRC Ebola, Uganda surveillance, U.S. heat load, NATO follow-through",
       "sub": "Main swing factors for the next update"
     }
   ],
-  "glanceSummary": "The Global Risk Index holds at 72/100. Today’s SEO angle is clear: oil panic keeps fading, but war risk is not fading with it. OPEC+ output, Saudi price cuts and Gulf supply competition calm the market layer, while Ukraine’s deeper strikes on Russian energy infrastructure and NATO arms deals in Ankara keep the conflict layer elevated.",
+  "glanceSummary": "The Global Risk Index rises to 74/100. Today’s SEO angle is clear: oil panic is not back to the April peak, but the risk floor is higher. Hormuz traffic is near a standstill after renewed U.S.-Iran fighting, fuel markets are tight despite calmer crude, Ebola has risen to 1,759 DRC cases and 600 deaths, and heat is stressing power systems.",
   "glanceBullets": [
-    "Old-news discount remains active: repeated Hormuz, Ukraine, Lebanon, heatwave and Ebola headlines are not counted again unless they create fresh measurable escalation.",
-    "Reuters reports oil rose slightly on July 7, with Brent near $72.84 and WTI near $69.29, as supply recovery and demand signals replaced peak Hormuz panic.",
-    "Saudi Arabia made a major crude price cut to Asian buyers and Gulf producers are competing for market share, reinforcing the oil-supply relief story.",
-    "Shipping recovery through Hormuz remains sluggish, and Saudi Arabia is considering Red Sea pipeline expansion to reduce future dependence on the Strait.",
-    "Ukraine struck Russian oil refineries and the Vysotsk oil terminal, keeping Russia’s energy infrastructure under pressure.",
-    "Reports of a deep Ukrainian strike on Russia’s Omsk refinery show the war is reaching further into Russia’s fuel system.",
-    "NATO is opening its Ankara summit with major arms-deal announcements, keeping Ukraine air-defense and alliance firepower in focus.",
-    "Congo Ebola remains severe at 1,561 confirmed cases and 506 deaths, but health scoring is not pushed into pandemic-band without uncontrolled global spread.",
-    "Europe’s heatwave remains a structural risk after excess-death data, while France’s government survived a no-confidence vote over heatwave handling.",
-    "The overall reading is professional and clickable: oil panic faded, but the war-risk map got deeper."
+    "Old-news discount remains active: repeated Hormuz, Ukraine, heatwave and Ebola headlines are not counted again unless they create fresh measurable escalation.",
+    "Reuters reports Brent near $76.34 and WTI near $72.15, with Brent set for about a 6% weekly gain and WTI about 5%.",
+    "Hormuz tanker traffic is near a standstill after renewed U.S.-Iran fighting, so route risk rises again.",
+    "U.S. strikes on Iran triggered Iranian attacks on Kuwait and Bahrain, further weakening the three-week-old ceasefire track.",
+    "Fuel markets are flashing a supply crunch even though crude is still below peak panic levels; diesel margins and gasoline premiums are elevated.",
+    "The IEA cut its Russian oil-supply outlook because Ukrainian strikes continue to hit refineries, storage and transport infrastructure.",
+    "ECDC reports 1,759 DRC Ebola cases and 600 deaths, with 750 patients hospitalized in isolation and 80% of identified contacts under follow-up.",
+    "Health scoring is not inflated: Ebola remains severe regional risk because uncontrolled global spread is not confirmed and EU/EEA infection likelihood is assessed as very low.",
+    "U.S. electricity generation hit a record high during an intense heatwave, showing climate pressure is moving into grid and infrastructure stress.",
+    "The overall reading is professional and balanced: risk is higher, but not panic-scored."
   ],
   "dailyComparison": [
     {
@@ -55,11 +55,11 @@ window.dailyRiskPageData = {
     },
     {
       "label": "Current",
-      "value": "72"
+      "value": "74"
     },
     {
       "label": "Trend",
-      "value": "Unchanged"
+      "value": "Increase"
     },
     {
       "label": "Tracked Countries",
@@ -67,8 +67,8 @@ window.dailyRiskPageData = {
     }
   ],
   "scoreBreakdown": {
-    "title": "Why the Global Risk Index Holds at 72 Today",
-    "summary": "The 72/100 score means global risk remains elevated but is not accelerating today. Oil supply recovery, Saudi price cuts and OPEC+ output expectations cap the market layer, while Ukraine’s deeper strikes on Russian energy infrastructure and NATO summit pressure prevent a lower reading.",
+    "title": "Why the Global Risk Index Rises to 74 Today",
+    "summary": "The 74/100 score means global risk remains elevated and has moved higher. Renewed U.S.-Iran fighting, near-standstill Hormuz traffic, tight fuel markets, Russian energy-infrastructure pressure, rising Ebola counts and heat-driven power stress now outweigh earlier oil-supply relief.",
     "methodNote": "These are directional pressure contributions, not exact mathematical probabilities. Fresh confirmed events add pressure; repeated or fading headlines are discounted unless they create measurable escalation. Confirmed diplomacy, market adaptation, containment and regional-only transmission can cap or lower scores.",
     "overall": [
       {
@@ -79,111 +79,116 @@ window.dailyRiskPageData = {
       },
       {
         "label": "Active conflict pressure",
-        "impact": "+16",
+        "impact": "+18",
         "impactClass": "impact-positive",
-        "note": "Deep Ukrainian strikes on Russian energy infrastructure and NATO summit pressure lift the conflict layer."
+        "note": "Renewed U.S.-Iran strikes, Gulf-state attacks, Hormuz near-standstill and Ukraine-Russia energy warfare lift the conflict layer."
       },
       {
         "label": "Energy and shipping fragility",
-        "impact": "+0",
-        "impactClass": "impact-neutral",
-        "note": "Oil supply is recovering, but Hormuz shipping confidence and future bypass-route planning show the system is not fully normal."
+        "impact": "+3",
+        "impactClass": "impact-positive",
+        "note": "Hormuz traffic, diesel markets and Russian fuel restrictions show route and product-market fragility."
       },
       {
         "label": "Health risk pressure",
-        "impact": "+16",
+        "impact": "+17",
         "impactClass": "impact-positive",
-        "note": "Congo Ebola remains at 1,561 confirmed cases including 506 deaths, but health scoring stays below pandemic-band without uncontrolled global spread."
+        "note": "DRC Ebola rose to 1,759 cases and 600 deaths, but health is capped below pandemic-band without uncontrolled global spread."
       },
       {
         "label": "Climate and humanitarian pressure",
-        "impact": "+15",
+        "impact": "+16",
         "impactClass": "impact-positive",
-        "note": "European heatwave excess deaths and heat-related political pressure keep the climate/public-health layer high."
+        "note": "Heatwave mortality and record U.S. electricity generation lift the climate and infrastructure layer."
       },
       {
-        "label": "Oil relief, supply recovery and restrained health scoring",
-        "impact": "-14",
+        "label": "Diplomacy, market adaptation and health-score discipline",
+        "impact": "-19",
         "impactClass": "impact-negative",
-        "note": "OPEC+ output increases, Saudi price cuts, Gulf supply competition and health-score discipline prevent a larger index rise."
+        "note": "Crude is still below peak panic, Trump downplayed full-scale war, and health scoring remains regional rather than pandemic-level."
       }
     ],
     "categories": [
       {
         "title": "Conflict score logic",
-        "score": "77 / 100",
+        "score": "79 / 100",
         "items": [
           {
-            "label": "Ukraine strikes Russian energy infrastructure",
+            "label": "Renewed U.S.-Iran escalation",
             "impact": "Very Strong",
-            "note": "Reuters reports Ukraine struck Russian oil refineries and the Vysotsk oil terminal."
+            "note": "Fresh U.S. strikes and Iranian attacks on Gulf states weaken the ceasefire track."
           },
           {
-            "label": "Omsk deep-strike signal",
+            "label": "Hormuz near-standstill",
+            "impact": "Very Strong",
+            "note": "Tanker traffic is near a standstill while vessel owners reassess route risk."
+          },
+          {
+            "label": "Ukraine-Russia energy warfare",
             "impact": "Strong",
-            "note": "Reports of a strike on Russia’s largest Omsk refinery show Ukraine’s energy campaign reaching deeper into Russia."
+            "note": "The IEA cut Russia’s supply outlook as Ukrainian strikes continue to damage refineries, storage and transport assets."
           },
           {
-            "label": "NATO Ankara summit",
-            "impact": "Moderate-Strong",
-            "note": "NATO is opening the summit with major arms-deal announcements, keeping air defense and alliance firepower at the center of policy risk."
-          },
-          {
-            "label": "U.S.-Iran and Hormuz calmer",
+            "label": "Diplomacy still possible",
             "impact": "Lowering factor",
-            "note": "No fresh direct U.S.-Iran strike keeps the Middle East route channel below peak panic."
+            "note": "Market upside is capped by expectations that the U.S. and Iran may return to diplomacy."
           },
           {
-            "label": "Russia domestic fuel pressure",
-            "impact": "Moderate-Strong",
-            "note": "Refinery and terminal strikes sustain the risk of domestic fuel disruption inside Russia."
+            "label": "NATO and air-defense follow-through",
+            "impact": "Moderate",
+            "note": "Ukraine air-defense and alliance production remain important after the Ankara summit."
           }
         ]
       },
       {
         "title": "Economic score logic",
-        "score": "52 / 100",
+        "score": "56 / 100",
         "items": [
           {
-            "label": "Oil supply recovery",
-            "impact": "Strong lowering factor",
-            "note": "OPEC+ output increases and recovering Gulf supply keep the market layer calmer than during the Hormuz panic."
+            "label": "Oil weekly gain",
+            "impact": "Strong",
+            "note": "Brent and WTI are set for clear weekly gains as Middle East supply risks persist."
           },
           {
-            "label": "Saudi price cuts and Gulf competition",
-            "impact": "Strong lowering factor",
-            "note": "Saudi Arabia cut crude prices sharply and Gulf producers are competing for market share."
+            "label": "Fuel-market crunch",
+            "impact": "Strong",
+            "note": "Diesel margins and gasoline premiums are high despite crude being below peak panic levels."
           },
           {
-            "label": "Oil edges higher but remains contained",
-            "impact": "Moderate",
-            "note": "Brent and WTI rose slightly today, but remain far below peak conflict pricing."
+            "label": "Russia diesel export ban",
+            "impact": "Moderate-Strong",
+            "note": "Russia imposed fuel-export restrictions to protect domestic supply after refinery damage."
           },
           {
-            "label": "Hormuz shipping recovery still sluggish",
-            "impact": "Moderate",
-            "note": "Shipping recovery is not clean enough to justify a low-risk energy reading."
+            "label": "Crude still below peak panic",
+            "impact": "Lowering factor",
+            "note": "Prices remain far below late-April/peak war levels, preventing a high economic score."
           },
           {
-            "label": "Russia fuel infrastructure risk",
-            "impact": "Moderate",
-            "note": "Attacks on refineries and terminals keep localized fuel-market stress alive."
+            "label": "Diplomacy cap",
+            "impact": "Lowering factor",
+            "note": "Expectation of renewed diplomacy limits the oil-price upside for now."
           }
         ]
       },
       {
         "title": "Health score logic",
-        "score": "88 / 100",
+        "score": "89 / 100",
         "items": [
           {
-            "label": "Congo Ebola remains severe",
+            "label": "DRC Ebola count rises",
             "impact": "Very Strong",
-            "note": "Reuters’ latest DRC baseline remains 1,561 confirmed Ebola cases including 506 deaths."
+            "note": "ECDC reports 1,759 confirmed DRC cases and 600 deaths."
           },
           {
-            "label": "Regional response burden",
+            "label": "Isolation and contact tracing burden",
             "impact": "Strong",
-            "note": "Isolation, surveillance and contact tracing remain a major regional-health burden."
+            "note": "750 patients are hospitalised in isolation and 80% of identified contacts are under follow-up."
+          },
+          {
+            "label": "Uganda watch",
+            "impact": "Moderate",
+            "note": "Uganda has 20 confirmed cases and two deaths, with no new confirmed case since June 21."
           },
           {
             "label": "Regional rather than pandemic scoring",
@@ -191,35 +196,35 @@ window.dailyRiskPageData = {
             "note": "The score stays below 90 because uncontrolled global spread is not confirmed."
           },
           {
-            "label": "Uganda and imported-case watch",
-            "impact": "Moderate",
-            "note": "Regional and imported-case monitoring remains important, but not enough to justify pandemic-band scoring."
+            "label": "EU/EEA low likelihood",
+            "impact": "Lowering factor",
+            "note": "ECDC assesses EU/EEA infection likelihood as very low, supporting non-pandemic scoring."
           }
         ]
       },
       {
         "title": "Climate score logic",
-        "score": "75 / 100",
+        "score": "76 / 100",
         "items": [
           {
-            "label": "European heatwave excess deaths",
-            "impact": "Very Strong",
-            "note": "Reuters reported at least 3,700 excess deaths in France, Belgium and the Netherlands during the heatwave."
-          },
-          {
-            "label": "Heatwave political pressure",
-            "impact": "Moderate-Strong",
-            "note": "France’s government survived a no-confidence vote over its heatwave handling, showing heat risk has become political as well as physical."
-          },
-          {
-            "label": "U.S. heat disruption",
+            "label": "U.S. electricity record",
             "impact": "Strong",
-            "note": "Recent heat disrupted events and strained power grids across parts of the United States."
+            "note": "U.S. electricity output exceeded 100,000 GWh in one week for the first time during intense heat."
           },
           {
-            "label": "No new single-day global catastrophe",
+            "label": "European heat mortality",
+            "impact": "Very Strong",
+            "note": "Europe’s heatwave excess-death signal remains a major public-health and adaptation risk."
+          },
+          {
+            "label": "Grid and infrastructure strain",
+            "impact": "Moderate-Strong",
+            "note": "Heat-driven power demand raises resilience and infrastructure risk."
+          },
+          {
+            "label": "No single sudden global catastrophe",
             "impact": "Lowering factor",
-            "note": "The score holds because there is no new single-day global climate catastrophe today."
+            "note": "The score rises only one point because this remains heatwave and infrastructure-stress scoring."
           }
         ]
       }
@@ -227,116 +232,117 @@ window.dailyRiskPageData = {
   },
   "riskData": [
     {
-      "title": "🌍 Conflict Risk: Deep Russia Energy Strikes Lift War Pressure",
-      "subtitle": "Ukraine hits Russian refineries and Vysotsk oil terminal, Omsk deep-strike signal, NATO Ankara summit and calmer Hormuz",
-      "score": 77,
-      "changeText": "+1",
+      "title": "🌍 Conflict Risk: Hormuz Escalation Returns",
+      "subtitle": "U.S.-Iran strikes, Gulf-state attacks, near-standstill Hormuz traffic, Ukraine-Russia energy warfare and NATO follow-through",
+      "score": 79,
+      "changeText": "+2",
       "changeClass": "pill-warning",
-      "direction": "High / War Infrastructure Pressure",
+      "direction": "High / Escalation Watch",
       "directionClass": "pill-danger",
-      "description": "Conflict risk rises to 77. Reuters reports Ukraine struck Russian oil refineries and the Vysotsk oil terminal, while separate reporting points to a deep strike on Russia’s largest Omsk refinery. That keeps the Ukraine-Russia war-infrastructure layer elevated even as the U.S.-Iran/Hormuz channel remains calmer. NATO’s Ankara summit also opens with major arms-deal announcements, keeping air defense, alliance firepower and Ukraine support at the center of the risk map. The score is raised only one point because the Middle East oil route is not back in peak panic.",
+      "description": "Conflict risk rises to 79. Renewed U.S.-Iran fighting triggered Iranian attacks on Gulf states and pushed Hormuz tanker traffic back toward a near-standstill. This is a measurable escalation from the July 7 report. The score is not pushed above 80 because crude remains below peak panic levels and markets still see a path back to diplomacy. Ukraine-Russia energy warfare also remains active as the IEA cut Russia’s supply outlook after continued Ukrainian attacks on energy infrastructure.",
       "drivers": [
-        "Ukraine strikes Russian refineries",
-        "Vysotsk oil terminal hit",
-        "Omsk refinery deep-strike signal",
-        "NATO Ankara arms-deal pressure",
-        "Calmer U.S.-Iran/Hormuz channel"
+        "Renewed U.S.-Iran strikes",
+        "Iran attacks on Gulf states",
+        "Hormuz near-standstill",
+        "Ukraine-Russia energy infrastructure pressure",
+        "Diplomacy still capping full-war pricing"
       ],
       "sources": [
         "Reuters",
-        "AP",
+        "IEA",
         "Energy market reporting",
         "Maritime reporting"
       ],
       "trend": [
-        74,
         73,
         74,
         74,
         74,
         76,
-        77
+        77,
+        79
       ]
     },
     {
-      "title": "📉 Economic Risk: Supply Relief Keeps Market Risk Contained",
-      "subtitle": "Brent near $72.84, WTI near $69.29, Saudi price cuts, Gulf supply competition, sluggish Hormuz shipping and Russia fuel risk",
-      "score": 52,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
-      "direction": "Moderate / Cooling",
-      "directionClass": "pill-neutral",
-      "description": "Economic risk holds at 52. Reuters reports oil rose slightly, with Brent near $72.84 and WTI near $69.29, but the broader market still reflects supply relief rather than panic. Saudi Arabia made a major crude-price cut to Asian buyers, Gulf producers are competing for market share, and OPEC+ supply expectations remain supportive. The score is not lowered further because Hormuz shipping recovery is still sluggish and Russia’s fuel infrastructure remains under attack.",
+      "title": "📉 Economic Risk: Fuel Crunch Offsets Earlier Oil Relief",
+      "subtitle": "Brent near $76.34, WTI near $72.15, weekly oil gains, record diesel margins, low product stocks and Russian export restrictions",
+      "score": 56,
+      "changeText": "+4",
+      "changeClass": "pill-warning",
+      "direction": "Moderate / Rising Fuel Pressure",
+      "directionClass": "pill-warning",
+      "description": "Economic risk rises to 56. Oil is still below the peak panic phase, but Reuters reports Brent and WTI are on track for weekly gains as Middle East supply risks persist. Fuel markets are even tighter than crude prices suggest: European diesel margins hit record levels, product stocks remain below normal, and Russia introduced a diesel export ban after Ukrainian attacks damaged refining infrastructure. This raises inflation and transport-cost pressure without turning the score into a crisis reading.",
       "drivers": [
-        "Oil still far below peak panic",
-        "Saudi crude price cuts",
-        "Gulf supply competition",
-        "Sluggish Hormuz shipping recovery",
-        "Russia fuel infrastructure risk"
+        "Oil weekly gain",
+        "Fuel-market supply crunch",
+        "Record diesel margins",
+        "Russia diesel export ban",
+        "Crude below peak panic levels"
       ],
       "sources": [
         "Reuters",
+        "IEA",
         "Market reporting",
         "Energy market reporting"
       ],
       "trend": [
-        55,
         54,
         54,
         54,
         53,
         52,
-        52
+        52,
+        56
       ]
     },
     {
-      "title": "🏥 Health Risk: Ebola Holds Severe Regional Level",
-      "subtitle": "1,561 DRC cases, 506 deaths, response burden, regional surveillance and no confirmed uncontrolled global spread",
-      "score": 88,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
+      "title": "🏥 Health Risk: Ebola Worsens, But Not Pandemic-Scored",
+      "subtitle": "1,759 DRC cases, 600 deaths, 750 in isolation, Uganda watch and EU/EEA very-low likelihood",
+      "score": 89,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
       "direction": "Severe Regional Risk",
       "directionClass": "pill-warning",
-      "description": "Health risk holds at 88. The latest Reuters baseline remains severe: Congo reported 1,561 confirmed Ebola cases, including 506 deaths. The score is not raised again today because there is no fresh confirmed uncontrolled international spread. The model treats the outbreak as severe regional health and development risk, not global pandemic scoring.",
+      "description": "Health risk rises to 89, deliberately below pandemic-band scoring. ECDC reports 1,759 confirmed DRC Ebola cases and 600 deaths, with 750 patients hospitalised in isolation. Uganda has 20 confirmed cases and two deaths, but no new confirmed Uganda case since June 21. This is severe regional health risk with major containment pressure, not confirmed uncontrolled global spread. The model therefore avoids pushing the health score into the 90+ pandemic-style band.",
       "drivers": [
-        "1,561 confirmed DRC Ebola cases",
-        "506 confirmed deaths",
-        "Isolation and surveillance burden",
-        "Regional response pressure",
+        "1,759 confirmed DRC Ebola cases",
+        "600 confirmed deaths",
+        "750 hospitalised in isolation",
+        "Uganda surveillance watch",
         "No confirmed uncontrolled global spread"
       ],
       "sources": [
-        "Reuters",
         "ECDC",
+        "Reuters",
         "CDC",
         "WHO",
         "Africa CDC"
       ],
       "trend": [
         90,
-        90,
         88,
         86,
         85,
         88,
-        88
+        88,
+        89
       ]
     },
     {
-      "title": "🌡️ Climate Risk: Heat Risk Stays High, Not Newly Spiking",
-      "subtitle": "European excess deaths, France heatwave politics, U.S. heat disruption, power-grid strain and wildfire watch",
-      "score": 75,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
+      "title": "🌡️ Climate Risk: Heat Stress Moves Into Power Systems",
+      "subtitle": "Record U.S. electricity output, European heat mortality, grid strain, wildfire watch and adaptation pressure",
+      "score": 76,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
       "direction": "High Structural Heat Risk",
       "directionClass": "pill-warning",
-      "description": "Climate risk holds at 75. Europe’s heatwave excess-death signal remains one of the strongest non-war risk layers, and France’s government surviving a no-confidence vote over heatwave handling shows the issue has become political as well as environmental. The score is not raised further because there is no new single-day global climate catastrophe today.",
+      "description": "Climate risk rises to 76. Reuters reports U.S. electricity generation exceeded 100,000 GWh in a single week for the first time as intense heat boosted air-conditioning demand. Europe’s heatwave excess-death signal also remains active. This makes heat more than a weather headline: it is now an energy, grid, health and infrastructure resilience risk. The score rises only one point because there is no new sudden single-day global climate catastrophe.",
       "drivers": [
-        "European heatwave excess deaths",
-        "France heatwave political pressure",
-        "U.S. heat disruption",
+        "Record U.S. electricity output",
+        "Intense heatwave demand",
+        "European heatwave mortality",
         "Power-grid strain",
-        "No new single-day global catastrophe"
+        "No sudden global climate catastrophe"
       ],
       "sources": [
         "Reuters",
@@ -345,59 +351,59 @@ window.dailyRiskPageData = {
         "Copernicus"
       ],
       "trend": [
-        72,
         73,
         73,
         74,
         75,
         75,
-        75
+        75,
+        76
       ]
     }
   ],
   "reportData": [
     {
       "title": "🌍 Global Conflict Report",
-      "tag": "High War Infrastructure Pressure",
+      "tag": "High Escalation Watch",
       "tagClass": "pill-danger",
-      "score": "77 / 100",
-      "direction": "High / War Infrastructure Pressure",
-      "watch": "NATO Ankara summit, Ukraine air-defense deals, Vysotsk oil terminal, Omsk refinery, Russian fuel system, U.S.-Iran follow-up talks, Hormuz shipping and Lebanon framework",
-      "why": "Conflict risk rises because Ukraine’s energy-infrastructure campaign struck Russian refineries and an oil terminal while NATO opens its Ankara summit with major arms-deal announcements.",
-      "moved": "The score moves from 76 to 77. This is measured war-infrastructure risk, not broad panic scoring.",
+      "score": "79 / 100",
+      "direction": "High / Escalation Watch",
+      "watch": "U.S.-Iran strikes, Hormuz tanker traffic, Kuwait and Bahrain security, Qatar LNG routes, Ukraine-Russia refinery pressure, NATO follow-through and Lebanon framework",
+      "why": "Conflict risk rises because renewed U.S.-Iran fighting and Iranian attacks on Gulf states pushed Hormuz traffic toward a near-standstill.",
+      "moved": "The score moves from 77 to 79. This is a measured escalation, not full panic scoring, because markets still expect a possible return to diplomacy.",
       "matters": "Conflict risk matters because military and maritime pressure can transmit quickly into oil, freight, insurance, sanctions, humanitarian needs and investor sentiment."
     },
     {
       "title": "📉 Global Economic Report",
-      "tag": "Cooling Risk",
-      "tagClass": "pill-neutral",
-      "score": "52 / 100",
-      "direction": "Moderate / Cooling",
-      "watch": "Brent and WTI oil, Saudi price cuts, Gulf supply competition, OPEC+ output, Hormuz shipping, Russia fuel restrictions and equity risk appetite",
-      "why": "Economic risk holds because supply relief, price cuts and OPEC+ output expectations offset slight oil gains and sluggish Hormuz shipping recovery.",
-      "moved": "The score holds at 52. Market relief is real, but fuel and shipping risk prevent a low-risk reading.",
+      "tag": "Rising Fuel Pressure",
+      "tagClass": "pill-warning",
+      "score": "56 / 100",
+      "direction": "Moderate / Rising Fuel Pressure",
+      "watch": "Brent and WTI oil, Hormuz transit, diesel margins, Russia fuel restrictions, product stocks, U.S. gasoline demand and inflation expectations",
+      "why": "Economic risk rises because fuel products are tightening even though crude remains below peak panic levels.",
+      "moved": "The score moves from 52 to 56. The model recognizes fuel-market pressure while avoiding crisis-level economic scoring.",
       "matters": "Economic risk matters because external shocks become household and business costs through fuel, electricity, transport, food prices, currency moves and borrowing conditions."
     },
     {
       "title": "🏥 Global Health Report",
       "tag": "Severe Regional Risk",
       "tagClass": "pill-warning",
-      "score": "88 / 100",
+      "score": "89 / 100",
       "direction": "Severe Regional Risk",
-      "watch": "DRC Ebola cases, deaths, isolation capacity, contact tracing, Uganda surveillance, imported-case monitoring, donor funding and cross-border screening",
-      "why": "Health risk holds because DRC Ebola remains severe, but no confirmed uncontrolled global spread justifies pandemic-band scoring.",
-      "moved": "The score holds at 88. This recognizes the serious regional outbreak while avoiding global-pandemic inflation.",
+      "watch": "DRC Ebola cases, deaths, isolation capacity, contact tracing, Uganda surveillance, worker-pay disruptions, treatment-centre security and cross-border screening",
+      "why": "Health risk rises because DRC Ebola reached 1,759 cases and 600 deaths, but it remains below pandemic-band without confirmed uncontrolled global spread.",
+      "moved": "The score moves from 88 to 89. This reflects worsening data without inflating the health index into global pandemic scoring.",
       "matters": "Health risk matters because surveillance, trust, contact tracing, safe burials and health-worker protection determine whether a regional outbreak remains contained."
     },
     {
       "title": "🌡️ Global Climate Report",
       "tag": "High Structural Heat Risk",
       "tagClass": "pill-warning",
-      "score": "75 / 100",
+      "score": "76 / 100",
       "direction": "High Structural Heat Risk",
-      "watch": "European heatwave excess deaths, France heatwave politics, U.S. heat disruption, power-grid strain, wildfire risk, drought, water demand and electricity demand",
-      "why": "Climate risk holds high because European heatwave excess deaths and heat-related political pressure remain serious, but there is no new global catastrophe today.",
-      "moved": "The score holds at 75. This keeps heat risk high without over-scoring it.",
+      "watch": "U.S. heat load, power-grid strain, European heat mortality, wildfire risk, drought, water demand and electricity demand",
+      "why": "Climate risk rises because intense heat pushed U.S. electricity generation to a record high while European heat mortality remains a major risk signal.",
+      "moved": "The score moves from 75 to 76. This is measured heat-risk recognition, not catastrophe scoring.",
       "matters": "Climate risk matters because it lowers resilience when conflict, energy, health and food-system risks are already active."
     }
   ],
@@ -405,12 +411,12 @@ window.dailyRiskPageData = {
     {
       "country": "Ukraine",
       "region": "Eastern Europe",
-      "score": 90,
+      "score": 91,
       "changeText": "+1",
       "changeClass": "pill-warning",
       "direction": "Very High / Active War",
       "directionClass": "pill-danger",
-      "summary": "Ukraine rises because its long-range campaign struck Russian refineries and the Vysotsk oil terminal while NATO prepares major arms-deal announcements in Ankara.",
+      "summary": "Ukraine rises because its long-range energy campaign is now affecting Russian output forecasts while air-defense and NATO follow-through remain critical.",
       "drivers": [
         "Active war conditions",
         "Long-range drone warfare",
@@ -418,33 +424,32 @@ window.dailyRiskPageData = {
         "Air-defense pressure"
       ],
       "watchItems": [
-        "NATO Ankara summit",
+        "NATO follow-through",
         "Air-defense deals",
-        "Vysotsk oil terminal",
-        "Omsk refinery strike signal",
         "Russian refinery strikes",
+        "IEA Russian supply downgrade",
         "Kyiv attack aftermath",
         "Long-range drone campaign"
       ],
       "trend": [
         87,
-        87,
         88,
         88,
         88,
         89,
-        90
+        90,
+        91
       ]
     },
     {
       "country": "Israel",
       "region": "Middle East",
-      "score": 65,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
-      "direction": "Elevated / Fragile",
+      "score": 66,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
+      "direction": "Elevated / Regional Spillover Watch",
       "directionClass": "pill-warning",
-      "summary": "Israel holds elevated because the Lebanon framework remains fragile and politically contested, but there is no fresh major regional escalation today.",
+      "summary": "Israel rises slightly because renewed U.S.-Iran fighting and Gulf-state attacks raise the regional-security layer, even without a fresh Israel-specific escalation.",
       "drivers": [
         "Lebanon ceasefire fragility",
         "Hezbollah-linked pressure",
@@ -452,9 +457,9 @@ window.dailyRiskPageData = {
         "Red Sea shipping linkage"
       ],
       "watchItems": [
-        "Lebanon framework implementation",
-        "Hezbollah response",
-        "Iran deal reaction",
+        "Iran escalation",
+        "Lebanon framework",
+        "Red Sea linkage",
         "Regional retaliation signs",
         "Ceasefire durability"
       ],
@@ -465,119 +470,120 @@ window.dailyRiskPageData = {
         65,
         65,
         65,
-        65
+        66
       ]
     },
     {
       "country": "Iran",
       "region": "Middle East",
-      "score": 58,
-      "changeText": "-1",
-      "changeClass": "pill-neutral",
-      "direction": "Moderate-Elevated / Fragile Relief",
-      "directionClass": "pill-neutral",
-      "summary": "Iran eases slightly because oil markets and Hormuz shipping are calmer, but shipping recovery is still sluggish and durable maritime rules remain unresolved.",
+      "score": 65,
+      "changeText": "+7",
+      "changeClass": "pill-warning",
+      "direction": "High / Hormuz Escalation",
+      "directionClass": "pill-danger",
+      "summary": "Iran rises because renewed U.S.-Iran fighting, attacks on Gulf states and near-standstill Hormuz traffic make it a central driver of today’s global risk.",
       "drivers": [
         "Hormuz leverage",
-        "U.S.-Iran deal uncertainty",
+        "U.S.-Iran strike cycle",
+        "Gulf-state attacks",
         "Sanctions and frozen-assets negotiations",
-        "Nuclear negotiation risk",
         "Regional proxy dynamics"
       ],
       "watchItems": [
-        "U.S.-Iran follow-up talks",
-        "Hormuz shipping recovery",
-        "Hormuz toll plan",
-        "U.S. military posture",
+        "U.S.-Iran strikes",
+        "Hormuz near-standstill",
+        "Kuwait and Bahrain attacks",
+        "Bushehr watch",
         "Shipping insurance",
-        "Permanent truce terms"
+        "Technical talks"
       ],
       "trend": [
-        63,
         62,
         61,
         60,
         60,
         59,
-        58
+        58,
+        65
       ]
     },
     {
       "country": "Russia",
       "region": "Eastern Europe / Eurasia",
-      "score": 89,
+      "score": 90,
       "changeText": "+1",
       "changeClass": "pill-warning",
-      "direction": "High / Active War",
+      "direction": "Very High / Active War",
       "directionClass": "pill-danger",
-      "summary": "Russia rises because Ukrainian strikes hit Russian refineries and the Vysotsk oil terminal, with the Omsk refinery signal showing deeper reach into Russia’s energy system.",
+      "summary": "Russia rises because Ukrainian attacks on refineries, storage and transport infrastructure led the IEA to cut Russia’s oil-supply outlook while domestic fuel restrictions continue.",
       "drivers": [
         "War tempo",
-        "Drone attacks on industrial regions",
+        "Drone attacks on energy infrastructure",
+        "Diesel export ban",
         "Sanctions pressure",
-        "Energy export exposure"
+        "Domestic fuel pressure"
       ],
       "watchItems": [
-        "Vysotsk oil terminal",
-        "Omsk refinery",
-        "Yaroslavl refinery",
-        "Leningrad refinery",
+        "IEA supply downgrade",
+        "Diesel export ban",
+        "Refinery strikes",
+        "Storage and transport damage",
         "Fuel cards and rationing",
-        "Potential diesel export ban",
         "Domestic fuel pressure"
       ],
       "trend": [
-        84,
         85,
         86,
         87,
         87,
         88,
-        89
+        89,
+        90
       ]
     },
     {
       "country": "Democratic Republic of the Congo",
       "region": "Central Africa",
-      "score": 93,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
+      "score": 94,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
       "direction": "Severe Health Risk",
       "directionClass": "pill-danger",
-      "summary": "DRC holds severe because Ebola remains at 1,561 confirmed cases including 506 deaths, while the score stays below pandemic-style maximum scoring.",
+      "summary": "DRC rises because Ebola reached 1,759 confirmed cases and 600 deaths, with 750 patients hospitalized in isolation and new cases still being monitored.",
       "drivers": [
         "Bundibugyo Ebola outbreak",
-        "1,561 confirmed cases",
-        "506 deaths",
-        "Isolation and contact tracing burden",
-        "Development and funding risk"
+        "1,759 confirmed cases",
+        "600 deaths",
+        "750 hospitalized in isolation",
+        "Contact tracing and response pressure"
       ],
       "watchItems": [
-        "Confirmed case trend",
-        "Contact tracing coverage",
-        "Health-worker infections",
-        "Displaced camps",
-        "Response funding"
+        "1,759 confirmed cases",
+        "600 deaths",
+        "750 hospitalized in isolation",
+        "Contact tracing gaps",
+        "Worker-pay disruptions",
+        "Tshopo investigation"
       ],
       "trend": [
-        95,
         94,
         92,
         92,
         91,
         93,
-        93
+        93,
+        94
       ]
     },
     {
       "country": "Uganda",
       "region": "East Africa",
-      "score": 58,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
+      "score": 59,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
       "direction": "Moderate / Elevated",
       "directionClass": "pill-neutral",
-      "summary": "Uganda holds moderate-elevated because regional Ebola surveillance remains important, but severe national outbreak scoring is still avoided.",
+      "summary": "Uganda rises slightly because cross-border Ebola surveillance remains important, although no new confirmed Uganda case has been reported since June 21.",
       "drivers": [
         "Cross-border Ebola exposure",
         "Small number of reported cases",
@@ -586,30 +592,32 @@ window.dailyRiskPageData = {
         "Regional mobility"
       ],
       "watchItems": [
-        "New confirmed cases",
-        "Contact tracing results",
+        "20 confirmed cases",
+        "Two deaths",
+        "No new case since June 21",
+        "DRC travel links",
         "Kampala surveillance",
-        "DRC border movement"
+        "Cross-border screening"
       ],
       "trend": [
-        61,
         60,
         58,
         58,
         57,
         58,
-        58
+        58,
+        59
       ]
     },
     {
       "country": "Türkiye",
       "region": "Eastern Mediterranean",
-      "score": 43,
+      "score": 44,
       "changeText": "+1",
       "changeClass": "pill-warning",
-      "direction": "Moderate / NATO Watch",
+      "direction": "Moderate / NATO and Energy Watch",
       "directionClass": "pill-neutral",
-      "summary": "Türkiye rises slightly because the NATO Ankara summit puts Ukraine air defense, alliance spending and defense deals at the center of diplomatic attention, while lower oil helps the economy.",
+      "summary": "Türkiye rises slightly because renewed Hormuz tension and NATO follow-through raise regional and energy sensitivity, even as lower-than-peak oil helps.",
       "drivers": [
         "Imported energy dependency",
         "Inflation pass-through",
@@ -617,32 +625,32 @@ window.dailyRiskPageData = {
         "Black Sea and Middle East logistics exposure"
       ],
       "watchItems": [
-        "NATO Ankara summit",
-        "Defense deals",
+        "NATO follow-through",
+        "Hormuz traffic",
         "Fuel price trends",
         "Inflation expectations",
         "Black Sea shipping",
         "Middle East diplomacy"
       ],
       "trend": [
-        44,
         43,
         42,
         42,
         42,
         42,
-        43
+        43,
+        44
       ]
     },
     {
       "country": "United States",
       "region": "North America",
-      "score": 50,
-      "changeText": "+1",
+      "score": 52,
+      "changeText": "+2",
       "changeClass": "pill-warning",
       "direction": "Moderate / Policy-Sensitive",
       "directionClass": "pill-neutral",
-      "summary": "The United States rises slightly because NATO arms deals, Ukraine air-defense support and Trump-Zelenskiy diplomacy are central to today’s policy-risk map.",
+      "summary": "The United States rises because fresh strikes on Iran and Hormuz route pressure raise military, energy and inflation sensitivity.",
       "drivers": [
         "Iran diplomacy and sanctions",
         "Military posture around Hormuz",
@@ -650,32 +658,32 @@ window.dailyRiskPageData = {
         "Rate expectations"
       ],
       "watchItems": [
-        "NATO Ankara summit",
-        "Ukraine air-defense support",
-        "U.S.-Iran technical talks",
-        "Oil price volatility",
-        "Fed expectations",
-        "U.S. heat stress"
+        "Fresh Iran strikes",
+        "Hormuz route security",
+        "Fuel margins",
+        "Fed inflation watch",
+        "U.S. heat load",
+        "Ukraine air-defense support"
       ],
       "trend": [
-        49,
         48,
         48,
         48,
         49,
         49,
-        50
+        50,
+        52
       ]
     },
     {
       "country": "China",
       "region": "East Asia",
-      "score": 44,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
+      "score": 46,
+      "changeText": "+2",
+      "changeClass": "pill-warning",
       "direction": "Moderate",
       "directionClass": "pill-neutral",
-      "summary": "China holds because lower oil and Gulf supply competition reduce import-cost pressure, while demand weakness and fuel-market uncertainty remain watch items.",
+      "summary": "China rises because higher weekly oil prices and Hormuz near-standstill increase crude-import and supply-chain sensitivity.",
       "drivers": [
         "Taiwan maritime friction",
         "Commercial-shipping pressure",
@@ -683,30 +691,31 @@ window.dailyRiskPageData = {
         "Manufacturing input costs"
       ],
       "watchItems": [
-        "Taiwan restricted waters",
-        "Pratas activity",
-        "Crude arrivals",
-        "Import cost trends"
+        "Hormuz route risk",
+        "Crude import costs",
+        "Fuel-market tightness",
+        "Manufacturing input costs",
+        "Taiwan watch"
       ],
       "trend": [
-        48,
         47,
         46,
         45,
         45,
         44,
-        44
+        44,
+        46
       ]
     },
     {
       "country": "India",
       "region": "South Asia",
-      "score": 38,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
-      "direction": "Low-Moderate / Watch",
+      "score": 40,
+      "changeText": "+2",
+      "changeClass": "pill-warning",
+      "direction": "Moderate / Oil Watch",
       "directionClass": "pill-neutral",
-      "summary": "India holds because lower oil reduces import-cost, inflation and currency pressure, while Hormuz shipping recovery remains a watch item.",
+      "summary": "India rises because Brent and WTI moved higher for the week and Hormuz route risk matters for import-cost, inflation and currency pressure.",
       "drivers": [
         "Oil import dependence",
         "Hormuz shipping exposure",
@@ -714,30 +723,31 @@ window.dailyRiskPageData = {
         "Currency and inflation transmission"
       ],
       "watchItems": [
-        "Brent oil correlation",
-        "Gulf crude arrivals",
-        "Food-price pressure",
-        "Currency stability"
+        "Brent weekly gain",
+        "Hormuz route exposure",
+        "Food and fertilizer sensitivity",
+        "Currency stability",
+        "Fuel inflation"
       ],
       "trend": [
-        42,
         41,
         40,
         39,
         39,
         38,
-        38
+        38,
+        40
       ]
     },
     {
       "country": "Germany",
       "region": "Western Europe",
-      "score": 41,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
-      "direction": "Moderate / Heat Watch",
+      "score": 42,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
+      "direction": "Moderate / Heat and Fuel Watch",
       "directionClass": "pill-neutral",
-      "summary": "Germany holds because European heatwave excess-death data and infrastructure stress keep the regional heat layer serious.",
+      "summary": "Germany rises slightly because diesel-market tightness and European heat stress keep the industrial and infrastructure layer active.",
       "drivers": [
         "Industrial energy sensitivity",
         "ECB policy sensitivity",
@@ -745,32 +755,32 @@ window.dailyRiskPageData = {
         "External shock exposure"
       ],
       "watchItems": [
-        "European heatwave excess deaths",
-        "Wildfire risk",
+        "Diesel margins",
+        "European heat mortality",
         "Energy demand",
         "Industrial output",
         "ECB policy",
         "Export demand"
       ],
       "trend": [
-        38,
         39,
         39,
         40,
         41,
         41,
-        41
+        41,
+        42
       ]
     },
     {
       "country": "Japan",
       "region": "East Asia",
-      "score": 36,
-      "changeText": "0",
-      "changeClass": "pill-neutral",
-      "direction": "Low-Moderate",
+      "score": 37,
+      "changeText": "+1",
+      "changeClass": "pill-warning",
+      "direction": "Low-Moderate / Energy Watch",
       "directionClass": "pill-neutral",
-      "summary": "Japan holds low-moderate because cheaper oil helps imported energy costs, while yen sensitivity and Asian sea-lane risk remain watch items.",
+      "summary": "Japan rises slightly because Hormuz supply risk and weekly oil gains matter for imported energy costs and yen sensitivity.",
       "drivers": [
         "Maritime supply-chain exposure",
         "Energy import dependency",
@@ -778,19 +788,20 @@ window.dailyRiskPageData = {
         "Currency sensitivity"
       ],
       "watchItems": [
-        "Shipping security",
+        "Hormuz shipping",
         "Energy import costs",
-        "Taiwan Strait signals",
+        "WTI and Brent gains",
+        "Yen sensitivity",
         "Asian demand"
       ],
       "trend": [
-        37,
         36,
         36,
         36,
         36,
         36,
-        36
+        36,
+        37
       ]
     }
   ],
@@ -799,136 +810,136 @@ window.dailyRiskPageData = {
       "title": "Ukraine Country Report",
       "tag": "Very High Risk",
       "tagClass": "pill-danger",
-      "score": "90 / 100",
+      "score": "91 / 100",
       "direction": "Very High / Active War",
-      "watch": "NATO Ankara summit, Air-defense deals, Vysotsk oil terminal, Omsk refinery strike signal, Russian refinery strikes, Kyiv attack aftermath, Long-range drone campaign",
-      "why": "Ukraine rises because its long-range campaign struck Russian refineries and the Vysotsk oil terminal while NATO prepares major arms-deal announcements in Ankara.",
-      "moved": "The score moves to 90. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "watch": "NATO follow-through, Air-defense deals, Russian refinery strikes, IEA Russian supply downgrade, Kyiv attack aftermath, Long-range drone campaign",
+      "why": "Ukraine rises because its long-range energy campaign is now affecting Russian output forecasts while air-defense and NATO follow-through remain critical.",
+      "moved": "The score moves to 91. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Ukraine matters because its risk channel can transmit through regional security, energy, grain logistics, sanctions, humanitarian needs and market sentiment."
     },
     {
       "title": "Israel Country Report",
       "tag": "Elevated Risk",
       "tagClass": "pill-warning",
-      "score": "65 / 100",
-      "direction": "Elevated / Fragile",
-      "watch": "Lebanon framework implementation, Hezbollah response, Iran deal reaction, Regional retaliation signs, Ceasefire durability",
-      "why": "Israel holds elevated because the Lebanon framework remains fragile and politically contested, but there is no fresh major regional escalation today.",
-      "moved": "The score holds at 65. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "score": "66 / 100",
+      "direction": "Elevated / Regional Spillover Watch",
+      "watch": "Iran escalation, Lebanon framework, Red Sea linkage, Regional retaliation signs, Ceasefire durability",
+      "why": "Israel rises slightly because renewed U.S.-Iran fighting and Gulf-state attacks raise the regional-security layer, even without a fresh Israel-specific escalation.",
+      "moved": "The score moves to 66. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Israel matters because its risk channel can transmit through regional security, oil, shipping, defense posture and investor sentiment."
     },
     {
       "title": "Iran Country Report",
-      "tag": "Moderate-Elevated Risk",
-      "tagClass": "pill-neutral",
-      "score": "58 / 100",
-      "direction": "Moderate-Elevated / Fragile Relief",
-      "watch": "U.S.-Iran follow-up talks, Hormuz shipping recovery, Hormuz toll plan, U.S. military posture, Shipping insurance, Permanent truce terms",
-      "why": "Iran eases slightly because oil markets and Hormuz shipping are calmer, but shipping recovery is still sluggish and durable maritime rules remain unresolved.",
-      "moved": "The score eases to 58. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "tag": "Elevated Risk",
+      "tagClass": "pill-warning",
+      "score": "65 / 100",
+      "direction": "High / Hormuz Escalation",
+      "watch": "U.S.-Iran strikes, Hormuz near-standstill, Kuwait and Bahrain attacks, Bushehr watch, Shipping insurance, Technical talks",
+      "why": "Iran rises because renewed U.S.-Iran fighting, attacks on Gulf states and near-standstill Hormuz traffic make it a central driver of today’s global risk.",
+      "moved": "The score moves to 65. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Iran matters because its risk channel can transmit quickly into oil, LNG, fertilizer, sanctions, shipping insurance and regional military escalation."
     },
     {
       "title": "Russia Country Report",
-      "tag": "High Risk",
+      "tag": "Very High Risk",
       "tagClass": "pill-danger",
-      "score": "89 / 100",
-      "direction": "High / Active War",
-      "watch": "Vysotsk oil terminal, Omsk refinery, Yaroslavl refinery, Leningrad refinery, Fuel cards and rationing, Potential diesel export ban, Domestic fuel pressure",
-      "why": "Russia rises because Ukrainian strikes hit Russian refineries and the Vysotsk oil terminal, with the Omsk refinery signal showing deeper reach into Russia’s energy system.",
-      "moved": "The score moves to 89. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "score": "90 / 100",
+      "direction": "Very High / Active War",
+      "watch": "IEA supply downgrade, Diesel export ban, Refinery strikes, Storage and transport damage, Fuel cards and rationing, Domestic fuel pressure",
+      "why": "Russia rises because Ukrainian attacks on refineries, storage and transport infrastructure led the IEA to cut Russia’s oil-supply outlook while domestic fuel restrictions continue.",
+      "moved": "The score moves to 90. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Russia matters because its risk channel affects war escalation, sanctions, energy exports, domestic fuel stability, cyber pressure and investor risk appetite."
     },
     {
       "title": "Democratic Republic of the Congo Country Report",
       "tag": "Severe Health Risk",
       "tagClass": "pill-danger",
-      "score": "93 / 100",
+      "score": "94 / 100",
       "direction": "Severe Health Risk",
-      "watch": "Confirmed case trend, Contact tracing coverage, Health-worker infections, Displaced camps, Response funding",
-      "why": "DRC holds severe because Ebola remains at 1,561 confirmed cases including 506 deaths, while the score stays below pandemic-style maximum scoring.",
-      "moved": "The score holds at 93. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "watch": "1,759 confirmed cases, 600 deaths, 750 hospitalized in isolation, Contact tracing gaps, Worker-pay disruptions, Tshopo investigation",
+      "why": "DRC rises because Ebola reached 1,759 confirmed cases and 600 deaths, with 750 patients hospitalized in isolation and new cases still being monitored.",
+      "moved": "The score moves to 94. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "DRC matters because outbreak control depends on surveillance, safe burials, health-worker protection, trust, displacement-camp conditions and cross-border response capacity."
     },
     {
       "title": "Uganda Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "58 / 100",
+      "score": "59 / 100",
       "direction": "Moderate / Elevated",
-      "watch": "New confirmed cases, Contact tracing results, Kampala surveillance, DRC border movement",
-      "why": "Uganda holds moderate-elevated because regional Ebola surveillance remains important, but severe national outbreak scoring is still avoided.",
-      "moved": "The score holds at 58. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "watch": "20 confirmed cases, Two deaths, No new case since June 21, DRC travel links, Kampala surveillance, Cross-border screening",
+      "why": "Uganda rises slightly because cross-border Ebola surveillance remains important, although no new confirmed Uganda case has been reported since June 21.",
+      "moved": "The score moves to 59. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Uganda matters because border surveillance and local transmission monitoring determine whether the outbreak remains contained."
     },
     {
       "title": "Türkiye Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "43 / 100",
-      "direction": "Moderate / NATO Watch",
-      "watch": "NATO Ankara summit, Defense deals, Fuel price trends, Inflation expectations, Black Sea shipping, Middle East diplomacy",
-      "why": "Türkiye rises slightly because the NATO Ankara summit puts Ukraine air defense, alliance spending and defense deals at the center of diplomatic attention, while lower oil helps the economy.",
-      "moved": "The score moves to 43. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "score": "44 / 100",
+      "direction": "Moderate / NATO and Energy Watch",
+      "watch": "NATO follow-through, Hormuz traffic, Fuel price trends, Inflation expectations, Black Sea shipping, Middle East diplomacy",
+      "why": "Türkiye rises slightly because renewed Hormuz tension and NATO follow-through raise regional and energy sensitivity, even as lower-than-peak oil helps.",
+      "moved": "The score moves to 44. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Türkiye matters because energy, inflation, Black Sea security, NATO diplomacy and corridor logistics can transmit external shocks into domestic economic pressure."
     },
     {
       "title": "United States Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "50 / 100",
+      "score": "52 / 100",
       "direction": "Moderate / Policy-Sensitive",
-      "watch": "NATO Ankara summit, Ukraine air-defense support, U.S.-Iran technical talks, Oil price volatility, Fed expectations, U.S. heat stress",
-      "why": "The United States rises slightly because NATO arms deals, Ukraine air-defense support and Trump-Zelenskiy diplomacy are central to today’s policy-risk map.",
-      "moved": "The score moves to 50. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "watch": "Fresh Iran strikes, Hormuz route security, Fuel margins, Fed inflation watch, U.S. heat load, Ukraine air-defense support",
+      "why": "The United States rises because fresh strikes on Iran and Hormuz route pressure raise military, energy and inflation sensitivity.",
+      "moved": "The score moves to 52. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "The United States matters because its diplomatic, military, climate, energy and monetary-policy signals can move global oil, rates, equities and risk appetite."
     },
     {
       "title": "China Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "44 / 100",
+      "score": "46 / 100",
       "direction": "Moderate",
-      "watch": "Taiwan restricted waters, Pratas activity, Crude arrivals, Import cost trends",
-      "why": "China holds because lower oil and Gulf supply competition reduce import-cost pressure, while demand weakness and fuel-market uncertainty remain watch items.",
-      "moved": "The score holds at 44. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "watch": "Hormuz route risk, Crude import costs, Fuel-market tightness, Manufacturing input costs, Taiwan watch",
+      "why": "China rises because higher weekly oil prices and Hormuz near-standstill increase crude-import and supply-chain sensitivity.",
+      "moved": "The score moves to 46. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "China matters because Taiwan pressure, crude-import exposure and manufacturing input costs can transmit into regional security and global supply chains."
     },
     {
       "title": "India Country Report",
-      "tag": "Low-Moderate Risk",
+      "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "38 / 100",
-      "direction": "Low-Moderate / Watch",
-      "watch": "Brent oil correlation, Gulf crude arrivals, Food-price pressure, Currency stability",
-      "why": "India holds because lower oil reduces import-cost, inflation and currency pressure, while Hormuz shipping recovery remains a watch item.",
-      "moved": "The score holds at 38. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "score": "40 / 100",
+      "direction": "Moderate / Oil Watch",
+      "watch": "Brent weekly gain, Hormuz route exposure, Food and fertilizer sensitivity, Currency stability, Fuel inflation",
+      "why": "India rises because Brent and WTI moved higher for the week and Hormuz route risk matters for import-cost, inflation and currency pressure.",
+      "moved": "The score moves to 40. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "India matters because energy and food-price shocks can transmit into inflation, currency pressure, household costs and growth expectations."
     },
     {
       "title": "Germany Country Report",
       "tag": "Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "41 / 100",
-      "direction": "Moderate / Heat Watch",
-      "watch": "European heatwave excess deaths, Wildfire risk, Energy demand, Industrial output, ECB policy, Export demand",
-      "why": "Germany holds because European heatwave excess-death data and infrastructure stress keep the regional heat layer serious.",
-      "moved": "The score holds at 41. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "score": "42 / 100",
+      "direction": "Moderate / Heat and Fuel Watch",
+      "watch": "Diesel margins, European heat mortality, Energy demand, Industrial output, ECB policy, Export demand",
+      "why": "Germany rises slightly because diesel-market tightness and European heat stress keep the industrial and infrastructure layer active.",
+      "moved": "The score moves to 42. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Germany matters because heat, industrial demand, energy pricing and ECB policy transmit external shocks into Europe’s manufacturing cycle."
     },
     {
       "title": "Japan Country Report",
       "tag": "Low-Moderate Risk",
       "tagClass": "pill-neutral",
-      "score": "36 / 100",
-      "direction": "Low-Moderate",
-      "watch": "Shipping security, Energy import costs, Taiwan Strait signals, Asian demand",
-      "why": "Japan holds low-moderate because cheaper oil helps imported energy costs, while yen sensitivity and Asian sea-lane risk remain watch items.",
-      "moved": "The score holds at 36. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
+      "score": "37 / 100",
+      "direction": "Low-Moderate / Energy Watch",
+      "watch": "Hormuz shipping, Energy import costs, WTI and Brent gains, Yen sensitivity, Asian demand",
+      "why": "Japan rises slightly because Hormuz supply risk and weekly oil gains matter for imported energy costs and yen sensitivity.",
+      "moved": "The score moves to 37. Fresh-event weighting and old-headline discounting prevent the country score from being inflated by repeated background news.",
       "matters": "Japan matters because imported energy, currency sensitivity and Asian sea-lane security affect household prices, industrial costs and regional risk appetite."
     }
   ],
-  "lastVerifiedAtUtc": "July 7, 2026 · latest available public reporting",
+  "lastVerifiedAtUtc": "July 10, 2026 · latest available public reporting",
   "editorialPolicy": {
     "title": "Objective scoring policy",
     "summary": "This dashboard separates measurable risk from repeated news noise. A topic can be serious and viral without automatically forcing a higher global score.",
@@ -939,70 +950,65 @@ window.dailyRiskPageData = {
       "Regional emergencies are not scored as global crises unless cross-border or systemic transmission is confirmed.",
       "The overall index is capped or reduced when risk drivers move in opposite directions.",
       "Health scoring is capped below pandemic-level unless uncontrolled international spread is confirmed.",
-      "Viral headlines can shape SEO framing, but they do not automatically inflate the index."
+      "Fuel-product stress can raise economic risk even when crude oil is below peak panic levels."
     ]
   },
   "seoData": {
-    "title": "Global Risk Index Today: Oil Relief Holds, But Russia Energy Strikes Raise War Risk",
-    "metaDescription": "Daily Global Risk Index for July 7, 2026: the index holds at 72/100 as oil supply relief and Saudi price cuts calm markets, while Ukraine strikes Russian energy infrastructure and NATO meets in Ankara.",
-    "slug": "global-risk-index-today-july-7-2026",
-    "h1": "Global Risk Index Today: Why World Risk Holds at 72/100",
+    "title": "Global Risk Index Today: Hormuz Risk Returns as Fuel and Ebola Pressure Rise",
+    "metaDescription": "Daily Global Risk Index for July 10, 2026: the index rises to 74/100 as renewed U.S.-Iran fighting slows Hormuz traffic, fuel markets tighten and Congo Ebola reaches 1,759 cases.",
+    "slug": "global-risk-index-today-july-10-2026",
+    "h1": "Global Risk Index Today: Why World Risk Rises to 74/100",
     "primaryKeyword": "global risk index today",
     "secondaryKeywords": [
       "world risk report",
-      "oil prices July 7 2026",
-      "Saudi crude price cut Asia 2026",
-      "OPEC+ output increase August 2026",
-      "Strait of Hormuz shipping recovery",
-      "Ukraine strikes Russian oil refineries",
-      "Vysotsk oil terminal attack",
-      "Omsk refinery strike",
-      "NATO Ankara summit 2026",
+      "oil prices July 10 2026",
+      "Strait of Hormuz tanker traffic",
+      "U.S. Iran strikes July 2026",
+      "fuel market supply crunch",
+      "Russia diesel export ban",
+      "IEA Russian oil output forecast",
       "Congo Ebola outbreak 2026",
-      "Ebola 1561 cases 506 deaths",
+      "Ebola 1759 cases 600 deaths",
+      "U.S. heatwave electricity demand",
       "Europe heatwave excess deaths"
     ],
     "viralAngles": [
-      "Oil panic faded — but Ukraine’s war now reaches deeper into Russia’s fuel system.",
-      "Markets look calmer, but the energy war is not over.",
-      "Saudi price cuts lowered oil panic while refinery strikes raised war risk.",
-      "NATO meets in Ankara as Ukraine’s air-defense gap becomes harder to ignore.",
-      "Ebola remains serious, but the health score is not pandemic-inflated."
+      "Oil panic is not back to peak — but Hormuz risk is back.",
+      "Fuel markets are warning louder than crude prices.",
+      "Ebola is severe, but the health score is still not pandemic-inflated.",
+      "The index rose because route, fuel, health and heat risks moved together.",
+      "Markets are not panicking, but the risk floor is higher."
     ],
-    "suggestedSocialPost": "Global Risk Index Today holds at 72/100 for July 7. Oil supply relief and Saudi price cuts are calming markets, but Ukraine’s strikes on Russian refineries and the Vysotsk oil terminal, NATO’s Ankara summit and severe regional Ebola keep the risk floor elevated. Markets calmer — war infrastructure risk higher."
+    "suggestedSocialPost": "Global Risk Index Today rises to 74/100 for July 10. Hormuz tanker traffic is near a standstill after renewed U.S.-Iran fighting, fuel markets are flashing supply stress, and DRC Ebola reached 1,759 cases and 600 deaths. Not panic — but the risk floor is higher."
   },
   "sourceNotes": [
     {
-      "label": "Oil prices",
-      "note": "Reuters reports oil rose on July 7, with Brent near $72.84 and WTI near $69.29 as markets weighed supply recovery and demand."
+      "label": "Oil and Hormuz",
+      "note": "Reuters reports Brent near $76.34 and WTI near $72.15, with weekly gains as renewed U.S.-Iran fighting curtailed Strait of Hormuz shipping."
     },
     {
-      "label": "Saudi price cuts",
-      "note": "Reuters reports Saudi Arabia made its largest crude price cut in more than two decades for Asian buyers, while Gulf producers compete for market share."
+      "label": "U.S.-Iran escalation",
+      "note": "Reuters reports U.S. strikes on Iran triggered Iranian attacks on Kuwait and Bahrain, further weakening the ceasefire track."
     },
     {
-      "label": "Hormuz recovery",
-      "note": "Reuters reports shipping recovery through the Strait of Hormuz remains sluggish, and Saudi Arabia is considering expanding its Red Sea pipeline capacity to reduce future reliance on the Strait."
+      "label": "Fuel markets",
+      "note": "Reuters reports gasoline and diesel markets are flashing supply crunch signals despite calmer crude, with record diesel margins and tight product stocks."
     },
     {
-      "label": "Ukraine / Russia energy infrastructure",
-      "note": "Reuters reports Ukraine struck Russian oil refineries and the Vysotsk oil terminal; additional reporting points to a deep strike on Russia’s Omsk refinery."
-    },
-    {
-      "label": "NATO Ankara summit",
-      "note": "Reuters reports NATO is unveiling major arms-deal announcements in Ankara before the summit with Trump, keeping Ukraine air defense and alliance firepower in focus."
+      "label": "Russia oil outlook",
+      "note": "Reuters reports the IEA cut Russian oil output forecasts because Ukrainian strikes continue to hit refineries, storage and transport infrastructure."
     },
     {
       "label": "Ebola",
-      "note": "Reuters’ latest baseline keeps Congo Ebola at 1,561 confirmed cases, including 506 deaths."
-    },
-    {
-      "label": "Climate and heat",
-      "note": "Reuters reports at least 3,700 excess deaths during the heatwave in France, Belgium and the Netherlands, while France’s government survived a heatwave-handling no-confidence vote."
+      "note": "ECDC reports 1,759 confirmed DRC cases and 600 deaths, with 750 patients hospitalized in isolation; Uganda has 20 confirmed cases and two deaths."
     },
     {
       "label": "Health scoring",
       "note": "The model treats Ebola as severe regional risk and caps health below pandemic-level scoring unless uncontrolled international spread is confirmed."
+    },
+    {
+      "label": "Climate and heat",
+      "note": "Reuters reports U.S. electricity output hit a record high during an intense heatwave, while European heatwave excess-death data remains an active climate-health signal."
     }
   ]
 };

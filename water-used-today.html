@@ -4,12 +4,12 @@
   <meta charset="UTF-8" />
   <title>Water Used Today Live Counter | Global Water Use</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="/favicon.ico" sizes="any" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48x48.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
-  <link rel="manifest" href="/images/site.webmanifest" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+  <link rel="manifest" href="images/site.webmanifest" />
   <meta name="theme-color" content="#0f7db7" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,17 +43,17 @@
 </head>
 <body><div class="page">
 <div class="top-shell"><header class="site-header">
-<a href="/" class="brand notranslate" translate="no">PULSE OF GLOBE</a>
+<a href="index.html" class="brand notranslate" translate="no">PULSE OF GLOBE</a>
 <nav class="site-nav" aria-label="Main navigation">
-<a href="/" class="nav-link">Home</a>
-<a href="/live-data.html" class="nav-link active">Live Data</a>
-<a href="/global-risk.html" class="nav-link">Global Risk</a>
-<a href="/sources.html" class="nav-link">Sources</a>
+<a href="index.html" class="nav-link">Home</a>
+<a href="live-data.html" class="nav-link active">Live Data</a>
+<a href="global-risk.html" class="nav-link">Global Risk</a>
+<a href="sources.html" class="nav-link">Sources</a>
 </nav></header></div>
 <section class="hero"><div class="hero-grid"><div>
 <div class="hero-eyebrow"><span class="live-dot"></span>Environment &amp; Nature · Live UTC estimate</div>
 <h1>💧 Water Used Today: The World’s Live Water Counter</h1><p>Every second, water moves through farms, cities, factories and energy systems. This page turns a yearly global water-use baseline into a readable UTC-based estimate so visitors can watch the day’s demand build in real time.</p>
-<div class="hero-actions"><a href="/live-data.html" class="btn btn-primary">Explore more live data</a><a href="/sources.html" class="btn btn-secondary">View methodology</a></div>
+<div class="hero-actions"><a href="live-data.html" class="btn btn-primary">Explore more live data</a><a href="sources.html" class="btn btn-secondary">View methodology</a></div>
 </div><aside class="panel"><div class="panel-label">Water Used Today</div><span class="hero-value" id="heroValue">Loading...</span><div class="hero-unit">litres · UTC-based live estimate</div><p class="note">The counter updates with the current UTC date and time, so it behaves like a global daily clock rather than a local timezone estimate.</p></aside></div></section>
 
 <section class="section"><div class="section-card"><div class="section-head"><div><h2>Live global water use estimate</h2><p>Follow estimated water use today, this month and this year. The number is designed for fast understanding, social sharing and environmental context.</p></div></div><div class="stats-grid">
@@ -61,7 +61,7 @@
 <div class="stat-card"><span>This Month</span><strong id="monthValue">Loading...</strong></div>
 <div class="stat-card"><span>This Year</span><strong id="yearValue">Loading...</strong></div>
 <div class="stat-card"><span>Per Second</span><strong id="secondValue">Loading...</strong></div>
-</div><p class="note">For SEO and transparency: this counter represents an estimate of global water use/withdrawal, not a direct measurement of every litre consumed.</p></div></section>
+</div><p class="note">Methodology note: this counter represents an estimate of global water use or withdrawal, not a direct measurement of every litre consumed.</p></div></section>
 
 <section class="section"><div class="section-card"><div class="section-head"><div><h2>What counts as water use?</h2><p>Water demand is not only what people drink. It also includes irrigation, food processing, energy systems, factories and municipal services.</p></div></div><div class="text-grid">
 <div class="text-card"><strong>Food and farming</strong><p>Irrigation and livestock make agriculture the main reason global water demand is so large. This is why food choices, rainfall and drought can influence water stress.</p></div>
@@ -75,10 +75,10 @@
 </div></div></section>
 
 <section class="section"><div class="section-card"><div class="section-head"><div><h2>How this estimate works</h2><p>The page converts a rounded annual water-use baseline into today, this month, this year and per-second estimates.</p></div></div><div class="text-grid">
-<div class="text-card"><strong>Annual baseline</strong><p>A yearly global baseline is used as the starting point. You can update that baseline whenever your public source dataset changes.</p></div>
+<div class="text-card"><strong>Annual baseline</strong><p>A yearly global baseline is used as the starting point and should be refreshed when the underlying public dataset is updated.</p></div>
 <div class="text-card"><strong>UTC clock</strong><p>The script calculates elapsed seconds since the start of the UTC day, month and year, then multiplies by the annual rate.</p></div>
 <div class="text-card"><strong>Directional, not official</strong><p>The number is useful for public awareness and comparison, but it should not be treated as an official live government statistic.</p></div>
-</div><p class="note">Pulse Of Globe pages use publicly available yearly statistics and convert them into real-time estimates. Values are directional estimates, not official live measurements. For methodology and public datasets, visit the <a href="/sources.html">Data Sources</a> page.</p></div></section>
+</div><p class="note">Pulse Of Globe pages use publicly available yearly statistics and convert them into real-time estimates. Values are directional estimates, not official live measurements. For methodology and public datasets, visit the <a href="sources.html">Data Sources</a> page.</p></div></section>
 
 <section class="section"><div class="section-card"><div class="section-head"><div><h2>Frequently asked questions</h2><p>Fast answers for searchers, students and readers who want to understand the estimate without digging through a full methodology page.</p></div></div><div class="text-grid">
 <div class="text-card"><strong>Is this an exact real-time water meter?</strong><p>No. It is a directional live estimate based on a yearly baseline divided across UTC time, not a sensor reading from global water systems.</p></div>
@@ -87,16 +87,22 @@
 </div></div></section>
 
 <section class="section"><div class="section-card"><div class="section-head"><div><h2>Related live counters</h2><p>Water connects closely with climate, forests, food systems and population pressure.</p></div></div><div class="related-grid">
-<a class="related-card" href="/co2-emissions-today.html"><span>CO₂ Emissions Today →</span></a>
-<a class="related-card" href="/forest-loss-today.html"><span>Forest Loss Today →</span></a>
-<a class="related-card" href="/plastic-waste-today.html"><span>Plastic Waste Today →</span></a>
-<a class="related-card" href="/world-population-live.html"><span>World Population Live →</span></a>
-<a class="related-card" href="/sources.html"><span>Data Sources →</span></a>
+<a class="related-card" href="co2-emissions-today.html"><span>CO₂ Emissions Today →</span></a>
+<a class="related-card" href="forest-loss-today.html"><span>Forest Loss Today →</span></a>
+<a class="related-card" href="plastic-waste-today.html"><span>Plastic Waste Today →</span></a>
+<a class="related-card" href="world-population-live.html"><span>World Population Live →</span></a>
+<a class="related-card" href="sources.html"><span>Data Sources →</span></a>
+</div></div></section>
+<section class="section"><div class="section-card"><div class="section-head"><div><h2>Explore connected global indicators</h2><p>Water demand is closely connected with food systems, economic activity and population growth.</p></div></div><div class="related-grid">
+<a class="related-card" href="food-consumed-today.html"><span>Food Consumed Today →</span></a>
+<a class="related-card" href="global-gdp.html"><span>Global GDP →</span></a>
+<a class="related-card" href="money-spent-today.html"><span>Money Spent Today →</span></a>
+<a class="related-card" href="population-growth-today.html"><span>Population Growth Today →</span></a>
 </div></div></section>
 <footer><div class="footer-share">Share this page:
 <a href="https://twitter.com/intent/tweet?text=Explore%20Water%20Used%20Today%20on%20Pulse%20Of%20Globe&amp;url=https%3A//pulseofglobe.com/water-used-today.html" target="_blank" rel="noopener noreferrer">X</a> ·
 <a href="https://api.whatsapp.com/send?text=Explore%20Water%20Used%20Today%20on%20Pulse%20Of%20Globe%20https%3A//pulseofglobe.com/water-used-today.html" target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
-<div><a href="/about.html">About Us</a> | <a href="/live-data.html">Live Data</a> | <a href="/sources.html">Data Sources</a> | <a href="/privacy.html">Privacy Policy</a> | <a href="/terms.html">Terms of Use</a> | <a href="/contact.html">Contact</a></div>
+<div><a href="about.html">About Us</a> | <a href="live-data.html">Live Data</a> | <a href="sources.html">Data Sources</a> | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a> | <a href="contact.html">Contact</a></div>
 <p style="margin-top:10px;">© 2026 PulseOfGlobe. All rights reserved. Real-time counters and risk summaries are based on publicly available statistical data.</p></footer>
 </div>
 <script>

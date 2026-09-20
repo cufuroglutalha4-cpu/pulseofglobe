@@ -1,61 +1,61 @@
 window.dailyRiskPageData = {
-  "reportDate": "August 23, 2026",
-  "updateTimeUtc": "Verified August 23, 2026 · UTC daily update",
-  "overallScore": 86,
-  "previousOverallScore": 77,
-  "overallLabel": "High / Multi-System Pressure",
-  "overallTrend": "+9 vs last stored report (July 14) · conflict, energy, Ebola and El Niño risks all remain active",
-  "confidence": "Medium-High",
-  "heroSummary": "Global Risk Index Today is 86/100 for August 23, 2026 UTC. The main pressure comes from the continuing U.S.-Iran conflict and Strait of Hormuz disruption, renewed sanctions risk, Russia-Ukraine strikes on economic infrastructure, a worsening Ebola emergency in the Democratic Republic of the Congo, and a developing El Niño that forecasters warn could become exceptionally strong. The score is directional, not a probability forecast, and older headlines are discounted unless they still create measurable effects.",
-  "overallExplainer": "The index is high because several independent risk channels are active at the same time. Conflict and shipping pressure are feeding energy and inflation risk, the DRC Ebola outbreak remains severe even though WHO assesses global-level spread risk as low, and climate pressure has increased with a potentially record-strength El Niño developing. The score does not mean a single global crisis is certain; it summarizes current fragility across multiple systems.",
+  "reportDate": "September 20, 2026",
+  "updateTimeUtc": "Verified September 20, 2026 · UTC daily update",
+  "overallScore": 91,
+  "previousOverallScore": 86,
+  "overallLabel": "Very High / Multi-System Stress",
+  "overallTrend": "+5 vs August 23 · Middle East energy-route risk, Russia-Ukraine infrastructure attacks, Ebola expansion and a strengthening El Niño all add pressure",
+  "confidence": "High",
+  "heroSummary": "Global Risk Index Today is 91/100 for September 20, 2026 UTC. The main pressure comes from a broader Middle East energy and shipping crisis, including Houthi attacks on Saudi targets and continued U.S.-Iran tensions; continued Russia-Ukraine strikes on energy and economic infrastructure; the expanding Bundibugyo Ebola outbreak in the Democratic Republic of the Congo; and a strengthening El Niño. The score is a directional editorial index, not a probability forecast, and it discounts repeated headlines unless they create new measurable consequences.",
+  "overallExplainer": "The index moves into the very-high band because several independent risk channels are simultaneously affecting energy, shipping, inflation, public health and climate-sensitive food systems. Middle East pressure has widened beyond the Strait of Hormuz to Saudi infrastructure and Red Sea routes, while Russia and Ukraine continue targeting economic and energy assets. The DRC Ebola outbreak has expanded geographically, and WMO forecasts point to further El Niño strengthening. The score remains below 100 because diplomatic channels are still active, some energy flows are adapting, WHO continues to assess overall global Ebola risk as low, and the final regional impacts of El Niño remain uncertain.",
   "overview": [
     {
       "label": "Report Date",
-      "value": "August 23, 2026",
+      "value": "September 20, 2026",
       "sub": "UTC daily update"
     },
     {
       "label": "Top Story",
-      "value": "Hormuz + Energy Risk",
-      "sub": "Iran conflict and shipping disruption keep oil and sanctions pressure elevated"
+      "value": "Saudi + Shipping Risk",
+      "sub": "Houthi attacks and damaged export infrastructure widen Middle East energy pressure"
     },
     {
       "label": "Health Watch",
-      "value": "DRC Ebola Emergency",
-      "sub": "Largest Ebola outbreak recorded in the country; global spread risk remains lower"
+      "value": "DRC Ebola Expands",
+      "sub": "7,258 confirmed cases and 3,510 deaths reported as of September 13"
     },
     {
       "label": "Climate Watch",
-      "value": "Strong El Niño Developing",
-      "sub": "Forecasters warn the 2026 event could become exceptionally strong"
+      "value": "El Niño Strengthening",
+      "sub": "WMO expects further intensification through late 2026"
     },
     {
       "label": "Watch Next 48h",
-      "value": "Hormuz, sanctions, oil, Ukraine/Russia strikes, Ebola response, El Niño signals",
+      "value": "Saudi strikes, Hormuz, oil, Ukraine/Russia energy targets, Ebola spread, El Niño",
       "sub": "Main swing factors for the next update"
     }
   ],
-  "glanceSummary": "The Global Risk Index is 86/100. Conflict remains the largest driver, but the risk picture is broader than war alone: Hormuz disruption is feeding energy and inflation pressure, Ebola transmission in the DRC remains severe, and a potentially exceptional El Niño is raising climate and supply-chain uncertainty.",
+  "glanceSummary": "The Global Risk Index is 91/100. Conflict remains the largest driver, but the transmission channels are increasingly economic and systemic: Middle East attacks are pressuring oil, pipelines, shipping and inflation; Russia-Ukraine strikes continue to hit energy assets; the DRC Ebola outbreak has expanded into a seventh province; and a stronger El Niño is raising food, water and weather-related risk.",
   "glanceBullets": [
-    "Iran and the United States remain in an active conflict environment, with Strait of Hormuz restrictions and new U.S. sanctions threats keeping shipping and energy risk elevated.",
-    "Oil and refined-fuel markets remain under pressure, while global stocks and bond markets have also faced strain from high energy prices and yields.",
-    "Russia and Ukraine continue striking economic and energy-related infrastructure, adding another channel of supply and escalation risk.",
-    "The DRC Ebola outbreak has exceeded 5,000 confirmed cases and more than 2,500 deaths in recent reporting; WHO still assesses overall global risk as low while national and neighbouring-country risk is much higher.",
-    "The UK Met Office has warned that the developing 2026 El Niño could become the strongest in living memory, adding climate, agriculture and trade-route uncertainty.",
-    "Older headlines are not automatically re-counted; the score focuses on risks that remain current, measurable or systemically important."
+    "Houthi missile and drone attacks have reached Saudi targets including Riyadh, while the wider U.S.-Iran conflict continues to threaten key Gulf and Red Sea energy routes.",
+    "Saudi export infrastructure and tanker routes remain vulnerable; Brent and WTI have stayed near or above the $100 level during recent trading, keeping inflation and transport costs elevated.",
+    "Russia and Ukraine continue striking energy and economic infrastructure, including a large September 20 drone attack on the Moscow region and continued Russian attacks on Ukrainian cities and infrastructure.",
+    "The DRC Bundibugyo Ebola outbreak reached 7,258 confirmed cases and 3,510 deaths as of September 13 and expanded into a seventh province; WHO still assesses overall global risk as low.",
+    "WMO forecasts further strengthening of El Niño through late 2026, with high confidence in an exceptionally strong event that can shift rainfall, heat and food-security conditions.",
+    "Diplomatic channels remain active around Iran and regional security, which acts as a partial lowering factor even while military and economic pressure stays high."
   ],
   "dailyComparison": [
     {
       "label": "Last stored report",
-      "value": "77 · Jul 14"
+      "value": "86 · Aug 23"
     },
     {
       "label": "Current",
-      "value": "86"
+      "value": "91"
     },
     {
       "label": "Change",
-      "value": "+9"
+      "value": "+5"
     },
     {
       "label": "Tracked Countries",
@@ -63,149 +63,149 @@ window.dailyRiskPageData = {
     }
   ],
   "scoreBreakdown": {
-    "title": "Why the Global Risk Index Is 86 Today",
-    "summary": "The 86/100 score reflects simultaneous pressure from active conflict, energy and shipping disruption, severe regional health risk and rising climate uncertainty. The index stays below the extreme band because several risks remain regionally concentrated and there is still adaptation capacity in markets and institutions.",
-    "methodNote": "These are directional pressure contributions, not mathematical probabilities. Fresh confirmed events add pressure; repeated headlines lose weight unless they keep producing measurable consequences. Regional emergencies are separated from global spread risk where possible.",
+    "title": "Why the Global Risk Index Is 91 Today",
+    "summary": "The 91/100 score reflects simultaneous very-high pressure from conflict, energy and shipping disruption, severe regional health risk and strengthening climate hazards. The score rises from August because Middle East risk has widened into Saudi infrastructure and Red Sea routes, oil and freight costs remain elevated, the DRC Ebola outbreak has expanded geographically, and El Niño has strengthened. It remains below the maximum because diplomacy and adaptation are still active and several risks remain regionally concentrated.",
+    "methodNote": "These are directional pressure contributions, not mathematical probabilities. Fresh confirmed events add pressure; repeated headlines lose weight unless they create new measurable consequences. Regional emergencies are separated from global spread risk, and credible de-escalation, adaptation or containment reduces the score.",
     "overall": [
       {
         "label": "Baseline global stress",
         "impact": "+40",
         "impactClass": "impact-neutral",
-        "note": "Multiple active wars, energy sensitivity, climate exposure and public-health vulnerability keep the baseline well above a low-risk environment."
+        "note": "Multiple active wars, energy sensitivity, high financing costs, climate exposure and public-health vulnerability keep the baseline well above a low-risk environment."
       },
       {
         "label": "Conflict and maritime pressure",
-        "impact": "+24",
+        "impact": "+27",
         "impactClass": "impact-positive",
-        "note": "The U.S.-Iran conflict, Hormuz restrictions and Russia-Ukraine strikes on economic targets create simultaneous military, shipping and infrastructure risk."
+        "note": "Middle East conflict now affects Hormuz, Saudi infrastructure and Red Sea routes while Russia-Ukraine attacks continue to hit energy and economic assets."
       },
       {
-        "label": "Energy and inflation transmission",
-        "impact": "+12",
+        "label": "Energy, shipping and inflation transmission",
+        "impact": "+16",
         "impactClass": "impact-positive",
-        "note": "Oil and refined-fuel stress can transmit geopolitical pressure into transport, inflation, central-bank expectations and household costs."
+        "note": "Oil above the recent $100 threshold, damaged export infrastructure and sharply higher container freight can transmit conflict into inflation, transport and financial conditions."
       },
       {
         "label": "Severe regional health emergency",
         "impact": "+15",
         "impactClass": "impact-positive",
-        "note": "The DRC Ebola outbreak is the country's largest recorded outbreak and remains difficult to control, though global-level spread risk is assessed much lower than national risk."
+        "note": "The DRC Ebola outbreak has expanded into a seventh province with more than 7,000 confirmed cases, though WHO still rates overall global risk low."
       },
       {
         "label": "Climate and El Niño pressure",
-        "impact": "+10",
+        "impact": "+13",
         "impactClass": "impact-positive",
-        "note": "An exceptionally strong El Niño could amplify heat, drought, floods, agriculture stress and trade-route disruption."
+        "note": "WMO expects further El Niño strengthening, increasing the risk of disruptive rainfall, drought, heat, agriculture and food-security impacts."
       },
       {
-        "label": "Containment and adaptation offsets",
-        "impact": "-15",
+        "label": "Diplomacy, adaptation and containment offsets",
+        "impact": "-20",
         "impactClass": "impact-negative",
-        "note": "Global Ebola spread remains limited, markets are adapting to energy disruption, and not every high-risk signal is escalating at the same pace."
+        "note": "Diplomatic channels remain open, energy markets are adapting, WHO still sees low global Ebola risk, and climate impacts remain uneven across regions."
       }
     ],
     "categories": [
       {
         "title": "Conflict score logic",
-        "score": "92 / 100",
+        "score": "96 / 100",
         "items": [
           {
-            "label": "U.S.-Iran conflict remains active",
+            "label": "Middle East conflict remains active",
             "impact": "Very Strong",
-            "note": "Current reporting shows the conflict continuing with sanctions threats and Hormuz restrictions still affecting the regional security picture."
+            "note": "U.S.-Iran hostilities continue while Houthi operations have expanded pressure on Saudi Arabia and regional shipping."
           },
           {
-            "label": "Strait of Hormuz disruption",
+            "label": "Saudi and Red Sea escalation",
             "impact": "Very Strong",
-            "note": "Restrictions on tanker transit keep a globally important energy route under direct pressure."
+            "note": "Recent attacks on Saudi targets and energy infrastructure widen the conflict's geographic and economic footprint."
           },
           {
-            "label": "Russia-Ukraine economic-target strikes",
-            "impact": "Strong",
-            "note": "Fresh strikes on refineries and other economic infrastructure raise escalation and supply-chain risks."
+            "label": "Russia-Ukraine infrastructure attacks",
+            "impact": "Very Strong",
+            "note": "Both sides continue large-scale drone and missile operations against energy, industrial and urban infrastructure."
           },
           {
-            "label": "No confirmed global war expansion",
+            "label": "Diplomatic channels remain open",
             "impact": "Lowering factor",
-            "note": "The pressure is severe but remains concentrated in identifiable theaters rather than a single generalized global conflict."
+            "note": "Iran-U.S. diplomacy and regional mediation have not ended, reducing the case for a maximum score."
           }
         ]
       },
       {
         "title": "Economic score logic",
-        "score": "78 / 100",
+        "score": "86 / 100",
         "items": [
           {
-            "label": "Oil and refined-fuel stress",
+            "label": "Oil remains near or above $100",
             "impact": "Very Strong",
-            "note": "Recent Reuters reporting shows oil near multi-week highs and persistent refinery/fuel-market strain linked to the Iran conflict."
+            "note": "Recent Reuters reporting shows Brent and WTI remaining around the $100 level as Middle East supply risks persist."
           },
           {
-            "label": "Inflation and rate expectations",
+            "label": "Shipping and pipeline disruption",
+            "impact": "Very Strong",
+            "note": "Damage to Saudi export infrastructure and higher bunker fuel costs are pushing global freight rates sharply higher."
+          },
+          {
+            "label": "Inflation and rate pressure",
             "impact": "Strong",
-            "note": "Higher energy costs have pushed markets toward more hawkish interest-rate expectations in Europe."
+            "note": "Higher energy costs are reinforcing inflation concerns and keeping central banks and bond markets under pressure."
           },
           {
-            "label": "Bond and equity strain",
-            "impact": "Moderate-Strong",
-            "note": "Global markets have faced pressure from high yields and elevated oil prices."
-          },
-          {
-            "label": "Market adaptation continues",
+            "label": "Markets and supply chains are adapting",
             "impact": "Lowering factor",
-            "note": "Alternative supply routes and substitution reduce the probability that every disruption becomes a full-system shock."
+            "note": "Alternative crude flows, diplomacy and private-sector adaptation reduce the chance that every disruption becomes a full-system shock."
           }
         ]
       },
       {
         "title": "Health score logic",
-        "score": "91 / 100",
+        "score": "94 / 100",
         "items": [
           {
-            "label": "DRC Ebola outbreak exceeds 5,000 cases",
+            "label": "DRC Ebola cases exceed 7,000",
             "impact": "Very Strong",
-            "note": "Recent reporting says the outbreak has passed 5,000 confirmed cases and more than 2,500 deaths."
+            "note": "WHO reported 7,258 confirmed cases and 3,510 deaths in the DRC as of September 13."
           },
           {
-            "label": "Transmission remains intense",
+            "label": "Geographic spread expanded",
             "impact": "Very Strong",
-            "note": "WHO describes severe and difficult-to-control transmission across multiple provinces."
+            "note": "The outbreak reached a seventh province and 62 health zones, increasing cross-border concern."
           },
           {
-            "label": "Response capacity under strain",
+            "label": "Response remains difficult",
             "impact": "Strong",
-            "note": "Funding gaps, insecurity and attacks on health workers complicate containment."
+            "note": "High fatality, delayed detection, insecurity and health-system constraints continue to complicate control."
           },
           {
-            "label": "Global spread risk remains lower",
+            "label": "WHO global risk remains low",
             "impact": "Very strong lowering factor",
-            "note": "WHO's August 20 rapid risk assessment rates overall global risk as low despite very high national risk in the DRC."
+            "note": "WHO continues to distinguish the very-high national risk in the DRC from low overall global risk."
           }
         ]
       },
       {
         "title": "Climate score logic",
-        "score": "82 / 100",
+        "score": "89 / 100",
         "items": [
           {
-            "label": "Potential record-strength El Niño",
+            "label": "El Niño is strengthening further",
             "impact": "Very Strong",
-            "note": "The UK Met Office says the developing 2026 El Niño could become the strongest in living memory."
+            "note": "WMO's September outlook forecasts continued intensification through late 2026 with high confidence."
           },
           {
-            "label": "European marine heat",
+            "label": "Food-security exposure is rising",
             "impact": "Strong",
-            "note": "Recent scientific reporting links record sea temperatures around Europe primarily to human-caused climate change."
+            "note": "Humanitarian organizations warn that a very strong El Niño can compound food, fuel and fertilizer stress in vulnerable regions."
           },
           {
-            "label": "Trade and agriculture exposure",
+            "label": "Multiple ocean basins remain warm",
             "impact": "Strong",
-            "note": "El Niño raises uncertainty for rainfall, drought, crops and trade routes such as the Panama Canal."
+            "note": "WMO also expects a positive Indian Ocean Dipole and generally warm tropical Atlantic conditions."
           },
           {
-            "label": "Forecast uncertainty remains",
+            "label": "Regional outcomes remain uncertain",
             "impact": "Lowering factor",
-            "note": "The El Niño event is still developing, so the final magnitude and regional impacts are not yet known."
+            "note": "El Niño impacts vary substantially by region and season, so not every area will experience severe disruption."
           }
         ]
       }
@@ -213,127 +213,127 @@ window.dailyRiskPageData = {
   },
   "riskData": [
     {
-      "title": "🌍 Conflict Risk: Active Wars and Hormuz Keep Pressure High",
-      "subtitle": "U.S.-Iran conflict, Strait of Hormuz restrictions and Russia-Ukraine economic-target strikes",
-      "score": 92,
-      "changeText": "High",
-      "changeClass": "pill-warning",
-      "direction": "Very High / Active Conflict",
+      "title": "🌍 Conflict Risk: Middle East and Ukraine Pressure Widen",
+      "subtitle": "Saudi attacks, U.S.-Iran tensions and Russia-Ukraine infrastructure strikes",
+      "score": 96,
+      "changeText": "Very High",
+      "changeClass": "pill-danger",
+      "direction": "Very High / Multi-Theater Conflict",
       "directionClass": "pill-danger",
-      "description": "Conflict risk is 92/100. The U.S.-Iran conflict remains active and the Strait of Hormuz is still a direct pressure point for global shipping and energy. New U.S. sanctions threats add economic coercion risk, while Russia and Ukraine continue targeting economic and energy infrastructure. The score is very high but stops short of an extreme global-war reading because the major theaters remain geographically identifiable.",
+      "description": "Conflict risk is 96/100. Middle East pressure has widened beyond the U.S.-Iran confrontation and Hormuz into repeated Houthi attacks on Saudi targets and Red Sea-linked energy routes. At the same time, Russia and Ukraine continue large-scale strikes on energy, industrial and urban infrastructure. Diplomatic activity remains a meaningful offset, so the score stops short of the maximum.",
       "drivers": [
         "U.S.-Iran conflict",
-        "Hormuz restrictions",
-        "New sanctions pressure",
-        "Russia-Ukraine economic targets",
-        "Regional spillover risk"
+        "Houthi-Saudi escalation",
+        "Hormuz and Red Sea routes",
+        "Russia-Ukraine infrastructure strikes",
+        "Regional spillover"
       ],
       "sources": [
-        "Reuters · Aug 23",
-        "Reuters · Aug 22",
-        "Reuters energy reporting"
+        "Reuters · Sep 20",
+        "Reuters · Sep 19",
+        "Reuters · Sep 17"
       ],
       "trend": [
-        79,
-        81,
-        84,
-        86,
         89,
         91,
-        92
+        92,
+        93,
+        94,
+        95,
+        96
       ]
     },
     {
-      "title": "📉 Economic Risk: Energy Shock Feeds Inflation and Market Stress",
-      "subtitle": "Oil and refined fuels remain elevated while bond yields and rate expectations stay sensitive",
-      "score": 78,
-      "changeText": "Elevated",
+      "title": "📉 Economic Risk: Oil, Freight and Rates Keep Pressure High",
+      "subtitle": "Energy-route disruption is feeding inflation, shipping costs and financial tightening",
+      "score": 86,
+      "changeText": "High",
       "changeClass": "pill-warning",
-      "direction": "High / Energy-Inflation Watch",
+      "direction": "Very High / Energy-Inflation Watch",
       "directionClass": "pill-warning",
-      "description": "Economic risk is 78/100. Oil remains elevated because of the Iran conflict and Hormuz uncertainty, while refined-fuel supply remains tight. Reuters reporting also shows global stocks and bond markets under pressure and European rate expectations turning more hawkish as energy inflation persists. Adaptation and alternative supply routes prevent a higher crisis score.",
+      "description": "Economic risk is 86/100. Oil has remained around or above $100 during recent trading, Saudi export infrastructure has been damaged, and container freight rates have risen sharply as fuel costs and route risk increase. Central banks and bond markets are also contending with renewed inflation pressure. Adaptation, alternative supply and active diplomacy prevent a higher score.",
       "drivers": [
-        "Oil near multi-week highs",
-        "Refining and fuel tightness",
-        "High bond yields",
-        "More hawkish rate expectations",
-        "Alternative supply adaptation"
+        "Oil around $100+",
+        "Saudi pipeline vulnerability",
+        "Container freight surge",
+        "Inflation and yields",
+        "Central-bank tightening"
       ],
       "sources": [
-        "Reuters · Aug 21",
-        "Reuters · Aug 20",
-        "Reuters markets"
+        "Reuters · Sep 18",
+        "Reuters · Sep 17",
+        "Reuters · Sep 18 markets"
       ],
       "trend": [
-        62,
-        65,
-        68,
-        71,
-        73,
         76,
-        78
+        78,
+        80,
+        82,
+        84,
+        85,
+        86
       ]
     },
     {
-      "title": "🏥 Health Risk: DRC Ebola Emergency Remains Severe",
-      "subtitle": "More than 5,000 confirmed cases reported; global spread risk remains lower than national risk",
-      "score": 91,
+      "title": "🏥 Health Risk: DRC Ebola Outbreak Expands Further",
+      "subtitle": "7,258 confirmed cases and 3,510 deaths reported; seventh province affected",
+      "score": 94,
       "changeText": "Severe",
-      "changeClass": "pill-warning",
-      "direction": "Very High Regional / Lower Global Spread",
+      "changeClass": "pill-danger",
+      "direction": "Very High Regional / Low Global Risk",
       "directionClass": "pill-warning",
-      "description": "Health risk is 91/100 because the DRC Ebola outbreak is now the country's largest recorded outbreak, with recent reporting above 5,000 confirmed cases and 2,500 deaths. Response operations face insecurity, funding and trust challenges. The global score is capped because WHO's August 20 risk assessment still rates overall global risk as low, while national and neighbouring-country risk is much higher.",
+      "description": "Health risk is 94/100 because the DRC Bundibugyo Ebola outbreak continues to expand. WHO reported 7,258 confirmed cases and 3,510 deaths as of September 13, with spread into a seventh province and 62 health zones. The global score is capped because WHO continues to assess overall global risk as low, even while national and neighbouring-country risks remain much higher.",
       "drivers": [
-        "DRC cases above 5,000",
-        "Deaths above 2,500",
-        "Six-province spread",
-        "Health-worker and response strain",
+        "Cases above 7,000",
+        "Deaths above 3,500",
+        "Seven provinces affected",
+        "Cross-border concern",
         "WHO global risk remains low"
       ],
       "sources": [
-        "WHO · Aug 20",
-        "Reuters · Aug 21",
-        "Reuters · Aug 23"
+        "WHO Africa · Sep 13",
+        "WHO · Sep 10",
+        "WHO risk assessment"
       ],
       "trend": [
-        89,
-        89,
-        90,
-        90,
         91,
         91,
-        91
+        92,
+        92,
+        93,
+        94,
+        94
       ]
     },
     {
-      "title": "🌡️ Climate Risk: Potentially Exceptional El Niño Raises Uncertainty",
-      "subtitle": "Strong El Niño forecast, record European sea heat and growing weather-linked trade risks",
-      "score": 82,
+      "title": "🌡️ Climate Risk: Strong El Niño Moves Toward Late-2026 Peak",
+      "subtitle": "WMO expects further strengthening with growing food, water and weather exposure",
+      "score": 89,
       "changeText": "Rising",
       "changeClass": "pill-warning",
-      "direction": "High / El Niño Watch",
+      "direction": "Very High / El Niño Watch",
       "directionClass": "pill-warning",
-      "description": "Climate risk is 82/100. The UK Met Office has warned that the developing 2026 El Niño could become the strongest in living memory. Record sea temperatures around Europe and recent heat impacts add background pressure, while El Niño can amplify drought, floods, crop stress and Panama Canal constraints. Forecast uncertainty keeps the score below the extreme band.",
+      "description": "Climate risk is 89/100. WMO's September seasonal update forecasts further strengthening of El Niño, with the Niño 3.4 anomaly expected to average around 3.6°C during September-November and intensification continuing toward November-December. A very strong event can disrupt rainfall, heat, crops, food security and trade routes, although the severity will differ by region.",
       "drivers": [
-        "Potential record-strength El Niño",
-        "European marine heat",
-        "Heat and wildfire exposure",
-        "Agriculture uncertainty",
-        "Panama Canal sensitivity"
+        "Strengthening El Niño",
+        "High forecast confidence",
+        "Food-security exposure",
+        "Positive Indian Ocean Dipole",
+        "Regional rainfall and heat shifts"
       ],
       "sources": [
-        "Reuters · Aug 21",
-        "Reuters · Aug 18",
-        "Reuters climate reporting"
+        "WMO · Sep 3",
+        "WMO El Niño update · Sep 3",
+        "Reuters · Sep 18"
       ],
       "trend": [
-        75,
-        76,
-        77,
-        78,
-        79,
         81,
-        82
+        82,
+        84,
+        85,
+        86,
+        88,
+        89
       ]
     }
   ],
@@ -342,243 +342,243 @@ window.dailyRiskPageData = {
       "title": "🌍 Global Conflict Report",
       "tag": "Very High",
       "tagClass": "pill-danger",
-      "score": "92 / 100",
-      "direction": "Very High / Active Conflict",
-      "watch": "Hormuz tanker access, new Iran sanctions, U.S.-Iran military activity, Russia-Ukraine economic targets and regional retaliation",
-      "why": "Conflict remains the strongest risk channel because two major theaters are actively affecting energy, infrastructure and sanctions policy.",
-      "moved": "Compared with the last stored report, pressure is higher because the Iran conflict and Hormuz disruption are still active while Russia-Ukraine strikes on economic targets continue.",
-      "matters": "Conflict matters because military events can quickly transmit into shipping, energy, insurance, food, sanctions and market volatility."
+      "score": "96 / 100",
+      "direction": "Very High / Multi-Theater Conflict",
+      "watch": "Saudi and Houthi attacks, Hormuz and Red Sea access, U.S.-Iran diplomacy, Russia-Ukraine energy targets and regional spillover",
+      "why": "Conflict is the strongest risk channel because military pressure now affects multiple major energy and shipping corridors while the Russia-Ukraine war continues to damage economic infrastructure.",
+      "moved": "The score rises from August as attacks have widened into Saudi territory and export infrastructure while large-scale Russia-Ukraine drone and missile operations continue.",
+      "matters": "Conflict matters because military events can quickly transmit into energy, shipping, insurance, food, sanctions, inflation and market volatility."
     },
     {
       "title": "📉 Global Economic Report",
-      "tag": "High",
+      "tag": "Very High",
       "tagClass": "pill-warning",
-      "score": "78 / 100",
-      "direction": "High / Energy-Inflation Watch",
-      "watch": "Brent and WTI, refined-fuel margins, Hormuz flows, global bond yields, ECB expectations and shipping costs",
-      "why": "Economic risk is elevated because the energy shock is persisting long enough to affect inflation expectations and financial conditions.",
-      "moved": "The score is materially higher than the July stored report as oil and refined-fuel stress remain persistent rather than fading quickly.",
-      "matters": "Energy shocks can reach households and businesses through transport, electricity, food prices, currencies and interest rates."
+      "score": "86 / 100",
+      "direction": "Very High / Energy-Inflation Watch",
+      "watch": "Brent and WTI, Saudi pipeline recovery, container freight, Hormuz traffic, bond yields, central-bank policy and consumer inflation",
+      "why": "Economic risk is high because energy and freight shocks are persisting long enough to feed inflation expectations, rates and household costs.",
+      "moved": "The score rises from August as oil moved back above $100, Saudi export infrastructure came under pressure and shipping costs accelerated.",
+      "matters": "Energy and freight shocks can reach households and businesses through transport, electricity, food prices, currencies, interest rates and imported goods."
     },
     {
       "title": "🏥 Global Health Report",
       "tag": "Severe Regional",
       "tagClass": "pill-warning",
-      "score": "91 / 100",
-      "direction": "Very High Regional / Lower Global Spread",
-      "watch": "DRC Ebola cases and deaths, case-link tracing, health-worker safety, funding, cross-border surveillance and vaccine trial deployment",
-      "why": "The DRC outbreak has grown into the country's largest recorded Ebola outbreak and continues spreading under difficult response conditions.",
-      "moved": "Health pressure rises from the July stored report because case and death totals have increased substantially and the outbreak has expanded geographically.",
-      "matters": "Health risk matters because delayed detection, weak trust and insecurity can prolong transmission even when international spread remains limited."
+      "score": "94 / 100",
+      "direction": "Very High Regional / Low Global Risk",
+      "watch": "DRC Ebola cases and deaths, spread into new provinces, health-worker safety, cross-border surveillance, funding and treatment capacity",
+      "why": "The DRC outbreak continues expanding geographically with a high case-fatality ratio and sustained transmission.",
+      "moved": "Health pressure rises from August because confirmed cases and deaths have increased substantially and the outbreak has spread into a seventh province.",
+      "matters": "Health risk matters because delayed detection, insecurity and weak response capacity can prolong transmission even when wider international spread remains limited."
     },
     {
       "title": "🌡️ Global Climate Report",
-      "tag": "High",
+      "tag": "Very High",
       "tagClass": "pill-warning",
-      "score": "82 / 100",
-      "direction": "High / El Niño Watch",
-      "watch": "Pacific sea-surface temperatures, drought and flood patterns, agriculture, wildfire conditions, European heat and Panama Canal restrictions",
-      "why": "Climate risk rises because the developing El Niño may become exceptionally strong while record marine and land heat signals remain active.",
-      "moved": "The score is higher than the July stored report because El Niño has become a clearer forward risk rather than only background heat pressure.",
-      "matters": "Climate matters because weather shocks can simultaneously affect food, water, energy, health, insurance and trade routes."
+      "score": "89 / 100",
+      "direction": "Very High / El Niño Watch",
+      "watch": "Pacific sea-surface temperatures, rainfall shifts, drought and flood patterns, agriculture, food security, wildfire conditions and trade routes",
+      "why": "Climate risk rises because WMO forecasts a further strengthening El Niño through late 2026 with high confidence.",
+      "moved": "The score is higher than August because the El Niño signal has strengthened and humanitarian warnings are increasingly focused on food-security impacts.",
+      "matters": "Climate matters because weather shocks can simultaneously affect food, water, energy, health, insurance, migration and trade."
     }
   ],
   "countryRiskData": [
     {
       "country": "Ukraine",
       "region": "Eastern Europe",
-      "score": 93,
+      "score": 95,
       "changeText": "Updated",
       "changeClass": "pill-neutral",
       "direction": "Very High / Active War",
       "directionClass": "pill-danger",
-      "summary": "Ukraine remains at very high risk as the war continues and attacks increasingly target economic and energy infrastructure.",
+      "summary": "Very high risk remains as large-scale drone and missile attacks continue to hit cities, energy and industrial infrastructure.",
       "drivers": [
         "Active war",
-        "Economic-target strikes",
         "Energy infrastructure",
-        "Air-defense pressure"
+        "Long-range strikes",
+        "Black Sea exposure"
       ],
       "watchItems": [
         "Russian strikes",
-        "Ukrainian long-range attacks",
+        "Grid damage",
         "Black Sea routes",
-        "Energy grid"
+        "Long-range attacks"
       ],
       "trend": [
-        88,
-        89,
-        90,
         91,
         92,
         93,
-        93
+        94,
+        94,
+        95,
+        95
       ]
     },
     {
       "country": "Israel",
       "region": "Middle East",
-      "score": 88,
+      "score": 90,
       "changeText": "Updated",
       "changeClass": "pill-neutral",
       "direction": "Very High / Regional War Exposure",
       "directionClass": "pill-danger",
-      "summary": "Israel remains exposed to direct and regional escalation from the ongoing confrontation with Iran and wider Middle East spillover.",
+      "summary": "Israel remains highly exposed to the continuing confrontation with Iran and broader regional spillover through Yemen, Lebanon and shipping routes.",
       "drivers": [
         "Iran conflict",
-        "Missile risk",
+        "Missile and drone risk",
         "Regional spillover",
-        "Energy security"
+        "Shipping security"
       ],
       "watchItems": [
-        "Iran escalation",
-        "Air defense",
+        "Iran diplomacy",
         "Regional retaliation",
-        "Shipping routes"
+        "Air defense",
+        "Red Sea routes"
       ],
       "trend": [
-        83,
-        84,
-        85,
         86,
         87,
         88,
-        88
-      ]
-    },
-    {
-      "country": "Iran",
-      "region": "Middle East",
-      "score": 97,
-      "changeText": "Updated",
-      "changeClass": "pill-neutral",
-      "direction": "Extreme / Active Conflict",
-      "directionClass": "pill-danger",
-      "summary": "Iran has the highest country score in this dashboard because it sits at the center of the active conflict, sanctions pressure and Hormuz disruption.",
-      "drivers": [
-        "U.S.-Iran conflict",
-        "Hormuz restrictions",
-        "Sanctions",
-        "Infrastructure damage"
-      ],
-      "watchItems": [
-        "Hormuz access",
-        "U.S. sanctions",
-        "Military strikes",
-        "Oil exports"
-      ],
-      "trend": [
-        92,
-        93,
-        94,
-        95,
-        96,
-        97,
-        97
-      ]
-    },
-    {
-      "country": "Russia",
-      "region": "Eastern Europe / Eurasia",
-      "score": 90,
-      "changeText": "Updated",
-      "changeClass": "pill-neutral",
-      "direction": "Very High / Active War",
-      "directionClass": "pill-danger",
-      "summary": "Russia remains at very high risk as the war continues and economic infrastructure is increasingly targeted.",
-      "drivers": [
-        "Ukraine war",
-        "Refinery strikes",
-        "Economic targets",
-        "Sanctions exposure"
-      ],
-      "watchItems": [
-        "Refineries",
-        "Black Sea trade",
-        "Retaliatory strikes",
-        "Fuel logistics"
-      ],
-      "trend": [
-        85,
-        86,
-        87,
-        88,
+        89,
         89,
         90,
         90
       ]
     },
     {
+      "country": "Iran",
+      "region": "Middle East",
+      "score": 98,
+      "changeText": "Updated",
+      "changeClass": "pill-neutral",
+      "direction": "Extreme / Active Conflict",
+      "directionClass": "pill-danger",
+      "summary": "Iran remains at the center of the active conflict, sanctions pressure and Hormuz-related energy risk, although diplomatic channels remain open.",
+      "drivers": [
+        "U.S.-Iran conflict",
+        "Hormuz",
+        "Sanctions pressure",
+        "Regional partners"
+      ],
+      "watchItems": [
+        "Diplomatic talks",
+        "Hormuz access",
+        "Military strikes",
+        "Oil exports"
+      ],
+      "trend": [
+        95,
+        96,
+        96,
+        97,
+        97,
+        98,
+        98
+      ]
+    },
+    {
+      "country": "Russia",
+      "region": "Eastern Europe / Eurasia",
+      "score": 94,
+      "changeText": "Updated",
+      "changeClass": "pill-neutral",
+      "direction": "Very High / Active War",
+      "directionClass": "pill-danger",
+      "summary": "Russia remains at very high risk as the war continues and Ukrainian long-range attacks increasingly reach energy and industrial targets around Moscow and elsewhere.",
+      "drivers": [
+        "Ukraine war",
+        "Refinery attacks",
+        "Economic targets",
+        "Sanctions exposure"
+      ],
+      "watchItems": [
+        "Moscow attacks",
+        "Refineries",
+        "Black Sea trade",
+        "Fuel logistics"
+      ],
+      "trend": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        94
+      ]
+    },
+    {
       "country": "Democratic Republic of the Congo",
       "region": "Central Africa",
-      "score": 96,
+      "score": 98,
       "changeText": "Updated",
       "changeClass": "pill-neutral",
       "direction": "Extreme / Health + Humanitarian",
       "directionClass": "pill-danger",
-      "summary": "The DRC score is extreme because a record Ebola outbreak is unfolding alongside insecurity and major humanitarian constraints.",
+      "summary": "The DRC remains at extreme risk as the Bundibugyo Ebola outbreak expands geographically alongside insecurity and major humanitarian constraints.",
       "drivers": [
         "Ebola emergency",
-        "Conflict insecurity",
+        "Seven affected provinces",
         "Health-system strain",
-        "Displacement"
+        "Conflict insecurity"
       ],
       "watchItems": [
-        "Ebola case growth",
+        "Case growth",
         "Response funding",
         "Health-worker safety",
         "Cross-border spread"
       ],
       "trend": [
-        91,
-        92,
-        93,
         94,
         95,
         96,
-        96
+        96,
+        97,
+        98,
+        98
       ]
     },
     {
       "country": "Uganda",
       "region": "East Africa",
-      "score": 52,
+      "score": 58,
       "changeText": "Updated",
       "changeClass": "pill-neutral",
       "direction": "Moderate / Border Health Watch",
       "directionClass": "pill-warning",
-      "summary": "Uganda remains on watch because of proximity to the DRC outbreak, although recent local transmission has been better contained.",
+      "summary": "Uganda remains on elevated health watch because of proximity to the expanding DRC outbreak and continuing cross-border movement.",
       "drivers": [
         "DRC proximity",
         "Import risk",
         "Surveillance",
-        "Outbreak preparedness"
+        "Border mobility"
       ],
       "watchItems": [
         "Border screening",
         "Imported cases",
         "Surveillance continuity",
-        "DRC transmission"
+        "DRC spread"
       ],
       "trend": [
-        47,
-        48,
-        49,
-        50,
-        51,
         52,
-        52
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
       ]
     },
     {
       "country": "Türkiye",
       "region": "Europe / Middle East",
-      "score": 55,
+      "score": 63,
       "changeText": "Updated",
       "changeClass": "pill-neutral",
-      "direction": "Moderate / Regional Exposure",
+      "direction": "High / Regional Energy Exposure",
       "directionClass": "pill-warning",
-      "summary": "Türkiye carries moderate risk from simultaneous Middle East and Black Sea exposure, especially through energy prices, trade routes and regional security.",
+      "summary": "Türkiye faces higher regional exposure as Middle East conflict affects energy prices, Red Sea trade and Gulf security while Black Sea risks remain active.",
       "drivers": [
         "Energy prices",
         "Middle East proximity",
@@ -587,173 +587,173 @@ window.dailyRiskPageData = {
       ],
       "watchItems": [
         "Oil prices",
-        "Black Sea security",
-        "Regional diplomacy",
-        "Inflation sensitivity"
+        "Saudi security",
+        "Black Sea",
+        "Regional diplomacy"
       ],
       "trend": [
-        50,
-        51,
-        52,
-        53,
-        54,
         55,
-        55
+        56,
+        58,
+        59,
+        61,
+        62,
+        63
       ]
     },
     {
       "country": "United States",
       "region": "North America",
-      "score": 74,
+      "score": 80,
       "changeText": "Updated",
       "changeClass": "pill-neutral",
       "direction": "High / Conflict + Market Exposure",
       "directionClass": "pill-warning",
-      "summary": "The U.S. score is elevated because it is directly involved in the Iran conflict while energy prices and financial-market conditions remain sensitive.",
+      "summary": "The United States remains directly exposed through its conflict with Iran, energy inflation, higher financing costs and global market sensitivity.",
       "drivers": [
         "Iran conflict role",
-        "Sanctions policy",
         "Energy prices",
-        "Bond-market pressure"
+        "Treasury yields",
+        "Trade and AI tensions"
       ],
       "watchItems": [
-        "Iran sanctions",
-        "Military escalation",
+        "Iran diplomacy",
         "Oil prices",
-        "Treasury yields"
+        "Treasury yields",
+        "China talks"
       ],
       "trend": [
-        69,
-        70,
-        71,
-        72,
-        73,
         74,
-        74
+        75,
+        76,
+        78,
+        79,
+        80,
+        80
       ]
     },
     {
       "country": "China",
       "region": "East Asia",
-      "score": 58,
+      "score": 64,
       "changeText": "Updated",
       "changeClass": "pill-neutral",
-      "direction": "Moderate / Trade + Energy Exposure",
+      "direction": "High / Trade + Energy Exposure",
       "directionClass": "pill-warning",
-      "summary": "China faces moderate risk from Iran-related sanctions exposure, energy-import sensitivity and global shipping disruption.",
+      "summary": "China faces higher exposure from Middle East energy imports, shipping costs, rare-earth and trade negotiations, and a wide interest-rate gap with the United States.",
       "drivers": [
-        "Iran trade exposure",
         "Oil imports",
         "Shipping routes",
-        "Global demand"
+        "Trade talks",
+        "Critical minerals"
       ],
       "watchItems": [
-        "Iran sanctions",
         "Hormuz flows",
-        "Energy imports",
-        "Trade response"
+        "Saudi stability",
+        "U.S. talks",
+        "Domestic demand"
       ],
       "trend": [
-        53,
-        54,
-        55,
-        56,
-        57,
         58,
-        58
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
       ]
     },
     {
       "country": "India",
       "region": "South Asia",
-      "score": 52,
+      "score": 60,
       "changeText": "Updated",
       "changeClass": "pill-neutral",
-      "direction": "Moderate / Energy Import Exposure",
+      "direction": "High / Energy + Food Inflation Exposure",
       "directionClass": "pill-warning",
-      "summary": "India remains moderately exposed because higher oil prices and Hormuz disruption can quickly affect import costs and inflation.",
+      "summary": "India remains exposed to high oil import costs, Gulf shipping disruption and food-price pressure.",
       "drivers": [
         "Oil imports",
         "Hormuz exposure",
-        "Inflation sensitivity",
+        "Food inflation",
         "Trade routes"
       ],
       "watchItems": [
         "Crude prices",
         "Shipping access",
-        "Fuel costs",
+        "Food prices",
         "Regional diplomacy"
       ],
       "trend": [
-        47,
-        48,
-        49,
-        50,
-        51,
         52,
-        52
+        54,
+        55,
+        56,
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "country": "Saudi Arabia",
+      "region": "Middle East",
+      "score": 96,
+      "changeText": "Updated",
+      "changeClass": "pill-neutral",
+      "direction": "Very High / Direct Attack + Energy Risk",
+      "directionClass": "pill-danger",
+      "summary": "Saudi Arabia is now one of the highest-risk countries in the dashboard after repeated Houthi missile and drone attacks reached major cities and energy infrastructure.",
+      "drivers": [
+        "Houthi attacks",
+        "Energy infrastructure",
+        "Red Sea routes",
+        "Regional conflict"
+      ],
+      "watchItems": [
+        "Riyadh attacks",
+        "Pipeline recovery",
+        "Air defense",
+        "Diplomatic response"
+      ],
+      "trend": [
+        78,
+        82,
+        86,
+        90,
+        93,
+        95,
+        96
       ]
     },
     {
       "country": "Germany",
       "region": "Western Europe",
-      "score": 54,
+      "score": 60,
       "changeText": "Updated",
       "changeClass": "pill-neutral",
-      "direction": "Moderate / Energy-Inflation Exposure",
+      "direction": "High / Energy-Inflation Exposure",
       "directionClass": "pill-warning",
-      "summary": "Germany faces moderate risk from renewed energy inflation, tighter-rate expectations and climate-related economic pressure across Europe.",
+      "summary": "Germany faces higher economic risk from renewed energy inflation, tighter financial conditions and weaker household purchasing power despite improved 2026 growth forecasts.",
       "drivers": [
         "Energy prices",
-        "ECB expectations",
+        "ECB conditions",
         "Industrial costs",
-        "European heat"
+        "Inflation"
       ],
       "watchItems": [
-        "Gas and oil prices",
-        "ECB policy",
+        "Oil and gas prices",
+        "Rates",
         "Industrial demand",
-        "Heat impacts"
+        "Consumer spending"
       ],
       "trend": [
-        49,
-        50,
-        51,
-        52,
-        53,
         54,
-        54
-      ]
-    },
-    {
-      "country": "Japan",
-      "region": "East Asia",
-      "score": 51,
-      "changeText": "Updated",
-      "changeClass": "pill-neutral",
-      "direction": "Moderate / Imported Energy Exposure",
-      "directionClass": "pill-warning",
-      "summary": "Japan remains moderately exposed because imported energy and shipping-route security are important to domestic costs and industrial activity.",
-      "drivers": [
-        "Oil imports",
-        "Hormuz exposure",
-        "Currency sensitivity",
-        "Shipping routes"
-      ],
-      "watchItems": [
-        "Crude prices",
-        "Hormuz traffic",
-        "Yen",
-        "Asian supply chains"
-      ],
-      "trend": [
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        51
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
       ]
     }
   ],
@@ -762,221 +762,240 @@ window.dailyRiskPageData = {
       "title": "Ukraine Country Report",
       "tag": "Very High / Active War",
       "tagClass": "pill-danger",
-      "score": "93 / 100",
+      "score": "95 / 100",
       "direction": "Very High / Active War",
-      "watch": "Russian strikes, Ukrainian long-range attacks, Black Sea routes, Energy grid",
-      "why": "Ukraine remains at very high risk as the war continues and attacks increasingly target economic and energy infrastructure.",
-      "moved": "This score was refreshed for the August 23 update using current conflict, health, energy and regional exposure signals rather than carrying forward stale daily headlines.",
+      "watch": "Russian strikes, Grid damage, Black Sea routes, Long-range attacks",
+      "why": "Very high risk remains as large-scale drone and missile attacks continue to hit cities, energy and industrial infrastructure.",
+      "moved": "This score was refreshed for the September 20 update using current conflict, health, energy, shipping, climate and market exposure signals rather than carrying forward stale headlines.",
       "matters": "Ukraine matters to the global dashboard because developments there can affect regional security, health, trade, energy or financial conditions beyond its borders."
     },
     {
       "title": "Israel Country Report",
       "tag": "Very High / Regional War Exposure",
       "tagClass": "pill-danger",
-      "score": "88 / 100",
+      "score": "90 / 100",
       "direction": "Very High / Regional War Exposure",
-      "watch": "Iran escalation, Air defense, Regional retaliation, Shipping routes",
-      "why": "Israel remains exposed to direct and regional escalation from the ongoing confrontation with Iran and wider Middle East spillover.",
-      "moved": "This score was refreshed for the August 23 update using current conflict, health, energy and regional exposure signals rather than carrying forward stale daily headlines.",
+      "watch": "Iran diplomacy, Regional retaliation, Air defense, Red Sea routes",
+      "why": "Israel remains highly exposed to the continuing confrontation with Iran and broader regional spillover through Yemen, Lebanon and shipping routes.",
+      "moved": "This score was refreshed for the September 20 update using current conflict, health, energy, shipping, climate and market exposure signals rather than carrying forward stale headlines.",
       "matters": "Israel matters to the global dashboard because developments there can affect regional security, health, trade, energy or financial conditions beyond its borders."
     },
     {
       "title": "Iran Country Report",
       "tag": "Extreme / Active Conflict",
       "tagClass": "pill-danger",
-      "score": "97 / 100",
+      "score": "98 / 100",
       "direction": "Extreme / Active Conflict",
-      "watch": "Hormuz access, U.S. sanctions, Military strikes, Oil exports",
-      "why": "Iran has the highest country score in this dashboard because it sits at the center of the active conflict, sanctions pressure and Hormuz disruption.",
-      "moved": "This score was refreshed for the August 23 update using current conflict, health, energy and regional exposure signals rather than carrying forward stale daily headlines.",
+      "watch": "Diplomatic talks, Hormuz access, Military strikes, Oil exports",
+      "why": "Iran remains at the center of the active conflict, sanctions pressure and Hormuz-related energy risk, although diplomatic channels remain open.",
+      "moved": "This score was refreshed for the September 20 update using current conflict, health, energy, shipping, climate and market exposure signals rather than carrying forward stale headlines.",
       "matters": "Iran matters to the global dashboard because developments there can affect regional security, health, trade, energy or financial conditions beyond its borders."
     },
     {
       "title": "Russia Country Report",
       "tag": "Very High / Active War",
       "tagClass": "pill-danger",
-      "score": "90 / 100",
+      "score": "94 / 100",
       "direction": "Very High / Active War",
-      "watch": "Refineries, Black Sea trade, Retaliatory strikes, Fuel logistics",
-      "why": "Russia remains at very high risk as the war continues and economic infrastructure is increasingly targeted.",
-      "moved": "This score was refreshed for the August 23 update using current conflict, health, energy and regional exposure signals rather than carrying forward stale daily headlines.",
+      "watch": "Moscow attacks, Refineries, Black Sea trade, Fuel logistics",
+      "why": "Russia remains at very high risk as the war continues and Ukrainian long-range attacks increasingly reach energy and industrial targets around Moscow and elsewhere.",
+      "moved": "This score was refreshed for the September 20 update using current conflict, health, energy, shipping, climate and market exposure signals rather than carrying forward stale headlines.",
       "matters": "Russia matters to the global dashboard because developments there can affect regional security, health, trade, energy or financial conditions beyond its borders."
     },
     {
       "title": "Democratic Republic of the Congo Country Report",
       "tag": "Extreme / Health + Humanitarian",
       "tagClass": "pill-danger",
-      "score": "96 / 100",
+      "score": "98 / 100",
       "direction": "Extreme / Health + Humanitarian",
-      "watch": "Ebola case growth, Response funding, Health-worker safety, Cross-border spread",
-      "why": "The DRC score is extreme because a record Ebola outbreak is unfolding alongside insecurity and major humanitarian constraints.",
-      "moved": "This score was refreshed for the August 23 update using current conflict, health, energy and regional exposure signals rather than carrying forward stale daily headlines.",
+      "watch": "Case growth, Response funding, Health-worker safety, Cross-border spread",
+      "why": "The DRC remains at extreme risk as the Bundibugyo Ebola outbreak expands geographically alongside insecurity and major humanitarian constraints.",
+      "moved": "This score was refreshed for the September 20 update using current conflict, health, energy, shipping, climate and market exposure signals rather than carrying forward stale headlines.",
       "matters": "Democratic Republic of the Congo matters to the global dashboard because developments there can affect regional security, health, trade, energy or financial conditions beyond its borders."
     },
     {
       "title": "Uganda Country Report",
       "tag": "Moderate / Border Health Watch",
       "tagClass": "pill-warning",
-      "score": "52 / 100",
+      "score": "58 / 100",
       "direction": "Moderate / Border Health Watch",
-      "watch": "Border screening, Imported cases, Surveillance continuity, DRC transmission",
-      "why": "Uganda remains on watch because of proximity to the DRC outbreak, although recent local transmission has been better contained.",
-      "moved": "This score was refreshed for the August 23 update using current conflict, health, energy and regional exposure signals rather than carrying forward stale daily headlines.",
+      "watch": "Border screening, Imported cases, Surveillance continuity, DRC spread",
+      "why": "Uganda remains on elevated health watch because of proximity to the expanding DRC outbreak and continuing cross-border movement.",
+      "moved": "This score was refreshed for the September 20 update using current conflict, health, energy, shipping, climate and market exposure signals rather than carrying forward stale headlines.",
       "matters": "Uganda matters to the global dashboard because developments there can affect regional security, health, trade, energy or financial conditions beyond its borders."
     },
     {
       "title": "Türkiye Country Report",
-      "tag": "Moderate / Regional Exposure",
+      "tag": "High / Regional Energy Exposure",
       "tagClass": "pill-warning",
-      "score": "55 / 100",
-      "direction": "Moderate / Regional Exposure",
-      "watch": "Oil prices, Black Sea security, Regional diplomacy, Inflation sensitivity",
-      "why": "Türkiye carries moderate risk from simultaneous Middle East and Black Sea exposure, especially through energy prices, trade routes and regional security.",
-      "moved": "This score was refreshed for the August 23 update using current conflict, health, energy and regional exposure signals rather than carrying forward stale daily headlines.",
+      "score": "63 / 100",
+      "direction": "High / Regional Energy Exposure",
+      "watch": "Oil prices, Saudi security, Black Sea, Regional diplomacy",
+      "why": "Türkiye faces higher regional exposure as Middle East conflict affects energy prices, Red Sea trade and Gulf security while Black Sea risks remain active.",
+      "moved": "This score was refreshed for the September 20 update using current conflict, health, energy, shipping, climate and market exposure signals rather than carrying forward stale headlines.",
       "matters": "Türkiye matters to the global dashboard because developments there can affect regional security, health, trade, energy or financial conditions beyond its borders."
     },
     {
       "title": "United States Country Report",
       "tag": "High / Conflict + Market Exposure",
       "tagClass": "pill-warning",
-      "score": "74 / 100",
+      "score": "80 / 100",
       "direction": "High / Conflict + Market Exposure",
-      "watch": "Iran sanctions, Military escalation, Oil prices, Treasury yields",
-      "why": "The U.S. score is elevated because it is directly involved in the Iran conflict while energy prices and financial-market conditions remain sensitive.",
-      "moved": "This score was refreshed for the August 23 update using current conflict, health, energy and regional exposure signals rather than carrying forward stale daily headlines.",
+      "watch": "Iran diplomacy, Oil prices, Treasury yields, China talks",
+      "why": "The United States remains directly exposed through its conflict with Iran, energy inflation, higher financing costs and global market sensitivity.",
+      "moved": "This score was refreshed for the September 20 update using current conflict, health, energy, shipping, climate and market exposure signals rather than carrying forward stale headlines.",
       "matters": "United States matters to the global dashboard because developments there can affect regional security, health, trade, energy or financial conditions beyond its borders."
     },
     {
       "title": "China Country Report",
-      "tag": "Moderate / Trade + Energy Exposure",
+      "tag": "High / Trade + Energy Exposure",
       "tagClass": "pill-warning",
-      "score": "58 / 100",
-      "direction": "Moderate / Trade + Energy Exposure",
-      "watch": "Iran sanctions, Hormuz flows, Energy imports, Trade response",
-      "why": "China faces moderate risk from Iran-related sanctions exposure, energy-import sensitivity and global shipping disruption.",
-      "moved": "This score was refreshed for the August 23 update using current conflict, health, energy and regional exposure signals rather than carrying forward stale daily headlines.",
+      "score": "64 / 100",
+      "direction": "High / Trade + Energy Exposure",
+      "watch": "Hormuz flows, Saudi stability, U.S. talks, Domestic demand",
+      "why": "China faces higher exposure from Middle East energy imports, shipping costs, rare-earth and trade negotiations, and a wide interest-rate gap with the United States.",
+      "moved": "This score was refreshed for the September 20 update using current conflict, health, energy, shipping, climate and market exposure signals rather than carrying forward stale headlines.",
       "matters": "China matters to the global dashboard because developments there can affect regional security, health, trade, energy or financial conditions beyond its borders."
     },
     {
       "title": "India Country Report",
-      "tag": "Moderate / Energy Import Exposure",
+      "tag": "High / Energy + Food Inflation Exposure",
       "tagClass": "pill-warning",
-      "score": "52 / 100",
-      "direction": "Moderate / Energy Import Exposure",
-      "watch": "Crude prices, Shipping access, Fuel costs, Regional diplomacy",
-      "why": "India remains moderately exposed because higher oil prices and Hormuz disruption can quickly affect import costs and inflation.",
-      "moved": "This score was refreshed for the August 23 update using current conflict, health, energy and regional exposure signals rather than carrying forward stale daily headlines.",
+      "score": "60 / 100",
+      "direction": "High / Energy + Food Inflation Exposure",
+      "watch": "Crude prices, Shipping access, Food prices, Regional diplomacy",
+      "why": "India remains exposed to high oil import costs, Gulf shipping disruption and food-price pressure.",
+      "moved": "This score was refreshed for the September 20 update using current conflict, health, energy, shipping, climate and market exposure signals rather than carrying forward stale headlines.",
       "matters": "India matters to the global dashboard because developments there can affect regional security, health, trade, energy or financial conditions beyond its borders."
     },
     {
-      "title": "Germany Country Report",
-      "tag": "Moderate / Energy-Inflation Exposure",
-      "tagClass": "pill-warning",
-      "score": "54 / 100",
-      "direction": "Moderate / Energy-Inflation Exposure",
-      "watch": "Gas and oil prices, ECB policy, Industrial demand, Heat impacts",
-      "why": "Germany faces moderate risk from renewed energy inflation, tighter-rate expectations and climate-related economic pressure across Europe.",
-      "moved": "This score was refreshed for the August 23 update using current conflict, health, energy and regional exposure signals rather than carrying forward stale daily headlines.",
-      "matters": "Germany matters to the global dashboard because developments there can affect regional security, health, trade, energy or financial conditions beyond its borders."
+      "title": "Saudi Arabia Country Report",
+      "tag": "Very High / Direct Attack + Energy Risk",
+      "tagClass": "pill-danger",
+      "score": "96 / 100",
+      "direction": "Very High / Direct Attack + Energy Risk",
+      "watch": "Riyadh attacks, Pipeline recovery, Air defense, Diplomatic response",
+      "why": "Saudi Arabia is now one of the highest-risk countries in the dashboard after repeated Houthi missile and drone attacks reached major cities and energy infrastructure.",
+      "moved": "This score was refreshed for the September 20 update using current conflict, health, energy, shipping, climate and market exposure signals rather than carrying forward stale headlines.",
+      "matters": "Saudi Arabia matters to the global dashboard because developments there can affect regional security, health, trade, energy or financial conditions beyond its borders."
     },
     {
-      "title": "Japan Country Report",
-      "tag": "Moderate / Imported Energy Exposure",
+      "title": "Germany Country Report",
+      "tag": "High / Energy-Inflation Exposure",
       "tagClass": "pill-warning",
-      "score": "51 / 100",
-      "direction": "Moderate / Imported Energy Exposure",
-      "watch": "Crude prices, Hormuz traffic, Yen, Asian supply chains",
-      "why": "Japan remains moderately exposed because imported energy and shipping-route security are important to domestic costs and industrial activity.",
-      "moved": "This score was refreshed for the August 23 update using current conflict, health, energy and regional exposure signals rather than carrying forward stale daily headlines.",
-      "matters": "Japan matters to the global dashboard because developments there can affect regional security, health, trade, energy or financial conditions beyond its borders."
+      "score": "60 / 100",
+      "direction": "High / Energy-Inflation Exposure",
+      "watch": "Oil and gas prices, Rates, Industrial demand, Consumer spending",
+      "why": "Germany faces higher economic risk from renewed energy inflation, tighter financial conditions and weaker household purchasing power despite improved 2026 growth forecasts.",
+      "moved": "This score was refreshed for the September 20 update using current conflict, health, energy, shipping, climate and market exposure signals rather than carrying forward stale headlines.",
+      "matters": "Germany matters to the global dashboard because developments there can affect regional security, health, trade, energy or financial conditions beyond its borders."
     }
   ],
-  "lastVerifiedAtUtc": "August 23, 2026 · public reporting checked for this update",
+  "lastVerifiedAtUtc": "September 20, 2026 · public reporting checked for this update",
   "editorialPolicy": {
     "title": "Objective scoring policy",
-    "summary": "This dashboard separates measurable risk from repeated news noise. A topic can be serious and viral without automatically forcing a higher global score.",
+    "summary": "This dashboard separates measurable risk from repeated news noise. A serious or viral headline does not automatically raise the index unless it changes current exposure, transmission, disruption or escalation.",
     "rules": [
       "Fresh confirmed events can raise a score.",
-      "Old headlines lose weight unless they create new measurable escalation.",
-      "Expired or fading impacts are removed from the index instead of being carried forward automatically.",
+      "Repeated headlines lose weight unless they create new measurable escalation or disruption.",
+      "Expired or fading impacts are removed instead of being carried forward automatically.",
       "Diplomacy, market adaptation, containment or confirmed non-escalation can lower a score.",
       "Regional emergencies are not scored as global crises unless cross-border or systemic transmission is confirmed.",
-      "The overall index is capped or reduced when risk drivers move in opposite directions.",
-      "Health scoring is capped below pandemic-level unless uncontrolled international spread is confirmed.",
-      "Fuel-product stress can raise economic risk even when crude oil is below peak panic levels."
+      "The overall index is capped or reduced when major risk drivers move in opposite directions.",
+      "Health scoring distinguishes national and neighbouring-country risk from WHO-assessed global risk.",
+      "Energy and freight disruption can raise economic risk even when financial markets remain orderly."
     ]
   },
   "seoData": {
-    "title": "Global Risk Index Today — August 23, 2026 | World Risk Report",
-    "metaDescription": "Global Risk Index for August 23, 2026: 86/100 as Iran-Hormuz conflict, oil and market stress, DRC Ebola and a powerful developing El Niño raise world risk.",
-    "slug": "global-risk-index-today-august-23-2026",
-    "h1": "Global Risk Index Today — August 23, 2026",
+    "title": "Global Risk Index Today — September 20, 2026 | World Risk Report",
+    "metaDescription": "Global Risk Index for September 20, 2026: 91/100 as Saudi attacks, oil and shipping stress, Russia-Ukraine strikes, DRC Ebola and El Niño raise risk.",
+    "slug": "global-risk-index-today-september-20-2026",
+    "h1": "Global Risk Index Today — September 20, 2026",
     "primaryKeyword": "global risk index today",
     "secondaryKeywords": [
       "world risk report today",
-      "global risk August 23 2026",
-      "Iran Hormuz risk",
-      "oil market risk",
+      "global risk September 20 2026",
+      "Middle East risk today",
+      "Saudi Houthi attacks",
+      "oil and shipping risk 2026",
+      "Russia Ukraine risk today",
       "DRC Ebola outbreak 2026",
-      "El Nino 2026 risk",
-      "Ukraine Russia infrastructure strikes"
+      "El Nino 2026 risk"
     ],
     "viralAngles": [
-      "Four systems are flashing at once: conflict, energy, health and climate.",
-      "Hormuz risk is no longer only geopolitical; it is feeding inflation and market pressure.",
-      "The Ebola emergency is severe, but global spread risk is still lower than the national crisis.",
-      "A potentially exceptional El Niño is adding a new forward-looking risk channel."
+      "Four systems are under simultaneous pressure: conflict, energy and shipping, health and climate.",
+      "Middle East risk has widened from Hormuz into Saudi infrastructure and Red Sea routes.",
+      "The DRC Ebola outbreak is expanding geographically, but WHO still assesses overall global risk as low.",
+      "A strengthening El Niño is adding a forward-looking food and weather risk channel."
     ],
-    "suggestedSocialPost": "Global Risk Index Today: 86/100 for Aug. 23, 2026. Hormuz and Iran conflict keep energy risk high, DRC Ebola remains severe, and a potentially exceptional El Niño is adding climate pressure. Directional index — not a forecast."
+    "suggestedSocialPost": "Global Risk Index Today: 91/100 for Sep. 20, 2026. Middle East energy routes are under heavier pressure, Russia-Ukraine infrastructure strikes continue, DRC Ebola has expanded, and El Niño is strengthening. Directional index — not a forecast."
   },
   "sourceNotes": [
     {
-      "label": "Iran / sanctions / Hormuz",
-      "date": "August 23, 2026",
-      "note": "Reuters reports Iran rejected impending new U.S. sanctions while the conflict and Strait of Hormuz restrictions continue to disrupt global oil transit.",
-      "url": "https://www.reuters.com/world/asia-pacific/iran-says-new-sanctions-threatened-by-desperate-us-will-fail-2026-08-23/"
+      "label": "Saudi / Houthi / Riyadh attacks",
+      "date": "September 20, 2026",
+      "note": "Reuters reports Gulf markets fell after Houthi claims of missile and drone attacks on strategic sites in Riyadh, adding to regional and energy-market risk.",
+      "url": "https://www.reuters.com/world/middle-east/saudi-gulf-stocks-fall-after-houthis-claim-riyadh-attacks-2026-09-20/"
     },
     {
-      "label": "Russia / Ukraine economic targets",
-      "date": "August 22, 2026",
-      "note": "Reuters reports escalating strikes on economic infrastructure, including refineries and Black Sea-related assets.",
-      "url": "https://www.reuters.com/world/europe/putin-says-ukraine-opened-pandoras-box-with-strikes-economic-targets-2026-08-22/"
+      "label": "Saudi energy infrastructure",
+      "date": "September 17, 2026",
+      "note": "Reuters reports multiple pumping stations on Saudi Arabia's East-West Pipeline were damaged, highlighting vulnerability in a route used to bypass Hormuz disruption.",
+      "url": "https://www.reuters.com/business/energy/three-pumping-stations-along-saudi-east-west-pipeline-were-hit-recent-attack-2026-09-17/"
     },
     {
-      "label": "Oil and energy pressure",
-      "date": "August 21, 2026",
-      "note": "Reuters reports oil remained elevated as the U.S.-Iran war constrained supply and new sanctions threats increased uncertainty.",
-      "url": "https://www.reuters.com/business/energy/oil-set-second-weekly-rise-unsettled-us-iran-war-crimps-supply-2026-08-21/"
+      "label": "Oil and Middle East supply risk",
+      "date": "September 18, 2026",
+      "note": "Reuters reports oil eased after diplomatic pressure on Iran to restrain Houthi attacks, but Brent remained above $100 and regional supply risk persisted.",
+      "url": "https://www.reuters.com/business/energy/oil-prices-fall-1-hopes-limited-supply-disruptions-2026-09-18/"
     },
     {
-      "label": "Global markets",
-      "date": "August 21, 2026",
-      "note": "Reuters reports a difficult week for global stocks as bond yields and oil stayed high.",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-21/"
+      "label": "Global container shipping",
+      "date": "September 17, 2026",
+      "note": "Reuters reports China-U.S. East Coast container spot rates rose sharply as war-driven fuel costs and route disruption increased shipping expenses.",
+      "url": "https://www.reuters.com/business/energy/ocean-container-shipping-rates-could-test-record-highs-iran-war-fuel-spike-2026-09-17/"
     },
     {
-      "label": "DRC Ebola risk assessment",
-      "date": "August 20, 2026",
-      "note": "WHO says the DRC outbreak remains severe and difficult to control; national risk is very high, neighbouring-country risk is high and overall global risk is low.",
-      "url": "https://www.who.int/publications/m/item/who-rapid-risk-assessment-ebola-disease-caused-by-bundibugyo-virus--democratic-republic-of-the-congo-v4"
+      "label": "Russia / Ukraine infrastructure attacks",
+      "date": "September 20, 2026",
+      "note": "Reuters reports a large Ukrainian drone attack on the Moscow region damaged part of an oil refinery while Russia continued attacks on Ukrainian cities and infrastructure.",
+      "url": "https://www.reuters.com/world/europe/two-dead-moscow-region-drones-hit-oil-refinery-russian-capital-2026-09-20/"
     },
     {
-      "label": "DRC Ebola latest reporting",
-      "date": "August 21, 2026",
-      "note": "Reuters reports the DRC outbreak is spreading rapidly and the death toll has exceeded 2,500.",
-      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/ebola-outbreak-congo-spreading-exponentially-death-toll-surpasses-2500-un-2026-08-21/"
+      "label": "Global markets and inflation",
+      "date": "September 18, 2026",
+      "note": "Reuters reports markets ended a turbulent week as central banks maintained a strong inflation focus amid elevated oil prices and financing costs.",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-18/"
     },
     {
-      "label": "El Niño outlook",
-      "date": "August 21, 2026",
-      "note": "Reuters reports the UK Met Office expects the developing El Niño could become the strongest in living memory.",
-      "url": "https://www.reuters.com/business/environment/uk-forecaster-predicts-strongest-el-nio-living-memory-2026-08-21/"
+      "label": "DRC Ebola latest WHO situation",
+      "date": "September 13, 2026",
+      "note": "WHO Africa reports 7,258 confirmed cases and 3,510 deaths in the DRC, with the outbreak expanding into a seventh province and 62 health zones.",
+      "url": "https://afro.who.int/countries/democratic-republic-of-congo/publication/ebola-bundibugyo-virus-disease-outbreak-3"
     },
     {
-      "label": "European marine heat",
-      "date": "August 18, 2026",
-      "note": "Reuters reports human-caused climate change was the main driver of recent record sea temperatures around Europe.",
-      "url": "https://www.reuters.com/sustainability/cop/climate-change-is-driving-record-heat-europes-seas-scientists-say-2026-08-18/"
+      "label": "DRC Ebola WHO risk framing",
+      "date": "September 10, 2026",
+      "note": "WHO reports continued geographic expansion and sustained transmission while maintaining a very-high DRC risk assessment and low overall global risk.",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617"
+    },
+    {
+      "label": "El Niño seasonal outlook",
+      "date": "September 3, 2026",
+      "note": "WMO forecasts further strengthening of El Niño during September-November 2026, with the Niño 3.4 seasonal mean anomaly around 3.6°C and high forecast confidence.",
+      "url": "https://public.wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-son2026"
+    },
+    {
+      "label": "El Niño food-security exposure",
+      "date": "September 18, 2026",
+      "note": "Reuters reports humanitarian warnings that a very strong El Niño could worsen food security in parts of Central America through rainfall disruption and higher food, fuel and fertilizer costs.",
+      "url": "https://www.reuters.com/business/environment/super-el-nio-threatens-central-america-food-security-irc-says-2026-09-18/"
+    },
+    {
+      "label": "Iran diplomacy offset",
+      "date": "September 16, 2026",
+      "note": "Reuters reports China urged Iran and the United States to show restraint and revive talks, providing a partial de-escalation factor in the index.",
+      "url": "https://www.reuters.com/world/china/chinas-top-diplomat-urges-iran-us-show-restraint-revive-talks-2026-09-16/"
     }
   ]
 };

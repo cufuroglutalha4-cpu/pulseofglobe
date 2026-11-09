@@ -1,11 +1,11 @@
-/* Pulse Of Globe — detailed review, 8 November 2026. All indicators are out of 100. */
+/* Pulse Of Globe — detailed review, 9 November 2026. All indicators are out of 100. */
 window.dailyRiskPageData = {
-  "reportDate": "November 8, 2026",
-  "reportDateIso": "2026-11-08",
-  "updateTimeUtc": "Reviewed 8 November 2026 · source dates listed individually",
+  "reportDate": "November 9, 2026",
+  "reportDateIso": "2026-11-09",
+  "updateTimeUtc": "Reviewed 9 November 2026 · source windows stated individually",
   "overallScore": 75,
   "previousOverallScore": 75,
-  "previousReportDate": "November 3, 2026",
+  "previousReportDate": "November 8, 2026",
   "overallLabel": "Elevated global pressure",
   "confidence": "Mixed source dates / editorial assessment",
   "scoreScale": 100,
@@ -22,7 +22,7 @@ window.dailyRiskPageData = {
     0.25,
     0.25
   ],
-  "heroSummary": "The Global Risk Index stands at 75/100 for the review dated 8 November 2026. The main transmission channels are conflict-related civilian harm and aid constraints, energy and financing pressures, a severe but geographically uneven Ebola emergency, and the forward El Niño signal. New WHO and ECDC reporting updates the outbreak picture, while Gaza and Abyei coverage broadens the humanitarian assessment. Country-specific central-bank releases help distinguish actual domestic conditions from generic global headlines. The category scores are conflict 80, economy and energy 80, public health 60, and climate 80, all out of 100. The composite remains unchanged because the new evidence does not justify automatically moving the broad severity judgments. Older observations retain their dates, conditional warnings remain conditional, and a strong regional signal is not automatically treated as a worldwide crisis.",
+  "heroSummary": "The Global Risk Index is 75/100 in the review dated 9 November 2026, unchanged from yesterday. Today’s evidence adds important detail rather than a uniform global deterioration: the United Nations describes continuing pressure on Ukraine’s civilian infrastructure, OCHA reports rain-related disruption in Gaza, and WMO publishes a new climate assessment. The IMF’s daily market review provides an offset through more stable market conditions. These developments are assessed against the same four domains and the same weights used on 8 November. The retained category scores are conflict 80, economy and energy 80, public health 60, and climate 80. A stable composite should be read alongside the changed evidence, the differences between local and global exposure, and the explicit conditions that could lead to an upward or downward revision. No score is held constant merely to smooth the chart, and no extra point is added just because a new report has appeared.",
   "overallExplainer": "The index averages four equally weighted domain scores. It measures selected editorial pressure rather than the probability of a catastrophe. The country section uses separate, explicitly scoped judgments and is not averaged into the global score. A country can have a severe local health or conflict problem without that same intensity applying to every resident or to the world. Conversely, resilient output or an unchanged interest rate does not remove exposure to external shocks. Evidence, interpretation, mitigating factors and reassessment triggers are shown separately so readers can judge why a score was retained and what would make it change.",
   "sources": {
     "ukraine": {
@@ -70,7 +70,7 @@ window.dailyRiskPageData = {
     "iea-next": {
       "title": "IEA — November Oil Market Report launch schedule",
       "url": "https://www.iea.org/events/oil-market-report-november-2026",
-      "published": "Event schedule checked 8 November 2026",
+      "published": "Schedule checked 9 November 2026",
       "reference": "Scheduled release: 13 November 2026.",
       "note": "Upcoming release only. No unpublished November figures are used."
     },
@@ -164,6 +164,34 @@ window.dailyRiskPageData = {
       "published": "27 August 2026",
       "reference": "Outbreak-end announcement after the 42-day countdown.",
       "note": "Historical containment milestone; current regional preparedness remains a separate question."
+    },
+    "ukraine-nov9": {
+      "title": "UN DPPA — Security Council briefing on Ukraine, 9 November",
+      "url": "https://dppa.un.org/en/node/137309",
+      "published": "9 November 2026",
+      "reference": "Briefing published today; discusses earlier incidents, the weekend and planned talks.",
+      "note": "Reported developments remain attributed; publication date does not make every incident a 9 November event."
+    },
+    "gaza-rain": {
+      "title": "OCHA — Heavy rains in Gaza, report dated 8 November",
+      "url": "https://www.ochaopt.org/content/humanitarian-situation-report-heavy-rains-gaza-strip-8-november-2026",
+      "published": "9 November 2026",
+      "reference": "Report dated 8 November; rain from 6 November through the weekend.",
+      "note": "Preliminary shelter and service assessments, with operational response and recovery reported separately."
+    },
+    "wmo-nov9": {
+      "title": "WMO — State of the Climate 2026 update",
+      "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts",
+      "published": "9 November 2026",
+      "reference": "Interim climate assessment; global temperature observations cover January–September.",
+      "note": "The release combines dated observations and forward risk; it is not the final full-year result."
+    },
+    "markets-nov9": {
+      "title": "IMF — Global Markets Monitor, 9 November",
+      "url": "https://www.imfconnect.org/content/imf/en/gmm.html",
+      "published": "9 November 2026",
+      "reference": "Market snapshot published today; the rolling page may later display a newer edition.",
+      "note": "Daily sentiment and pricing observations are distinguished from long-term forecasts and physical supply reliability."
     }
   },
   "categories": [
@@ -172,14 +200,16 @@ window.dailyRiskPageData = {
       "title": "Conflict and humanitarian access",
       "score": 80,
       "label": "Severe pressure",
-      "summary": "Civilian protection and aid access remain under strain across the selected Ukraine, Gaza and Abyei reporting. These are distinct crises, not interchangeable measures of one conflict.",
+      "summary": "New UN reporting reinforces the civilian-infrastructure focus. Pressure remains severe, while planned diplomacy must be assessed through practical outcomes.",
       "sources": [
+        "ukraine-nov9",
         "ukraine",
+        "gaza-rain",
         "gaza",
         "abyei"
       ],
-      "analysis": "UN monitors documented the 2 November attack on an aid distribution site in Komyshuvakha; casualty verification was ongoing in the 3 November release. OCHA’s report dated 5 November describes continued strikes affecting populated areas and humanitarian operations in Gaza. UN DPPA’s weekly review flags Sudan-related instability around Abyei while noting renewed bilateral security talks.",
-      "offset": "Dialogue is a potentially positive signal, but its existence alone does not establish improved civilian safety or reliable aid delivery. The selected evidence supports retaining the severe category rather than adding points for each repeated headline.",
+      "analysis": "The UN’s 9 November briefing describes intensifying pressure on Ukrainian civilian and energy infrastructure, including reported weekend outages, and risks to Black Sea shipping. It also welcomes planned Abu Dhabi talks. These are attributed developments and an opportunity for diplomacy, not proof of a ceasefire. The earlier UN and OCHA materials remain dated context.",
+      "offset": "Today’s additional evidence reinforces a severe civilian-service assessment. The potential offset is implementation of effective protective or diplomatic measures, rather than the scheduling of talks alone. Retaining 80 recognises that the category was already severe; it does not imply that the new harm is immaterial.",
       "watch": "Watch for verified civilian-protection improvements, practical access to assistance and implementation of diplomatic commitments. No military escalation probability is inferred.",
       "transmission": "Conflict becomes globally significant through identifiable transmission channels: humanitarian access, essential infrastructure, transport routes and confidence. The review therefore separates harm at a specific location from possible spillovers elsewhere. Gaza and Abyei do not replace the Ukraine evidence; they add distinct access and protection concerns. A statement about negotiations is an institutional signal, while a safe and functioning delivery corridor would be an observable operational outcome.",
       "reassessment": "A sustained improvement would require confirmed reductions in civilian exposure and more dependable aid or essential-service access. Worsening would require newly verified disruption, wider involvement or a failure of protective arrangements with measurable consequences. This distinction prevents a diplomatic announcement from being treated as a completed resolution and prevents an old incident from becoming a new daily escalation.",
@@ -197,13 +227,14 @@ window.dailyRiskPageData = {
       "title": "Economy, energy and supply chains",
       "score": 80,
       "label": "Severe pressure",
-      "summary": "The IMF projects 3.1% world growth and 4.7% global headline inflation for 2026 in its October outlook. The IEA describes a fragile oil-supply recovery and pressure in diesel markets.",
+      "summary": "The IMF daily market note supplies a stabilizing offset. Dated macroeconomic and physical energy-market inputs still point to vulnerabilities requiring a sustained, rather than session-by-session, reassessment.",
       "sources": [
+        "markets-nov9",
         "imf",
         "iea"
       ],
       "analysis": "The macroeconomic risk is the transmission of supply disruption into costs, purchasing power and activity. The IMF identifies conflict escalation, trade friction and fiscal vulnerability as downside risks, while technology investment and easing tensions can provide offsets. Its projections are dated estimates rather than observations of the full year.",
-      "offset": "The IEA’s October report records a September supply recovery but warns that energy-security risks and fuel constraints persist. We do not reuse its historical oil-price observations as prices on 8 November.",
+      "offset": "The IMF’s 9 November daily note describes stabilization after the previous week’s volatility and lower oil prices associated with hopes for diplomatic progress. This is an offset, not a new full-year growth forecast. The October IEA assessment remains the dated physical-market background; its November report is still scheduled for 13 November.",
       "watch": "The IEA schedules its next Oil Market Report for 13 November. Until publication, no November oil forecast is assumed. Reassess this category after confirmed changes in supply, inventories or the macro outlook.",
       "transmission": "The economic channel is a chain rather than a single market price: procurement costs can affect transport and production, which can then affect margins, consumer prices and financing decisions. Different economies absorb those costs differently. Strong investment or resilient demand can cushion a shock, while reduced purchasing power can spread it. Country reports therefore use domestic policy assessments instead of assigning the same stress to every economy.",
       "reassessment": "A rate decision is evidence of a policy stance, not proof that inflation has been solved or that a recession is inevitable. Likewise, a supply rebound is meaningful only alongside the reliability and cost of delivered fuel. This review retains high pressure while keeping both adaptation and growth resilience visible. No daily oil-price move or bond-yield change is invented to make the report appear fresher.",
@@ -221,13 +252,13 @@ window.dailyRiskPageData = {
       "title": "Public health and cross-border readiness",
       "score": 60,
       "label": "High regional pressure",
-      "summary": "ECDC’s 6 November update reports 10,741 confirmed DRC cases and 5,230 deaths using data through 4 November. This is a severe regional emergency, with exposure differing greatly by location.",
+      "summary": "The latest ECDC page reviewed still uses DRC observations through 4 November: 10,741 confirmed cases and 5,230 deaths. These are not 9 November totals.",
       "sources": [
         "ecdc",
         "who"
       ],
       "analysis": "WHO’s 6 November bulletin describes sustained DRC transmission and reports no newly reported cases in Kenya or Nigeria since its previous bulletin. Its quoted risk assessment still distinguishes very high DRC risk and high risk for neighbouring countries from low global risk; WHO says a revision is underway.",
-      "offset": "The absence of new reports in those two countries is a useful containment signal, not proof that the entire outbreak has ended. The newer ECDC DRC count and the earlier WHO bulletin totals refer to different observation dates and should not be read as conflicting same-day measurements.",
+      "offset": "On the ECDC page checked for this review, the update remains dated 6 November and the DRC count stops at 4 November. The 6 November WHO bulletin has an earlier DRC cutoff. These are carried-forward observations, not new 9 November case totals. This source check supplies no comparable new epidemiological basis for moving the 60/100 category.",
       "watch": "Monitor revised institutional assessments, confirmed secondary transmission and contact follow-up. Medical evacuations are not, by themselves, evidence of wider community transmission at the receiving destination.",
       "transmission": "The relevant questions are where transmission is occurring, who is exposed and whether response measures interrupt further spread. A cumulative case count cannot answer all three. The global health score is deliberately below the local DRC pressure indicator because the geographic scope differs. It also avoids interpreting medical evacuation as evidence of uncontrolled transmission at the receiving destination.",
       "reassessment": "The country profiles keep an outbreak-end milestone distinct from future reintroduction risk. A past declaration does not remove the need for preparedness, but it should not be erased by describing a neighbouring outbreak as if it were continuing local transmission. The next assessment should respond to confirmed epidemiological change and revised institutional risk assessments, not to the existence of another article about the same outbreak.",
@@ -245,12 +276,13 @@ window.dailyRiskPageData = {
       "title": "Climate outlook and preparedness",
       "score": 80,
       "label": "Severe forward signal",
-      "summary": "WMO’s 21 October seasonal outlook anticipates stronger El Niño conditions during November–January, with the Niño 3.4 seasonal anomaly near +3.8°C and a peak around December.",
+      "summary": "WMO’s newly released interim climate assessment reinforces preparedness needs. Its global temperature observation covers January–September, while the El Niño risk discussion extends into 2027.",
       "sources": [
+        "wmo-nov9",
         "wmo"
       ],
-      "analysis": "The forecast describes sea-surface temperature in a specific Pacific region. It does not mean the entire world has warmed by 3.8°C. This category represents forward climate pressure and preparedness needs, not a count of disasters already observed everywhere.",
-      "offset": "A strong oceanic signal does not establish a uniform local impact. The assessment needs regional temperature, rainfall and exposure information before drawing conclusions about a particular location.",
+      "analysis": "WMO’s 9 November update puts the January–September global temperature anomaly at about 1.47°C above the 1850–1900 baseline. It describes record sea level and ocean heat and warns about a strong El Niño extending risks into 2027. The interim observation windows differ by indicator; this is not a final measurement for all of 2026.",
+      "offset": "The new assessment broadens the evidence behind the already severe climate category. It does not mean the physical climate changed by the full amount on publication day. The retained 80/100 reflects the strong existing signal; neither a COP announcement nor one weather event is an automatic extra point.",
       "watch": "Follow revised seasonal guidance and local meteorological warnings. Rainfall, heat and service vulnerabilities are monitoring questions; this global report does not issue a local weather warning.",
       "transmission": "Climate risk joins a physical outlook with exposure and readiness. The same oceanic signal can be associated with different regional conditions, and local harm also depends on the resilience of water, power, food and health systems. A global category cannot substitute for a national meteorological warning. The report therefore avoids adding unverified heat deaths, power shortages or crop losses to the current score.",
       "reassessment": "The appropriate next step is to compare updated regional forecasts with observed impacts and operational preparedness. A strong forecast signal can remain important without a new realized disaster being counted each day. Downward reassessment would require changes in the relevant forecast or demonstrated reduction of exposure; a new headline alone is not evidence that local risk has changed.",
@@ -266,37 +298,36 @@ window.dailyRiskPageData = {
   ],
   "changes": [
     {
-      "title": "New health reporting, with containment signals",
-      "text": "The 6 November WHO and ECDC updates replace the earlier outbreak snapshot. DRC transmission remains active, while WHO reports no new cases in Kenya or Nigeria since the preceding bulletin.",
+      "title": "Today versus yesterday: what actually changed",
+      "text": "The review adds four primary-source inputs published on 9 November: a UN Ukraine briefing, OCHA’s rain-impact report, WMO’s climate update and the IMF daily market note. These sources have different purposes. A diplomatic briefing supplies attributed developments, a humanitarian report supplies preliminary operational evidence, a climate assessment joins observations with outlooks, and a market note records conditions at a point in time. They cannot be treated as four equivalent measurements of a single global variable. The assessment asks whether each changes severity, geographic reach, persistence or response capacity relative to yesterday.",
       "sources": [
-        "who",
-        "ecdc"
+        "ukraine-nov9",
+        "gaza-rain",
+        "wmo-nov9",
+        "markets-nov9"
       ]
     },
     {
-      "title": "Wider humanitarian coverage",
-      "text": "The conflict review now includes OCHA’s latest retrieved Gaza report and the 5 November Abyei briefing covered by UN DPPA, alongside the dated UN Ukraine release.",
-      "sources": [
-        "gaza",
-        "abyei",
-        "ukraine"
-      ]
+      "title": "Why the headline index stays at 75",
+      "text": "The new adverse inputs remain consistent with already severe conflict and climate categories. They deepen the evidence rather than automatically moving a category into a different level. Improved market sentiment is relevant, but a sustained reduction in delivered energy costs, service disruption or financing stress would provide a stronger basis for lowering the economy category. The health evidence reviewed does not provide a newer comparable count or a confirmed change of assessment. Retaining 75 therefore reflects today’s balance. A future review can move in either direction when comparable evidence supports it.",
+      "sources": []
     },
     {
-      "title": "Forecasts keep their original dates",
-      "text": "The October IMF, IEA and WMO releases remain dated inputs. Checking them on 8 November does not turn them into fresh observations or unpublished November forecasts.",
-      "sources": [
-        "imf",
-        "iea",
-        "wmo"
-      ]
+      "title": "Avoid double counting connected pressures",
+      "text": "A damaged energy asset can affect civilian protection, production and winter preparedness at the same time. A flood in a conflict-affected area can affect shelter, sanitation and access to care. Those are meaningful transmission channels, but they do not justify adding the same incident repeatedly as independent numerical shocks. This report discusses the connections while retaining fixed domain weights. The Gaza rainfall is not attributed to El Niño by this review, and a global climate report is not used as proof of the cause of a specific local weather event.",
+      "sources": []
+    },
+    {
+      "title": "What would justify the next score movement",
+      "text": "A higher assessment would need evidence of wider or more persistent disruption, a material deterioration of protective capacity, or confirmed spread into additional settings. A lower assessment would need verified relief that lasts beyond a single announcement or market session: restored services that remain available, functioning access arrangements, improved containment, or sustained supply and financing relief. There is no target daily movement and no target of returning to a particular score. Keeping the method stable makes a later change easier to interpret, but does not require the number itself to remain stable.",
+      "sources": []
     }
   ],
   "countryNotes": [
     {
       "country": "Ukraine",
       "region": "Civilian protection",
-      "text": "The UN’s 3 November release describes the Komyshuvakha aid-distribution attack on 2 November. It states that exact casualties were still being verified; this review does not turn preliminary local counts into final UN totals.",
+      "text": "The 9 November UN briefing adds evidence about civilian infrastructure, shipping exposure and planned diplomatic engagement to the earlier civilian-protection material.",
       "watch": "Civilian safety and humanitarian operations.",
       "sources": [
         "ukraine"
@@ -353,7 +384,7 @@ window.dailyRiskPageData = {
   "faqs": [
     {
       "q": "What is the Global Risk Index today?",
-      "a": "For the review dated 8 November 2026, the editorial indicator is 75/100. Conflict, economy/energy, health and climate are assessed at 80, 80, 60 and 80 out of 100, respectively."
+      "a": "For the review dated 9 November 2026, the editorial indicator is 75/100, unchanged from 8 November. The four equally weighted category scores are 80, 80, 60 and 80."
     },
     {
       "q": "How is the 75/100 score calculated?",
@@ -364,8 +395,8 @@ window.dailyRiskPageData = {
       "a": "No. The scale summarizes assessed pressure. It has not been calibrated as an event probability, a personal safety rating or a prediction of a specific crisis."
     },
     {
-      "q": "Why is the score unchanged from 3 November?",
-      "a": "The same category severity judgments are retained after reviewing the new sources. Expressing all categories out of 100 changes their display, not their weight. Updated evidence does not require an automatic score increase."
+      "q": "Why is the score unchanged from 8 November?",
+      "a": "New humanitarian and climate evidence reinforces already severe categories, while daily market stabilization provides a counterweight. The reviewed health inputs do not establish a new comparable change. The balance supports retaining the broad assessments today, while allowing revisions in either direction when justified."
     },
     {
       "q": "Does the report update automatically?",
@@ -376,8 +407,8 @@ window.dailyRiskPageData = {
       "a": "No. They are scoped editorial pressure assessments. Their focus is stated in each card and their evidence, offsets and triggers appear in the detailed country reports. They are not credit ratings, travel advice or individual safety probabilities."
     },
     {
-      "q": "Why are no seven-day country charts shown?",
-      "a": "A comparable verified daily country history is not available for this expanded baseline. A seven-point chart would imply observations that were not made. Older scores from a different assessment are not reused as a current daily series."
+      "q": "Why are only two country review points shown?",
+      "a": "The expanded country assessments have comparable recorded reviews for 8 and 9 November. They do not provide a verified seven-day series. Two equal scores record an unchanged assessment, not an absence of developments."
     },
     {
       "q": "Does an unchanged score mean nothing happened?",
@@ -388,129 +419,129 @@ window.dailyRiskPageData = {
     {
       "label": "UN Human Rights Monitoring Mission in Ukraine",
       "url": "https://ukraine.un.org/en/325659-ukraine-mass-casualty-attack-zaporizhzhia-region-shows-devastating-impact-glide-bombs-un",
-      "date": "3 November 2026",
-      "note": "Attack on 2 November; verification status described on 3 November. Civilian harm in Komyshuvakha. Preliminary casualty reports are not treated as final verified totals."
+      "note": "3 November 2026 — Attack on 2 November; verification status described on 3 November."
     },
     {
       "label": "OCHA — Humanitarian Situation Report, 5 November",
       "url": "https://www.ochaopt.org/content/humanitarian-situation-report-5-november-2026",
-      "date": "6 November 2026",
-      "note": "Report dated 5 November; observation periods vary by section. Civilian protection, access to supplies and winter-related service vulnerabilities."
+      "note": "6 November 2026 — Report dated 5 November; observation periods vary by section."
     },
     {
       "label": "UN DPPA — Weekly review, 31 October–6 November",
       "url": "https://dppa.un.org/en/news/this-week-in-dppa-31-october-6-november-2026",
-      "date": "6 November 2026",
-      "note": "Security Council briefing on 5 November. Sudan–South Sudan border stability, civilian protection and renewed dialogue."
+      "note": "6 November 2026 — Security Council briefing on 5 November."
     },
     {
       "label": "UK statement at the UN Security Council on Abyei",
       "url": "https://www.gov.uk/government/speeches/continued-violations-of-abyeis-demilitarised-status-are-unacceptable-uk-statement-at-the-un-security-council",
-      "date": "5 November 2026",
-      "note": "Diplomatic statement; discusses October attacks. A government position, attributed as such, rather than an independent casualty database."
+      "note": "5 November 2026 — Diplomatic statement; discusses October attacks."
     },
     {
       "label": "IMF — World Economic Outlook, October 2026",
       "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026",
-      "date": "13 October 2026",
-      "note": "Statistical cutoff: 1 October; 2026–27 projections. Growth and inflation outlook, downside risks and possible offsets."
+      "note": "13 October 2026 — Statistical cutoff: 1 October; 2026–27 projections."
     },
     {
       "label": "IEA — Oil Market Report, October 2026",
       "url": "https://www.iea.org/reports/oil-market-report-october-2026",
-      "date": "14 October 2026",
-      "note": "September observations and October forward assessment. Supply recovery and fuel-market constraints; historical prices are not live quotes."
+      "note": "14 October 2026 — September observations and October forward assessment."
     },
     {
       "label": "IEA — November Oil Market Report launch schedule",
       "url": "https://www.iea.org/events/oil-market-report-november-2026",
-      "date": "Event schedule checked 8 November 2026",
-      "note": "Scheduled release: 13 November 2026. Upcoming release only. No unpublished November figures are used."
+      "note": "Schedule checked 9 November 2026 — Scheduled release: 13 November 2026."
     },
     {
       "label": "WHO — Bundibugyo Ebola Disease Outbreak News",
       "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
-      "date": "6 November 2026",
-      "note": "DRC observations through 3 November; country updates have their own dates. Sustained transmission, regional readiness and the stated limitations of the current risk assessment."
+      "note": "6 November 2026 — DRC observations through 3 November; country updates have their own dates."
     },
     {
       "label": "ECDC — Multi-country Ebola outbreak overview",
       "url": "https://www.ecdc.europa.eu/en/ebola-disease-multi-country-outbreak-2026",
-      "date": "Updated 6 November 2026",
-      "note": "DRC counts through 4 November; other country reference dates differ. Provides the newer DRC count used here and distinguishes regional exposure from EU/EEA risk."
+      "note": "Updated 6 November 2026 — DRC counts through 4 November; other country reference dates differ."
     },
     {
       "label": "WMO — Seasonal Climate Update, NDJ 2026–27",
       "url": "https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026",
-      "date": "21 October 2026",
-      "note": "Forecast for November 2026–January 2027. Niño 3.4 sea-surface temperature outlook; not a global air-temperature measurement."
+      "note": "21 October 2026 — Forecast for November 2026–January 2027."
     },
     {
       "label": "Federal Reserve — FOMC statement",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-      "date": "28 October 2026",
-      "note": "Policy decision and assessment at the October meeting. U.S. growth, inflation and policy; not a forecast of the next decision."
+      "note": "28 October 2026 — Policy decision and assessment at the October meeting."
     },
     {
       "label": "IMF — Asia-Pacific regional briefing",
       "url": "https://www.imf.org/en/news/articles/2026/10/15/tr101526-press-briefing-transcript-apd-reo-annual-meetings-2026",
-      "date": "15 October 2026",
-      "note": "October regional projections and structural assessment. China domestic demand and property risks; the 2026 growth figure is a projection."
+      "note": "15 October 2026 — October regional projections and structural assessment."
     },
     {
       "label": "Reserve Bank of India — October MPC resolution",
       "url": "https://www.rbi.org.in/scripts/bs_viewbulletin.aspx/scripts/BS_ViewBulletin.aspx?Id=24511",
-      "date": "23 October 2026",
-      "note": "Meeting held 5–7 October; fiscal-year forecasts are not calendar-year forecasts. Domestic resilience, inflation and West Asia energy transmission."
+      "note": "23 October 2026 — Meeting held 5–7 October; fiscal-year forecasts are not calendar-year forecasts."
     },
     {
       "label": "CBRT — Interest-rate decision 2026-45",
       "url": "https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb%2Ben/main%2Bmenu/announcements/press%2Breleases/2026/ano2026-45",
-      "date": "22 October 2026",
-      "note": "Decision and inflation assessment at that meeting. Disinflation and geopolitical energy-cost risks are considered together."
+      "note": "22 October 2026 — Decision and inflation assessment at that meeting."
     },
     {
       "label": "Bundesbank — German economic recovery",
       "url": "https://www.bundesbank.de/en/tasks/topics/german-economic-recovery-temporarily-interrupted-1012884",
-      "date": "21 October 2026",
-      "note": "Third-quarter assessment and late-summer data. An assessment of stagnation, not a newly published November GDP outturn."
+      "note": "21 October 2026 — Third-quarter assessment and late-summer data."
     },
     {
       "label": "Bank of Japan — October economic and price outlook",
       "url": "https://www.boj.or.jp/en/mopo/outlook/gor2610a.pdf",
-      "date": "30 October 2026",
-      "note": "The Bank’s View; forecasts and risk balance. Energy costs, currency transmission, AI demand and resilience. PDF."
+      "note": "30 October 2026 — The Bank’s View; forecasts and risk balance."
     },
     {
       "label": "Bank of Israel — Monetary Committee decision",
       "url": "https://boi.org.il/en/communication-and-publications/press-releases/21-10-26ben/",
-      "date": "21 October 2026",
-      "note": "October policy decision and accompanying economic assessment. Geopolitical uncertainty alongside inflation and domestic recovery indicators."
+      "note": "21 October 2026 — October policy decision and accompanying economic assessment."
     },
     {
       "label": "Bank of Russia Press Service — Key-rate decision",
       "url": "https://www.cbr.ru/eng/press/keypr",
-      "date": "23 October 2026",
-      "note": "The retrieved decision concerns October; this URL may later show a newer decision. Domestic inflation and financing conditions; an attributed central-bank assessment."
+      "note": "23 October 2026 — The retrieved decision concerns October; this URL may later show a newer decision."
     },
     {
       "label": "IMF — October WEO real GDP growth table",
       "url": "https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/IRN?year=2026",
-      "date": "October 2026 edition",
-      "note": "Iran: projected 2026 real GDP change of −7.6%, as shown in the indexed country table. Projection rather than realized full-year growth; paired with regional energy evidence."
+      "note": "October 2026 edition — Iran: projected 2026 real GDP change of −7.6%, as shown in the indexed country table."
     },
     {
       "label": "WHO Africa — Uganda outbreak-end announcement",
       "url": "https://www.afro.who.int/countries/uganda/news/uganda-ends-ebola-outbreak-following-completion-42-day-countdown",
-      "date": "27 August 2026",
-      "note": "Outbreak-end announcement after the 42-day countdown. Historical containment milestone; current regional preparedness remains a separate question."
+      "note": "27 August 2026 — Outbreak-end announcement after the 42-day countdown."
+    },
+    {
+      "label": "UN DPPA — Security Council briefing on Ukraine, 9 November",
+      "url": "https://dppa.un.org/en/node/137309",
+      "note": "9 November 2026 — Briefing published today; discusses earlier incidents, the weekend and planned talks."
+    },
+    {
+      "label": "OCHA — Heavy rains in Gaza, report dated 8 November",
+      "url": "https://www.ochaopt.org/content/humanitarian-situation-report-heavy-rains-gaza-strip-8-november-2026",
+      "note": "9 November 2026 — Report dated 8 November; rain from 6 November through the weekend."
+    },
+    {
+      "label": "WMO — State of the Climate 2026 update",
+      "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts",
+      "note": "9 November 2026 — Interim climate assessment; global temperature observations cover January–September."
+    },
+    {
+      "label": "IMF — Global Markets Monitor, 9 November",
+      "url": "https://www.imfconnect.org/content/imf/en/gmm.html",
+      "note": "9 November 2026 — Market snapshot published today; the rolling page may later display a newer edition."
     }
   ],
-  "overallTrend": "Unchanged at 75/100 versus the 3 November review; categories are now displayed out of 100. Expanded country notes establish a new country baseline rather than a fabricated daily change.",
+  "overallTrend": "75/100, unchanged versus 8 November. New adverse evidence and improving market sentiment do not yet justify changing the broad domain assessments. This is a judgment about the balance of selected pressures, not a claim that nothing changed.",
   "overview": [
     {
       "label": "Report date",
-      "value": "8 November 2026",
+      "value": "9 November 2026",
       "sub": "Manually reviewed; source dates stated individually"
     },
     {
@@ -526,7 +557,7 @@ window.dailyRiskPageData = {
     {
       "label": "Country coverage",
       "value": "12 focused assessments",
-      "sub": "Separate country evidence and reassessment triggers"
+      "sub": "Country scores retained; new Ukraine evidence added"
     },
     {
       "label": "Next review signals",
@@ -534,35 +565,35 @@ window.dailyRiskPageData = {
       "sub": "Aid access, supply conditions, outbreak containment and regional forecasts"
     }
   ],
-  "glanceSummary": "The evidence is mixed rather than uniformly worsening. DRC transmission remains a serious concern, but containment elsewhere matters. Humanitarian access restrictions remain important, while dialogue and policy capacity are relevant offsets. Forecast-based economic and climate inputs have not become fresh observations merely because the page has been reviewed again.",
+  "glanceSummary": "Today’s review contains both additional pressure and relevant offsets. The humanitarian and climate evidence strengthens the reasons for preparedness. More stable markets provide a counterweight without resolving physical vulnerabilities. The health sources checked still show older observation cutoffs, so they support carrying forward the assessed regional pressure rather than inventing a new daily case total.",
   "glanceBullets": [
-    "All category and country indicators use a 0–100 scale. Scores are editorial judgments, not values published by the cited institutions.",
-    "The global score remains 75 because the four equally weighted category assessments remain 80, 80, 60 and 80.",
-    "Conflict coverage combines dated UN Ukraine reporting with OCHA Gaza evidence and UN DPPA discussion of Abyei.",
-    "Humanitarian warnings are tracked through delivery of food, water, shelter and care rather than treated solely as geopolitical headlines.",
-    "The health review distinguishes active DRC transmission from monitoring and containment in other locations.",
-    "WHO and ECDC publications carry different observation cutoffs; those totals must not be compared as if measured on the same day.",
-    "The IMF global outlook and IEA oil report are October releases. No unpublished November oil forecast or current spot price is inferred.",
-    "The climate category describes an outlook for November–January, not a declaration of identical impacts in every region.",
-    "Country profiles now attach local policy evidence, resilience factors and explicit triggers to each assessed pressure channel.",
-    "Country changes are shown only when the previous review used a comparable scope, method and evidence window. This expanded assessment establishes a fresh country baseline."
+    "The composite remains 75/100 versus 8 November using the same four equal domain weights.",
+    "A stable score is an outcome of this evidence review; it is not a rule preventing future changes.",
+    "New UN Ukraine material reinforces the civilian-service focus while keeping planned diplomacy separate from a completed outcome.",
+    "OCHA’s new rain report adds an observed humanitarian disruption, rather than only a seasonal preparedness scenario.",
+    "WMO’s new climate release adds a broader assessment; its observation period does not extend through the entire year.",
+    "The IMF daily market note provides a relevant offset, while a short-lived change in sentiment would not establish lasting supply relief.",
+    "The ECDC page checked still states a 6 November update and a 4 November DRC count cutoff.",
+    "Country scores remain focused editorial assessments; no new comprehensive national ranking is implied.",
+    "New releases and ongoing consequences are considered without counting the same underlying shock twice.",
+    "Both higher and lower score triggers are retained; the next review must follow outcomes rather than a predetermined direction."
   ],
   "dailyComparison": [
     {
-      "label": "Previous global review",
-      "value": "75 · 3 Nov"
-    },
-    {
-      "label": "Current review",
+      "label": "Previous review",
       "value": "75 · 8 Nov"
     },
     {
-      "label": "Comparable global change",
+      "label": "Current review",
+      "value": "75 · 9 Nov"
+    },
+    {
+      "label": "Composite change",
       "value": "0 points"
     },
     {
-      "label": "Country assessments",
-      "value": "12 · new baseline"
+      "label": "Category changes",
+      "value": "0 / 0 / 0 / 0"
     }
   ],
   "editorialPolicy": {
@@ -585,11 +616,11 @@ window.dailyRiskPageData = {
       "title": "Conflict and humanitarian access",
       "subtitle": "Severe pressure",
       "score": 80,
-      "changeText": "Unchanged category assessment",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "Severe pressure",
       "directionClass": "pill-warning",
-      "description": "Civilian protection and aid access remain under strain across the selected Ukraine, Gaza and Abyei reporting. These are distinct crises, not interchangeable measures of one conflict.",
+      "description": "New UN reporting reinforces the civilian-infrastructure focus. Pressure remains severe, while planned diplomacy must be assessed through practical outcomes.",
       "drivers": [
         "Civilian protection",
         "Humanitarian access",
@@ -597,12 +628,16 @@ window.dailyRiskPageData = {
         "Regional spillovers"
       ],
       "sources": [
+        "UN DPPA — Security Council briefing on Ukraine, 9 November",
         "UN Human Rights Monitoring Mission in Ukraine",
+        "OCHA — Heavy rains in Gaza, report dated 8 November",
         "OCHA — Humanitarian Situation Report, 5 November",
         "UN DPPA — Weekly review, 31 October–6 November"
       ],
       "sourceKeys": [
+        "ukraine-nov9",
         "ukraine",
+        "gaza-rain",
         "gaza",
         "abyei"
       ],
@@ -611,8 +646,8 @@ window.dailyRiskPageData = {
         80
       ],
       "trendDates": [
-        "2026-11-03",
-        "2026-11-08"
+        "2026-11-08",
+        "2026-11-09"
       ]
     },
     {
@@ -620,11 +655,11 @@ window.dailyRiskPageData = {
       "title": "Economy, energy and supply chains",
       "subtitle": "Severe pressure",
       "score": 80,
-      "changeText": "Unchanged category assessment",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "Severe pressure",
       "directionClass": "pill-warning",
-      "description": "The IMF projects 3.1% world growth and 4.7% global headline inflation for 2026 in its October outlook. The IEA describes a fragile oil-supply recovery and pressure in diesel markets.",
+      "description": "The IMF daily market note supplies a stabilizing offset. Dated macroeconomic and physical energy-market inputs still point to vulnerabilities requiring a sustained, rather than session-by-session, reassessment.",
       "drivers": [
         "Energy transmission",
         "Inflation persistence",
@@ -632,10 +667,12 @@ window.dailyRiskPageData = {
         "Resilience offsets"
       ],
       "sources": [
+        "IMF — Global Markets Monitor, 9 November",
         "IMF — World Economic Outlook, October 2026",
         "IEA — Oil Market Report, October 2026"
       ],
       "sourceKeys": [
+        "markets-nov9",
         "imf",
         "iea"
       ],
@@ -644,8 +681,8 @@ window.dailyRiskPageData = {
         80
       ],
       "trendDates": [
-        "2026-11-03",
-        "2026-11-08"
+        "2026-11-08",
+        "2026-11-09"
       ]
     },
     {
@@ -653,11 +690,11 @@ window.dailyRiskPageData = {
       "title": "Public health and cross-border readiness",
       "subtitle": "High regional pressure",
       "score": 60,
-      "changeText": "Unchanged category assessment",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "High regional pressure",
       "directionClass": "pill-warning",
-      "description": "ECDC’s 6 November update reports 10,741 confirmed DRC cases and 5,230 deaths using data through 4 November. This is a severe regional emergency, with exposure differing greatly by location.",
+      "description": "The latest ECDC page reviewed still uses DRC observations through 4 November: 10,741 confirmed cases and 5,230 deaths. These are not 9 November totals.",
       "drivers": [
         "Active regional transmission",
         "Detection and care",
@@ -677,8 +714,8 @@ window.dailyRiskPageData = {
         60
       ],
       "trendDates": [
-        "2026-11-03",
-        "2026-11-08"
+        "2026-11-08",
+        "2026-11-09"
       ]
     },
     {
@@ -686,11 +723,11 @@ window.dailyRiskPageData = {
       "title": "Climate outlook and preparedness",
       "subtitle": "Severe forward signal",
       "score": 80,
-      "changeText": "Unchanged category assessment",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "Severe forward signal",
       "directionClass": "pill-warning",
-      "description": "WMO’s 21 October seasonal outlook anticipates stronger El Niño conditions during November–January, with the Niño 3.4 seasonal anomaly near +3.8°C and a peak around December.",
+      "description": "WMO’s newly released interim climate assessment reinforces preparedness needs. Its global temperature observation covers January–September, while the El Niño risk discussion extends into 2027.",
       "drivers": [
         "Seasonal signal",
         "Regional exposure",
@@ -698,9 +735,11 @@ window.dailyRiskPageData = {
         "Forecast uncertainty"
       ],
       "sources": [
+        "WMO — State of the Climate 2026 update",
         "WMO — Seasonal Climate Update, NDJ 2026–27"
       ],
       "sourceKeys": [
+        "wmo-nov9",
         "wmo"
       ],
       "trend": [
@@ -708,8 +747,8 @@ window.dailyRiskPageData = {
         80
       ],
       "trendDates": [
-        "2026-11-03",
-        "2026-11-08"
+        "2026-11-08",
+        "2026-11-09"
       ]
     }
   ],
@@ -722,8 +761,8 @@ window.dailyRiskPageData = {
       "score": "80 / 100",
       "direction": "Retained after source review",
       "watch": "Watch for verified civilian-protection improvements, practical access to assistance and implementation of diplomatic commitments. No military escalation probability is inferred.",
-      "why": "UN monitors documented the 2 November attack on an aid distribution site in Komyshuvakha; casualty verification was ongoing in the 3 November release. OCHA’s report dated 5 November describes continued strikes affecting populated areas and humanitarian operations in Gaza. UN DPPA’s weekly review flags Sudan-related instability around Abyei while noting renewed bilateral security talks.",
-      "moved": "Dialogue is a potentially positive signal, but its existence alone does not establish improved civilian safety or reliable aid delivery. The selected evidence supports retaining the severe category rather than adding points for each repeated headline.",
+      "why": "The UN’s 9 November briefing describes intensifying pressure on Ukrainian civilian and energy infrastructure, including reported weekend outages, and risks to Black Sea shipping. It also welcomes planned Abu Dhabi talks. These are attributed developments and an opportunity for diplomacy, not proof of a ceasefire. The earlier UN and OCHA materials remain dated context.",
+      "moved": "Today’s additional evidence reinforces a severe civilian-service assessment. The potential offset is implementation of effective protective or diplomatic measures, rather than the scheduling of talks alone. Retaining 80 recognises that the category was already severe; it does not imply that the new harm is immaterial.",
       "matters": "Conflict becomes globally significant through identifiable transmission channels: humanitarian access, essential infrastructure, transport routes and confidence. The review therefore separates harm at a specific location from possible spillovers elsewhere. Gaza and Abyei do not replace the Ukraine evidence; they add distinct access and protection concerns. A statement about negotiations is an institutional signal, while a safe and functioning delivery corridor would be an observable operational outcome.",
       "reassessment": "A sustained improvement would require confirmed reductions in civilian exposure and more dependable aid or essential-service access. Worsening would require newly verified disruption, wider involvement or a failure of protective arrangements with measurable consequences. This distinction prevents a diplomatic announcement from being treated as a completed resolution and prevents an old incident from becoming a new daily escalation.",
       "raiseTriggers": [
@@ -735,7 +774,9 @@ window.dailyRiskPageData = {
         "Dependable humanitarian access rather than only announced commitments"
       ],
       "sourceKeys": [
+        "ukraine-nov9",
         "ukraine",
+        "gaza-rain",
         "gaza",
         "abyei"
       ]
@@ -749,9 +790,9 @@ window.dailyRiskPageData = {
       "direction": "Retained after source review",
       "watch": "The IEA schedules its next Oil Market Report for 13 November. Until publication, no November oil forecast is assumed. Reassess this category after confirmed changes in supply, inventories or the macro outlook.",
       "why": "The macroeconomic risk is the transmission of supply disruption into costs, purchasing power and activity. The IMF identifies conflict escalation, trade friction and fiscal vulnerability as downside risks, while technology investment and easing tensions can provide offsets. Its projections are dated estimates rather than observations of the full year.",
-      "moved": "The IEA’s October report records a September supply recovery but warns that energy-security risks and fuel constraints persist. We do not reuse its historical oil-price observations as prices on 8 November.",
+      "moved": "The IMF’s 9 November daily note describes stabilization after the previous week’s volatility and lower oil prices associated with hopes for diplomatic progress. This is an offset, not a new full-year growth forecast. The October IEA assessment remains the dated physical-market background; its November report is still scheduled for 13 November.",
       "matters": "The economic channel is a chain rather than a single market price: procurement costs can affect transport and production, which can then affect margins, consumer prices and financing decisions. Different economies absorb those costs differently. Strong investment or resilient demand can cushion a shock, while reduced purchasing power can spread it. Country reports therefore use domestic policy assessments instead of assigning the same stress to every economy.",
-      "reassessment": "A rate decision is evidence of a policy stance, not proof that inflation has been solved or that a recession is inevitable. Likewise, a supply rebound is meaningful only alongside the reliability and cost of delivered fuel. This review retains high pressure while keeping both adaptation and growth resilience visible. No daily oil-price move or bond-yield change is invented to make the report appear fresher.",
+      "reassessment": "Lower market stress can ease pressure on confidence and procurement expectations, but the relevant test is persistence and transmission into the real economy. A favourable session does not establish that fuel delivery is dependable or that household costs have normalized. Equally, it should not be dismissed because the wider narrative remains difficult. The category can fall if verified relief becomes broader and sustained. It can rise if financing or physical supply worsens despite stronger asset prices.",
       "raiseTriggers": [
         "Confirmed deterioration in physical supply or delivery reliability",
         "Broader and persistent inflation or credit transmission"
@@ -761,6 +802,7 @@ window.dailyRiskPageData = {
         "Sustained improvement in inflation and real-income conditions"
       ],
       "sourceKeys": [
+        "markets-nov9",
         "imf",
         "iea"
       ]
@@ -774,7 +816,7 @@ window.dailyRiskPageData = {
       "direction": "Retained after source review",
       "watch": "Monitor revised institutional assessments, confirmed secondary transmission and contact follow-up. Medical evacuations are not, by themselves, evidence of wider community transmission at the receiving destination.",
       "why": "WHO’s 6 November bulletin describes sustained DRC transmission and reports no newly reported cases in Kenya or Nigeria since its previous bulletin. Its quoted risk assessment still distinguishes very high DRC risk and high risk for neighbouring countries from low global risk; WHO says a revision is underway.",
-      "moved": "The absence of new reports in those two countries is a useful containment signal, not proof that the entire outbreak has ended. The newer ECDC DRC count and the earlier WHO bulletin totals refer to different observation dates and should not be read as conflicting same-day measurements.",
+      "moved": "On the ECDC page checked for this review, the update remains dated 6 November and the DRC count stops at 4 November. The 6 November WHO bulletin has an earlier DRC cutoff. These are carried-forward observations, not new 9 November case totals. This source check supplies no comparable new epidemiological basis for moving the 60/100 category.",
       "matters": "The relevant questions are where transmission is occurring, who is exposed and whether response measures interrupt further spread. A cumulative case count cannot answer all three. The global health score is deliberately below the local DRC pressure indicator because the geographic scope differs. It also avoids interpreting medical evacuation as evidence of uncontrolled transmission at the receiving destination.",
       "reassessment": "The country profiles keep an outbreak-end milestone distinct from future reintroduction risk. A past declaration does not remove the need for preparedness, but it should not be erased by describing a neighbouring outbreak as if it were continuing local transmission. The next assessment should respond to confirmed epidemiological change and revised institutional risk assessments, not to the existence of another article about the same outbreak.",
       "raiseTriggers": [
@@ -798,8 +840,8 @@ window.dailyRiskPageData = {
       "score": "80 / 100",
       "direction": "Retained after source review",
       "watch": "Follow revised seasonal guidance and local meteorological warnings. Rainfall, heat and service vulnerabilities are monitoring questions; this global report does not issue a local weather warning.",
-      "why": "The forecast describes sea-surface temperature in a specific Pacific region. It does not mean the entire world has warmed by 3.8°C. This category represents forward climate pressure and preparedness needs, not a count of disasters already observed everywhere.",
-      "moved": "A strong oceanic signal does not establish a uniform local impact. The assessment needs regional temperature, rainfall and exposure information before drawing conclusions about a particular location.",
+      "why": "WMO’s 9 November update puts the January–September global temperature anomaly at about 1.47°C above the 1850–1900 baseline. It describes record sea level and ocean heat and warns about a strong El Niño extending risks into 2027. The interim observation windows differ by indicator; this is not a final measurement for all of 2026.",
+      "moved": "The new assessment broadens the evidence behind the already severe climate category. It does not mean the physical climate changed by the full amount on publication day. The retained 80/100 reflects the strong existing signal; neither a COP announcement nor one weather event is an automatic extra point.",
       "matters": "Climate risk joins a physical outlook with exposure and readiness. The same oceanic signal can be associated with different regional conditions, and local harm also depends on the resilience of water, power, food and health systems. A global category cannot substitute for a national meteorological warning. The report therefore avoids adding unverified heat deaths, power shortages or crop losses to the current score.",
       "reassessment": "The appropriate next step is to compare updated regional forecasts with observed impacts and operational preparedness. A strong forecast signal can remain important without a new realized disaster being counted each day. Downward reassessment would require changes in the relevant forecast or demonstrated reduction of exposure; a new headline alone is not evidence that local risk has changed.",
       "raiseTriggers": [
@@ -811,6 +853,7 @@ window.dailyRiskPageData = {
         "Documented reduction in exposure and improved service preparedness"
       ],
       "sourceKeys": [
+        "wmo-nov9",
         "wmo"
       ]
     }
@@ -818,7 +861,7 @@ window.dailyRiskPageData = {
   "scoreBreakdown": {
     "title": "Why the Global Risk Index is 75/100",
     "summary": "The category indicators are 80, 80, 60 and 80, each with a 25% weight. Their contributions are 20, 20, 15 and 20 points. Country scores are independent editorial profiles and do not feed the composite.",
-    "methodNote": "The previous global review is comparable after normalizing the category display to 100. Earlier country values do not provide a comparable previous-day baseline for this expanded assessment. Country scores are rounded editorial judgments about the named focus, not finely calibrated estimates of personal harm.",
+    "methodNote": "Same method and weights as 8 November: changes are judged against that review. No forced smoothing, automatic daily increment or numerical adjustment for publication volume is applied. Country scores remain separate focused assessments, not inputs to the composite.",
     "overall": [
       {
         "label": "Conflict and humanitarian access",
@@ -853,7 +896,7 @@ window.dailyRiskPageData = {
           {
             "label": "Evidence window",
             "impact": "Dated inputs",
-            "note": "Civilian protection and aid access remain under strain across the selected Ukraine, Gaza and Abyei reporting. These are distinct crises, not interchangeable measures of one conflict."
+            "note": "New UN reporting reinforces the civilian-infrastructure focus. Pressure remains severe, while planned diplomacy must be assessed through practical outcomes."
           },
           {
             "label": "Transmission",
@@ -863,7 +906,7 @@ window.dailyRiskPageData = {
           {
             "label": "Mitigating evidence",
             "impact": "Offset",
-            "note": "Dialogue is a potentially positive signal, but its existence alone does not establish improved civilian safety or reliable aid delivery. The selected evidence supports retaining the severe category rather than adding points for each repeated headline."
+            "note": "Today’s additional evidence reinforces a severe civilian-service assessment. The potential offset is implementation of effective protective or diplomatic measures, rather than the scheduling of talks alone. Retaining 80 recognises that the category was already severe; it does not imply that the new harm is immaterial."
           },
           {
             "label": "Trigger for a higher score",
@@ -884,7 +927,7 @@ window.dailyRiskPageData = {
           {
             "label": "Evidence window",
             "impact": "Dated inputs",
-            "note": "The IMF projects 3.1% world growth and 4.7% global headline inflation for 2026 in its October outlook. The IEA describes a fragile oil-supply recovery and pressure in diesel markets."
+            "note": "The IMF daily market note supplies a stabilizing offset. Dated macroeconomic and physical energy-market inputs still point to vulnerabilities requiring a sustained, rather than session-by-session, reassessment."
           },
           {
             "label": "Transmission",
@@ -894,7 +937,7 @@ window.dailyRiskPageData = {
           {
             "label": "Mitigating evidence",
             "impact": "Offset",
-            "note": "The IEA’s October report records a September supply recovery but warns that energy-security risks and fuel constraints persist. We do not reuse its historical oil-price observations as prices on 8 November."
+            "note": "The IMF’s 9 November daily note describes stabilization after the previous week’s volatility and lower oil prices associated with hopes for diplomatic progress. This is an offset, not a new full-year growth forecast. The October IEA assessment remains the dated physical-market background; its November report is still scheduled for 13 November."
           },
           {
             "label": "Trigger for a higher score",
@@ -915,7 +958,7 @@ window.dailyRiskPageData = {
           {
             "label": "Evidence window",
             "impact": "Dated inputs",
-            "note": "ECDC’s 6 November update reports 10,741 confirmed DRC cases and 5,230 deaths using data through 4 November. This is a severe regional emergency, with exposure differing greatly by location."
+            "note": "The latest ECDC page reviewed still uses DRC observations through 4 November: 10,741 confirmed cases and 5,230 deaths. These are not 9 November totals."
           },
           {
             "label": "Transmission",
@@ -925,7 +968,7 @@ window.dailyRiskPageData = {
           {
             "label": "Mitigating evidence",
             "impact": "Offset",
-            "note": "The absence of new reports in those two countries is a useful containment signal, not proof that the entire outbreak has ended. The newer ECDC DRC count and the earlier WHO bulletin totals refer to different observation dates and should not be read as conflicting same-day measurements."
+            "note": "On the ECDC page checked for this review, the update remains dated 6 November and the DRC count stops at 4 November. The 6 November WHO bulletin has an earlier DRC cutoff. These are carried-forward observations, not new 9 November case totals. This source check supplies no comparable new epidemiological basis for moving the 60/100 category."
           },
           {
             "label": "Trigger for a higher score",
@@ -946,7 +989,7 @@ window.dailyRiskPageData = {
           {
             "label": "Evidence window",
             "impact": "Dated inputs",
-            "note": "WMO’s 21 October seasonal outlook anticipates stronger El Niño conditions during November–January, with the Niño 3.4 seasonal anomaly near +3.8°C and a peak around December."
+            "note": "WMO’s newly released interim climate assessment reinforces preparedness needs. Its global temperature observation covers January–September, while the El Niño risk discussion extends into 2027."
           },
           {
             "label": "Transmission",
@@ -956,7 +999,7 @@ window.dailyRiskPageData = {
           {
             "label": "Mitigating evidence",
             "impact": "Offset",
-            "note": "A strong oceanic signal does not establish a uniform local impact. The assessment needs regional temperature, rainfall and exposure information before drawing conclusions about a particular location."
+            "note": "The new assessment broadens the evidence behind the already severe climate category. It does not mean the physical climate changed by the full amount on publication day. The retained 80/100 reflects the strong existing signal; neither a COP announcement nor one weather event is an automatic extra point."
           },
           {
             "label": "Trigger for a higher score",
@@ -977,7 +1020,7 @@ window.dailyRiskPageData = {
       "country": "Ukraine",
       "region": "Eastern Europe",
       "score": 90,
-      "changeText": "New country baseline",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "Severe focused pressure",
       "directionClass": "pill-warning",
@@ -994,16 +1037,25 @@ window.dailyRiskPageData = {
         "Operational access",
         "Essential-service continuity"
       ],
-      "trend": [],
+      "trend": [
+        90,
+        90
+      ],
       "sourceKeys": [
+        "ukraine-nov9",
         "ukraine"
+      ],
+      "previousScore": 90,
+      "trendDates": [
+        "2026-11-08",
+        "2026-11-09"
       ]
     },
     {
       "country": "Israel",
       "region": "Middle East",
       "score": 70,
-      "changeText": "New country baseline",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "High focused pressure",
       "directionClass": "pill-warning",
@@ -1020,17 +1072,25 @@ window.dailyRiskPageData = {
         "Inflation expectations",
         "Regional de-escalation"
       ],
-      "trend": [],
+      "trend": [
+        70,
+        70
+      ],
       "sourceKeys": [
         "israel",
         "gaza"
+      ],
+      "previousScore": 70,
+      "trendDates": [
+        "2026-11-08",
+        "2026-11-09"
       ]
     },
     {
       "country": "Iran",
       "region": "Middle East",
       "score": 85,
-      "changeText": "New country baseline",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "Severe focused pressure",
       "directionClass": "pill-warning",
@@ -1047,17 +1107,25 @@ window.dailyRiskPageData = {
         "Official forecast revisions",
         "Confirmed de-escalation"
       ],
-      "trend": [],
+      "trend": [
+        85,
+        85
+      ],
       "sourceKeys": [
         "iran",
         "iea"
+      ],
+      "previousScore": 85,
+      "trendDates": [
+        "2026-11-08",
+        "2026-11-09"
       ]
     },
     {
       "country": "Russia",
       "region": "Eastern Europe / Eurasia",
       "score": 85,
-      "changeText": "New country baseline",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "Severe focused pressure",
       "directionClass": "pill-warning",
@@ -1074,17 +1142,25 @@ window.dailyRiskPageData = {
         "Verified conflict developments",
         "Updated official projections"
       ],
-      "trend": [],
+      "trend": [
+        85,
+        85
+      ],
       "sourceKeys": [
         "russia",
         "ukraine"
+      ],
+      "previousScore": 85,
+      "trendDates": [
+        "2026-11-08",
+        "2026-11-09"
       ]
     },
     {
       "country": "Democratic Republic of the Congo",
       "region": "Central Africa",
       "score": 90,
-      "changeText": "New country baseline",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "Severe focused pressure",
       "directionClass": "pill-warning",
@@ -1101,17 +1177,25 @@ window.dailyRiskPageData = {
         "Contact follow-up",
         "Revised institutional assessments"
       ],
-      "trend": [],
+      "trend": [
+        90,
+        90
+      ],
       "sourceKeys": [
         "ecdc",
         "who"
+      ],
+      "previousScore": 90,
+      "trendDates": [
+        "2026-11-08",
+        "2026-11-09"
       ]
     },
     {
       "country": "Uganda",
       "region": "East Africa",
       "score": 45,
-      "changeText": "New country baseline",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "Elevated monitoring pressure",
       "directionClass": "pill-warning",
@@ -1128,17 +1212,25 @@ window.dailyRiskPageData = {
         "Confirmed importation",
         "Contact-response readiness"
       ],
-      "trend": [],
+      "trend": [
+        45,
+        45
+      ],
       "sourceKeys": [
         "uganda",
         "who"
+      ],
+      "previousScore": 45,
+      "trendDates": [
+        "2026-11-08",
+        "2026-11-09"
       ]
     },
     {
       "country": "Türkiye",
       "region": "Europe / Middle East",
       "score": 60,
-      "changeText": "New country baseline",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "High focused pressure",
       "directionClass": "pill-warning",
@@ -1155,16 +1247,24 @@ window.dailyRiskPageData = {
         "Domestic activity",
         "CBRT guidance"
       ],
-      "trend": [],
+      "trend": [
+        60,
+        60
+      ],
       "sourceKeys": [
         "turkiye"
+      ],
+      "previousScore": 60,
+      "trendDates": [
+        "2026-11-08",
+        "2026-11-09"
       ]
     },
     {
       "country": "United States",
       "region": "North America",
       "score": 55,
-      "changeText": "New country baseline",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "Elevated monitoring pressure",
       "directionClass": "pill-warning",
@@ -1181,16 +1281,24 @@ window.dailyRiskPageData = {
         "Fed communications",
         "External supply transmission"
       ],
-      "trend": [],
+      "trend": [
+        55,
+        55
+      ],
       "sourceKeys": [
         "fed"
+      ],
+      "previousScore": 55,
+      "trendDates": [
+        "2026-11-08",
+        "2026-11-09"
       ]
     },
     {
       "country": "China",
       "region": "East Asia",
       "score": 60,
-      "changeText": "New country baseline",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "High focused pressure",
       "directionClass": "pill-warning",
@@ -1207,16 +1315,24 @@ window.dailyRiskPageData = {
         "Implemented policy support",
         "IMF outlook revisions"
       ],
-      "trend": [],
+      "trend": [
+        60,
+        60
+      ],
       "sourceKeys": [
         "china"
+      ],
+      "previousScore": 60,
+      "trendDates": [
+        "2026-11-08",
+        "2026-11-09"
       ]
     },
     {
       "country": "India",
       "region": "South Asia",
       "score": 55,
-      "changeText": "New country baseline",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "Elevated monitoring pressure",
       "directionClass": "pill-warning",
@@ -1233,16 +1349,24 @@ window.dailyRiskPageData = {
         "RBI policy guidance",
         "Verified regional climate effects"
       ],
-      "trend": [],
+      "trend": [
+        55,
+        55
+      ],
       "sourceKeys": [
         "india"
+      ],
+      "previousScore": 55,
+      "trendDates": [
+        "2026-11-08",
+        "2026-11-09"
       ]
     },
     {
       "country": "Germany",
       "region": "Europe",
       "score": 60,
-      "changeText": "New country baseline",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "High focused pressure",
       "directionClass": "pill-warning",
@@ -1259,16 +1383,24 @@ window.dailyRiskPageData = {
         "Energy-cost transmission",
         "Household purchasing power"
       ],
-      "trend": [],
+      "trend": [
+        60,
+        60
+      ],
       "sourceKeys": [
         "germany"
+      ],
+      "previousScore": 60,
+      "trendDates": [
+        "2026-11-08",
+        "2026-11-09"
       ]
     },
     {
       "country": "Japan",
       "region": "East Asia",
       "score": 50,
-      "changeText": "New country baseline",
+      "changeText": "0 points versus 8 November",
       "changeClass": "pill-neutral",
       "direction": "Elevated monitoring pressure",
       "directionClass": "pill-warning",
@@ -1285,9 +1417,17 @@ window.dailyRiskPageData = {
         "Domestic-demand resilience",
         "BOJ outlook updates"
       ],
-      "trend": [],
+      "trend": [
+        50,
+        50
+      ],
       "sourceKeys": [
         "japan"
+      ],
+      "previousScore": 50,
+      "trendDates": [
+        "2026-11-08",
+        "2026-11-09"
       ]
     }
   ],
@@ -1298,15 +1438,16 @@ window.dailyRiskPageData = {
       "tag": "Severe focused pressure",
       "tagClass": "pill-warning",
       "score": "90 / 100",
-      "direction": "New reviewed baseline; no daily delta",
+      "direction": "Score retained versus 8 November; original local evidence dates remain visible",
       "watch": "Verified civilian harm; Aid-distribution safety; Operational access; Essential-service continuity",
-      "why": "The UN release dated 3 November describes the 2 November attack on an aid distribution in Komyshuvakha. It states that the exact casualty count was still being verified.",
-      "moved": "The editorial assessment emphasizes direct civilian exposure and the vulnerability of assistance operations. It does not infer the direction of a military campaign from one incident or treat a preliminary local report as a final institutional total.",
+      "why": "The 9 November UN briefing adds evidence about civilian infrastructure, shipping exposure and planned diplomatic engagement to the earlier civilian-protection material.",
+      "moved": "The 90/100 focused assessment is retained. New reporting reinforces an already very severe exposure rather than establishing a newly quantified nationwide probability. An announcement of talks is relevant, but practical protection and continuity of services are the measurable offsets.",
       "matters": "Disruption at an assistance location can affect access beyond the immediately damaged site. The monitoring question is whether people and relief workers can use essential facilities safely and repeatedly.",
       "offset": "Protection arrangements and practical aid delivery would be meaningful offsets if confirmed. Their effectiveness has to be demonstrated, rather than assumed from the existence of a policy or announcement.",
       "raiseTrigger": "New verified harm to protected civilian activity or a wider pattern of service disruption.",
       "lowerTrigger": "Sustained, verified improvement in civilian protection and dependable relief operations.",
       "sourceKeys": [
+        "ukraine-nov9",
         "ukraine"
       ]
     },
@@ -1316,7 +1457,7 @@ window.dailyRiskPageData = {
       "tag": "High focused pressure",
       "tagClass": "pill-warning",
       "score": "70 / 100",
-      "direction": "New reviewed baseline; no daily delta",
+      "direction": "Score retained versus 8 November; original local evidence dates remain visible",
       "watch": "Official security and service updates; Domestic recovery indicators; Inflation expectations; Regional de-escalation",
       "why": "The Bank of Israel kept its policy rate at 3.25% on 21 October. Its release describes elevated geopolitical uncertainty alongside recovery indicators and September inflation of 1.6%.",
       "moved": "The focused assessment weighs regional uncertainty without treating conditions in Gaza as a direct statistical measure of every Israeli household. Economic resilience can coexist with security exposure, so the score is not determined by a single inflation reading.",
@@ -1335,10 +1476,10 @@ window.dailyRiskPageData = {
       "tag": "Severe focused pressure",
       "tagClass": "pill-warning",
       "score": "85 / 100",
-      "direction": "New reviewed baseline; no daily delta",
+      "direction": "Score retained versus 8 November; original local evidence dates remain visible",
       "watch": "Verified energy production; Trade and delivery reliability; Official forecast revisions; Confirmed de-escalation",
       "why": "The indexed October IMF WEO country table projects a 7.6% contraction in Iran’s real GDP in 2026. The IEA’s October report describes conflict-related disruption in the wider Gulf energy system.",
-      "moved": "The score is a selected macro-security pressure assessment. The IMF number is a forecast for a full year, not a measurement of activity on 8 November, and the regional oil report does not establish a new attack at a specific Iranian location today.",
+      "moved": "The score is a selected macro-security pressure assessment. The IMF number is a forecast for a full year, not a measurement of activity on the review date, and the regional oil report does not establish a new attack at a specific Iranian location today.",
       "matters": "Energy and trade conditions can influence revenue, supply availability and economic confidence. The evaluation therefore watches physical and institutional outcomes and does not convert an annual GDP projection into a daily event probability.",
       "offset": "Actual normalization of production, trade and delivery conditions would matter more than an unverified announcement. Re-routing can mitigate some regional disruption without proving full restoration.",
       "raiseTrigger": "New confirmed disruption with persistent economic or logistical effects.",
@@ -1354,7 +1495,7 @@ window.dailyRiskPageData = {
       "tag": "Severe focused pressure",
       "tagClass": "pill-warning",
       "score": "85 / 100",
-      "direction": "New reviewed baseline; no daily delta",
+      "direction": "Score retained versus 8 November; original local evidence dates remain visible",
       "watch": "Inflation expectations; Financing conditions; Verified conflict developments; Updated official projections",
       "why": "The Bank of Russia Press Service reports that the key rate was held at 14% on 23 October, with elevated price pressure and inflation expectations. Separate UN reporting documents continued civilian harm from the war in Ukraine.",
       "moved": "The two inputs serve different purposes: the domestic release informs the price-and-financing channel, while the UN evidence supports continued conflict exposure. Neither is used to invent a fresh refinery strike, new sanction or daily market quotation.",
@@ -1373,7 +1514,7 @@ window.dailyRiskPageData = {
       "tag": "Severe focused pressure",
       "tagClass": "pill-warning",
       "score": "90 / 100",
-      "direction": "New reviewed baseline; no daily delta",
+      "direction": "Score retained versus 8 November; original local evidence dates remain visible",
       "watch": "Confirmed transmission patterns; Detection and care access; Contact follow-up; Revised institutional assessments",
       "why": "ECDC’s 6 November update lists 10,741 confirmed cases and 5,230 deaths using observations through 4 November. WHO’s new bulletin continues to describe sustained transmission in the DRC.",
       "moved": "The high local indicator reflects an active emergency and response needs. It is intentionally distinct from the lower global health category, because severe exposure in affected communities does not imply equal exposure across the world.",
@@ -1392,7 +1533,7 @@ window.dailyRiskPageData = {
       "tag": "Elevated monitoring pressure",
       "tagClass": "pill-warning",
       "score": "45 / 100",
-      "direction": "New reviewed baseline; no daily delta",
+      "direction": "Score retained versus 8 November; original local evidence dates remain visible",
       "watch": "Official surveillance updates; Points-of-entry preparedness; Confirmed importation; Contact-response readiness",
       "why": "WHO welcomed the end of Uganda’s outbreak on 27 August after completion of the 42-day countdown. The newer WHO bulletin describes Uganda’s outbreak as controlled while the DRC emergency continues.",
       "moved": "The assessment preserves the difference between ongoing local transmission and preparedness for possible reintroduction. It does not carry the July example’s outbreak narrative forward as though the historical containment milestone never occurred.",
@@ -1411,7 +1552,7 @@ window.dailyRiskPageData = {
       "tag": "High focused pressure",
       "tagClass": "pill-warning",
       "score": "60 / 100",
-      "direction": "New reviewed baseline; no daily delta",
+      "direction": "Score retained versus 8 November; original local evidence dates remain visible",
       "watch": "Underlying inflation; Energy-cost pass-through; Domestic activity; CBRT guidance",
       "why": "The CBRT reduced the policy rate from 37% to 36% on 22 October. It described weaker domestic demand and a slowing underlying inflation trend, while warning about energy-price risks from geopolitical tension.",
       "moved": "This profile treats monetary easing and continuing price risk as separate observations. A rate cut is neither proof of a completed disinflation process nor evidence of an immediate currency crisis. The score reflects the coexistence of progress and external cost sensitivity.",
@@ -1429,7 +1570,7 @@ window.dailyRiskPageData = {
       "tag": "Elevated monitoring pressure",
       "tagClass": "pill-warning",
       "score": "55 / 100",
-      "direction": "New reviewed baseline; no daily delta",
+      "direction": "Score retained versus 8 November; original local evidence dates remain visible",
       "watch": "Inflation persistence; Activity and employment releases; Fed communications; External supply transmission",
       "why": "The Federal Reserve held the funds-rate target at 3.75–4.00% on 28 October. Its statement paired elevated inflation and geopolitical uncertainty with strong activity, resilient spending and robust investment.",
       "moved": "The focused score places both sides of that assessment in view. A strong economy can face price pressure without an imminent recession; an unchanged policy rate also does not establish that the next policy move is known.",
@@ -1447,7 +1588,7 @@ window.dailyRiskPageData = {
       "tag": "High focused pressure",
       "tagClass": "pill-warning",
       "score": "60 / 100",
-      "direction": "New reviewed baseline; no daily delta",
+      "direction": "Score retained versus 8 November; original local evidence dates remain visible",
       "watch": "Domestic-demand indicators; Property adjustment; Implemented policy support; IMF outlook revisions",
       "why": "The IMF’s October Asia-Pacific briefing projects 4.5% growth for China in 2026 and identifies weak domestic demand and persistent property-sector adjustment as concerns.",
       "moved": "The growth figure is an outlook, not a full-year outturn. The profile focuses on how domestic adjustment can coexist with positive aggregate growth; it does not equate a slower forecast with a confirmed banking event or invent a new property failure.",
@@ -1465,7 +1606,7 @@ window.dailyRiskPageData = {
       "tag": "Elevated monitoring pressure",
       "tagClass": "pill-warning",
       "score": "55 / 100",
-      "direction": "New reviewed baseline; no daily delta",
+      "direction": "Score retained versus 8 November; original local evidence dates remain visible",
       "watch": "Food and fuel inflation; Domestic demand; RBI policy guidance; Verified regional climate effects",
       "why": "The RBI’s October resolution describes a 25-basis-point repo-rate increase to 5.50%, a resilient economy and continuing supply-side price pressure. Its growth projection refers to fiscal 2026–27, not the calendar-year period used by some other institutions.",
       "moved": "The assessment balances domestic resilience against external energy and food-cost channels. Different forecast periods should not be ranked as if directly comparable. A policy tightening decision is a response to conditions, not by itself evidence of a loss of economic control.",
@@ -1483,7 +1624,7 @@ window.dailyRiskPageData = {
       "tag": "High focused pressure",
       "tagClass": "pill-warning",
       "score": "60 / 100",
-      "direction": "New reviewed baseline; no daily delta",
+      "direction": "Score retained versus 8 November; original local evidence dates remain visible",
       "watch": "Industrial activity; Waterway logistics; Energy-cost transmission; Household purchasing power",
       "why": "The Bundesbank’s 21 October assessment says the recovery was temporarily interrupted and output likely stagnated in the third quarter. It identifies energy costs and Rhine transport constraints among the factors affecting activity.",
       "moved": "The wording is an institutional assessment with dated observations, not a newly observed November contraction. The score focuses on the interaction of logistics, industrial costs and purchasing power and avoids converting one quarter’s assessment into a permanent decline narrative.",
@@ -1501,7 +1642,7 @@ window.dailyRiskPageData = {
       "tag": "Elevated monitoring pressure",
       "tagClass": "pill-warning",
       "score": "50 / 100",
-      "direction": "New reviewed baseline; no daily delta",
+      "direction": "Score retained versus 8 November; original local evidence dates remain visible",
       "watch": "Import-cost transmission; Wages and prices; Domestic-demand resilience; BOJ outlook updates",
       "why": "The Bank of Japan’s October outlook expects moderate but slower growth in fiscal 2026, with energy and raw-material costs weighing on activity. It describes growth risks as broadly balanced and inflation risks as tilted upward.",
       "moved": "The score reflects a cost-and-policy monitoring problem rather than an acute nationwide emergency. The fiscal-year horizon and the particular inflation measure in the outlook must be retained when comparing it with another institution’s calendar-year projections.",
@@ -1520,8 +1661,8 @@ window.dailyRiskPageData = {
       "region": "Eastern Europe",
       "score": 90,
       "focus": "Active conflict and civilian protection",
-      "evidence": "The UN release dated 3 November describes the 2 November attack on an aid distribution in Komyshuvakha. It states that the exact casualty count was still being verified.",
-      "interpretation": "The editorial assessment emphasizes direct civilian exposure and the vulnerability of assistance operations. It does not infer the direction of a military campaign from one incident or treat a preliminary local report as a final institutional total.",
+      "evidence": "The 9 November UN briefing adds evidence about civilian infrastructure, shipping exposure and planned diplomatic engagement to the earlier civilian-protection material.",
+      "interpretation": "The 90/100 focused assessment is retained. New reporting reinforces an already very severe exposure rather than establishing a newly quantified nationwide probability. An announcement of talks is relevant, but practical protection and continuity of services are the measurable offsets.",
       "offset": "Protection arrangements and practical aid delivery would be meaningful offsets if confirmed. Their effectiveness has to be demonstrated, rather than assumed from the existence of a policy or announcement.",
       "matters": "Disruption at an assistance location can affect access beyond the immediately damaged site. The monitoring question is whether people and relief workers can use essential facilities safely and repeatedly.",
       "watchItems": [
@@ -1533,6 +1674,7 @@ window.dailyRiskPageData = {
       "raiseTrigger": "New verified harm to protected civilian activity or a wider pattern of service disruption.",
       "lowerTrigger": "Sustained, verified improvement in civilian protection and dependable relief operations.",
       "sourceKeys": [
+        "ukraine-nov9",
         "ukraine"
       ]
     },
@@ -1564,7 +1706,7 @@ window.dailyRiskPageData = {
       "score": 85,
       "focus": "Conflict-linked energy and output vulnerability",
       "evidence": "The indexed October IMF WEO country table projects a 7.6% contraction in Iran’s real GDP in 2026. The IEA’s October report describes conflict-related disruption in the wider Gulf energy system.",
-      "interpretation": "The score is a selected macro-security pressure assessment. The IMF number is a forecast for a full year, not a measurement of activity on 8 November, and the regional oil report does not establish a new attack at a specific Iranian location today.",
+      "interpretation": "The score is a selected macro-security pressure assessment. The IMF number is a forecast for a full year, not a measurement of activity on the review date, and the regional oil report does not establish a new attack at a specific Iranian location today.",
       "offset": "Actual normalization of production, trade and delivery conditions would matter more than an unverified announcement. Re-routing can mitigate some regional disruption without proving full restoration.",
       "matters": "Energy and trade conditions can influence revenue, supply availability and economic confidence. The evaluation therefore watches physical and institutional outcomes and does not convert an annual GDP projection into a daily event probability.",
       "watchItems": [
@@ -1775,10 +1917,10 @@ window.dailyRiskPageData = {
   ],
   "regionalNotes": [
     {
-      "title": "Gaza: access and winter readiness",
-      "text": "OCHA’s report dated 5 November describes risks to food distribution and essential services. Its warning that meal production and free distribution could fall by about 45% if entry constraints continue is conditional, not an observed decline of that size.",
+      "title": "Gaza: observed rain impacts and response",
+      "text": "OCHA’s report dated 8 November and published on 9 November describes flooding and damaged shelter. Partners received appeals from more than 26,000 households by 8 November; the numbers are preliminary. Some food operations disrupted on 7 November returned to normal on 8 November. That recovery matters alongside continuing shelter and service needs.",
       "sources": [
-        "gaza"
+        "gaza-rain"
       ]
     },
     {
@@ -1790,12 +1932,12 @@ window.dailyRiskPageData = {
       ]
     }
   ],
-  "lastVerifiedAtUtc": "Review date: 2026-11-08 UTC; source windows stated individually",
+  "lastVerifiedAtUtc": "2026-11-09: new primary-source releases reviewed; carried-forward inputs retain their original observation dates",
   "seoData": {
-    "title": "Global Risk Index Today — November 8, 2026 | Pulse Of Globe",
-    "metaDescription": "Global risk report for November 8, 2026: four risk domains, 12 country assessments, primary sources and transparent scores out of 100.",
+    "title": "Global Risk Index Today — November 9, 2026 | Pulse Of Globe",
+    "metaDescription": "Global risk report for November 9, 2026: 75/100, daily changes, Ukraine, Gaza, climate, energy and 12 country assessments with primary sources.",
     "slug": "global-risk.html",
-    "h1": "Global Risk Index Today — November 8, 2026",
+    "h1": "Global Risk Index Today — November 9, 2026",
     "primaryKeyword": "global risk index today",
     "secondaryKeywords": [
       "world risk report",
@@ -1805,7 +1947,7 @@ window.dailyRiskPageData = {
       "global health risk",
       "climate risk outlook"
     ],
-    "suggestedSocialPost": "The 8 November Global Risk review is 75/100. Explore four detailed domain reports, 12 country profiles, evidence, offsets and source dates. Scores are editorial indicators, not event probabilities."
+    "suggestedSocialPost": "The 9 November review remains 75/100. Read what changed in the evidence, why the score was retained, and which developments could move it next."
   },
   "readingGuide": [
     {
@@ -1818,13 +1960,41 @@ window.dailyRiskPageData = {
     },
     {
       "title": "A review date is not a universal observation date",
-      "text": "The review is dated 8 November, but a central-bank decision can be from October, a surveillance count can stop several days earlier and a climate outlook can describe a coming season. These different windows are intentional and labelled. The date on this page does not retroactively update an older dataset."
+      "text": "The review date is 9 November. Today’s new releases coexist with October policy decisions, older surveillance cutoffs and a seasonal forecast. A source publication date is distinct from the date of the underlying event or observation. The source list labels the relevant windows instead of presenting every input as a current-day measurement."
     },
     {
       "title": "Use the triggers to evaluate the next update",
       "text": "Each detailed report identifies developments that could raise or lower the focused assessment. Those are conditional monitoring questions, not claims that the developments have occurred. A later review should document which evidence changed, whether the scope remained comparable and why a score was retained or revised."
     }
-  ]
+  ],
+  "dailyReview": [
+    {
+      "title": "Today versus yesterday: what actually changed",
+      "text": "The review adds four primary-source inputs published on 9 November: a UN Ukraine briefing, OCHA’s rain-impact report, WMO’s climate update and the IMF daily market note. These sources have different purposes. A diplomatic briefing supplies attributed developments, a humanitarian report supplies preliminary operational evidence, a climate assessment joins observations with outlooks, and a market note records conditions at a point in time. They cannot be treated as four equivalent measurements of a single global variable. The assessment asks whether each changes severity, geographic reach, persistence or response capacity relative to yesterday.",
+      "sources": [
+        "ukraine-nov9",
+        "gaza-rain",
+        "wmo-nov9",
+        "markets-nov9"
+      ]
+    },
+    {
+      "title": "Why the headline index stays at 75",
+      "text": "The new adverse inputs remain consistent with already severe conflict and climate categories. They deepen the evidence rather than automatically moving a category into a different level. Improved market sentiment is relevant, but a sustained reduction in delivered energy costs, service disruption or financing stress would provide a stronger basis for lowering the economy category. The health evidence reviewed does not provide a newer comparable count or a confirmed change of assessment. Retaining 75 therefore reflects today’s balance. A future review can move in either direction when comparable evidence supports it.",
+      "sources": []
+    },
+    {
+      "title": "Avoid double counting connected pressures",
+      "text": "A damaged energy asset can affect civilian protection, production and winter preparedness at the same time. A flood in a conflict-affected area can affect shelter, sanitation and access to care. Those are meaningful transmission channels, but they do not justify adding the same incident repeatedly as independent numerical shocks. This report discusses the connections while retaining fixed domain weights. The Gaza rainfall is not attributed to El Niño by this review, and a global climate report is not used as proof of the cause of a specific local weather event.",
+      "sources": []
+    },
+    {
+      "title": "What would justify the next score movement",
+      "text": "A higher assessment would need evidence of wider or more persistent disruption, a material deterioration of protective capacity, or confirmed spread into additional settings. A lower assessment would need verified relief that lasts beyond a single announcement or market session: restored services that remain available, functioning access arrangements, improved containment, or sustained supply and financing relief. There is no target daily movement and no target of returning to a particular score. Keeping the method stable makes a later change easier to interpret, but does not require the number itself to remain stable.",
+      "sources": []
+    }
+  ],
+  "countryReviewNote": "All 12 country scores are unchanged versus 8 November. Ukraine has new UN material. Other local policy and health inputs are carried forward with their original dates; this does not claim that all national datasets were freshly published or comprehensively rechecked today."
 };
 
 /* Single-file compatibility layer for the current static risk page.
@@ -1857,17 +2027,18 @@ window.dailyRiskPageData = {
     if (!Number.isFinite(total) || Math.abs(total - d.overallScore) > 0.001 || !d.riskData.concat(d.countryRiskData).every(c=>Number.isFinite(c.score)&&c.score>=0&&c.score<=100)) {
       console.error('Risk report score reconciliation failed.'); return;
     }
-    let markup = '<section class="hero"><div class="hero-grid"><div class="hero-left"><div class="hero-eyebrow">Evidence-led editorial review · 8 November 2026 UTC</div><h1 id="risk-heading">' + esc(d.seoData.h1) + '</h1><p>' + esc(d.heroSummary) + '</p><p id="report-freshness" role="status">Reviewed 8 November 2026. Observation dates, policy-meeting dates and forecast horizons are stated with their sources.</p><div class="hero-actions"><a class="btn btn-primary" href="#risk-categories">Risk categories</a><a class="btn btn-secondary" href="#country-risk-index">12 country assessments</a></div><nav class="risk-jump-nav" aria-label="Report sections"><a href="#daily-reports">Detailed reports</a><a href="#score-breakdown">Score explanation</a><a href="#report-sources">Primary sources</a></nav></div><aside class="hero-right"><div class="eyeline">Overall editorial pressure</div><div class="big-score"><div class="value" id="overall-score">' + d.overallScore + '</div><div class="unit">/ 100</div></div><p>' + esc(d.overallExplainer) + '</p><div class="hero-trend"><span class="pill pill-warning">' + esc(d.overallLabel) + '</span><span class="pill pill-neutral">All indicators / 100</span></div></aside></div></section>';
+    let markup = '<section class="hero"><div class="hero-grid"><div class="hero-left"><div class="hero-eyebrow">Evidence-led editorial review · 9 November 2026 UTC</div><h1 id="risk-heading">' + esc(d.seoData.h1) + '</h1><p>' + esc(d.heroSummary) + '</p><p id="report-freshness" role="status">Reviewed 9 November 2026. Observation dates, policy-meeting dates and forecast horizons are stated with their sources.</p><div class="hero-actions"><a class="btn btn-primary" href="#risk-categories">Risk categories</a><a class="btn btn-secondary" href="#country-risk-index">12 country assessments</a></div><nav class="risk-jump-nav" aria-label="Report sections"><a href="#daily-reports">Detailed reports</a><a href="#score-breakdown">Score explanation</a><a href="#report-sources">Primary sources</a></nav></div><aside class="hero-right"><div class="eyeline">Overall editorial pressure</div><div class="big-score"><div class="value" id="overall-score">' + d.overallScore + '</div><div class="unit">/ 100</div></div><p>' + esc(d.overallExplainer) + '</p><div class="hero-trend"><span class="pill pill-warning">' + esc(d.overallLabel) + '</span><span class="pill pill-neutral">All indicators / 100</span></div></aside></div></section>';
     markup += '<section class="overview-strip section" id="overview-strip" aria-label="Review overview">' + d.overview.map(x=>'<div class="overview-card"><div class="label">'+esc(x.label)+'</div><div class="value">'+esc(x.value)+'</div><div class="value-sub">'+esc(x.sub)+'</div></div>').join('') + '</section>';
     markup += section('global-risk-overview', 'World risk at a glance', 'Read the evidence window and the pressure channel before interpreting the score.', '<div class="summary-grid"><article class="sub-card"><h3>What the review says</h3><p>'+esc(d.glanceSummary)+'</p></article><article class="sub-card"><h3>Comparison with the previous global review</h3><div class="comparison-grid">'+d.dailyComparison.map(x=>'<div class="mini-box"><div class="mini-label">'+esc(x.label)+'</div><div class="mini-value">'+esc(x.value)+'</div></div>').join('')+'</div><p>'+esc(d.overallTrend)+'</p></article></div><h3 class="risk-subheading">Ten points to keep in view</h3>'+list(d.glanceBullets));
-    markup += section('risk-categories', 'Global risk categories — scores out of 100', 'Four focused domain assessments. The same 25% weight applies to each.', '<div class="risk-grid">'+d.riskData.map(c=>'<article class="risk-card"><div class="risk-top"><div><h3 class="risk-title">'+esc(c.title)+'</h3><p class="risk-subtitle">'+esc(c.subtitle)+'</p></div><div class="risk-score"><div class="num">'+c.score+'</div><div class="small">/ 100</div></div></div><div class="bar"><div class="bar-fill '+(c.score>=80?'fill-high':'fill-medium')+'" style="width:'+c.score+'%"></div></div><p class="risk-desc">'+esc(c.description)+'</p><div class="chips-row">'+c.drivers.map(x=>'<span class="chip driver">'+esc(x)+'</span>').join('')+'</div><p class="risk-history-note">Recorded reviews: 3 Nov '+c.trend[0]+'/100 → 8 Nov '+c.trend[1]+'/100. This is not a seven-day series.</p>'+refs(c.sourceKeys)+'</article>').join('')+'</div>');
+    markup += section('daily-evidence-review', '9 November: daily evidence review', 'What changed, what was retained, and what would justify a different score.', '<div class="method-grid">'+d.dailyReview.map(n=>'<article class="method-card"><h3>'+esc(n.title)+'</h3><p>'+esc(n.text)+'</p>'+refs(n.sources)+'</article>').join('')+'</div>');
+    markup += section('risk-categories', 'Global risk categories — scores out of 100', 'Four focused domain assessments. The same 25% weight applies to each.', '<div class="risk-grid">'+d.riskData.map(c=>'<article class="risk-card"><div class="risk-top"><div><h3 class="risk-title">'+esc(c.title)+'</h3><p class="risk-subtitle">'+esc(c.subtitle)+'</p></div><div class="risk-score"><div class="num">'+c.score+'</div><div class="small">/ 100</div></div></div><div class="bar"><div class="bar-fill '+(c.score>=80?'fill-high':'fill-medium')+'" style="width:'+c.score+'%"></div></div><p class="risk-desc">'+esc(c.description)+'</p><div class="chips-row">'+c.drivers.map(x=>'<span class="chip driver">'+esc(x)+'</span>').join('')+'</div><p class="risk-history-note">Recorded reviews: 8 Nov '+c.trend[0]+'/100 → 9 Nov '+c.trend[1]+'/100. This is not a seven-day series.</p>'+refs(c.sourceKeys)+'</article>').join('')+'</div>');
     markup += section('score-breakdown', d.scoreBreakdown.title, d.scoreBreakdown.summary, '<p class="score-method-note">'+esc(d.scoreBreakdown.methodNote)+'</p><div class="score-factor-grid">'+d.scoreBreakdown.overall.map(f=>'<article class="score-factor"><div class="score-factor-top"><h3>'+esc(f.label)+'</h3><span class="impact-badge impact-neutral">'+esc(f.impact)+'</span></div><p>'+esc(f.note)+'</p></article>').join('')+'</div><p class="risk-formula"><strong>(80 + 80 + 60 + 80) ÷ 4 = 75 / 100.</strong> The category display is normalized to 100; normalization does not create a new increase or decrease.</p><div class="risk-explain-stack">'+d.scoreBreakdown.categories.map(c=>'<details class="risk-details"><summary>'+esc(c.title)+' <span>'+esc(c.score)+'</span></summary><div class="risk-details-body">'+c.items.map(i=>'<div class="breakdown-item"><div><h4>'+esc(i.label)+'</h4><p>'+esc(i.note)+'</p></div><span>'+esc(i.impact)+'</span></div>').join('')+'</div></details>').join('')+'</div>');
     markup += section('daily-reports', 'Four detailed global risk reports', 'Evidence, transmission, offsets and reassessment triggers are separated for each domain.', '<div class="report-stack">'+d.reportData.map(r=>'<article class="report-box" id="report-'+esc(r.id)+'"><div class="report-head"><h3>'+esc(r.title)+'</h3><span class="pill pill-warning">'+esc(r.score)+'</span></div><div class="report-body"><h4>Why this domain remains at this level</h4><p>'+esc(r.why)+'</p><h4>What changed — and what limits the interpretation</h4><p>'+esc(r.moved)+'</p><h4>How the pressure can transmit</h4><p>'+esc(r.matters)+'</p><h4>How to judge the next update</h4><p>'+esc(r.reassessment)+'</p><div class="summary-grid"><div class="sub-card"><h4>Evidence that could raise pressure</h4>'+list(r.raiseTriggers)+'</div><div class="sub-card"><h4>Evidence that could lower pressure</h4>'+list(r.lowerTriggers)+'</div></div><h4>Watch next</h4><p>'+esc(r.watch)+'</p>'+refs(r.sourceKeys.concat(r.id==='economy'?['iea-next']:[]))+'</div></article>').join('')+'</div>');
     markup += section('regional-monitoring', 'Additional humanitarian monitoring', 'These regional notes add context without pretending to be complete national ratings.', '<div class="summary-grid">'+d.regionalNotes.map(n=>'<article class="sub-card"><h3>'+esc(n.title)+'</h3><p>'+esc(n.text)+'</p>'+refs(n.sources)+'</article>').join('')+'</div>');
-    markup += section('country-risk-index', 'Country Risk Index — 12 focused assessments', 'A score describes the stated focus, not every risk in a country. Country scores do not feed the global composite. No comparable previous-day country scores are claimed.', '<div class="country-grid">'+d.countryRiskData.map(c=>'<article class="country-card"><div class="country-top"><div><h3 class="country-name">'+esc(c.country)+'</h3><p class="country-region">'+esc(c.region)+'</p></div><div class="country-score"><div class="num">'+c.score+'</div><div class="small">/ 100</div></div></div><div class="bar"><div class="bar-fill '+(c.score>=80?'fill-high':'fill-medium')+'" style="width:'+c.score+'%"></div></div><p class="country-desc">'+esc(c.summary)+'</p><div class="chips-row">'+c.watchItems.slice(0,3).map(w=>'<span class="chip source">'+esc(w)+'</span>').join('')+'</div><p class="risk-history-note">New reviewed country baseline · no fabricated daily delta.</p><a class="btn btn-secondary risk-country-link" href="#'+countryId(c.country)+'">Read the country report</a>'+refs(c.sourceKeys)+'</article>').join('')+'</div>');
-    markup += section('country-risk-reports', 'Detailed country risk reports', 'Open any report for its evidence, editorial interpretation, mitigating factors and monitoring triggers.', '<div class="risk-country-reports">'+d.countryReportData.map(r=>'<details class="risk-details country-report-box" id="'+countryId(r.country)+'"><summary><span>'+esc(r.title)+'</span><span class="risk-summary-score">'+esc(r.score)+'</span></summary><div class="risk-details-body report-body"><p class="pill pill-neutral">'+esc(r.direction)+'</p><h4>Evidence and reference window</h4><p>'+esc(r.why)+'</p><h4>Editorial interpretation</h4><p>'+esc(r.moved)+'</p><h4>Resilience and counterweights</h4><p>'+esc(r.offset)+'</p><h4>Why this pressure channel matters</h4><p>'+esc(r.matters)+'</p><div class="summary-grid"><div class="sub-card"><h4>What could raise this focused score</h4><p>'+esc(r.raiseTrigger)+'</p></div><div class="sub-card"><h4>What could lower this focused score</h4><p>'+esc(r.lowerTrigger)+'</p></div></div><h4>Watch next</h4><p>'+esc(r.watch)+'</p>'+refs(r.sourceKeys)+'</div></details>').join('')+'</div>');
+    markup += section('country-risk-index', 'Country Risk Index — 12 focused assessments', 'A score describes the stated focus, not every risk in a country. Country scores do not feed the global composite. Comparable review: 8 November.', '<div class="country-grid">'+d.countryRiskData.map(c=>'<article class="country-card"><div class="country-top"><div><h3 class="country-name">'+esc(c.country)+'</h3><p class="country-region">'+esc(c.region)+'</p></div><div class="country-score"><div class="num">'+c.score+'</div><div class="small">/ 100</div></div></div><div class="bar"><div class="bar-fill '+(c.score>=80?'fill-high':'fill-medium')+'" style="width:'+c.score+'%"></div></div><p class="country-desc">'+esc(c.summary)+'</p><div class="chips-row">'+c.watchItems.slice(0,3).map(w=>'<span class="chip source">'+esc(w)+'</span>').join('')+'</div><p class="risk-history-note">0 points versus 8 November · same focused scope.</p><a class="btn btn-secondary risk-country-link" href="#'+countryId(c.country)+'">Read the country report</a>'+refs(c.sourceKeys)+'</article>').join('')+'</div>');
+    markup += section('country-risk-reports', 'Detailed country risk reports', d.countryReviewNote, '<div class="risk-country-reports">'+d.countryReportData.map(r=>'<details class="risk-details country-report-box" id="'+countryId(r.country)+'"><summary><span>'+esc(r.title)+'</span><span class="risk-summary-score">'+esc(r.score)+'</span></summary><div class="risk-details-body report-body"><p class="pill pill-neutral">'+esc(r.direction)+'</p><h4>Evidence and reference window</h4><p>'+esc(r.why)+'</p><h4>Editorial interpretation</h4><p>'+esc(r.moved)+'</p><h4>Resilience and counterweights</h4><p>'+esc(r.offset)+'</p><h4>Why this pressure channel matters</h4><p>'+esc(r.matters)+'</p><div class="summary-grid"><div class="sub-card"><h4>What could raise this focused score</h4><p>'+esc(r.raiseTrigger)+'</p></div><div class="sub-card"><h4>What could lower this focused score</h4><p>'+esc(r.lowerTrigger)+'</p></div></div><h4>Watch next</h4><p>'+esc(r.watch)+'</p>'+refs(r.sourceKeys)+'</div></details>').join('')+'</div>');
     markup += section('methodology', 'Methodology and editorial policy', d.editorialPolicy.summary, '<div class="method-grid">'+d.readingGuide.map(g=>'<article class="method-card"><h3>'+esc(g.title)+'</h3><p>'+esc(g.text)+'</p></article>').join('')+'</div><h3 class="risk-subheading">Scoring rules</h3>'+list(d.editorialPolicy.rules)+'<p>All indicators use 0–100. Broad category anchors are 0 minimal, 20 limited, 40 moderate, 60 high, 80 severe and 100 exceptional pressure. Country judgments are rounded to five-point increments to avoid implying unsupported measurement precision. An intermediate number is still an editorial judgment, not a statistically calibrated quantity.</p><p>AI assisted the research organization and writing. The named institutions support factual inputs; they do not publish or endorse this site’s pressure scores. Review dates do not update the source observations. This page is manually maintained.</p>');
-    markup += section('report-sources', 'Primary sources and observation dates', 'Each item identifies the publication or decision window. A source checked on 8 November may contain older observations or a future forecast.', '<div class="method-grid">'+Object.keys(d.sources).map(k=>{const s=d.sources[k];return '<article class="method-card" id="source-'+esc(k)+'"><h3>'+esc(s.title)+'</h3><p><strong>'+esc(s.published)+'</strong></p><p>'+esc(s.reference)+'</p><p>'+esc(s.note)+'</p><p><a href="'+esc(s.url)+'" target="_blank" rel="noopener noreferrer">Read the original source →</a></p></article>';}).join('')+'</div>');
+    markup += section('report-sources', 'Primary sources and observation dates', 'Each item identifies the publication or decision window. A source checked on 9 November may contain older observations or a future forecast.', '<div class="method-grid">'+Object.keys(d.sources).map(k=>{const s=d.sources[k];return '<article class="method-card" id="source-'+esc(k)+'"><h3>'+esc(s.title)+'</h3><p><strong>'+esc(s.published)+'</strong></p><p>'+esc(s.reference)+'</p><p>'+esc(s.note)+'</p><p><a href="'+esc(s.url)+'" target="_blank" rel="noopener noreferrer">Read the original source →</a></p></article>';}).join('')+'</div>');
     markup += section('faq', 'Global Risk Index FAQ', 'Answers about the overall indicator, country coverage and the limits of a dated review.', '<div class="faq-grid">'+d.faqs.map(f=>'<article class="faq-item"><h3>'+esc(f.q)+'</h3><p>'+esc(f.a)+'</p></article>').join('')+'</div>');
     main.innerHTML = markup;
     let extraStyle = document.getElementById('risk-detailed-report-style');
@@ -1889,9 +2060,9 @@ window.dailyRiskPageData = {
       if (target && target.tagName==='DETAILS') target.open=true;
     });
     document.title = d.seoData.title;
-    [['name','description',d.seoData.metaDescription],['property','og:title',d.seoData.title],['property','og:description',d.seoData.metaDescription],['name','twitter:title',d.seoData.title],['name','twitter:description',d.seoData.metaDescription],['property','article:modified_time','2026-11-08T00:00:00Z']].forEach(args=>setMeta(...args));
+    [['name','description',d.seoData.metaDescription],['property','og:title',d.seoData.title],['property','og:description',d.seoData.metaDescription],['name','twitter:title',d.seoData.title],['name','twitter:description',d.seoData.metaDescription],['property','article:modified_time','2026-11-09T00:00:00Z']].forEach(args=>setMeta(...args));
     const url='https://pulseofglobe.com/global-risk.html';
-    const graph={'@context':'https://schema.org','@graph':[{'@type':'Organization','@id':'https://pulseofglobe.com/#organization','name':'Pulse Of Globe','url':'https://pulseofglobe.com/'},{'@type':'WebPage','@id':url+'#webpage','url':url,'name':d.seoData.title,'description':d.seoData.metaDescription,'dateModified':d.reportDateIso,'inLanguage':'en'},{'@type':'Article','headline':d.seoData.h1,'description':d.seoData.metaDescription,'datePublished':'2026-06-03T00:00:00Z','dateModified':'2026-11-08T00:00:00Z','author':{'@id':'https://pulseofglobe.com/#organization'},'publisher':{'@id':'https://pulseofglobe.com/#organization'},'mainEntityOfPage':{'@id':url+'#webpage'},'image':'https://pulseofglobe.com/images/earth-network.jpg','inLanguage':'en','citation':Object.values(d.sources).map(s=>s.url)},{'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Home','item':'https://pulseofglobe.com/'},{'@type':'ListItem','position':2,'name':'Global Risk','item':url}]}]};
+    const graph={'@context':'https://schema.org','@graph':[{'@type':'Organization','@id':'https://pulseofglobe.com/#organization','name':'Pulse Of Globe','url':'https://pulseofglobe.com/'},{'@type':'WebPage','@id':url+'#webpage','url':url,'name':d.seoData.title,'description':d.seoData.metaDescription,'dateModified':d.reportDateIso,'inLanguage':'en'},{'@type':'Article','headline':d.seoData.h1,'description':d.seoData.metaDescription,'datePublished':'2026-06-03T00:00:00Z','dateModified':'2026-11-09T00:00:00Z','author':{'@id':'https://pulseofglobe.com/#organization'},'publisher':{'@id':'https://pulseofglobe.com/#organization'},'mainEntityOfPage':{'@id':url+'#webpage'},'image':'https://pulseofglobe.com/images/earth-network.jpg','inLanguage':'en','citation':Object.values(d.sources).map(s=>s.url)},{'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Home','item':'https://pulseofglobe.com/'},{'@type':'ListItem','position':2,'name':'Global Risk','item':url}]}]};
     let schema=document.getElementById('global-risk-schema');
     if (!schema) {schema=document.createElement('script');schema.type='application/ld+json';schema.id='global-risk-schema';document.head.appendChild(schema);}
     schema.textContent=JSON.stringify(graph);
